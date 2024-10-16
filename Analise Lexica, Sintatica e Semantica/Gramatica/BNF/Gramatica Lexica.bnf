@@ -1,0 +1,66 @@
+/* Instrução if */
+<INST_IF> ::= "if"
+
+/* Operadores diversos*/
+<OPE_FIN> ::= ";"
+<OPE_ATR> ::= "="
+<ESP> ::= " "
+/* Chaves */
+<ABR_CHA> ::= "{"
+<FEC_CHA> ::= "}"
+/* Parenteses */
+<ABR_PAR> ::= "("
+<FEC_PAR> ::= ")"
+
+/* Operadores lógicos */
+<OPE_LOG_E> ::= "&&"
+<OPE_LOG_OU> ::= "||"
+/* Operadores relacionais */
+<OPE_REL_IGU> ::= "=="
+<OPE_REL_DIF> ::= "!="
+<OPE_REL_MEN> ::= "<"
+<OPE_REL_MAI> ::= ">"
+<OPE_REL_MEIG> ::= "<="
+<OPE_REL_MAIG> ::= ">="
+/* Operadores aritméticos */
+<OPE_ARI_SOM> ::= "+"
+<OPE_ARI_SUB> ::= "-"
+<OPE_ARI_MUL> ::= "*"
+<OPE_ARI_DIV> ::= "/"
+<OPE_ARI_RES> ::= "%"
+
+/* Tipos */
+<TIP_INT> ::= "int "
+<TIP_FLO> ::= "float "
+
+/* Valores Lógicos */
+<VAL_VER> ::= "true"
+<VAL_FAL> ::= "false"
+
+/* Identificadores */
+<IDENT> ::= <inicio> | <inicio> <list_restante> 
+<inicio> ::= "_" | <letra>
+<list_restante> := <restante> | <restante> <list_restante>
+<restante> ::= "_" | <letra> | <digito>
+
+/* Números */
+<NUMERO> ::= <NUM_REAL> | <NUM_INT> 
+<NUM_REA> ::= <real_com_sin> | <real_sem_sin> 
+<NUM_INT> ::= <int_com_sin> | <int_sem_sin>
+
+/* Real com Sinal */
+<real_com_sin> ::= <real_sem_sin> | "-" <real_sem_sin> | "+" <real_sem_sin>
+/* Reais sem sinal */
+<real_sem_sin> ::= <int_sem_sin> | <int_sem_sin> "." <um_ou_mais_digitos>
+/* Inteiro com Sinal */
+<int_com_sin> ::= <int_sem_sin> | "-" <int_sem_sin> | "+" <int_sem_sin>
+/* Inteiro sem Sinal */
+<int_sem_sin> ::= "0" | <digito_positivo> <zero_ou_mais_digitos>
+
+
+/* Geral, para identificadores e números */
+<letra> ::= [A-Z] | [a-z]
+<zero_ou_mais_digitos> ::= E | <digito> <zero_ou_mais_digitos> 
+<um_ou_mais_digitos> ::= <digito> | <digito> <um_ou_mais_digitos>
+<digito> ::= [0-9]
+<digito_positivo> ::= [1-9]
