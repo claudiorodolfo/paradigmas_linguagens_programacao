@@ -2,7 +2,7 @@
 
 using System;
 
-class Polimorfismo {
+class Sobrecarregado {
     public void Imprimir(string s) {
         Console.WriteLine(s);
     }
@@ -14,7 +14,7 @@ class Polimorfismo {
 
 class Program {
     static void Main() {
-        Polimorfismo p = new Polimorfismo();
+        Sobrecarregado p = new Sobrecarregado();
         p.Imprimir("Hello");  // chama o método que aceita string
         p.Imprimir(10);       // chama o método que aceita int
     }

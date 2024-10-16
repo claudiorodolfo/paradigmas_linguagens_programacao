@@ -1,8 +1,8 @@
 # Ruby
 # Não suporta sobrecarga de subprogramas diretamente (o último método definido sobrescreve o anterior).
-# Uma forma de simular subprogramas polimorficos é um único subprograma que filtra o dado
+# Uma forma de simular subprogramas sobrecarregados é um único subprograma que filtra o dado
 
-class Polimorfismo
+class Sobrecarregado
   def imprimir(value)
     if value.is_a?(String)
       puts value
@@ -14,6 +14,6 @@ class Polimorfismo
   end
 end
 
-p = Polimorfismo.new
+p = Sobrecarregado.new
 p.imprimir("Hello")  # imprime a string
 p.imprimir(10)       # imprime o inteiro

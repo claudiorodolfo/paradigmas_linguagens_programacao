@@ -1,6 +1,6 @@
 //Java
 
-class Polimorfismo {
+class Sobrecarregado {
     void imprimir(String s) {
         System.out.println(s);
     }
@@ -12,7 +12,7 @@ class Polimorfismo {
 
 public class Main {
     public static void main(String[] args) {
-        Polimorfismo p = new Polimorfismo();
+        Sobrecarregado p = new Sobrecarregado();
         p.imprimir("Hello");  // chama o método que aceita String
         p.imprimir(10);       // chama o método que aceita int
     }

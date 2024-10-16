@@ -1,9 +1,9 @@
 //Rust não suporta diretamente sobrecarga de subprogramas. 
-//O polimorfismo é implementado por meio de traits (semelhantes às interfaces em outras linguagens).
+//A Sobrecarga é implementada por meio de traits (semelhantes às interfaces em outras linguagens).
 
-struct Polimorfismo;
+struct Sobrecarregado;
 
-impl Polimorfismo {
+impl Sobrecarregado {
     fn print_str(&self, s: &str) {
         println!("{}", s);
     }
@@ -14,7 +14,7 @@ impl Polimorfismo {
 }
 
 fn main() {
-    let p = Polimorfismo;
+    let p = Sobrecarregado;
     p.print_str("Hello");  // chama o método que aceita string
     p.print_int(10);       // chama o método que aceita int
 }

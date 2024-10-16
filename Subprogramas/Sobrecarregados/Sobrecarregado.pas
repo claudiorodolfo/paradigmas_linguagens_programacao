@@ -1,6 +1,6 @@
 //Pascal
 
-program Polimorfismo;
+program Sobrecarregado;
 
 procedure Imprimir(X: Integer);
 begin

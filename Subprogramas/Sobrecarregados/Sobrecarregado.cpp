@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Polimorfismo {
+class Sobrecarregado {
 public:
     void imprimir(const string& s) {
         cout << s << std::endl;
@@ -16,7 +16,7 @@ public:
 };
 
 int main() {
-    Polimorfismo p;
+    Sobrecarregado p;
     p.imprimir("Hello");  // chama o método que aceita string
     p.imprimir(10);       // chama o método que aceita int
     return 0;
