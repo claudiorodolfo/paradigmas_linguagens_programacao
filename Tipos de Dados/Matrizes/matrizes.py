@@ -10,9 +10,9 @@ for linha in matriz:
         print(elemento, end=" ")
     print()
 
-# 1) Fatiar a segunda e terceira linhas
+# 1) Fatiar a segunda e terceira linhas  (índices 1 e 2)
 fatia_linhas = matriz[1:3]
-# 2) Fatiar a primeira e segunda colunas
+# 2) Fatiar a primeira e segunda colunas  (índices 0 e 1)
 fatia_colunas = [linha[:2] for linha in matriz]
 
 # Imprimir os resultados
