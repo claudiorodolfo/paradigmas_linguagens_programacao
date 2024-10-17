@@ -6,8 +6,8 @@ using namespace std;
 
 class Sobrecarregado {
 public:
-    void imprimir(const string& s) {
-        cout << s << std::endl;
+    void imprimir(string s) {
+        cout << s << endl;
     }
 
     void imprimir(int i) {
