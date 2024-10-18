@@ -1,6 +1,6 @@
 {- 
 	Faça uma função que calcule o coeficiente binomial de (m,n).
-	C(m,n) é o número de maneiras de escolher nelementos de um conjunto de m elementos.
+	C(m,n) é o número de maneiras de escolher n elementos de um conjunto de m elementos, ou seja combinação de m elementos tomados n a n.
 	C(m,n)= m!/(n!(m−n)!)
 -}
 -- Função que calcula o fatorial de um número
