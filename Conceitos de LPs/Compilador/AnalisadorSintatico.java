@@ -59,6 +59,9 @@ class SeparadorTokens {
     public List<Token> separador() {
         List<Token> tokens = new ArrayList<>();
 		
+		//	(?<=\\$) faz o "lookbehind" para garantir que o delimitador é precedido por $
+		//	\\s* captura possíveis espaços entre os tokens
+		//	(?=\\$) faz o "lookahead" para garantir que o próximo token começa com $.
 		String[] partes = entrada.split("(?<=\\$)\\s*(?=\\$)");
 		for(String parte: partes)
 			switch(parte) {
