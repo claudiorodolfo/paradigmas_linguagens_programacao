@@ -30,7 +30,6 @@ enum TipoToken {
 	SEPARADOR,
 	OPERADOR_ARI_SOMA,
 	OPERADOR_ARI_SUBTRACAO,
-	FATOR,
 	OPERADOR_ARI_MULTIPLICACAO,
 	OPERADOR_ARI_DIVISAO,
 	EOF
@@ -48,113 +47,99 @@ class Token {
 }
 
 // Classe responsável por tokenizar a entrada
-class Tokenizador {
+class SeparadorTokens {
     private final String entrada;
-    private int posicao = 0;
-
+	
     // Construtor recebe a string de entrada
-    public Tokenizador(String entrada) {
+    public SeparadorTokens(String entrada) {
         this.entrada = entrada;
     }
 
-    // Avança para o próximo token
-    private void avancar() {
-        posicao++;
-    }
-
-    // Pula espaços em branco
-    private void pularEspacos() {
-        while (posicao < entrada.length() && Character.isWhitespace(entrada.charAt(posicao))) {
-            posicao++;
-        }
-    }
-
     // Realiza a tokenização da entrada
-    public List<Token> tokenizar() {
+    public List<Token> separador() {
         List<Token> tokens = new ArrayList<>();
+		
+		String[] partes = entrada.split("(?<=\\$)\\s*(?=\\$)");
+		for(String parte: partes)
+			switch(parte) {
+				case "$PRE_PROC$":
+					tokens.add(new Token(TipoToken.PRE_PROCESSADOR, parte));
+				break;
+				case "$BIBLIO$":
+					tokens.add(new Token(TipoToken.BIBLIOTECA, parte));
+				break;
+				case "$ABR_COL_ANG$":
+					tokens.add(new Token(TipoToken.ABRE_COLCHETE_ANGULADO, parte));
+				break;
+				case "$FEC_COL_ANG$":
+					tokens.add(new Token(TipoToken.FECHA_COLCHETE_ANGULADO, parte));
+				break;
+				case "$TIPO_INT$":
+					tokens.add(new Token(TipoToken.TIPO_INT, parte));
+				break;
+				case "$TIPO_FLOAT$":
+					tokens.add(new Token(TipoToken.TIPO_FLOAT, parte));
+				break;
+				case "$TIPO_VOID$":
+					tokens.add(new Token(TipoToken.TIPO_VOID, parte));
+				break;
+				case "$IDENT$":
+					tokens.add(new Token(TipoToken.IDENTIFICADOR, parte));
+				break;
+				case "$OPE_ARI_SOM$":
+					tokens.add(new Token(TipoToken.OPERADOR_ARI_SOMA, parte));
+				break;	
+				case "$OPE_ARI_SUB$":
+					tokens.add(new Token(TipoToken.OPERADOR_ARI_SUBTRACAO, parte));
+				break;	
+				case "$OPE_ARI_MUL$":
+					tokens.add(new Token(TipoToken.OPERADOR_ARI_MULTIPLICACAO, parte));
+				break;	
+				case "$OPE_ARI_DIV$":
+					tokens.add(new Token(TipoToken.OPERADOR_ARI_DIVISAO, parte));
+				break;	
+				case "$ESP$":
+					tokens.add(new Token(TipoToken.ESPACO, parte));
+				break;	
+				case "$SEP_VIR$":
+					tokens.add(new Token(TipoToken.SEPARADOR, parte));
+				break;	
+				case "$ABR_PAR$":
+					tokens.add(new Token(TipoToken.ABRE_PARENTESE, parte));
+				break;	
+				case "$FEC_PAR$":
+					tokens.add(new Token(TipoToken.FECHA_PARENTESE, parte));
+				break;	
+				case "$PARAMETROS$":
+					tokens.add(new Token(TipoToken.LISTA_PARAMETROS, parte));
+				break;	
+				case "$ABR_CHA$":
+					tokens.add(new Token(TipoToken.ABRE_CHAVE, parte));
+				break;	
+				case "$FEC_CHA$":
+					tokens.add(new Token(TipoToken.FECHA_CHAVE, parte));
+				break;	
+				case "$ATRIB$":
+					tokens.add(new Token(TipoToken.ATRIBUICAO, parte));
+				break;	
+				case "$FIN_INST$":
+					tokens.add(new Token(TipoToken.FIM_INSTRUCAO, parte));
+				break;	
+				case "$RET_FUNC$":
+					tokens.add(new Token(TipoToken.INSTRUCAO_RETORNO, parte));
+				break;	
+				case "$NUM_INT$":
+					tokens.add(new Token(TipoToken.NUMERO_INTEIRO, parte));
+				break;	
+				case "$NUM_REA$":
+					tokens.add(new Token(TipoToken.NUMERO_REAL, parte));
+				break;		
+				default:
+				    throw new RuntimeException("Token inválido encontrado: " + parte);
+			}
 
-        while (posicao < entrada.length()) {
-            pularEspacos();
-
-            if (entrada.startsWith("$PRE_PROC$", posicao)) {
-                tokens.add(new Token(TipoToken.PRE_PROCESSADOR, "$PRE_PROC$"));
-                posicao += "$PRE_PROC$".length();
-            } else if (entrada.startsWith("$BIBLIO$", posicao)) {
-                tokens.add(new Token(TipoToken.BIBLIOTECA, "$BIBLIO$"));
-                posicao += "$BIBLIO$".length();
-            } else if (entrada.startsWith("$ABR_COL_ANG$", posicao)) {
-                tokens.add(new Token(TipoToken.ABRE_COLCHETE_ANGULADO, "$ABR_COL_ANG$"));
-                posicao += "$ABR_COL_ANG$".length();
-            } else if (entrada.startsWith("$FEC_COL_ANG$", posicao)) {
-                tokens.add(new Token(TipoToken.FECHA_COLCHETE_ANGULADO, "$FEC_COL_ANG$"));
-                posicao += "$FEC_COL_ANG$".length();
-            } else if (entrada.startsWith("$TIPO_INT$", posicao)) {
-                tokens.add(new Token(TipoToken.TIPO_INT, "$TIPO_INT$"));
-                posicao += "$TIPO_INT$".length();
-            } else if (entrada.startsWith("$TIPO_FLOAT$", posicao)) {
-                tokens.add(new Token(TipoToken.TIPO_FLOAT, "$TIPO_FLOAT$"));
-                posicao += "$TIPO_FLOAT$".length();
-            } else if (entrada.startsWith("$TIPO_VOID$", posicao)) {
-                tokens.add(new Token(TipoToken.TIPO_VOID, "$TIPO_VOID$"));
-                posicao += "$TIPO_VOID$".length();				
-            } else if (entrada.startsWith("$IDENT$", posicao)) {
-                tokens.add(new Token(TipoToken.IDENTIFICADOR, "$IDENT$"));
-                posicao += "$IDENT$".length();			
-            } else if (entrada.startsWith("$OPE_ARI_SOM$", posicao)) {
-                tokens.add(new Token(TipoToken.OPERADOR_ARI_SOMA, "$OPE_ARI_SOM$"));
-                posicao += "$OPE_ARI_SOM$".length();
-            } else if (entrada.startsWith("$OPE_ARI_SUB$", posicao)) {
-                tokens.add(new Token(TipoToken.OPERADOR_ARI_SUBTRACAO, "$OPE_ARI_SUB$"));
-                posicao += "$OPE_ARI_SUB$".length();			
-            } else if (entrada.startsWith("$OPE_ARI_MUL$", posicao)) {
-                tokens.add(new Token(TipoToken.OPERADOR_ARI_MULTIPLICACAO, "$OPE_ARI_MUL$"));
-                posicao += "$OPE_ARI_MUL$".length();
-            } else if (entrada.startsWith("$OPE_ARI_DIV$", posicao)) {
-                tokens.add(new Token(TipoToken.OPERADOR_ARI_DIVISAO, "$OPE_ARI_DIV$"));
-                posicao += "$OPE_ARI_DIV$".length();				
-            } else if (entrada.startsWith("$ESP$", posicao)) {
-                tokens.add(new Token(TipoToken.ESPACO, "$ESP$"));
-                posicao += "$ESP$".length();
-			} else if (entrada.startsWith("$SEP_VIR$", posicao)) {
-                tokens.add(new Token(TipoToken.SEPARADOR, "$SEP_VIR$"));
-                posicao += "$SEP_VIR$".length();
-            } else if (entrada.startsWith("$ABR_PAR$", posicao)) {
-                tokens.add(new Token(TipoToken.ABRE_PARENTESE, "$ABR_PAR$"));
-                posicao += "$ABR_PAR$".length();
-            } else if (entrada.startsWith("@PARAMETROS@", posicao)) {
-                tokens.add(new Token(TipoToken.LISTA_PARAMETROS, "@PARAMETROS@"));
-                posicao += "@PARAMETROS@".length();				
-            } else if (entrada.startsWith("$FEC_PAR$", posicao)) {
-                tokens.add(new Token(TipoToken.FECHA_PARENTESE, "$FEC_PAR$"));
-                posicao += "$FEC_PAR$".length();
-            } else if (entrada.startsWith("$ABR_CHA$", posicao)) {
-                tokens.add(new Token(TipoToken.ABRE_CHAVE, "$ABR_CHA$"));
-                posicao += "$ABR_CHA$".length();
-            } else if (entrada.startsWith("$ATRIB$", posicao)) {
-                tokens.add(new Token(TipoToken.ATRIBUICAO, "$ATRIB$"));
-                posicao += "$ATRIB$".length();			
-            } else if (entrada.startsWith("$FIN_INST$", posicao)) {
-                tokens.add(new Token(TipoToken.FIM_INSTRUCAO, "$FIN_INST$"));
-                posicao += "$FIN_INST$".length();
-            } else if (entrada.startsWith("$RET_FUNC$", posicao)) {
-                tokens.add(new Token(TipoToken.INSTRUCAO_RETORNO, "$RET_FUNC$"));
-                posicao += "$RET_FUNC$".length();		
-            } else if (entrada.startsWith("$NUM_INT$", posicao)) {
-                tokens.add(new Token(TipoToken.NUMERO_INTEIRO, "$NUM_INT$"));
-                posicao += "$NUM_INT$".length();					
-            } else if (entrada.startsWith("$NUM_REA$", posicao)) {
-                tokens.add(new Token(TipoToken.NUMERO_REAL, "$NUM_REA$"));
-                posicao += "$NUM_REA$".length();				
-            } else if (entrada.startsWith("$FEC_CHA$", posicao)) {
-                tokens.add(new Token(TipoToken.FECHA_CHAVE, "$FEC_CHA$"));
-                posicao += "$FEC_CHA$".length();				
-            } else {
-                throw new RuntimeException("Token inválido encontrado: " + entrada.charAt(posicao) + "Posicao:" + posicao);
-            }
-        }
-
-        // Adiciona o EOF ao final
-        tokens.add(new Token(TipoToken.EOF, ""));
+			// Adiciona o EOF ao final
+			tokens.add(new Token(TipoToken.EOF, ""));
         return tokens;
     }
 }
@@ -371,11 +356,11 @@ public class AnalisadorSintatico {
             return;
         }
 		        
-        Tokenizador tokenizador = new Tokenizador(entrada);
-        List<Token> tokens = tokenizador.tokenizar();
+        SeparadorTokens sep = new SeparadorTokens(entrada);
+        List<Token> tokens = sep.separador();
 
 		for(Token token: tokens)
-			System.out.println(token.tipo);
+			System.out.println(token.tipo + " " + token.valor);
 			
         RegrasSintaticas parser = new RegrasSintaticas(tokens);
 		try {
