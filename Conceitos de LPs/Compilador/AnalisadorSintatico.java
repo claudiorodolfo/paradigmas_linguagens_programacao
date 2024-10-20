@@ -1,4 +1,4 @@
-//testar: java AnalisadorLexico saida.plp
+//testar: java AnalisadorLexico saida.lex
 
 import java.util.ArrayList;
 import java.util.List;
@@ -237,7 +237,7 @@ class RegrasSintaticas {
 				consumir(TipoToken.SEPARADOR);      // <separador>
 				verificarParametro();               // <parametro>
 			}
-			//else
+		} else {
 				//E
 		}
     }
@@ -275,6 +275,8 @@ class RegrasSintaticas {
 			} else if (proximoToken.tipo == TipoToken.ABRE_PARENTESE) {
 				verificarComandoChamadaFuncao();				//<comando_chamada_funcao>
 			}
+		} else {
+			throw new RuntimeException("Erro de sintaxe: Esperado um comando de retorno, chamada de função ou de declaração atribuição " + tokenAtual.tipo);
 		}
 	}
 	
@@ -302,6 +304,8 @@ class RegrasSintaticas {
 				consumir(TipoToken.OPERADOR_ARI_SOMA);  // Consome o operador soma (+)
 			} else if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SUBTRACAO) {
 				consumir(TipoToken.OPERADOR_ARI_SUBTRACAO);  // Consome o operador subtração (-)
+			} else {
+				throw new RuntimeException("Erro de sintaxe: Esperado um operador aritmético de soma ou subtração " + tokenAtual.tipo);
 			}
 
 			verificarTermo();  // Verifica o próximo termo
@@ -318,6 +322,8 @@ class RegrasSintaticas {
 				consumir(TipoToken.OPERADOR_ARI_MULTIPLICACAO);  // Consome o operador multiplicação (*)
 			} else if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_DIVISAO) {
 				consumir(TipoToken.OPERADOR_ARI_DIVISAO);  // Consome o operador divisão (/)
+			} else {
+				throw new RuntimeException("Erro de sintaxe: Esperado um operador aritmético de multiplicação ou divisão " + tokenAtual.tipo);
 			}
 			
 			verificarFator();  // Verifica o próximo fator
@@ -330,6 +336,8 @@ class RegrasSintaticas {
 			verificarNumero();  				// <numero>
 		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
 			consumir(TipoToken.IDENTIFICADOR);  // <identificador>	
+		} else {
+			throw new RuntimeException("Erro de sintaxe: Esperado um valor ou identificador " + tokenAtual.tipo);
 		}
 	}
 	
@@ -378,6 +386,8 @@ class RegrasSintaticas {
 			consumir(TipoToken.NUMERO_INTEIRO);  // <numero_inteiro>
 		} else if (tokenAtual.tipo == TipoToken.NUMERO_REAL) {
 			consumir(TipoToken.NUMERO_REAL);  // <numero_real>	
+		} else {
+			throw new RuntimeException("Erro de sintaxe: Esperado um numero inteiro ou real " + tokenAtual.tipo);
 		}
 	}	
 }
@@ -386,7 +396,7 @@ class RegrasSintaticas {
 public class AnalisadorSintatico {
     public static void main(String[] args) {
 		if (args.length != 1) {
-            System.out.println("Uso: java AnalisadorSintatico <nome-do-arquivo>");
+            System.out.println("Uso: java AnalisadorSintatico <nome-do-arquivo-gerado-pelo-lexico>");
             return;
         }
 
@@ -406,8 +416,8 @@ public class AnalisadorSintatico {
         SeparadorTokens sep = new SeparadorTokens(entrada);
         List<Token> tokens = sep.separador();
 
-		for(Token token: tokens)
-			System.out.println(token.tipo + " " + token.valor);
+		//for(Token token: tokens)
+		//	System.out.println(token.tipo + " " + token.valor);
 			
         RegrasSintaticas parser = new RegrasSintaticas(tokens);
 		try {
