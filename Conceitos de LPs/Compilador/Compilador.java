@@ -20,7 +20,6 @@ enum TipoToken {
 	ATRIBUICAO, 
 	FIM_INSTRUCAO, 
 	INSTRUCAO_RETORNO,
-	NUMERO,
 	NUMERO_INTEIRO,
 	NUMERO_REAL,	
 	SEPARADOR,
@@ -101,10 +100,7 @@ class AnalisadorLexico {
                 posicao += "$OPE_ARI_SOM$".length();
             } else if (entrada.startsWith("$OPE_ARI_SUB$", posicao)) {
                 tokens.add(new Token(TipoToken.OPERADOR_ARI_SUBTRACAO, "$OPE_ARI_SUB$"));
-                posicao += "$OPE_ARI_SUB$".length();
-            } else if (entrada.startsWith("@FATOR@", posicao)) {
-                tokens.add(new Token(TipoToken.FATOR, "@FATOR@"));
-                posicao += "@FATOR@".length();				
+                posicao += "$OPE_ARI_SUB$".length();			
             } else if (entrada.startsWith("$OPE_ARI_MUL$", posicao)) {
                 tokens.add(new Token(TipoToken.OPERADOR_ARI_MULTIPLICACAO, "$OPE_ARI_MUL$"));
                 posicao += "$OPE_ARI_MUL$".length();
@@ -137,10 +133,7 @@ class AnalisadorLexico {
                 posicao += "$FIN_INST$".length();
             } else if (entrada.startsWith("$RET_FUNC$", posicao)) {
                 tokens.add(new Token(TipoToken.INSTRUCAO_RETORNO, "$RET_FUNC$"));
-                posicao += "$RET_FUNC$".length();	
-            } else if (entrada.startsWith("$NUM$", posicao)) {
-                tokens.add(new Token(TipoToken.NUMERO, "$NUM$"));
-                posicao += "$NUM$".length();	
+                posicao += "$RET_FUNC$".length();		
             } else if (entrada.startsWith("$NUM_INT$", posicao)) {
                 tokens.add(new Token(TipoToken.NUMERO_INTEIRO, "$NUM_INT$"));
                 posicao += "$NUM_INT$".length();					
@@ -312,7 +305,7 @@ class AnalisadorSintatico {
 
 	// <fator> ::= <numero> | <identificador>	
 	public void verificarFator() {
-		if (tokenAtual.tipo == TipoToken.NUMERO) {
+		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO || tokenAtual.tipo == TipoToken.NUMERO_REAL) {
 			verificarNumero();  				// <numero>
 		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
 			consumir(TipoToken.IDENTIFICADOR);  // <identificador>	
@@ -349,9 +342,10 @@ class AnalisadorSintatico {
 public class Compilador {
     public static void main(String[] args) {
         String entrada = 
-						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ $PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
-						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ $FEC_PAR$ $ABR_CHA$ " +
-						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ $NUM_INT$ $OPE_ARI_MUL$ $NUM_REA$ $OPE_ARI_SOM$ $NUM_INT$ $FIN_INST$ " +
+						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
+						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
+						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ $TIPO_INT$ $ESP$ $IDENT$ $SEP_VIR$ $TIPO_INT$ $ESP$ $IDENT$ $FEC_PAR$ $ABR_CHA$ " +
+						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ $NUM_INT$ $OPE_ARI_MUL$ $NUM_REA$ $OPE_ARI_SOM$ $IDENT$ $FIN_INST$ " +
 						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +				 
 						 "$FEC_CHA$";
         
