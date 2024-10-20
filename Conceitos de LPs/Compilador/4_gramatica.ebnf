@@ -12,14 +12,11 @@
 <especificador_tipo> ::= <tipo_int> | <tipo_void> | <tipo_float>
 
 <lista_comandos> ::= ( <comando> )*
-<comando>  ::= <comando_atribuicao>
-					 | <declaracao_variavel>
+<comando>  ::= <comando_declaracao_e_atribuicao>
                      | <chamada_funcao> 
                      | <comando_retorno>
-                     
-<comando_atribuicao> ::= <identificador> <atribuicao> <expressao> <fim_instrucao>
 
-<declaracao_variavel> ::= <especificador_tipo> <espaco> <identificador> <atribuicao> <expressao> <fim_instrucao>
+<declaracao_e_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
 <expressao>      ::= <termo> ( (<soma> | <subtracao>) <termo> )*
 <termo>          ::= <fator> ( (<multiplicacao> | <divisao>) <fator> )*
 <fator>          ::= <numero> | <identificador>
