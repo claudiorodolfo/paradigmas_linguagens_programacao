@@ -1,5 +1,10 @@
+//testar: java AnalisadorLexico saida.plp
+
 import java.util.ArrayList;
 import java.util.List;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 // Enum para representar os tipos de tokens na gramática
 enum TipoToken {
@@ -43,12 +48,12 @@ class Token {
 }
 
 // Classe responsável por tokenizar a entrada
-class AnalisadorLexico {
+class Tokenizador {
     private final String entrada;
     private int posicao = 0;
 
     // Construtor recebe a string de entrada
-    public AnalisadorLexico(String entrada) {
+    public Tokenizador(String entrada) {
         this.entrada = entrada;
     }
 
@@ -154,13 +159,13 @@ class AnalisadorLexico {
     }
 }
 
-// Analisador Sintático para verificar a estrutura dos tokens
-class AnalisadorSintatico {
+// Regras Sintáticas para verificar a estrutura dos tokens
+class RegrasSintaticas {
     private final List<Token> tokens;
     private int posicaoAtual = 0;
     private Token tokenAtual;
 
-    public AnalisadorSintatico(List<Token> tokens) {
+    public RegrasSintaticas(List<Token> tokens) {
         this.tokens = tokens;
         this.tokenAtual = tokens.get(posicaoAtual);
     }
@@ -338,29 +343,41 @@ class AnalisadorSintatico {
     }	
 }
 
-// Classe principal do compilador
-public class Compilador {
+// Classe principal do Analisador Sintático
+public class AnalisadorSintatico {
     public static void main(String[] args) {
-        String entrada = 
-						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
-						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
-						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ $TIPO_INT$ $ESP$ $IDENT$ $SEP_VIR$ $TIPO_INT$ $ESP$ $IDENT$ $FEC_PAR$ $ABR_CHA$ " +
-						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ $NUM_INT$ $OPE_ARI_MUL$ $NUM_REA$ $OPE_ARI_SOM$ $IDENT$ $FIN_INST$ " +
-						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +				 
-						 "$FEC_CHA$";
-        
-        AnalisadorLexico analizadorLexico = new AnalisadorLexico(entrada);
-        List<Token> tokens = analizadorLexico.tokenizar();
+		if (args.length != 1) {
+            System.out.println("Uso: java Parser <nome-do-arquivo>");
+            return;
+        }
+
+        String nomeArquivo = args[0];
+        String entrada = "";
+		
+		try (BufferedReader leitor = new BufferedReader(new FileReader(nomeArquivo))) {
+            String linha;
+            while ((linha = leitor.readLine()) != null)
+                entrada += linha;
+			
+        } catch (IOException e) {
+			System.out.println("Erro ao ler o arquivo: " + e.getMessage());
+            return;
+        }
+		        
+        Tokenizador tokenizador = new Tokenizador(entrada);
+        List<Token> tokens = tokenizador.tokenizar();
 
 		for(Token token: tokens)
 			System.out.println(token.tipo);
 			
-        AnalisadorSintatico analizadorSintatico = new AnalisadorSintatico(tokens);
+        RegrasSintaticas parser = new RegrasSintaticas(tokens);
 		try {
-			analizadorSintatico.verificarPrograma();
+			parser.verificarPrograma();
 			System.out.println("Programa analisado com sucesso!");
         } catch (RuntimeException e) {
             System.out.println("Erro: " + e.getMessage());
         }			
     }
 }
+//ESTa FALTANDO LISTA DE COMANDOS
+//E PARAMETROS PASSADOS PARA FUNÇÕES
