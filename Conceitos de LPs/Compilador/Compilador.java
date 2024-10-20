@@ -18,11 +18,17 @@ enum TipoToken {
 	FECHA_CHAVE, 
 	LISTA_PARAMETROS, 
 	ATRIBUICAO, 
-	EXPRESSAO, 
 	FIM_INSTRUCAO, 
 	INSTRUCAO_RETORNO,
+	NUMERO,
 	NUMERO_INTEIRO,
+	NUMERO_REAL,	
 	SEPARADOR,
+	OPERADOR_ARI_SOMA,
+	OPERADOR_ARI_SUBTRACAO,
+	FATOR,
+	OPERADOR_ARI_MULTIPLICACAO,
+	OPERADOR_ARI_DIVISAO,
 	EOF
 }
 
@@ -89,7 +95,22 @@ class AnalisadorLexico {
                 posicao += "$TIPO_VOID$".length();				
             } else if (entrada.startsWith("$IDENT$", posicao)) {
                 tokens.add(new Token(TipoToken.IDENTIFICADOR, "$IDENT$"));
-                posicao += "$IDENT$".length();
+                posicao += "$IDENT$".length();			
+            } else if (entrada.startsWith("$OPE_ARI_SOM$", posicao)) {
+                tokens.add(new Token(TipoToken.OPERADOR_ARI_SOMA, "$OPE_ARI_SOM$"));
+                posicao += "$OPE_ARI_SOM$".length();
+            } else if (entrada.startsWith("$OPE_ARI_SUB$", posicao)) {
+                tokens.add(new Token(TipoToken.OPERADOR_ARI_SUBTRACAO, "$OPE_ARI_SUB$"));
+                posicao += "$OPE_ARI_SUB$".length();
+            } else if (entrada.startsWith("@FATOR@", posicao)) {
+                tokens.add(new Token(TipoToken.FATOR, "@FATOR@"));
+                posicao += "@FATOR@".length();				
+            } else if (entrada.startsWith("$OPE_ARI_MUL$", posicao)) {
+                tokens.add(new Token(TipoToken.OPERADOR_ARI_MULTIPLICACAO, "$OPE_ARI_MUL$"));
+                posicao += "$OPE_ARI_MUL$".length();
+            } else if (entrada.startsWith("$OPE_ARI_DIV$", posicao)) {
+                tokens.add(new Token(TipoToken.OPERADOR_ARI_DIVISAO, "$OPE_ARI_DIV$"));
+                posicao += "$OPE_ARI_DIV$".length();				
             } else if (entrada.startsWith("$ESP$", posicao)) {
                 tokens.add(new Token(TipoToken.ESPACO, "$ESP$"));
                 posicao += "$ESP$".length();
@@ -111,18 +132,21 @@ class AnalisadorLexico {
             } else if (entrada.startsWith("$ATRIB$", posicao)) {
                 tokens.add(new Token(TipoToken.ATRIBUICAO, "$ATRIB$"));
                 posicao += "$ATRIB$".length();			
-            } else if (entrada.startsWith("@EXPRESSAO@", posicao)) {
-                tokens.add(new Token(TipoToken.EXPRESSAO, "@EXPRESSAO@"));
-                posicao += "@EXPRESSAO@".length();	
             } else if (entrada.startsWith("$FIN_INST$", posicao)) {
                 tokens.add(new Token(TipoToken.FIM_INSTRUCAO, "$FIN_INST$"));
                 posicao += "$FIN_INST$".length();
             } else if (entrada.startsWith("$RET_FUNC$", posicao)) {
                 tokens.add(new Token(TipoToken.INSTRUCAO_RETORNO, "$RET_FUNC$"));
                 posicao += "$RET_FUNC$".length();	
+            } else if (entrada.startsWith("$NUM$", posicao)) {
+                tokens.add(new Token(TipoToken.NUMERO, "$NUM$"));
+                posicao += "$NUM$".length();	
             } else if (entrada.startsWith("$NUM_INT$", posicao)) {
                 tokens.add(new Token(TipoToken.NUMERO_INTEIRO, "$NUM_INT$"));
                 posicao += "$NUM_INT$".length();					
+            } else if (entrada.startsWith("$NUM_REA$", posicao)) {
+                tokens.add(new Token(TipoToken.NUMERO_REAL, "$NUM_REA$"));
+                posicao += "$NUM_REA$".length();				
             } else if (entrada.startsWith("$FEC_CHA$", posicao)) {
                 tokens.add(new Token(TipoToken.FECHA_CHAVE, "$FEC_CHA$"));
                 posicao += "$FEC_CHA$".length();				
@@ -240,7 +264,7 @@ class AnalisadorSintatico {
 		verificarComandoRetorno();		
 	}
 	
-    // <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> "@EXPRESSAO@" <fim_instrucao>
+    // <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
     public void verificarComandoDeclaracaoAtribuicao() {
 		if (tokenAtual.tipo == TipoToken.TIPO_INT || 
 			tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
@@ -250,10 +274,60 @@ class AnalisadorSintatico {
 		}
         consumir(TipoToken.IDENTIFICADOR);		// <identificador>
         consumir(TipoToken.ATRIBUICAO); 		// <atribuicao>
-        consumir(TipoToken.EXPRESSAO);			// <expressao>
+        verificarExpressao();					// <expressao>
         consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>
     }
 
+	// <expressao> ::= <termo> ( ( <soma> | <subtracao> ) <termo> )*
+	public void verificarExpressao() {
+		verificarTermo();// <termo>		
+		
+		// Verifica se há uma sequência de ( + <termo> | - <termo> )
+		while (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SOMA || tokenAtual.tipo == TipoToken.OPERADOR_ARI_SUBTRACAO) { 
+			if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SOMA) {
+				consumir(TipoToken.OPERADOR_ARI_SOMA);  // Consome o operador soma (+)
+			} else if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SUBTRACAO) {
+				consumir(TipoToken.OPERADOR_ARI_SUBTRACAO);  // Consome o operador subtração (-)
+			}
+
+			verificarTermo();  // Verifica o próximo termo
+		}		
+	}
+
+	// <termo> ::= <fator> ( ( <multiplicacao> | <divisao> ) <fator> )*	
+	public void verificarTermo() {
+		verificarFator();// <fator>	
+		
+		// Verifica se há uma sequência de ( * <fator> | / <fator> )
+		while (tokenAtual.tipo == TipoToken.OPERADOR_ARI_MULTIPLICACAO || tokenAtual.tipo == TipoToken.OPERADOR_ARI_DIVISAO) { 
+			if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_MULTIPLICACAO) {
+				consumir(TipoToken.OPERADOR_ARI_MULTIPLICACAO);  // Consome o operador multiplicação (*)
+			} else if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_DIVISAO) {
+				consumir(TipoToken.OPERADOR_ARI_DIVISAO);  // Consome o operador divisão (/)
+			}
+			
+			verificarFator();  // Verifica o próximo fator
+		}
+	}
+
+	// <fator> ::= <numero> | <identificador>	
+	public void verificarFator() {
+		if (tokenAtual.tipo == TipoToken.NUMERO) {
+			verificarNumero();  				// <numero>
+		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
+			consumir(TipoToken.IDENTIFICADOR);  // <identificador>	
+		}
+	}
+
+	// <numero> ::=  <numero_inteiro> | <numero_real>
+	public void verificarNumero() {
+		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO) {
+			consumir(TipoToken.NUMERO_INTEIRO);  // <numero_inteiro>
+		} else if (tokenAtual.tipo == TipoToken.NUMERO_REAL) {
+			consumir(TipoToken.NUMERO_REAL);  // <numero_real>	
+		}
+	}
+	
 	// <comando_retorno> ::= <instrucao_retorno> <espaco> ( <numero_inteiro> | <identificador> ) <fim_instrucao>
     public void verificarComandoRetorno() {
         consumir(TipoToken.INSTRUCAO_RETORNO);  // <especificador_tipo>
@@ -277,7 +351,7 @@ public class Compilador {
         String entrada = 
 						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ $PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
 						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ $FEC_PAR$ $ABR_CHA$ " +
-						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
+						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ $NUM_INT$ $OPE_ARI_MUL$ $NUM_REA$ $OPE_ARI_SOM$ $NUM_INT$ $FIN_INST$ " +
 						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +				 
 						 "$FEC_CHA$";
         

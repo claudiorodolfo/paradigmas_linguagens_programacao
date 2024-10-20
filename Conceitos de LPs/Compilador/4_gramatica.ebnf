@@ -17,8 +17,8 @@
                      | <comando_retorno>
 
 <declaracao_e_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
-<expressao>      ::= <termo> ( (<soma> | <subtracao>) <termo> )*
-<termo>          ::= <fator> ( (<multiplicacao> | <divisao>) <fator> )*
+<expressao>      ::= <termo> ( ( <soma> | <subtracao> ) <termo> )*
+<termo>          ::= <fator> ( ( <multiplicacao> | <divisao> ) <fator> )*
 <fator>          ::= <numero> | <identificador>
 
 <chamada_funcao> ::=  <instrucao_impressao> <abre_parentese> <texto> ( <separador> <expressao> )* <fecha_parentese> <fim_instrucao>
