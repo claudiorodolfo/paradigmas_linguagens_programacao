@@ -347,7 +347,7 @@ class RegrasSintaticas {
 public class AnalisadorSintatico {
     public static void main(String[] args) {
 		if (args.length != 1) {
-            System.out.println("Uso: java Parser <nome-do-arquivo>");
+            System.out.println("Uso: java AnalisadorSintatico <nome-do-arquivo>");
             return;
         }
 

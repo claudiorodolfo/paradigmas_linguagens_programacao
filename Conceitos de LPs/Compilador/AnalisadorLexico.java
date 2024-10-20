@@ -8,12 +8,21 @@ public class AnalisadorLexico {
 
     // Estados do autômato
     enum Estado {
-        INICIAL, PRE_PROCESSADOR, INCLUSAO_BIBLIOTECA, IDENTIFICADOR, TIPO_DADO, NUMERO, OPERADOR, SEPARADOR, ESPACO, FIM
+        INICIAL, 
+		PRE_PROCESSADOR, 
+		INCLUSAO_BIBLIOTECA, 
+		IDENTIFICADOR, 
+		TIPO_DADO, 
+		NUMERO, 
+		OPERADOR, 
+		SEPARADOR, 
+		ESPACO, 
+		FIM
     }
 
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Uso: java Parser <arquivo-entrada> <arquivo-saida>");
+            System.out.println("Uso: java AnalisadorLexico <arquivo-entrada> <arquivo-saida>");
             return;
         }
 
