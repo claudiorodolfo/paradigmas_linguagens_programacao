@@ -212,10 +212,10 @@ class RegrasSintaticas {
 	public void verificarEspecificadorTipo() {
 		switch (tokenAtual.tipo) {
 			case TIPO_INT:
-				consumir(TipoToken.TIPO_INT);  // Verifica tipo int
+				consumir(TipoToken.TIPO_INT);  	// Verifica tipo int
 				break;
 			case TIPO_FLOAT:
-				consumir(TipoToken.TIPO_FLOAT);  // Verifica tipo float
+				consumir(TipoToken.TIPO_FLOAT); // Verifica tipo float
 				break;
 			case TIPO_VOID:
 				consumir(TipoToken.TIPO_VOID);  // Verifica tipo void
@@ -250,16 +250,32 @@ class RegrasSintaticas {
 	}
 	
 	// <lista_comandos> ::= ( <comando> )*
-	//	<comando>  ::= <comando_declaracao_atribuicao> | <chamada_funcao> | <comando_retorno>
     public void verificarListaComandos() {
-		verificarComandoDeclaracaoAtribuicao();
+		while (tokenAtual.tipo == TipoToken.INSTRUCAO_RETORNO ||
+				tokenAtual.tipo == TipoToken.TIPO_INT || 
+				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
+				tokenAtual.tipo == TipoToken.TIPO_VOID ||
+				tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
+			verificarComando();
+		}
+	}
 
-        // Enquanto houver mais comandos, continua processando a lista
-        //while (tokenAtual.tipo == TipoToken.TIPO) {
-        //    verificarComandoDeclaracaoAtribuicao();
-        //}
-		verificarComandoChamadaFuncao();
-		verificarComandoRetorno();		
+	//	<comando>  ::= <comando_declaracao_atribuicao> | <comando_chamada_funcao> | <comando_retorno>
+	public void verificarComando() {
+		if (tokenAtual.tipo == TipoToken.INSTRUCAO_RETORNO) {
+			verificarComandoRetorno();							// <comando_retorno>
+		} else if (tokenAtual.tipo == TipoToken.TIPO_INT || 
+				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
+				tokenAtual.tipo == TipoToken.TIPO_VOID) {
+			verificarComandoDeclaracaoAtribuicao();				// <comando_declaracao_atribuicao>
+		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {	//como ambas instruções começam com IDENTIFICADOR, tive que usar o próximo token para saber qual regra sintática correta chamar
+			Token proximoToken = tokens.get(posicaoAtual+1);
+			if (proximoToken.tipo == TipoToken.ATRIBUICAO) {	
+				verificarComandoDeclaracaoAtribuicao();			// <comando_declaracao_atribuicao>
+			} else if (proximoToken.tipo == TipoToken.ABRE_PARENTESE) {
+				verificarComandoChamadaFuncao();				//<comando_chamada_funcao>
+			}
+		}
 	}
 	
     // <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
@@ -402,4 +418,3 @@ public class AnalisadorSintatico {
         }			
     }
 }
-//ESTa FALTANDO LISTA DE COMANDOS

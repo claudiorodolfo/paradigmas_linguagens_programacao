@@ -7,8 +7,8 @@
 <especificador_tipo> ::= <tipo_int> | <tipo_void> | <tipo_float>                       
 <lista_parametros> ::= E | <parametro> ( <separador> <parametro> )*
 <parametro> ::= <especificador_tipo> <espaco> <identificador> 
-	<lista_comandos> ::= ( <comando> )*
-	<comando>  ::= <comando_declaracao_atribuicao> | <comando_chamada_funcao> | <comando_retorno>
+<lista_comandos> ::= ( <comando> )*
+<comando>  ::= <comando_declaracao_atribuicao> | <comando_chamada_funcao> | <comando_retorno>
 <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
 <expressao>      ::= <termo> ( ( <soma> | <subtracao> ) <termo> )*
 <termo>          ::= <fator> ( ( <multiplicacao> | <divisao> ) <fator> )*
