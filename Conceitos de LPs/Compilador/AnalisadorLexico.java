@@ -33,7 +33,7 @@ public class AnalisadorLexico {
             StringBuilder saida = new StringBuilder();
             String linha;
             while ((linha = br.readLine()) != null) {
-                saida.append(analisarLinha(linha)).append(" ");
+                saida.append(analisarLinha(linha));
             }
 
             // Escrever no arquivo de saída
@@ -66,7 +66,7 @@ public class AnalisadorLexico {
         switch (estadoAtual) {
             case INICIAL:
                 if (simbolo == '#') {
-                    resultado.append("$PRE_PROC$ ");
+                    resultado.append("$PRE_PROC$");
                     return Estado.PRE_PROCESSADOR;
                 } else if (Character.isWhitespace(simbolo)) {
                     return Estado.ESPACO;
@@ -77,31 +77,31 @@ public class AnalisadorLexico {
                     token.append(simbolo);
                     return Estado.NUMERO;
                 } else if (simbolo == '{') {
-                    resultado.append("$ABR_CHA$ ");
+                    resultado.append("$ABR_CHA$");
                     return Estado.INICIAL;
                 } else if (simbolo == '}') {
-                    resultado.append("$FEC_CHA$ ");
+                    resultado.append("$FEC_CHA$");
                     return Estado.INICIAL;
                 } else if (simbolo == '(') {
-                    resultado.append("$ABR_PAR$ ");
+                    resultado.append("$ABR_PAR$");
                     return Estado.INICIAL;
                 } else if (simbolo == ')') {
-                    resultado.append("$FEC_PAR$ ");
+                    resultado.append("$FEC_PAR$");
                     return Estado.INICIAL;
                 } else if (simbolo == ',') {
-                    resultado.append("$SEP_VIR$ ");
+                    resultado.append("$SEP_VIR$");
                     return Estado.INICIAL;
                 } else if (simbolo == ';') {
-                    resultado.append("$FIN_INST$ ");
+                    resultado.append("$FIN_INST$");
                     return Estado.INICIAL;
                 } else if (simbolo == '=') {
-                    resultado.append("$ATRIB$ ");
+                    resultado.append("$ATRIB$");
                     return Estado.INICIAL;
                 } else if (simbolo == '+') {
-                    resultado.append("$OPE_ARI_SOM$ ");
+                    resultado.append("$OPE_ARI_SOM$");
                     return Estado.INICIAL;
                 } else if (simbolo == '*') {
-                    resultado.append("$OPE_ARI_MUL$ ");
+                    resultado.append("$OPE_ARI_MUL$");
                     return Estado.INICIAL;
                 }
                 break;
@@ -114,7 +114,7 @@ public class AnalisadorLexico {
 
             case INCLUSAO_BIBLIOTECA:
                 if (simbolo == '>') {
-                    resultado.append("$ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ ");
+                    resultado.append("$ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$");
                     return Estado.INICIAL;
                 }
                 break;
@@ -125,15 +125,15 @@ public class AnalisadorLexico {
                 } else {
                     String palavra = token.toString();
                     if (palavra.equals("void")) {
-                        resultado.append("$TIPO_VOID$ ");
+                        resultado.append("$TIPO_VOID$");
                     } else if (palavra.equals("int")) {
-                        resultado.append("$TIPO_INT$ ");
+                        resultado.append("$TIPO_INT$");
                     } else if (palavra.equals("float")) {
-                        resultado.append("$TIPO_FLOAT$ ");
+                        resultado.append("$TIPO_FLOAT$");
                     } else if (palavra.equals("return")) {
-                        resultado.append("$RET_FUNC$ ");
+                        resultado.append("$RET_FUNC$");
                     } else {
-                        resultado.append("$IDENT$ ");
+                        resultado.append("$IDENT$");
                     }
                     token.setLength(0); // Limpar o token
                     return transicaoEstado(simbolo, Estado.INICIAL, token, resultado); // Voltar para o estado inicial e processar o símbolo atual
@@ -147,7 +147,7 @@ public class AnalisadorLexico {
                     token.append(simbolo); // Parte do número decimal
                     return Estado.NUMERO;
                 } else {
-                    resultado.append("$NUM_INT$ ");
+                    resultado.append("$NUM_INT$");
                     token.setLength(0); // Limpar o token
                     return transicaoEstado(simbolo, Estado.INICIAL, token, resultado); // Voltar para o estado inicial e processar o símbolo atual
                 }
@@ -155,7 +155,7 @@ public class AnalisadorLexico {
 
             case ESPACO:
                 if (!Character.isWhitespace(simbolo)) {
-                    resultado.append("$ESP$ ");
+                    resultado.append("$ESP$");
                     return transicaoEstado(simbolo, Estado.INICIAL, token, resultado);
                 }
                 break;
