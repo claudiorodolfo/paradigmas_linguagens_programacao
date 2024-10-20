@@ -7,7 +7,7 @@
                        <lista_comandos>
                        <fecha_chave>
                        
-<lista_parametros> ::= E | <parametro> (<separador> <parametro> )*
+<lista_parametros> ::= E | <parametro> ( <separador> <parametro> )*
 <parametro> ::= <especificador_tipo> <espaco> <identificador> 
 <especificador_tipo> ::= <tipo_int> | <tipo_void> | <tipo_float>
 
@@ -16,7 +16,7 @@
                      | <chamada_funcao> 
                      | <comando_retorno>
 
-<declaracao_e_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
+<comando_declaracao_e_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
 <expressao>      ::= <termo> ( ( <soma> | <subtracao> ) <termo> )*
 <termo>          ::= <fator> ( ( <multiplicacao> | <divisao> ) <fator> )*
 <fator>          ::= <numero> | <identificador>
