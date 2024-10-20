@@ -218,11 +218,19 @@ class AnalisadorSintatico {
         consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>
     }
 
-	// <comando_retorno> ::= <instrucao_retorno> <espaco> <numero_inteiro> <fim_instrucao>
+	// <comando_retorno> ::= <instrucao_retorno> <espaco> ( <numero_inteiro> | <identificador> ) <fim_instrucao>
     public void verificarComandoRetorno() {
         consumir(TipoToken.INSTRUCAO_RETORNO);  // <especificador_tipo>
         consumir(TipoToken.ESPACO);             // <espaco>
-        consumir(TipoToken.NUMERO_INTEIRO);		// <identificador>
+		
+		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO) {
+			consumir(TipoToken.NUMERO_INTEIRO); // <numero_inteiro>
+		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
+			consumir(TipoToken.IDENTIFICADOR);	// <identificador> 
+		} else {
+			throw new RuntimeException("Erro de sintaxe: Esperado um valor ou identificador " + tokenAtual.tipo);
+		}	
+		
         consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>
     }	
 }
@@ -235,7 +243,7 @@ public class Compilador {
 						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
 						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ @PARAMETROS@ $FEC_PAR$ $ABR_CHA$ " +
 						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
-						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +						 
+						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +				 
 						 "$FEC_CHA$";
         
         AnalisadorLexico analizadorLexico = new AnalisadorLexico(entrada);
