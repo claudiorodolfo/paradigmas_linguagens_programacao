@@ -1,0 +1,59 @@
+/*ETAPA 4: Análise Sintática (Confrontrar a ordem dos tokens perante a gramática de linguagem)*/
+/*Testar em: https://bnfplayground.pauliankline.com*/
+
+<programa> ::= ( <preprocessador> )+ <definicao_funcao>
+<preprocessador> ::= <inclusao> <abre_colche_ang> <biblioteca> <fecha_colche_ang>
+<definicao_funcao> ::= <especificador_tipo> <espaco> <identificador> <abre_parentese> <lista_parametros> <fecha_parentese> <abre_chave>
+                       <lista_comandos>
+                       <fecha_chave>
+                       
+<lista_parametros> ::= E | <parametro> (<separador> <parametro> )*
+<parametro> ::= <especificador_tipo> <identificador> 
+<especificador_tipo> ::= <tipo_int> | <tipo_void> | <tipo_float>
+
+<lista_comandos> ::= ( <comando> )*
+<comando>  ::= <comando_atribuicao>
+					 | <declaracao_variavel>
+                     | <chamada_funcao> 
+                     | <comando_retorno>
+                     
+<comando_atribuicao> ::= <identificador> <atribuicao> <expressao> <fim_instrucao>
+
+<declaracao_variavel> ::= <especificador_tipo> <espaco> <identificador> <atribuicao> <expressao> <fim_instrucao>
+<expressao>      ::= <termo> ( (<soma> | <subtracao>) <termo> )*
+<termo>          ::= <fator> ( (<multiplicacao> | <divisao>) <fator> )*
+<fator>          ::= <numero> | <identificador>
+
+<chamada_funcao> ::=  <instrucao_impressao> <abre_parentese> <texto> ( <separador> <expressao> )* <fecha_parentese> <fim_instrucao>
+					 | <identificador> <abre_parentese> ( <lista_argumentos> )? <fecha_parentese> <fim_instrucao>
+<lista_argumentos> ::= <expressao> ( <separador> <expressao> )*
+
+<comando_retorno> ::= <instrucao_retorno> <espaco> <numero_inteiro> <fim_instrucao>
+<numero> ::=  <numero_inteiro> | <numero_real>
+
+/*TOKENS*/
+<inclusao> ::= "$PRE_PROC$"
+<biblioteca> ::= "$BIBLIO$"
+<abre_colche_ang> ::= "$ABR_COL_ANG$"
+<fecha_colche_ang> ::= "$FEC_COL_ANG$"
+<abre_parentese> ::= "$ABR_PAR$"
+<fecha_parentese> ::= "$FEC_PAR$"
+<abre_chave> ::= "$ABR_CHA$"
+<fecha_chave> ::= "$FEC_CHA$"
+<identificador>  ::= "$IDENT$"
+<tipo_int> ::= "$TIPO_INT$"
+<tipo_float> ::= "$TIPO_FLOAT$"
+<tipo_void> ::= "$TIPO_VOID$"
+<espaco>	::= "$ESP$"
+<separador> ::= "$SEP_VIR$"
+<atribuicao> ::= "$ATRIB$"
+<fim_instrucao> ::= "$FIN_INST$"
+<instrucao_impressao> ::= "$INST_IMP$"
+<instrucao_retorno> ::= "$RET_FUNC$"
+<soma> ::= "$OPE_ARI_SOM$"
+<subtracao> ::= "$OPE_ARI_SUB$"
+<multiplicacao> ::= "$OPE_ARI_MUL$"
+<divisao> ::= "$OPE_ARI_DIV$"
+<numero_inteiro> ::= "$NUM_INT$"
+<numero_real> ::= "$NUM_REA$"
+<texto> ::= "$TEXTO$"

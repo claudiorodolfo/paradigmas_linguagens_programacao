@@ -1,0 +1,42 @@
+1	$PRE_PROC$		#include
+2	$ABR_COL_ANG$	<
+3	$BIBLIO$		stdio.h
+4	$FEC_COL_ANG$	>
+5	$TIPO_INT$		int
+6	$ESP$				
+7	$IDENT$			main
+8	$ABR_PAR$		(
+9	$FEC_PAR$		)
+10	$ABR_CHA$		{
+11	$TIPO_INT$		int
+12	$ESP$			 
+13	$IDENT$			num1
+14	$ATRIB$			=
+15	$NUM_INT$		3
+16	$FIN_INST$		;
+17	$TIPO_INT$		int
+18	$ESP$		
+19	$IDENT$			num2
+20	$ATRIB$			=
+21	$NUM_INT$		5
+22	$FIN_INST$		;
+23	$TIPO_INT$		int
+24	$ESP$			
+25	$IDENT$			resultado
+26	$ATRIB$			=
+27	$IDENT$			num1
+28	$OPE_ARI_SOM$	+
+29	$IDENT$			num2
+30	$FIN_INST$		;
+31	$INST_IMP$		printf
+32	$ABR_PAR$		(
+33	$TEXTO$			"Resultado: %d"
+34	$SEP_VIR$		,
+35	$IDENT$			resultado
+36	$FEC_PAR$		)
+37	$FIN_INST$		;
+38	$RET_FUNC$		return
+39	$ESP$
+40	$NUM_INT$		0
+41	$FIN_INST$		;
+42	$FEC_CHA$		}
