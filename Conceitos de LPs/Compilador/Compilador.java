@@ -153,20 +153,13 @@ class AnalisadorSintatico {
         }
     }
 
-    // <programa> ::= <list_preprocessador> <definicao_funcao>
+    // <programa> ::= ( <list_preprocessador> )* <definicao_funcao>
     public void verificarPrograma() {
-        verificarListaPreProcessador();
-        verificarDefinicaoFuncao();		
-    }
-
-    // <list_preprocessador> ::= <preprocessador> | <preprocessador> <list_preprocessador>
-    public void verificarListaPreProcessador() {
-        verificarPreProcessador();
-		
-        // Enquanto houver mais pré-processadores, continua processando a lista
+        // Enquanto houver pré-processadores, continua processando a lista
         while (tokenAtual.tipo == TipoToken.PRE_PROCESSADOR) {
             verificarPreProcessador();
         }
+        verificarDefinicaoFuncao();		
     }
 
     // <preprocessador> ::= <inclusao> <abre_colche_ang> <biblioteca> <fecha_colche_ang>
@@ -237,7 +230,8 @@ class AnalisadorSintatico {
 // Classe principal do compilador
 public class Compilador {
     public static void main(String[] args) {
-        String entrada = "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
+        String entrada = 
+						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
 						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
 						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ @PARAMETROS@ $FEC_PAR$ $ABR_CHA$ " +
 						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +

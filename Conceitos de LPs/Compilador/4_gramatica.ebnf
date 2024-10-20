@@ -1,7 +1,7 @@
 /*ETAPA 4: Análise Sintática (Confrontrar a ordem dos tokens perante a gramática de linguagem)*/
 /*Testar em: https://bnfplayground.pauliankline.com*/
 
-<programa> ::= ( <preprocessador> )+ <definicao_funcao>
+<programa> ::= ( <preprocessador> )* <definicao_funcao>
 <preprocessador> ::= <inclusao> <abre_colche_ang> <biblioteca> <fecha_colche_ang>
 <definicao_funcao> ::= <especificador_tipo> <espaco> <identificador> <abre_parentese> <lista_parametros> <fecha_parentese> <abre_chave>
                        <lista_comandos>
