@@ -9,6 +9,7 @@
 /* Lista de instruções */
 <lista_inst> ::= ( <inst> )*
 <inst> ::= <atrib> | <decl>
+
 /* Instrução de Atribuição */
 <atrib> ::= <ident> "$OPE_ATR$" <expr_aritmetica> "$OPE_FIN$"
 <expr_aritmetica> ::= <valor> <op_aritmetico> <expr_aritmetica> | "$ABR_PAR$" <expr_aritmetica> "$FEC_PAR$" | <valor>
@@ -20,6 +21,7 @@
 <tipo> ::= ("$TIPO_INT$" | "$TIP_FLO$") "$ESP$"
 /* Geração de Lista de Identificadores */
 <lista_ident> ::= <ident> ("$OPE_VIR$" <ident> )*
+
 
 /* Geração de Identificadores */
 <ident> ::= "$IDENT$"
