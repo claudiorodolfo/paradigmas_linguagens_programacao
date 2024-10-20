@@ -3,31 +3,20 @@
 
 <programa> ::= ( <preprocessador> )* ( <definicao_funcao> )+
 <preprocessador> ::= <inclusao> <abre_colche_ang> <biblioteca> <fecha_colche_ang>
-<definicao_funcao> ::= <especificador_tipo> <espaco> <identificador> <abre_parentese> <lista_parametros> <fecha_parentese> <abre_chave>
-                       <lista_comandos>
-                       <fecha_chave>
-                       
+<definicao_funcao> ::= <especificador_tipo> <espaco> <identificador> <abre_parentese> <lista_parametros> <fecha_parentese> <abre_chave> <lista_comandos> <fecha_chave>
+<especificador_tipo> ::= <tipo_int> | <tipo_void> | <tipo_float>                       
 <lista_parametros> ::= E | <parametro> ( <separador> <parametro> )*
 <parametro> ::= <especificador_tipo> <espaco> <identificador> 
-<especificador_tipo> ::= <tipo_int> | <tipo_void> | <tipo_float>
-
-<lista_comandos> ::= ( <comando> )*
-<comando>  ::= <comando_declaracao_e_atribuicao>
-                     | <chamada_funcao> 
-                     | <comando_retorno>
-
-<comando_declaracao_e_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
+	<lista_comandos> ::= ( <comando> )*
+	<comando>  ::= <comando_declaracao_atribuicao> | <comando_chamada_funcao> | <comando_retorno>
+<comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> <expressao> <fim_instrucao>
 <expressao>      ::= <termo> ( ( <soma> | <subtracao> ) <termo> )*
 <termo>          ::= <fator> ( ( <multiplicacao> | <divisao> ) <fator> )*
 <fator>          ::= <numero> | <identificador>
-
-<chamada_funcao> ::=  <instrucao_impressao> <abre_parentese> <texto> ( <separador> <expressao> )* <fecha_parentese> <fim_instrucao>
-					 | <identificador> <abre_parentese> ( <lista_argumentos> )? <fecha_parentese> <fim_instrucao>
+<comando_chamada_funcao> ::= <identificador> <abre_parentese> ( <lista_argumentos> )? <fecha_parentese> <fim_instrucao>
 <lista_argumentos> ::= <expressao> ( <separador> <expressao> )*
-
 <comando_retorno> ::= <instrucao_retorno> <espaco> ( <numero_inteiro> | <identificador> ) <fim_instrucao>
 <numero> ::=  <numero_inteiro> | <numero_real>
-
 /*TOKENS*/
 <inclusao> ::= "$PRE_PROC$"
 <biblioteca> ::= "$BIBLIO$"

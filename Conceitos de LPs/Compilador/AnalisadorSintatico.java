@@ -32,6 +32,7 @@ enum TipoToken {
 	OPERADOR_ARI_SUBTRACAO,
 	OPERADOR_ARI_MULTIPLICACAO,
 	OPERADOR_ARI_DIVISAO,
+	LISTA_ARGUMENTOS,
 	EOF
 }
 
@@ -136,7 +137,10 @@ class SeparadorTokens {
 				break;	
 				case "$NUM_REA$":
 					tokens.add(new Token(TipoToken.NUMERO_REAL, parte));
-				break;		
+				break;
+				case "$ARGUMENTOS$":
+					tokens.add(new Token(TipoToken.LISTA_ARGUMENTOS, parte));
+				break;				
 				default:
 				    throw new RuntimeException("Token inválido encontrado: " + parte);
 			}
@@ -246,6 +250,7 @@ class RegrasSintaticas {
 	}
 	
 	// <lista_comandos> ::= ( <comando> )*
+	//	<comando>  ::= <comando_declaracao_atribuicao> | <chamada_funcao> | <comando_retorno>
     public void verificarListaComandos() {
 		verificarComandoDeclaracaoAtribuicao();
 
@@ -253,7 +258,7 @@ class RegrasSintaticas {
         //while (tokenAtual.tipo == TipoToken.TIPO) {
         //    verificarComandoDeclaracaoAtribuicao();
         //}
-		
+		verificarComandoChamadaFuncao();
 		verificarComandoRetorno();		
 	}
 	
@@ -311,13 +316,27 @@ class RegrasSintaticas {
 			consumir(TipoToken.IDENTIFICADOR);  // <identificador>	
 		}
 	}
-
-	// <numero> ::=  <numero_inteiro> | <numero_real>
-	public void verificarNumero() {
-		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO) {
-			consumir(TipoToken.NUMERO_INTEIRO);  // <numero_inteiro>
-		} else if (tokenAtual.tipo == TipoToken.NUMERO_REAL) {
-			consumir(TipoToken.NUMERO_REAL);  // <numero_real>	
+	
+	//<chamada_funcao> ::= <identificador> <abre_parentese> ( <lista_argumentos> )? <fecha_parentese> <fim_instrucao>
+	public void verificarComandoChamadaFuncao() {
+        consumir(TipoToken.IDENTIFICADOR);      // <identificador>
+        consumir(TipoToken.ABRE_PARENTESE);     // <abre_parentese>
+		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO || tokenAtual.tipo == TipoToken.NUMERO_REAL || 
+				tokenAtual.tipo == TipoToken.IDENTIFICADOR) {	// se tiver expressao
+			verificarListaArgumentos();				// <lista_argumentos>	
+		}
+		consumir(TipoToken.FECHA_PARENTESE);     // <fecha_parentese>
+        consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>		
+	}
+	
+	//<lista_argumentos> ::= <expressao> ( <separador> <expressao> )*
+	public void verificarListaArgumentos() {
+		verificarExpressao();
+		
+		// Verifica argumentos adicionais, se houver
+		while (tokenAtual.tipo == TipoToken.SEPARADOR) {  // se tiver separador, considera-se que há mais argumentos		
+			consumir(TipoToken.SEPARADOR);		// <separador>	
+			verificarExpressao();				// <expressao>
 		}
 	}
 	
@@ -335,7 +354,16 @@ class RegrasSintaticas {
 		}	
 		
         consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>
-    }	
+    }
+	
+	// <numero> ::=  <numero_inteiro> | <numero_real>
+	public void verificarNumero() {
+		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO) {
+			consumir(TipoToken.NUMERO_INTEIRO);  // <numero_inteiro>
+		} else if (tokenAtual.tipo == TipoToken.NUMERO_REAL) {
+			consumir(TipoToken.NUMERO_REAL);  // <numero_real>	
+		}
+	}	
 }
 
 // Classe principal do Analisador Sintático
@@ -375,4 +403,3 @@ public class AnalisadorSintatico {
     }
 }
 //ESTa FALTANDO LISTA DE COMANDOS
-//E PARAMETROS PASSADOS PARA FUNÇÕES
