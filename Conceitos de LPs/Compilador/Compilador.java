@@ -176,6 +176,11 @@ class AnalisadorSintatico {
 	// <lista_comandos> ::= ( <comando> )*
     public void verificarListaComandos() {
 		verificarComandoDeclaracaoAtribuicao();
+
+        // Enquanto houver mais comandos, continua processando a lista
+        while (tokenAtual.tipo == TipoToken.TIPO) {
+            verificarComandoDeclaracaoAtribuicao();
+        }		
 	}
 	
     // <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> "@EXPRESSAO@" <fim_instrucao>
@@ -196,6 +201,8 @@ public class Compilador {
 						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
 						 "$TIPO$ $ESP$ $IDENT$ $ABR_PAR$ @PARAMETROS@ $FEC_PAR$ $ABR_CHA$ " +
 						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
+						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
+						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +						 
 						 "$FEC_CHA$";
         
         AnalisadorLexico analizadorLexico = new AnalisadorLexico(entrada);
