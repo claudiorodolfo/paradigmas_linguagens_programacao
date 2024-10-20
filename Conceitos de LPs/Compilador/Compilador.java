@@ -7,7 +7,9 @@ enum TipoToken {
 	BIBLIOTECA, 
 	ABRE_COLCHETE_ANGULADO, 
 	FECHA_COLCHETE_ANGULADO,  
-	TIPO, 
+	TIPO_INT, 
+	TIPO_FLOAT,
+	TIPO_VOID,
 	IDENTIFICADOR, 
 	ESPACO, 
 	ABRE_PARENTESE, 
@@ -75,9 +77,15 @@ class AnalisadorLexico {
             } else if (entrada.startsWith("$FEC_COL_ANG$", posicao)) {
                 tokens.add(new Token(TipoToken.FECHA_COLCHETE_ANGULADO, "$FEC_COL_ANG$"));
                 posicao += "$FEC_COL_ANG$".length();
-            } else if (entrada.startsWith("$TIPO$", posicao)) {
-                tokens.add(new Token(TipoToken.TIPO, "$TIPO$"));
-                posicao += "$TIPO$".length();
+            } else if (entrada.startsWith("$TIPO_INT$", posicao)) {
+                tokens.add(new Token(TipoToken.TIPO_INT, "$TIPO_INT$"));
+                posicao += "$TIPO_INT$".length();
+            } else if (entrada.startsWith("$TIPO_FLOAT$", posicao)) {
+                tokens.add(new Token(TipoToken.TIPO_FLOAT, "$TIPO_FLOAT$"));
+                posicao += "$TIPO_FLOAT$".length();
+            } else if (entrada.startsWith("$TIPO_VOID$", posicao)) {
+                tokens.add(new Token(TipoToken.TIPO_VOID, "$TIPO_VOID$"));
+                posicao += "$TIPO_VOID$".length();				
             } else if (entrada.startsWith("$IDENT$", posicao)) {
                 tokens.add(new Token(TipoToken.IDENTIFICADOR, "$IDENT$"));
                 posicao += "$IDENT$".length();
@@ -171,7 +179,7 @@ class AnalisadorSintatico {
 
     // <definicao_funcao> ::= <especificador_tipo> <espaco> <identificador> <abre_parentese> <lista_parametros> <fecha_parentese> <abre_chave> <lista_comandos> <fecha_chave>
     public void verificarDefinicaoFuncao() {
-        consumir(TipoToken.TIPO);               // <especificador_tipo>
+        verificarEspecificadorTipo();           // <especificador_tipo>
         consumir(TipoToken.ESPACO);             // <espaco>
         consumir(TipoToken.IDENTIFICADOR);      // <identificador>
         consumir(TipoToken.ABRE_PARENTESE);     // <abre_parentese>
@@ -181,21 +189,35 @@ class AnalisadorSintatico {
         verificarListaComandos();				// <lista_comandos>			
         consumir(TipoToken.FECHA_CHAVE);        // <fecha_chave>
     }
+	
+	// <especificador_tipo> ::= <tipo_int> | <tipo_float> | <tipo_void>
+	public void verificarEspecificadorTipo() {
+		if (tokenAtual.tipo == TipoToken.TIPO_INT) {
+			consumir(TipoToken.TIPO_INT);  // Verifica tipo int
+		} else if (tokenAtual.tipo == TipoToken.TIPO_FLOAT) {
+			consumir(TipoToken.TIPO_FLOAT);  // Verifica tipo float
+		} else if (tokenAtual.tipo == TipoToken.TIPO_VOID) {
+			consumir(TipoToken.TIPO_VOID);  // Verifica tipo void
+		} else {
+			throw new RuntimeException("Erro de sintaxe: Esperado um especificador de tipo válido, mas encontrado " + tokenAtual.tipo);
+		}
+	}
+	
 	// <lista_comandos> ::= ( <comando> )*
     public void verificarListaComandos() {
 		verificarComandoDeclaracaoAtribuicao();
 
         // Enquanto houver mais comandos, continua processando a lista
-        while (tokenAtual.tipo == TipoToken.TIPO) {
-            verificarComandoDeclaracaoAtribuicao();
-        }
+        //while (tokenAtual.tipo == TipoToken.TIPO) {
+        //    verificarComandoDeclaracaoAtribuicao();
+        //}
 		
 		verificarComandoRetorno();		
 	}
 	
     // <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> "@EXPRESSAO@" <fim_instrucao>
     public void verificarComandoDeclaracaoAtribuicao() {
-        consumir(TipoToken.TIPO);               // <especificador_tipo>
+        verificarEspecificadorTipo();           // <especificador_tipo>
         consumir(TipoToken.ESPACO);             // <espaco>
         consumir(TipoToken.IDENTIFICADOR);		// <identificador>
         consumir(TipoToken.ATRIBUICAO); 		// <atribuicao>
@@ -217,10 +239,8 @@ public class Compilador {
     public static void main(String[] args) {
         String entrada = "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
 						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
-						 "$TIPO$ $ESP$ $IDENT$ $ABR_PAR$ @PARAMETROS@ $FEC_PAR$ $ABR_CHA$ " +
-						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
-						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
-						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
+						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ @PARAMETROS@ $FEC_PAR$ $ABR_CHA$ " +
+						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
 						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +						 
 						 "$FEC_CHA$";
         
