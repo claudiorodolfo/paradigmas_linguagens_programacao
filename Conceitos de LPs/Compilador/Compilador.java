@@ -18,6 +18,8 @@ enum TipoToken {
 	ATRIBUICAO, 
 	EXPRESSAO, 
 	FIM_INSTRUCAO, 
+	INSTRUCAO_RETORNO,
+	NUMERO_INTEIRO,
 	EOF
 }
 
@@ -102,7 +104,13 @@ class AnalisadorLexico {
                 posicao += "@EXPRESSAO@".length();	
             } else if (entrada.startsWith("$FIN_INST$", posicao)) {
                 tokens.add(new Token(TipoToken.FIM_INSTRUCAO, "$FIN_INST$"));
-                posicao += "$FIN_INST$".length();					
+                posicao += "$FIN_INST$".length();
+            } else if (entrada.startsWith("$RET_FUNC$", posicao)) {
+                tokens.add(new Token(TipoToken.INSTRUCAO_RETORNO, "$RET_FUNC$"));
+                posicao += "$RET_FUNC$".length();	
+            } else if (entrada.startsWith("$NUM_INT$", posicao)) {
+                tokens.add(new Token(TipoToken.NUMERO_INTEIRO, "$NUM_INT$"));
+                posicao += "$NUM_INT$".length();					
             } else if (entrada.startsWith("$FEC_CHA$", posicao)) {
                 tokens.add(new Token(TipoToken.FECHA_CHAVE, "$FEC_CHA$"));
                 posicao += "$FEC_CHA$".length();				
@@ -180,7 +188,9 @@ class AnalisadorSintatico {
         // Enquanto houver mais comandos, continua processando a lista
         while (tokenAtual.tipo == TipoToken.TIPO) {
             verificarComandoDeclaracaoAtribuicao();
-        }		
+        }
+		
+		verificarComandoRetorno();		
 	}
 	
     // <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> "@EXPRESSAO@" <fim_instrucao>
@@ -190,6 +200,14 @@ class AnalisadorSintatico {
         consumir(TipoToken.IDENTIFICADOR);		// <identificador>
         consumir(TipoToken.ATRIBUICAO); 		// <atribuicao>
         consumir(TipoToken.EXPRESSAO);			// <expressao>
+        consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>
+    }
+
+	// <comando_retorno> ::= <instrucao_retorno> <espaco> <numero_inteiro> <fim_instrucao>
+    public void verificarComandoRetorno() {
+        consumir(TipoToken.INSTRUCAO_RETORNO);  // <especificador_tipo>
+        consumir(TipoToken.ESPACO);             // <espaco>
+        consumir(TipoToken.NUMERO_INTEIRO);		// <identificador>
         consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>
     }	
 }
@@ -202,7 +220,8 @@ public class Compilador {
 						 "$TIPO$ $ESP$ $IDENT$ $ABR_PAR$ @PARAMETROS@ $FEC_PAR$ $ABR_CHA$ " +
 						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
 						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
-						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +						 
+						 "$TIPO$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
+						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +						 
 						 "$FEC_CHA$";
         
         AnalisadorLexico analizadorLexico = new AnalisadorLexico(entrada);
