@@ -22,6 +22,7 @@ enum TipoToken {
 	FIM_INSTRUCAO, 
 	INSTRUCAO_RETORNO,
 	NUMERO_INTEIRO,
+	SEPARADOR,
 	EOF
 }
 
@@ -92,6 +93,9 @@ class AnalisadorLexico {
             } else if (entrada.startsWith("$ESP$", posicao)) {
                 tokens.add(new Token(TipoToken.ESPACO, "$ESP$"));
                 posicao += "$ESP$".length();
+			} else if (entrada.startsWith("$SEP_VIR$", posicao)) {
+                tokens.add(new Token(TipoToken.SEPARADOR, "$SEP_VIR$"));
+                posicao += "$SEP_VIR$".length();
             } else if (entrada.startsWith("$ABR_PAR$", posicao)) {
                 tokens.add(new Token(TipoToken.ABRE_PARENTESE, "$ABR_PAR$"));
                 posicao += "$ABR_PAR$".length();
@@ -176,23 +180,51 @@ class AnalisadorSintatico {
         consumir(TipoToken.ESPACO);             // <espaco>
         consumir(TipoToken.IDENTIFICADOR);      // <identificador>
         consumir(TipoToken.ABRE_PARENTESE);     // <abre_parentese>
-        consumir(TipoToken.LISTA_PARAMETROS);   // <lista_parametros>		
+        verificarListaParametros();				// <lista_parametros>		
         consumir(TipoToken.FECHA_PARENTESE);    // <fecha_parentese>
         consumir(TipoToken.ABRE_CHAVE);         // <abre_chave>
         verificarListaComandos();				// <lista_comandos>			
         consumir(TipoToken.FECHA_CHAVE);        // <fecha_chave>
     }
+
+	// <lista_parametros> ::=  E | <parametro> ( <separador> <parametro> )*
+    public void verificarListaParametros() {
+		if (tokenAtual.tipo == TipoToken.TIPO_INT || 
+				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
+				tokenAtual.tipo == TipoToken.TIPO_VOID) {	//se tiver tipo verifica o conjunto
+			verificarParametro();           // <especificador_tipo>
+			
+			// Verifica parâmetros adicionais, se houver
+			while (tokenAtual.tipo == TipoToken.SEPARADOR) {  // se tiver separador, considera-se que há mais parametros
+				consumir(TipoToken.SEPARADOR);       // <separador>
+				verificarParametro();                // <parametro>
+			}
+			//else
+				//E
+		}
+    }
+
+	// <parametro> ::= <especificador_tipo> <espaco> <identificador> 	
+	public void verificarParametro() {
+		verificarEspecificadorTipo();           // <especificador_tipo>
+		consumir(TipoToken.ESPACO);             // <espaco> 
+		consumir(TipoToken.IDENTIFICADOR);		// <identificador>
+	}
 	
 	// <especificador_tipo> ::= <tipo_int> | <tipo_float> | <tipo_void>
 	public void verificarEspecificadorTipo() {
-		if (tokenAtual.tipo == TipoToken.TIPO_INT) {
-			consumir(TipoToken.TIPO_INT);  // Verifica tipo int
-		} else if (tokenAtual.tipo == TipoToken.TIPO_FLOAT) {
-			consumir(TipoToken.TIPO_FLOAT);  // Verifica tipo float
-		} else if (tokenAtual.tipo == TipoToken.TIPO_VOID) {
-			consumir(TipoToken.TIPO_VOID);  // Verifica tipo void
-		} else {
-			throw new RuntimeException("Erro de sintaxe: Esperado um especificador de tipo válido, mas encontrado " + tokenAtual.tipo);
+		switch (tokenAtual.tipo) {
+			case TIPO_INT:
+				consumir(TipoToken.TIPO_INT);  // Verifica tipo int
+				break;
+			case TIPO_FLOAT:
+				consumir(TipoToken.TIPO_FLOAT);  // Verifica tipo float
+				break;
+			case TIPO_VOID:
+				consumir(TipoToken.TIPO_VOID);  // Verifica tipo void
+				break;
+			default:
+				throw new RuntimeException("Erro de sintaxe: Esperado um especificador de tipo válido, mas encontrado " + tokenAtual.tipo);
 		}
 	}
 	
@@ -210,8 +242,12 @@ class AnalisadorSintatico {
 	
     // <comando_declaracao_atribuicao> ::= ( <especificador_tipo> <espaco> )? <identificador> <atribuicao> "@EXPRESSAO@" <fim_instrucao>
     public void verificarComandoDeclaracaoAtribuicao() {
-        verificarEspecificadorTipo();           // <especificador_tipo>
-        consumir(TipoToken.ESPACO);             // <espaco>
+		if (tokenAtual.tipo == TipoToken.TIPO_INT || 
+			tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
+			tokenAtual.tipo == TipoToken.TIPO_VOID) {	//se tiver tipo verifica o ( <especificador_tipo> <espaco> )?
+			verificarEspecificadorTipo();           // <especificador_tipo> 
+			consumir(TipoToken.ESPACO);             // <espaco>
+		}
         consumir(TipoToken.IDENTIFICADOR);		// <identificador>
         consumir(TipoToken.ATRIBUICAO); 		// <atribuicao>
         consumir(TipoToken.EXPRESSAO);			// <expressao>
@@ -239,9 +275,8 @@ class AnalisadorSintatico {
 public class Compilador {
     public static void main(String[] args) {
         String entrada = 
-						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
-						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
-						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ @PARAMETROS@ $FEC_PAR$ $ABR_CHA$ " +
+						 "$PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ $PRE_PROC$ $ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$ " +
+						 "$TIPO_VOID$ $ESP$ $IDENT$ $ABR_PAR$ $FEC_PAR$ $ABR_CHA$ " +
 						 "$TIPO_INT$ $ESP$ $IDENT$ $ATRIB$ @EXPRESSAO@ $FIN_INST$ " +
 						 "$RET_FUNC$ $ESP$ $NUM_INT$ $FIN_INST$ " +				 
 						 "$FEC_CHA$";

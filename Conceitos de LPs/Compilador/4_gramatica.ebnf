@@ -8,7 +8,7 @@
                        <fecha_chave>
                        
 <lista_parametros> ::= E | <parametro> (<separador> <parametro> )*
-<parametro> ::= <especificador_tipo> <identificador> 
+<parametro> ::= <especificador_tipo> <espaco> <identificador> 
 <especificador_tipo> ::= <tipo_int> | <tipo_void> | <tipo_float>
 
 <lista_comandos> ::= ( <comando> )*
