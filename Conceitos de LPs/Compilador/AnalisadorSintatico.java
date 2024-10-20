@@ -179,13 +179,20 @@ class RegrasSintaticas {
         }
     }
 
-    // <programa> ::= ( <list_preprocessador> )* <definicao_funcao>
+    // <programa> ::= ( <list_preprocessador> )* ( <definicao_funcao> )+
     public void verificarPrograma() {
         // Enquanto houver pré-processadores, continua processando a lista
         while (tokenAtual.tipo == TipoToken.PRE_PROCESSADOR) {
             verificarPreProcessador();
         }
-        verificarDefinicaoFuncao();		
+		
+        verificarDefinicaoFuncao();	
+        // Enquanto houver mais funções, continua processando a lista
+        while (tokenAtual.tipo == TipoToken.TIPO_INT || 
+				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
+				tokenAtual.tipo == TipoToken.TIPO_VOID) {
+            verificarDefinicaoFuncao();
+        }		
     }
 
     // <preprocessador> ::= <inclusao> <abre_colche_ang> <biblioteca> <fecha_colche_ang>
@@ -214,12 +221,12 @@ class RegrasSintaticas {
 		if (tokenAtual.tipo == TipoToken.TIPO_INT || 
 				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
 				tokenAtual.tipo == TipoToken.TIPO_VOID) {	//se tiver tipo verifica o conjunto
-			verificarParametro();           // <especificador_tipo>
+			verificarParametro();           		// <especificador_tipo>
 			
 			// Verifica parâmetros adicionais, se houver
 			while (tokenAtual.tipo == TipoToken.SEPARADOR) {  // se tiver separador, considera-se que há mais parametros
-				consumir(TipoToken.SEPARADOR);       // <separador>
-				verificarParametro();                // <parametro>
+				consumir(TipoToken.SEPARADOR);      // <separador>
+				verificarParametro();               // <parametro>
 			}
 			//else
 				//E
