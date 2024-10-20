@@ -204,12 +204,29 @@ class RegrasSintaticas {
         consumir(TipoToken.FECHA_CHAVE);        // <fecha_chave>
     }
 
+	// <especificador_tipo> ::= <tipo_int> | <tipo_float> | <tipo_void>
+	public void verificarEspecificadorTipo() {
+		switch (tokenAtual.tipo) {
+			case TIPO_INT:
+				consumir(TipoToken.TIPO_INT);  // Verifica tipo int
+				break;
+			case TIPO_FLOAT:
+				consumir(TipoToken.TIPO_FLOAT);  // Verifica tipo float
+				break;
+			case TIPO_VOID:
+				consumir(TipoToken.TIPO_VOID);  // Verifica tipo void
+				break;
+			default:
+				throw new RuntimeException("Erro de sintaxe: Esperado um especificador de tipo válido, mas encontrado " + tokenAtual.tipo);
+		}
+	}
+	
 	// <lista_parametros> ::=  E | <parametro> ( <separador> <parametro> )*
     public void verificarListaParametros() {
 		if (tokenAtual.tipo == TipoToken.TIPO_INT || 
 				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
 				tokenAtual.tipo == TipoToken.TIPO_VOID) {	//se tiver tipo verifica o conjunto
-			verificarParametro();           		// <especificador_tipo>
+			verificarParametro();           		// <parametro>
 			
 			// Verifica parâmetros adicionais, se houver
 			while (tokenAtual.tipo == TipoToken.SEPARADOR) {  // se tiver separador, considera-se que há mais parametros
@@ -226,23 +243,6 @@ class RegrasSintaticas {
 		verificarEspecificadorTipo();           // <especificador_tipo>
 		consumir(TipoToken.ESPACO);             // <espaco> 
 		consumir(TipoToken.IDENTIFICADOR);		// <identificador>
-	}
-	
-	// <especificador_tipo> ::= <tipo_int> | <tipo_float> | <tipo_void>
-	public void verificarEspecificadorTipo() {
-		switch (tokenAtual.tipo) {
-			case TIPO_INT:
-				consumir(TipoToken.TIPO_INT);  // Verifica tipo int
-				break;
-			case TIPO_FLOAT:
-				consumir(TipoToken.TIPO_FLOAT);  // Verifica tipo float
-				break;
-			case TIPO_VOID:
-				consumir(TipoToken.TIPO_VOID);  // Verifica tipo void
-				break;
-			default:
-				throw new RuntimeException("Erro de sintaxe: Esperado um especificador de tipo válido, mas encontrado " + tokenAtual.tipo);
-		}
 	}
 	
 	// <lista_comandos> ::= ( <comando> )*
@@ -323,7 +323,7 @@ class RegrasSintaticas {
 	
 	// <comando_retorno> ::= <instrucao_retorno> <espaco> ( <numero_inteiro> | <identificador> ) <fim_instrucao>
     public void verificarComandoRetorno() {
-        consumir(TipoToken.INSTRUCAO_RETORNO);  // <especificador_tipo>
+        consumir(TipoToken.INSTRUCAO_RETORNO);  // <instrucao_retorno>
         consumir(TipoToken.ESPACO);             // <espaco>
 		
 		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO) {
