@@ -1,7 +1,9 @@
 #include<stdio.h>
-#include<stdlib.h>
 
-void teste(int a,int b) {
-	int c = 10 * 4.5 + b;
+int main() {
+	int num1 = 3;
+	int num2 = 5;
+	int resultado = num1 + num2;
+	print("Resultado: %d", resultado);
 	return 0;
 }
