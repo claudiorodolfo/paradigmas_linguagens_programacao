@@ -15,7 +15,8 @@
 <termo>          ::= <fator> ( ( <multiplicacao> | <divisao> ) <fator> )*
 <fator>          ::= <numero> | <identificador>
 <comando_chamada_funcao> ::= <identificador> <abre_parentese> ( <lista_argumentos> )? <fecha_parentese> <fim_instrucao>
-<lista_argumentos> ::= <expressao> ( <separador> <expressao> )*
+<lista_argumentos> ::= <argumento> ( <separador> <argumento> )*
+<argumento> ::= <expressao> | <texto>
 <comando_retorno> ::= <instrucao_retorno> <espaco> ( <numero_inteiro> | <identificador> ) <fim_instrucao>
 <numero> ::=  <numero_inteiro> | <numero_real>
 /*TOKENS*/

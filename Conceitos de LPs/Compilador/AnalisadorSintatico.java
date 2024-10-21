@@ -138,6 +138,9 @@ class SeparadorTokens {
 				case "$NUM_REA$":
 					tokens.add(new Token(TipoToken.NUMERO_REAL, parte));
 				break;
+				case "$TEXTO$":
+					tokens.add(new Token(TipoToken.TEXTO, parte));
+				break;
 				default:
 					throw new RuntimeException("Token inválido encontrado: " + parte);
 			}
@@ -172,15 +175,15 @@ class RegrasSintaticas {
 	public void verificarPrograma() {
 		// Enquanto houver pré-processadores, continua processando a lista
 		while (tokenAtual.tipo == TipoToken.PRE_PROCESSADOR) {
-			verificarPreProcessador();
+			verificarPreProcessador();		//<list_preprocessador>*
 		}
 		
-		verificarDefinicaoFuncao();	
+		verificarDefinicaoFuncao();			// <definicao_funcao>
 		// Enquanto houver mais funções, continua processando a lista
 		while (tokenAtual.tipo == TipoToken.TIPO_INT ||
 				tokenAtual.tipo == TipoToken.TIPO_FLOAT ||
 				tokenAtual.tipo == TipoToken.TIPO_VOID) {
-			verificarDefinicaoFuncao();
+			verificarDefinicaoFuncao();		// <definicao_funcao>*
 		}		
 	}
 
@@ -226,11 +229,11 @@ class RegrasSintaticas {
 	public void verificarListaParametros() {
 		if (tokenAtual.tipo == TipoToken.TIPO_INT || 
 				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
-				tokenAtual.tipo == TipoToken.TIPO_VOID) {	//se tiver tipo verifica o conjunto
+				tokenAtual.tipo == TipoToken.TIPO_VOID) {		//se tiver tipo, verifica o conjunto
 			verificarParametro();				// <parametro>
 			
 			// Verifica parâmetros adicionais, se houver
-			while (tokenAtual.tipo == TipoToken.SEPARADOR) {  // se tiver separador, considera-se que há mais parametros
+			while (tokenAtual.tipo == TipoToken.SEPARADOR) {	// se tiver separador, considera-se que há mais parametros
 				consumir(TipoToken.SEPARADOR);	// <separador>
 				verificarParametro();			// <parametro>
 			}
@@ -252,7 +255,7 @@ class RegrasSintaticas {
 				tokenAtual.tipo == TipoToken.TIPO_INT ||
 				tokenAtual.tipo == TipoToken.TIPO_FLOAT ||
 				tokenAtual.tipo == TipoToken.TIPO_VOID ||
-				tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
+				tokenAtual.tipo == TipoToken.IDENTIFICADOR) {	// ( <comando> )*
 			verificarComando();
 		}
 	}
@@ -293,7 +296,7 @@ class RegrasSintaticas {
 
 	// <expressao> ::= <termo> ( ( <soma> | <subtracao> ) <termo> )*
 	public void verificarExpressao() {
-		verificarTermo();// <termo>
+		verificarTermo();		// <termo>
 		
 		// Verifica se há uma sequência de ( + <termo> | - <termo> )
 		while (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SOMA || tokenAtual.tipo == TipoToken.OPERADOR_ARI_SUBTRACAO) {
@@ -305,13 +308,13 @@ class RegrasSintaticas {
 				throw new RuntimeException("Erro de sintaxe: Esperado um operador aritmético de soma ou subtração " + tokenAtual.tipo);
 			}
 
-			verificarTermo();  // Verifica o próximo termo
+			verificarTermo();	// Verifica o próximo termo <termo>
 		}		
 	}
 
 	// <termo> ::= <fator> ( ( <multiplicacao> | <divisao> ) <fator> )*
 	public void verificarTermo() {
-		verificarFator();// <fator>	
+		verificarFator();		// <fator>	
 		
 		// Verifica se há uma sequência de ( * <fator> | / <fator> )
 		while (tokenAtual.tipo == TipoToken.OPERADOR_ARI_MULTIPLICACAO || tokenAtual.tipo == TipoToken.OPERADOR_ARI_DIVISAO) {
@@ -323,7 +326,7 @@ class RegrasSintaticas {
 				throw new RuntimeException("Erro de sintaxe: Esperado um operador aritmético de multiplicação ou divisão " + tokenAtual.tipo);
 			}
 			
-			verificarFator();  // Verifica o próximo fator
+			verificarFator();	// Verifica o próximo fator <fator>
 		}
 	}
 
@@ -342,22 +345,33 @@ class RegrasSintaticas {
 	public void verificarComandoChamadaFuncao() {
 		consumir(TipoToken.IDENTIFICADOR);	// <identificador>
 		consumir(TipoToken.ABRE_PARENTESE);	// <abre_parentese>
-		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO || tokenAtual.tipo == TipoToken.NUMERO_REAL || 
-				tokenAtual.tipo == TipoToken.IDENTIFICADOR) {	// se tiver expressao
+		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO || 
+				tokenAtual.tipo == TipoToken.NUMERO_REAL || 
+				tokenAtual.tipo == TipoToken.IDENTIFICADOR ||	// se tiver expressao
+				tokenAtual.tipo == TipoToken.TEXTO) {			// se tiver texto
 			verificarListaArgumentos();		// <lista_argumentos>
 		}
 		consumir(TipoToken.FECHA_PARENTESE);// <fecha_parentese>
 		consumir(TipoToken.FIM_INSTRUCAO);	// <fim_instrucao>
 	}
 	
-	//<lista_argumentos> ::= <expressao> ( <separador> <expressao> )*
+	//<lista_argumentos> ::= <argumento> ( <separador> <argumento> )*
 	public void verificarListaArgumentos() {
-		verificarExpressao();
+		verificarArgumento();				// <argumento>
 		
 		// Verifica argumentos adicionais, se houver
 		while (tokenAtual.tipo == TipoToken.SEPARADOR) {	// se tiver separador, considera-se que há mais argumentos
 			consumir(TipoToken.SEPARADOR);	// <separador>
-			verificarExpressao();			// <expressao>
+			verificarArgumento();			// <argumento>
+		}
+	}
+
+	//<argumento> ::= <expressao> | <texto>
+	public void verificarArgumento() {
+		if (tokenAtual.tipo == TipoToken.TEXTO) {
+			consumir(TipoToken.TEXTO);	// <texto>
+		} else {
+			verificarExpressao();	// <expressao>
 		}
 	}
 	
@@ -413,8 +427,8 @@ public class AnalisadorSintatico {
 		SeparadorTokens sep = new SeparadorTokens(entrada);
 		List<Token> tokens = sep.separador();
 
-		//for(Token token: tokens)
-		//	System.out.println(token.tipo + " " + token.valor);
+		for(Token token: tokens)
+			System.out.println(token.tipo + " " + token.valor);
 			
 		RegrasSintaticas parser = new RegrasSintaticas(tokens);
 		try {
