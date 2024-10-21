@@ -60,9 +60,9 @@ class SeparadorTokens {
 	public List<Token> separador() {
 		List<Token> tokens = new ArrayList<>();
 		
-		//	(?<=\\$) faz o "lookbehind" para garantir que o delimitador é precedido por $
-		//	\\s* captura possíveis espaços entre os tokens
-		//	(?=\\$) faz o "lookahead" para garantir que o próximo token começa com $
+		// (?<=\\$) faz o "lookbehind" para garantir que o delimitador é precedido por $
+		// \\s* captura possíveis espaços entre os tokens
+		// (?=\\$) faz o "lookahead" para garantir que o próximo token começa com $
 		String[] partes = entrada.split("(?<=\\$)\\s*(?=\\$)");
 		for(String parte: partes)
 			switch(parte) {
@@ -186,10 +186,10 @@ class RegrasSintaticas {
 
 	// <preprocessador> ::= <inclusao> <abre_colche_ang> <biblioteca> <fecha_colche_ang>
 	private void verificarPreProcessador() {
-		consumir(TipoToken.PRE_PROCESSADOR);		 // <inclusao>
-		consumir(TipoToken.ABRE_COLCHETE_ANGULADO);  // <abre_colche_ang>
-		consumir(TipoToken.BIBLIOTECA);			  // <biblioteca>
-		consumir(TipoToken.FECHA_COLCHETE_ANGULADO); // <fecha_colche_ang>
+		consumir(TipoToken.PRE_PROCESSADOR);		// <inclusao>
+		consumir(TipoToken.ABRE_COLCHETE_ANGULADO);	// <abre_colche_ang>
+		consumir(TipoToken.BIBLIOTECA);				// <biblioteca>
+		consumir(TipoToken.FECHA_COLCHETE_ANGULADO);// <fecha_colche_ang>
 	}
 
 	// <definicao_funcao> ::= <especificador_tipo> <espaco> <identificador> <abre_parentese> <lista_parametros> <fecha_parentese> <abre_chave> <lista_comandos> <fecha_chave>
@@ -198,10 +198,10 @@ class RegrasSintaticas {
 		consumir(TipoToken.ESPACO);			// <espaco>
 		consumir(TipoToken.IDENTIFICADOR);	// <identificador>
 		consumir(TipoToken.ABRE_PARENTESE);	// <abre_parentese>
-		verificarListaParametros();			// <lista_parametros>		
+		verificarListaParametros();			// <lista_parametros>
 		consumir(TipoToken.FECHA_PARENTESE);// <fecha_parentese>
 		consumir(TipoToken.ABRE_CHAVE);		// <abre_chave>
-		verificarListaComandos();			// <lista_comandos>			
+		verificarListaComandos();			// <lista_comandos>
 		consumir(TipoToken.FECHA_CHAVE);	// <fecha_chave>
 	}
 
@@ -241,9 +241,9 @@ class RegrasSintaticas {
 
 	// <parametro> ::= <especificador_tipo> <espaco> <identificador> 	
 	public void verificarParametro() {
-		verificarEspecificadorTipo();			// <especificador_tipo>
-		consumir(TipoToken.ESPACO);				// <espaco> 
-		consumir(TipoToken.IDENTIFICADOR);		// <identificador>
+		verificarEspecificadorTipo();		// <especificador_tipo>
+		consumir(TipoToken.ESPACO);			// <espaco> 
+		consumir(TipoToken.IDENTIFICADOR);	// <identificador>
 	}
 	
 	// <lista_comandos> ::= ( <comando> )*
@@ -260,17 +260,17 @@ class RegrasSintaticas {
 	//	<comando>  ::= <comando_declaracao_atribuicao> | <comando_chamada_funcao> | <comando_retorno>
 	public void verificarComando() {
 		if (tokenAtual.tipo == TipoToken.INSTRUCAO_RETORNO) {
-			verificarComandoRetorno();								// <comando_retorno>
+			verificarComandoRetorno();							// <comando_retorno>
 		} else if (tokenAtual.tipo == TipoToken.TIPO_INT || 
 				tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
 				tokenAtual.tipo == TipoToken.TIPO_VOID) {
-			verificarComandoDeclaracaoAtribuicao();					// <comando_declaracao_atribuicao>
-		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {	//como ambas instruções começam com IDENTIFICADOR, tive que usar o próximo token para saber qual regra sintática correta chamar
+			verificarComandoDeclaracaoAtribuicao();				// <comando_declaracao_atribuicao>
+		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {//como ambas instruções começam com IDENTIFICADOR, tive que usar o próximo token para saber qual regra sintática correta chamar
 			Token proximoToken = tokens.get(posicaoAtual+1);
 			if (proximoToken.tipo == TipoToken.ATRIBUICAO) {
-				verificarComandoDeclaracaoAtribuicao();				// <comando_declaracao_atribuicao>
+				verificarComandoDeclaracaoAtribuicao();			// <comando_declaracao_atribuicao>
 			} else if (proximoToken.tipo == TipoToken.ABRE_PARENTESE) {
-				verificarComandoChamadaFuncao();					//<comando_chamada_funcao>
+				verificarComandoChamadaFuncao();				// <comando_chamada_funcao>
 			}
 		} else {
 			throw new RuntimeException("Erro de sintaxe: Esperado um comando de retorno, chamada de função ou de declaração atribuição " + tokenAtual.tipo);
@@ -282,13 +282,13 @@ class RegrasSintaticas {
 		if (tokenAtual.tipo == TipoToken.TIPO_INT || 
 			tokenAtual.tipo == TipoToken.TIPO_FLOAT || 
 			tokenAtual.tipo == TipoToken.TIPO_VOID) {	//se tiver tipo verifica o ( <especificador_tipo> <espaco> )?
-			verificarEspecificadorTipo();		// <especificador_tipo> 
-			consumir(TipoToken.ESPACO);			// <espaco>
+			verificarEspecificadorTipo();	// <especificador_tipo> 
+			consumir(TipoToken.ESPACO);		// <espaco>
 		}
-		consumir(TipoToken.IDENTIFICADOR);		// <identificador>
-		consumir(TipoToken.ATRIBUICAO); 		// <atribuicao>
-		verificarExpressao();					// <expressao>
-		consumir(TipoToken.FIM_INSTRUCAO);		// <fim_instrucao>
+		consumir(TipoToken.IDENTIFICADOR);	// <identificador>
+		consumir(TipoToken.ATRIBUICAO); 	// <atribuicao>
+		verificarExpressao();				// <expressao>
+		consumir(TipoToken.FIM_INSTRUCAO);	// <fim_instrucao>
 	}
 
 	// <expressao> ::= <termo> ( ( <soma> | <subtracao> ) <termo> )*
@@ -298,9 +298,9 @@ class RegrasSintaticas {
 		// Verifica se há uma sequência de ( + <termo> | - <termo> )
 		while (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SOMA || tokenAtual.tipo == TipoToken.OPERADOR_ARI_SUBTRACAO) {
 			if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SOMA) {
-				consumir(TipoToken.OPERADOR_ARI_SOMA);  // Consome o operador soma (+)
+				consumir(TipoToken.OPERADOR_ARI_SOMA);		// Consome o operador soma (+)
 			} else if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_SUBTRACAO) {
-				consumir(TipoToken.OPERADOR_ARI_SUBTRACAO);  // Consome o operador subtração (-)
+				consumir(TipoToken.OPERADOR_ARI_SUBTRACAO);	// Consome o operador subtração (-)
 			} else {
 				throw new RuntimeException("Erro de sintaxe: Esperado um operador aritmético de soma ou subtração " + tokenAtual.tipo);
 			}
@@ -316,9 +316,9 @@ class RegrasSintaticas {
 		// Verifica se há uma sequência de ( * <fator> | / <fator> )
 		while (tokenAtual.tipo == TipoToken.OPERADOR_ARI_MULTIPLICACAO || tokenAtual.tipo == TipoToken.OPERADOR_ARI_DIVISAO) {
 			if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_MULTIPLICACAO) {
-				consumir(TipoToken.OPERADOR_ARI_MULTIPLICACAO);  // Consome o operador multiplicação (*)
+				consumir(TipoToken.OPERADOR_ARI_MULTIPLICACAO);	// Consome o operador multiplicação (*)
 			} else if (tokenAtual.tipo == TipoToken.OPERADOR_ARI_DIVISAO) {
-				consumir(TipoToken.OPERADOR_ARI_DIVISAO);  // Consome o operador divisão (/)
+				consumir(TipoToken.OPERADOR_ARI_DIVISAO);		// Consome o operador divisão (/)
 			} else {
 				throw new RuntimeException("Erro de sintaxe: Esperado um operador aritmético de multiplicação ou divisão " + tokenAtual.tipo);
 			}
@@ -330,9 +330,9 @@ class RegrasSintaticas {
 	// <fator> ::= <numero> | <identificador>
 	public void verificarFator() {
 		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO || tokenAtual.tipo == TipoToken.NUMERO_REAL) {
-			verificarNumero();				// <numero>
+			verificarNumero();					// <numero>
 		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
-			consumir(TipoToken.IDENTIFICADOR);  // <identificador>	
+			consumir(TipoToken.IDENTIFICADOR);	// <identificador>	
 		} else {
 			throw new RuntimeException("Erro de sintaxe: Esperado um valor ou identificador " + tokenAtual.tipo);
 		}
@@ -344,10 +344,10 @@ class RegrasSintaticas {
 		consumir(TipoToken.ABRE_PARENTESE);	// <abre_parentese>
 		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO || tokenAtual.tipo == TipoToken.NUMERO_REAL || 
 				tokenAtual.tipo == TipoToken.IDENTIFICADOR) {	// se tiver expressao
-			verificarListaArgumentos();		// <lista_argumentos>	
+			verificarListaArgumentos();		// <lista_argumentos>
 		}
 		consumir(TipoToken.FECHA_PARENTESE);// <fecha_parentese>
-		consumir(TipoToken.FIM_INSTRUCAO);	// <fim_instrucao>		
+		consumir(TipoToken.FIM_INSTRUCAO);	// <fim_instrucao>
 	}
 	
 	//<lista_argumentos> ::= <expressao> ( <separador> <expressao> )*
@@ -355,9 +355,9 @@ class RegrasSintaticas {
 		verificarExpressao();
 		
 		// Verifica argumentos adicionais, se houver
-		while (tokenAtual.tipo == TipoToken.SEPARADOR) {  // se tiver separador, considera-se que há mais argumentos		
-			consumir(TipoToken.SEPARADOR);		// <separador>	
-			verificarExpressao();				// <expressao>
+		while (tokenAtual.tipo == TipoToken.SEPARADOR) {	// se tiver separador, considera-se que há mais argumentos
+			consumir(TipoToken.SEPARADOR);	// <separador>
+			verificarExpressao();			// <expressao>
 		}
 	}
 	
@@ -367,7 +367,7 @@ class RegrasSintaticas {
 		consumir(TipoToken.ESPACO);				// <espaco>
 		
 		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO) {
-			consumir(TipoToken.NUMERO_INTEIRO); // <numero_inteiro>
+			consumir(TipoToken.NUMERO_INTEIRO);	// <numero_inteiro>
 		} else if (tokenAtual.tipo == TipoToken.IDENTIFICADOR) {
 			consumir(TipoToken.IDENTIFICADOR);	// <identificador> 
 		} else {
@@ -382,7 +382,7 @@ class RegrasSintaticas {
 		if (tokenAtual.tipo == TipoToken.NUMERO_INTEIRO) {
 			consumir(TipoToken.NUMERO_INTEIRO);	// <numero_inteiro>
 		} else if (tokenAtual.tipo == TipoToken.NUMERO_REAL) {
-			consumir(TipoToken.NUMERO_REAL);	// <numero_real>	
+			consumir(TipoToken.NUMERO_REAL);	// <numero_real>
 		} else {
 			throw new RuntimeException("Erro de sintaxe: Esperado um numero inteiro ou real " + tokenAtual.tipo);
 		}
@@ -422,6 +422,6 @@ public class AnalisadorSintatico {
 			System.out.println("Programa analisado com sucesso!");
 		} catch (RuntimeException e) {
 			System.out.println("Erro: " + e.getMessage());
-		}			
+		}
 	}
 }
