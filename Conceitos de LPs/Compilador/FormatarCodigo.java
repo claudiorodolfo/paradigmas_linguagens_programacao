@@ -19,7 +19,12 @@ public class FormatarCodigo {
 		try (BufferedReader br = new BufferedReader(new FileReader(arquivoEntrada))) {
 			String linha;
 			while ((linha = br.readLine()) != null) {
-				codigoLido.append(linha.trim()); // Remove espaços em excesso nas extremidades de cada linha
+				linha = linha.trim(); // Remove espaços em excesso nas extremidades de cada linha
+				
+				// Eliminar linhas que começam com "//"
+				if (!linha.startsWith("//")) {
+					codigoLido.append(linha.trim()); // Remove espaços em excesso nas extremidades de cada linha
+				}								
 			}
 
 			// Remover espaços, tabulações e quebras de linha desnecessárias
