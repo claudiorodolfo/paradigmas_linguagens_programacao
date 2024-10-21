@@ -1,3 +1,5 @@
+//java FormatarCodigo programa1.c
+//o comando acima gera um arquivo de saida chamado formatado_programa1.c
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

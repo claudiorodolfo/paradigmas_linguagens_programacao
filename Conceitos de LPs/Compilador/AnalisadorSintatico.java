@@ -137,10 +137,7 @@ class SeparadorTokens {
 				break;	
 				case "$NUM_REA$":
 					tokens.add(new Token(TipoToken.NUMERO_REAL, parte));
-				break;
-				case "$ARGUMENTOS$":
-					tokens.add(new Token(TipoToken.LISTA_ARGUMENTOS, parte));
-				break;				
+				break;			
 				default:
 				    throw new RuntimeException("Token inválido encontrado: " + parte);
 			}
