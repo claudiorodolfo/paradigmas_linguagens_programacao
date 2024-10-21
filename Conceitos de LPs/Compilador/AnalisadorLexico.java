@@ -100,21 +100,28 @@ public class AnalisadorLexico {
                 } else if (simbolo == '+') {
                     resultado.append("$OPE_ARI_SOM$");
                     return Estado.INICIAL;
+                } else if (simbolo == '-') {
+                    resultado.append("$OPE_ARI_SUB$");
+                    return Estado.INICIAL;
                 } else if (simbolo == '*') {
-                    resultado.append("$OPE_ARI_MUL$");
+                    resultado.append("$OPE_ARI_MUL$");					
+                    return Estado.INICIAL;
+                } else if (simbolo == '/') {
+                    resultado.append("$OPE_ARI_DIV$");
                     return Estado.INICIAL;
                 }
                 break;
 
             case PRE_PROCESSADOR:
                 if (simbolo == '<') {
+					resultado.append("$ABR_COL_ANG$");
                     return Estado.INCLUSAO_BIBLIOTECA;
                 }
                 break;
 
             case INCLUSAO_BIBLIOTECA:
                 if (simbolo == '>') {
-                    resultado.append("$ABR_COL_ANG$ $BIBLIO$ $FEC_COL_ANG$");
+                    resultado.append("$BIBLIO$$FEC_COL_ANG$");
                     return Estado.INICIAL;
                 }
                 break;
