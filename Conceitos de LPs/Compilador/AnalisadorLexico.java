@@ -1,4 +1,4 @@
-//testar: java AnalisadorLexico programa1.c saida.lex
+//testar: java AnalisadorLexico formatado_programa1.c saida1.lex
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
