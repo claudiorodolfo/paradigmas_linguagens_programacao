@@ -23,7 +23,7 @@ public class FormatarCodigo {
 				
 				// Eliminar linhas que começam com "//"
 				if (!linha.startsWith("//")) {
-					codigoLido.append(linha.trim()); // Remove espaços em excesso nas extremidades de cada linha
+					codigoLido.append(linha); // Remove espaços em excesso nas extremidades de cada linha
 				}								
 			}
 
