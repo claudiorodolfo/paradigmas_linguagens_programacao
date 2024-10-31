@@ -76,7 +76,7 @@ for i in range(len(posicao[0])):
     somaD = 0
     somaE = 0
 
-    # Verificar acertos para cada aluno
+    # Verificar acertos por questões equivalentes (ex: questão 1 da prova tipo 1, questão 22 da prova tipo 2, questão 10 da prova tipo 3, e questão 9 da prova tipo 4.
     for aluno in respostas_alunos:
     
         tipo_prova = aluno["tipo_prova"]
