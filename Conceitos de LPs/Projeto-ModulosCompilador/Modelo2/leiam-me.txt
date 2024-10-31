@@ -1,0 +1,44 @@
+Gramatica Lexica e Sintatica.bnf/Gramatica Lexica e Sintatica.ebnf que contém a análise léxica e sintática juntas foi gerada somente para fins de didáticos. Na prática deve-se ter a separação bem clara destas camadas, cada uma com suas obrigações.
+Gramatica Léxica.bnf/Gramatica Léxica.ebnf e Gramatica Sintatica.bnf/Gramatica Sintatica.ebnf é a versão mais realista de como a análise deve ocorrer. Com essa separação podemos mudar a análise léxica para ser feita utilizando Autômatos (que é a prática mais comum) por exemplo, sem ter implicações na camada sintática.
+
+Quem trabalha com os caracteres do código-fonte diretamente é o analisador léxico. Esse analisador agrupa caracteres que tem significado específico (token) em um lexema e os adiciona a uma tabela de símbolos. O analisador sintático trabalha com esses tokens e verifica se o código-fonte está bem formado ou não.
+
+Em resumo:
+Analisador Léxico recebe: "if (4.5 > fator && taxa <= 2.32) { int teste,teste2; a=b+3; }"
+Analisador Léxico retorna: 
+TABELA DE SÍMBOLOS
+ID       Token                Lexema(lido)   
+1    $INST_IF$        if
+2    $ABR_PAR$        (
+3    $NUM_REA$        4.5
+4    $OPE_REL_MAI$    >
+5    $IDENT$            fator
+6    $OPE_LOG_E$        &&
+7    $IDENT$            taxa
+8    $OPE_REL_MEIG$    <=
+9    $NUM_REA$        2.32
+10    $FEC_PAR$        )
+11    $ABR_PAR$        {
+12    $TIPO_INT$        int            
+13    $IDENT$            teste
+14    $OPE_VIR$        ,
+15    $IDENT$            teste2
+16    $OPE_FIN$        ;
+17    $IDENT$            a
+18    $OPE_ATR$        =
+19    $IDENT$            b
+20    $OPE_ARI_SOM$        +
+21    $NUM_INT$        3
+22    $OPE_FIN$        ;
+23    $FEC_PAR$        }
+
+Analisador Sintático recebe (testar no https://bnfplayground.pauliankline.com, usando a gramatica disponível no arquivo Gramatica Sintatica.ebnf disponível aqui: https://github.com/claudiorodolfo/paradigmas_linguagens_programacao/tree/main/Conceitos%20de%20LPs/Analise%20Lexica%2C%20Sintatica%20e%20Semantica/Gramatica) "$INST_IF$$ABR_PAR$$NUM_REA$$OPE_REL_MAI$$IDENT$$OPE_LOG_E$$IDENT$$OPE_REL_MEIG$$NUM_REA$$FEC_PAR$$ABR_CHA$$TIPO_INT$$ESP$$IDENT$$OPE_VIR$$IDENT$$OPE_FIN$$IDENT$$OPE_ATR$$IDENT$$OPE_ARI_SOM$$NUM_INT$$OPE_FIN$$FEC_CHA$"
+Analisador Sintático retorna: Verdadeiro ou Falso.
+
+Num cenário mais completo, o analisador sintático não retornaria se o código está bem formado ou não, e sim passaria por uma nova camada (Analisador Semântico).
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Na construção de um compilador realístico, além de fazer a análise Léxica, Sintática e Semântica estática, faríamos a transformação/tradução do código da esquerda (alto nível) para o da direita (baixo nível), como demonstrando aqui:
+https://godbolt.org

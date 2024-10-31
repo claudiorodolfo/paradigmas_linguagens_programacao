@@ -1,0 +1,30 @@
+/* Bloco, com instrução if */
+<inst_if> ::= "$INST_IF$" "$ABR_PAR$" <expr_logica> "$FEC_PAR$" "$ABR_CHA$" <lista_inst> "$FEC_CHA$"
+<expr_logica> ::= <expr_relacional> (<op_logico> <expr_relacional>)*
+<expr_relacional> ::= <valor> <op_relacional> <valor> | <bool>
+<op_logico> ::= "$OPE_LOG_E$" | "$OPE_LOG_OU$"
+<op_relacional> ::= "$OPE_REL_IGU$" | "$OPE_REL_DIF$" | "$OPE_REL_MEN$" | "$OPE_REL_MAI$" | "$OPE_REL_MEIG$" | "$OPE_REL_MAIG$"
+<bool> ::= "$VAL_VER$" | "$VAL_FAL$"
+
+/* Lista de instruções */
+<lista_inst> ::= ( <inst> )*
+<inst> ::= <atrib> | <decl>
+/* Instrução de Atribuição */
+<atrib> ::= <ident> "$OPE_ATR$" <expr_aritmetica> "$OPE_FIN$"
+<expr_aritmetica> ::= <valor> <op_aritmetico> <expr_aritmetica> | "$ABR_PAR$" <expr_aritmetica> "$FEC_PAR$" | <valor>
+<op_aritmetico> ::= "$OPE_ARI_SOM$" | "$OPE_ARI_SUB$" | "$OPE_ARI_MUL$" | "$OPE_ARI_DIV$" | "$OPE_ARI_RES$"
+<valor> ::= <ident> | <numero>
+
+/* Instrução de Declaração de Variáveis */
+<decl> ::= <tipo> <lista_ident> "$OPE_FIN$"
+<tipo> ::= ("$TIPO_INT$" | "$TIP_FLO$") "$ESP$"
+/* Geração de Lista de Identificadores */
+<lista_ident> ::= <ident> ("$OPE_VIR$" <ident> )*
+
+/* Geração de Identificadores */
+<ident> ::= "$IDENT$"
+
+/* geração de Números */
+<numero> ::= <numero_real> | <numero_int>
+<numero_real> ::= "$NUM_REA$"
+<numero_int> ::= "$NUM_INT$"

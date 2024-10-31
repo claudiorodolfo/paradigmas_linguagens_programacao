@@ -1,0 +1,4 @@
+numero = 5;
+teste = 10;
+print numero;
+print teste;

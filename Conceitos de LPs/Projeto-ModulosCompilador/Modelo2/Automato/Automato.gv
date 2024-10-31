@@ -1,0 +1,127 @@
+digraph AutomatoIdent {
+    rankdir=LR;
+    node [shape = circle]; 
+	q0 [label="q0 (inicial)"];
+	/* Estados Finais (aceita o token) */ 
+	INST_IF 	[shape = doublecircle]; 
+	OPE_ATR		[shape = doublecircle];
+	ESP			[shape = doublecircle];
+	ABR_CHA 	[shape = doublecircle]; 
+	FEC_CHA 	[shape = doublecircle]; 
+	ABR_PAR 	[shape = doublecircle]; 
+	FEC_PAR	 	[shape = doublecircle]; 	
+	OPE_LOG_E 	[shape = doublecircle]; 
+	OPE_LOG_OU 	[shape = doublecircle]; 
+	OPE_REL_IGU [shape = doublecircle]; 		
+	OPE_REL_DIF [shape = doublecircle]; 	
+	OPE_REL_MEN [shape = doublecircle]; 	
+	OPE_REL_MAI [shape = doublecircle]; 	
+	OPE_REL_MEIG[shape = doublecircle]; 	
+	OPE_REL_MAIG[shape = doublecircle]; 
+	OPE_ARI_SOM [shape = doublecircle];
+	OPE_ARI_SUB [shape = doublecircle]; 
+	OPE_ARI_MUL [shape = doublecircle]; 
+	OPE_ARI_DIV [shape = doublecircle]; 
+	OPE_ARI_RES [shape = doublecircle]; 
+	TIP_INT  	[shape = doublecircle]; 
+	TIP_FLO  	[shape = doublecircle]; 
+	VAL_VER  	[shape = doublecircle]; 
+	VAL_FAL  	[shape = doublecircle]; 
+	IDENT 		[shape = doublecircle]; 
+	//NUM_REA
+	NUM_INT 	[shape = doublecircle]; 
+
+
+    /* Intrução if */
+    q0 -> q1 [label="i"];
+	q1 -> INST_IF [label="f"];
+	INST_IF -> IDENT [label="_ | [a-z] | [A-Z] | [0-9]"];	
+
+	/* Atribuição */
+	q0 -> OPE_ATR [label="="];
+
+	/* Espaço */
+	q0 -> ESP [label=" "];
+
+	/* Chaves */
+	q0 -> ABR_CHA [label="{"];
+	q0 -> FEC_CHA [label="}"];
+	/* Parênteses */
+	q0 -> ABR_PAR [label="("];
+	q0 -> FEC_PAR [label=")"];
+
+	/* Operadores lógicos */
+    q0 -> q7 [label="&"];
+    q7 -> OPE_LOG_E [label="&"];
+	q0 -> q8 [label="|"];	
+	q8 -> OPE_LOG_OU [label="|"];
+
+	/* Operadores Relacionais */
+    OPE_ATR -> OPE_REL_IGU [label="="];
+	q0 -> q10 [label="!"];
+	q10 -> OPE_REL_DIF [label="="];
+	q0 -> OPE_REL_MEN [label="<"];
+	q0 -> OPE_REL_MAI [label=">"];
+	OPE_REL_MEN -> OPE_REL_MEIG [label="="];
+	OPE_REL_MAI -> OPE_REL_MAIG [label="="];
+
+	/* Operadores aritméticos */
+    q0 -> OPE_ARI_SOM [label="+"];
+	q0 -> OPE_ARI_SUB [label="-"];
+	q0 -> OPE_ARI_MUL [label="*"];
+	q0 -> OPE_ARI_DIV [label="/"];
+	q0 -> OPE_ARI_RES [label="%"];
+
+	/* Tipo int */
+	//q0 -> q1 [label="i"];			//já prevista na intrução if
+	q1 -> q2 [label="n"];
+	//q1 -> INST_IF [label="f"];	//já prevista na intrução if
+	q1 -> IDENT [label="_ | [a-e] | [g-m] | [o-z] | [A-Z] | [0-9]"]; //tudo, exceto f (do if) e n (do int)
+	q2 -> TIP_INT [label="t"];
+	q2 -> IDENT [label="_ | [a-s] | [u-z] | [A-Z] | [0-9]"]; 	//tudo, exceto t (do int)
+	TIP_INT -> IDENT [label="_ | [a-z] | [A-Z] | [0-9]"];		//qualquer coisa vista após a palavra int
+	/* Tipo float */
+	q0 -> q3 [label="f"];
+	q3 -> q4 [label="l"];
+	q3 -> IDENT [label="_ | [a-k] | [m-z] | [A-Z] | [0-9]"]; 	//tudo, exceto l (do float), ex: faca	
+	q4 -> q5 [label="o"];
+	q4 -> IDENT [label="_ | [a-n] | [p-z] | [A-Z] | [0-9]"];	//tudo, exceto o (do float), ex: flamejante
+	q5 -> q6 [label="a"];
+	q5 -> IDENT [label="_ | [b-d] | [A-Z] | [0-9]"];			//tudo, exceto a (do float)	, ex: flocos
+	q6 -> TIP_FLO [label="t"];
+	q6 -> IDENT [label="_ | [a-s] | [u-z] | [A-Z] | [0-9]"];	//tudo, exceto t (do float), ex: floabrando	
+	TIP_FLO -> IDENT [label="_ | [a-z] | [A-Z] | [0-9]"]; 		//qualquer coisa vista após a palavra float, ex: floatweewa
+
+	/* Valor Verdadeiro */
+	q0 -> q11 [label="t"];
+	q11 -> q12 [label="r"];
+	q11 -> IDENT [label="_ | [a-q] | [s-z] | [A-Z] | [0-9]"];	//tudo, exceto r (do true), ex: tabua
+	q12 -> q13 [label="u"];
+	q12 -> IDENT [label="_ | [a-t] | [v-z] | [A-Z] | [0-9]"];	//tudo, exceto u (do true),	ex: trabalho
+	q13 -> VAL_VER [label="e"];
+	q13 -> IDENT [label="_ | [a-d] | [f-z] | [A-Z] | [0-9]"];	//tudo, exceto e (do true),	ex:	truta
+	VAL_VER -> IDENT [label="_ | [a-z] | [A-Z] | [0-9]"];		//qualquer coisa vista após a palavra true,	ex: truetemera
+
+	/* Valor Falso */
+	//q0 -> q3 [label="f"];	//já prevista no tipo float
+	q3 -> q14 [label="a"];
+	//q3 -> q4 [label="l"]; //já prevista no tipo float
+	q3 -> IDENT [label="_ | [b-k] | [m-z] | [A-Z] | [0-9]"];	//tudo, exceto a (do false) e l (do float),	ex:	formiga	
+	q14 -> q15 [label="l"];
+	q14 -> IDENT [label="_ | [a-k] | [m-z] | [A-Z] | [0-9]"];	//tudo, exceto l (do false),	ex:	famigerado	
+	q15 -> q16 [label="s"];
+	q15 -> IDENT [label="_ | [a-r] | [t-z] | [A-Z] | [0-9]"];	//tudo, exceto s (do false),	ex:	falado
+	q16 -> VAL_FAL [label="e"];
+	q16 -> IDENT [label="_ | [a-d] | [f-z] | [A-Z] | [0-9]"];	//tudo, exceto e (do false),	ex:	falsamente
+	VAL_FAL -> IDENT [label="_ | [a-z] | [A-Z] | [0-9]"];		//qualquer coisa vista após a palavra false, ex: falsete
+
+
+    /* Identificadores */
+    q0 -> IDENT [label="_ | [a-e] | [g-h] | [j-s] | [u-z] | [A-Z]"];  //i de int e if, f de float e false, t de true
+    IDENT -> IDENT [label="_ | [a-z] | [A-Z] | [0-9]"];
+	
+	/* Nùmeros inteiros */
+	q0 -> NUM_INT [label="[0-9]"];
+	NUM_INT -> NUM_INT [label="[0-9]"];
+	OPE_ARI_SUB -> NUM_INT [label="[0-9]"];
+}

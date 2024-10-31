@@ -1,0 +1,1 @@
+Este modelo permite criar programas que suportem instruções de atribuições de inteiros positivos a variáveis e instrução de impressão (print) de variáveis.

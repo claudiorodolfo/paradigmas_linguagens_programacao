@@ -1,0 +1,46 @@
+/* Bloco, com instrução if */
+<inst_if> ::= "if" "(" <expr_logica> ")" "{" <lista_inst> "}"
+<expr_logica> ::= <expr_relacional> ( <op_logico> <expr_logica>)*
+<expr_relacional> ::= <valor> <op_relacional> <valor> | <bool>
+<op_logico> ::= "&&" | "||"
+<op_relacional> ::= "==" | "!=" | "<" | ">" | "<=" | ">="
+<bool> ::= "true" | "false"
+
+/* Lista de instruções */
+<lista_inst> ::= ( <inst> )*
+<inst> ::= <atrib> | <decl>
+/* Instrução de Atribuição */
+<atrib> ::= <ident> "=" <expr_aritmetica> ";"
+<expr_aritmetica> ::= <valor> <op_aritmetico> <expr_aritmetica> | "(" <expr_aritmetica> ")" | <valor>
+<op_aritmetico> ::= "+" | "-" | "*" | "/" | "%"
+<valor> ::= <ident> | <numero>
+
+/* Instrução de Declaração de Variáveis */
+<decl> ::= <tipo> <lista_ident> ";"
+<tipo> ::= "int " | "float "
+/* Geração de Lista de Identificadores */
+<lista_ident> ::= <ident> ("," <ident>)*
+
+/* Identificadores */
+<ident> ::= <inicio> ( <restante> )*
+<inicio> ::= "_" | <letra>
+<restante> ::= "_" | <letra> | <digito>
+
+/* Números */
+<numero> ::= <num_real> | <num_int>
+<num_real> ::= <real_com_sin> | <real_sem_sin> 
+<num_int> ::= <int_com_sin> | <int_sem_sin>
+
+/* Real com Sinal */
+<real_com_sin> ::= ( "-" | "+" )? <real_sem_sin>
+/* Reais sem sinal */
+<real_sem_sin> ::= <int_sem_sin> ("." <digito>+)?
+/* Inteiro com Sinal */
+<int_com_sin> ::= ( "-" | "+" )? <int_sem_sin>
+/* Inteiro sem Sinal */
+<int_sem_sin> ::= "0" | <digito_positivo> ( <digito> )*
+
+/* Geral, para identificadores e números */
+<letra> ::= [A-Z] | [a-z]
+<digito> ::= [0-9]
+<digito_positivo> ::= [1-9]
