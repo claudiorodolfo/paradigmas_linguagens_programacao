@@ -7,5 +7,7 @@ mult3 x = x `mod` 3 == 0
 -- Função principal para testar
 main :: IO ()
 main = do
-    print (mult3 9)  -- Deve retornar True
+    let resultado = mult3 9
+    putStrLn ("Resultado: " ++ show resultado)
+--    print (mult3 9)  -- Deve retornar True
     print (mult3 10) -- Deve retornar False
