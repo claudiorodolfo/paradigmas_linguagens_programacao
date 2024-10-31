@@ -7,7 +7,7 @@ import java.io.IOException;
 public class AnalisadorLexico {
 
 	// Estados do autômato
-	enum Estado {
+	private enum Estado {
 		INICIAL, 
 		PRE_PROCESSADOR,
 		INCLUSAO_BIBLIOTECA,
@@ -21,6 +21,9 @@ public class AnalisadorLexico {
 		FIM
 	}
 
+    private StringBuilder token;
+    private StringBuilder resultado;
+	
 	public static void main(String[] args) {
 		if (args.length != 2) {
 			System.out.println("Uso: java AnalisadorLexico <arquivo-entrada> <arquivo-saida>");
@@ -31,16 +34,18 @@ public class AnalisadorLexico {
 		String arquivoSaida = args[1];
 
 		try (BufferedReader br = new BufferedReader(new FileReader(arquivoEntrada))) {
+			AnalisadorLexico lexico = new AnalisadorLexico();
+			
 			StringBuilder saida = new StringBuilder();
 			String linha;
 			while ((linha = br.readLine()) != null) {
-				saida.append(analisarLinha(linha));
+				saida.append(lexico.analisarLinha(linha));
 			}
 
 			// Escrever no arquivo de saída
 			try (FileWriter writer = new FileWriter(arquivoSaida)) {
 				writer.write(saida.toString().trim());
-				System.out.println("Arquivo de saída gerado com sucesso!");
+				System.out.println("Arquivo de saida gerado com sucesso!");
 			}
 
 		} catch (IOException e) {
@@ -49,21 +54,21 @@ public class AnalisadorLexico {
 	}
 
 	// Função que analisa uma linha de entrada, chamando a função de transição de estados
-	private static String analisarLinha(String linha) {
-		StringBuilder resultado = new StringBuilder();
+	private String analisarLinha(String linha) {
+		resultado = new StringBuilder();
+		token = new StringBuilder();
+		
 		Estado estadoAtual = Estado.INICIAL;
-		StringBuilder token = new StringBuilder();
-
 		for (int i = 0; i < linha.length(); i++) {
 			char simbolo = linha.charAt(i);
-			estadoAtual = transicaoEstado(simbolo, estadoAtual, token, resultado);
+			estadoAtual = transicaoEstado(simbolo, estadoAtual);
 		}
 
 		return resultado.toString().trim();
 	}
 
 	// Função de transição de estados
-	private static Estado transicaoEstado(char simbolo, Estado estadoAtual, StringBuilder token, StringBuilder resultado) {
+	private Estado transicaoEstado(char simbolo, Estado estadoAtual) {
 		switch (estadoAtual) {
 			case INICIAL:
 				if (simbolo == '#') {
@@ -147,7 +152,7 @@ public class AnalisadorLexico {
 						resultado.append("$IDENT$");
 					}
 					token.setLength(0); // Limpar o token
-					return transicaoEstado(simbolo, Estado.INICIAL, token, resultado); // Voltar para o estado inicial e processar o símbolo atual
+					return transicaoEstado(simbolo, Estado.INICIAL); // Voltar para o estado inicial e processar o símbolo atual
 				}
 				break;
 
@@ -160,7 +165,7 @@ public class AnalisadorLexico {
 				} else {
 					resultado.append("$NUM_INT$");
 					token.setLength(0); // Limpar o token
-					return transicaoEstado(simbolo, Estado.INICIAL, token, resultado); // Voltar para o estado inicial e processar o símbolo atual
+					return transicaoEstado(simbolo, Estado.INICIAL); // Voltar para o estado inicial e processar o símbolo atual
 				}
 				break;
 				
@@ -176,7 +181,7 @@ public class AnalisadorLexico {
 			case ESPACO:
 				if (!Character.isWhitespace(simbolo)) {
 					resultado.append("$ESP$");
-					return transicaoEstado(simbolo, Estado.INICIAL, token, resultado);
+					return transicaoEstado(simbolo, Estado.INICIAL);
 				}
 				break;
 
