@@ -1,14 +1,17 @@
 object Main {
-  // Função que calcula o fatorial de um número
-  def fatorial(n: Int): Int = {
-    if (n < 0) throw new IllegalArgumentException("Fatorial de número negativo não é definido.")
-    else if (n == 0) 1
-    else n * fatorial(n - 1)
+  // Função que verifica se um número é primo
+  def isPrimo(n: Int): Boolean = {
+    if (n <= 1) false // Números menores ou iguais a 1 não são primos
+    else (2 to math.sqrt(n).toInt).forall(x => n % x != 0) // Verifica se n não é divisível por nenhum número até a raiz quadrada de n
   }
 
   // Exemplos de uso
   def main(args: Array[String]): Unit = {
-    println(fatorial(5))  // 120
-    println(fatorial(7))  // 5040
+    println(isPrimo(2))   // true
+    println(isPrimo(3))   // true
+    println(isPrimo(4))   // false
+    println(isPrimo(17))  // true
+    println(isPrimo(20))  // false
+    println(isPrimo(29))  // true
   }
 }

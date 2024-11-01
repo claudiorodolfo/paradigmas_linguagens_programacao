@@ -1,17 +1,24 @@
 object Main {
-  // Função que verifica se um número é primo
-  def isPrimo(n: Int): Boolean = {
-    if (n <= 1) false // Números menores ou iguais a 1 não são primos
-    else (2 to math.sqrt(n).toInt).forall(x => n % x != 0) // Verifica se n não é divisível por nenhum número até a raiz quadrada de n
+  // Função que determina o tipo do triângulo
+  def tipoTriangulo(x: Double, y: Double, z: Double): String = {
+    if (x <= 0 || y <= 0 || z <= 0) {
+      "Não é um triângulo"
+    } else if (x + y <= z || x + z <= y || y + z <= x) {
+      "Não é um triângulo"
+    } else if (x == y && y == z) {
+      "Equilátero"
+    } else if (x == y || y == z || x == z) {
+      "Isósceles"
+    } else {
+      "Escaleno"
+    }
   }
 
   // Exemplos de uso
   def main(args: Array[String]): Unit = {
-    println(isPrimo(2))   // true
-    println(isPrimo(3))   // true
-    println(isPrimo(4))   // false
-    println(isPrimo(17))  // true
-    println(isPrimo(20))  // false
-    println(isPrimo(29))  // true
+    println(tipoTriangulo(3, 3, 3))  // "Equilátero"
+    println(tipoTriangulo(3, 4, 3))  // "Isósceles"
+    println(tipoTriangulo(3, 4, 5))  // "Escaleno"
+    println(tipoTriangulo(1, 2, 3))  // "Não é um triângulo"
   }
 }
