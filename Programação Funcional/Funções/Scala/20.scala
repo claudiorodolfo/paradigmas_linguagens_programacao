@@ -6,18 +6,9 @@ object Main {
     else n * fatorial(n - 1)
   }
 
-  // Função que calcula o coeficiente binomial
-  def coeficienteBinomial(m: Int, n: Int): Int = {
-    if (n < 0 || n > m) 0 // C(m, n) é 0 se n é negativo ou maior que m
-    else fatorial(m) / (fatorial(n) * fatorial(m - n))
-  }
-
   // Exemplos de uso
   def main(args: Array[String]): Unit = {
-    println(coeficienteBinomial(5, 2))  // 10
-    println(coeficienteBinomial(10, 3))  // 120
-    println(coeficienteBinomial(6, 0))   // 1
-    println(coeficienteBinomial(6, 6))   // 1
-    println(coeficienteBinomial(5, 7))   // 0
+    println(fatorial(5))  // 120
+    println(fatorial(7))  // 5040
   }
 }
