@@ -1,24 +1,13 @@
-object Main {
-  // Função que determina o tipo do triângulo
-  def tipoTriangulo(x: Double, y: Double, z: Double): String = {
-    if (x <= 0 || y <= 0 || z <= 0) {
-      "Não é um triângulo"
-    } else if (x + y <= z || x + z <= y || y + z <= x) {
-      "Não é um triângulo"
-    } else if (x == y && y == z) {
-      "Equilátero"
-    } else if (x == y || y == z || x == z) {
-      "Isósceles"
-    } else {
-      "Escaleno"
-    }
-  }
+class Teste(val idade: Int) {}
 
-  // Exemplos de uso
+object Main {
+  // Função mult3 que retorna verdadeiro se o número for múltiplo de 3
+  def mult3(x: Int): Boolean = x % 3 == 0
+ 
+  // Função principal
   def main(args: Array[String]): Unit = {
-    println(tipoTriangulo(3, 3, 3))  // "Equilátero"
-    println(tipoTriangulo(3, 4, 3))  // "Isósceles"
-    println(tipoTriangulo(3, 4, 5))  // "Escaleno"
-    println(tipoTriangulo(1, 2, 3))  // "Não é um triângulo"
+  	val t = new Teste(30)
+    println(s"O Resultado é: ${mult3(t.idade)}")
+    //println(mult3(10)) // Deve retornar false
   }
 }

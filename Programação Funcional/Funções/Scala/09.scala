@@ -4,7 +4,7 @@ object Main {
     str1 + " " + str2
   }
 
-  // Função principal para testar o concatenador de strings
+  // Função principal
   def main(args: Array[String]): Unit = {
     val string1 = "Olá"
     val string2 = "Mundo"

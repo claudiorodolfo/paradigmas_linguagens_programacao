@@ -1,19 +1,10 @@
 object Main {
-  // Função que realiza a multiplicação etíope
-  def multiplicacaoEtiopica(a: Int, b: Int): Int = {
-    def multiplicar(x: Int, y: Int, acc: Int): Int = {
-      if (x == 0) acc
-      else if (x % 2 == 1) multiplicar(x / 2, y * 2, acc + y) // Adiciona y ao acumulador se x for ímpar
-      else multiplicar(x / 2, y * 2, acc) // Apenas divide x por 2 e dobra y
-    }
-    multiplicar(a, b, 0)
-  }
-
-  // Exemplos de uso
+  // Função que retorna true se a entrada for múltiplo de 5, false caso contrário
+  def mult5(x: Int): Boolean = x % 5 == 0
+	
+  // Função principal
   def main(args: Array[String]): Unit = {
-    println(multiplicacaoEtiopica(3, 4))   // 12
-    println(multiplicacaoEtiopica(5, 6))   // 30
-    println(multiplicacaoEtiopica(7, 8))   // 56
-    println(multiplicacaoEtiopica(10, 20)) // 200
+    println(mult5(9))  // Deve retornar False
+    println(mult5(10)) // Deve retornar True
   }
 }

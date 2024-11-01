@@ -1,12 +1,27 @@
+// Olá Mundo!
 object Main {
-  // Função que verifica se três lados podem formar um triângulo
-  def ehTriangulo(x: Float, y: Float, z: Float): Boolean = {
-    (x + y > z) && (x + z > y) && (y + z > x)
+/*
+  // Java
+  class A {
+    public static void main(String[] args {
+	  System.out.println("Ola Mundo!");
+    }
   }
+*/
 
-  // Função principal para testar ehTriangulo
+/*
+  // Kotlin
+  fun main(args: Array<String>) { 
+    println("Ola Mundo!")
+*/
+
+/*
+  //Scala
+  def main(args: Array[String]): Unit = println("Ola Mundo!")
+*/
+
+  //Scala
   def main(args: Array[String]): Unit = {
-    println(ehTriangulo(3, 4, 5))  // Deve retornar true
-    println(ehTriangulo(1, 2, 3))  // Deve retornar false
+    println("Ola Mundo!")
   }
 }

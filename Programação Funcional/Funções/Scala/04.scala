@@ -1,17 +1,10 @@
 object Main {
-  // Função que verifica se um número é primo
-  def isPrimo(n: Int): Boolean = {
-    if (n <= 1) false // Números menores ou iguais a 1 não são primos
-    else (2 to math.sqrt(n).toInt).forall(x => n % x != 0) // Verifica se n não é divisível por nenhum número até a raiz quadrada de n
-  }
+  // Função que retorna true se a entrada for múltiplo de 3 e 5, false caso contrário
+  def mult35(x: Int): Boolean = (x % 3 == 0) && (x % 5 == 0)
 
-  // Exemplos de uso
+  // Função principal
   def main(args: Array[String]): Unit = {
-    println(isPrimo(2))   // true
-    println(isPrimo(3))   // true
-    println(isPrimo(4))   // false
-    println(isPrimo(17))  // true
-    println(isPrimo(20))  // false
-    println(isPrimo(29))  // true
+    println(mult35(12))  // Deve retornar False
+    println(mult35(15))  // Deve retornar True
   }
 }
