@@ -8,9 +8,9 @@ object Main {
 
   //Implemente uma função que calcule x elevado a y, ou seja, x^y, sem usar operadores de exponenciação ou multiplicação nativos.
   def exponencial(x: Int, y: Int): Int = {
-    if (y == 0) 1 // Caso base: qualquer número elevado a 0 é 1
-    else if (y > 0) multiplicar(x, exponencial(x, y - 1)) // x multiplicado por x^(y-1)
-    else throw new IllegalArgumentException("Exponenciação para expoentes negativos não é suportada")
+    if (y < 0) throw new IllegalArgumentException("Exponenciação para expoentes negativos não é suportada")
+	else if (y == 0) 1 // Caso base: qualquer número elevado a 0 é 1
+    else multiplicar(x, exponencial(x, y - 1)) // x multiplicado por x^(y-1)
   }
 
   // Exemplos de uso

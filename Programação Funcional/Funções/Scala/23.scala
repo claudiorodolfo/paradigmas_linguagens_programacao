@@ -1,5 +1,5 @@
 object Main {
-  //Implemente uma função que calcule x vezes y, ou seja, x*y, sem usar operador de multiplicação nativa.
+  //Implemente uma função que calcule x vezes y, ou seja, x*y, sem usar operador de multiplicação nativa, usando somas sucessivas.
   def multiplicar(x: Int, y: Int): Int = {
     if (y == 0) 0 // Caso base: qualquer número multiplicado por zero é zero
     else if (y > 0) x + multiplicar(x, y - 1) // Caso positivo: soma x, y vezes

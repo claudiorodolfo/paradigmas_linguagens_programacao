@@ -1,5 +1,5 @@
 object Main {
-  // Função que retorna true se a entrada for múltiplo de 3 e 5, false caso contrário
+  // Função que retorna True se a entrada for múltiplo de 3 e 5, False caso contrário
   def mult35(x: Int): Boolean = (x % 3 == 0) && (x % 5 == 0)
 
   // Função principal

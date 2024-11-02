@@ -6,9 +6,9 @@ object Main {
 
   // Função principal
   def main(args: Array[String]): Unit = {
-    println(isBissexto(100))
-    println(isBissexto(1900))	
-    println(isBissexto(2000))
-    println(isBissexto(2024))	
+    println(isBissexto(100))	//False
+    println(isBissexto(1900))	//False
+    println(isBissexto(2000))	//True
+    println(isBissexto(2024))	//True
   }
 }

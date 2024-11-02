@@ -6,7 +6,7 @@ object Main {
     else n * fatorial(n - 1)
   }
 
-  // Função que calcula o coeficiente binomial
+  // Função que calcula o coeficiente binomial, Combinação de m elementos tomados n a n.
   def coeficienteBinomial(m: Int, n: Int): Int = {
     if (n < 0 || n > m) 0 // C(m, n) é 0 se n é negativo ou maior que m
     else fatorial(m) / (fatorial(n) * fatorial(m - n))

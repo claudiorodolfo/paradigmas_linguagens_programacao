@@ -1,7 +1,7 @@
 object Main {
-  //Função que receba dois inteiros a e b e retorne a soma de todos os números entre a e b, inclusive. Suponha que a <= b. Use recursão.
+  //Função que receba dois inteiros a e b e retorne a soma de todos os números entre a e b, inclusive. Suponha que a <= b.
   def somaEntre(a: Int, b: Int): Int = {
-    if (a > b) 0 // Caso base, although assumimos a <= b de acordo ao problema
+    if (a > b) 0 // Caso base, assumimos a <= b de acordo ao problema
     else a + somaEntre(a + 1, b) // Caso recursivo: soma a + soma dos números restantes
   }
   
