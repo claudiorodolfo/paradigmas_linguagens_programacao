@@ -1,0 +1,36 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Arquivos de compilação e de construção
+target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.db
+
+# Dependências de bibliotecas externas
+lib/
+lib_managed/
+
+# Arquivos temporários e caches
+.cache/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Arquivos do Spark
+spark-warehouse/
+spark-events/
+
+# Arquivos do sistema
+.DS_Store      # Para MacOS
+Thumbs.db      # Para Windows
+
+# Arquivos de configuração do sbt
+.project/
+.build/
+dist/
