@@ -19,6 +19,12 @@ object Main {
   //Scala
   def main(args: Array[String]): Unit = println("Ola Mundo!")
 */
+/*
+  //Scala
+  def main(args: Array[String]) = {
+    println("Ola Mundo!")
+  }
+*/
 
   //Scala
   def main(args: Array[String]): Unit = {

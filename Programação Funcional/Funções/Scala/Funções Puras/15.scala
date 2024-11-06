@@ -3,9 +3,9 @@ object Main {
 
   def calcularValorPassagem(precoTotal: Double, idade: Int): Double = {
     idade match {
-      case i if i >= 60 => precoTotal * 0.6   // Desconto de 40% para 60 anos ou mais
-      case i if i <= 1  => precoTotal * 0.1   // Desconto de 90% para bebês
-      case i if i <= 10 => precoTotal * 0.5   // Desconto de 50% para crianças até 10 anos
+      case _ if idade >= 60 => precoTotal * 0.6   // Desconto de 40% para 60 anos ou mais
+      case _ if idade <= 1  => precoTotal * 0.1   // Desconto de 90% para bebês
+      case _ if idade <= 10 => precoTotal * 0.5   // Desconto de 50% para crianças até 10 anos
       case _            => precoTotal         // Sem desconto para demais idades
     }
   }
@@ -14,6 +14,6 @@ object Main {
   def main(args: Array[String]): Unit = {
     val precoTotal = 100.0
     val idade = 65
-    println(s"Valor a ser pago: R$$${calcularValorPassagem(precoTotal, idade)}")
+    println(s"Valor a ser pago: R$$ ${calcularValorPassagem(precoTotal, idade)}")
   }
 }
