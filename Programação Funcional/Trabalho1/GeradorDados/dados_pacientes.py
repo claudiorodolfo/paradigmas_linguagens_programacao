@@ -11,6 +11,8 @@ primeiros_nomes = ["Ana", "Bruno", "Carlos", "Daniela", "Eduardo", "Fernanda", "
 sobrenomes = ["Silva", "Santos", "Pereira", "Oliveira", "Costa", "Almeida", "Barbosa", "Souza", "Ferreira", "Gomes", "Maciel", "Sousa", "Silveira", "Aparecido", "Brito"]
 
 tam = 1000
+start_date = datetime.datetime(2020, 1, 1)
+end_date = datetime.datetime(2024, 1, 1)
 # Análise de Dados de Assistência Médica (ID Atendimento, Paciente, Gênero, Idade, Diagnóstico, Tratamento, Custo do tratamento, Médico responsável, Duração do tratamento, Data de início)
 pacientes = {
     "ID Atendimento": list(range(1, tam+1)),
@@ -26,7 +28,7 @@ pacientes = {
     "Custo do tratamento": [round(random.uniform(500, 20000), 2) for _ in range(tam)],
     "Médico responsável": [f"Dr. {random.choice(sobrenomes)}" for _ in range(tam)],
     "Duração do tratamento (dias)": [random.randint(1, 180) for _ in range(tam)],
-    "Data de início": [random_date(datetime.datetime(2020, 1, 1), datetime.datetime(2024, 1, 1)).strftime("%Y-%m-%d") for _ in range(tam)]
+    "Data de início": [random_date(start_date, end_date).strftime("%Y-%m-%d") for _ in range(tam)]
 }
 
 # Converte os dados em DataFrame

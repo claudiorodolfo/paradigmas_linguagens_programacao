@@ -1,10 +1,5 @@
 import pandas as pd
 import random
-import datetime
-
-# Função para gerar uma data aleatória
-def random_date(start, end):
-    return start + (end - start) * random.random()
 
 tam = 1000
 # Dados de Saúde e Atividade Física (ID, Idade, Gênero, Altura, Peso, Horas de sono, Calorias consumidas, Passos por dia, Atividade física (min), Pressão arterial)

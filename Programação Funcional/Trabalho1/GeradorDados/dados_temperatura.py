@@ -7,9 +7,9 @@ def random_date(start, end):
     return start + (end - start) * random.random()
 	
 tam = 1000
-# Histórico de Temperatura e Precipitação (ID,Data, Cidade, Temperatura Máxima (°C), Temperatura Mínima (°C), Precipitação (mm), Umidade (%), Velocidade do vento (km/h))
 start_date = datetime.datetime(2023, 1, 1)
 end_date = datetime.datetime(2023, 12, 31)
+# Histórico de Temperatura e Precipitação (ID,Data, Cidade, Temperatura Máxima (°C), Temperatura Mínima (°C), Precipitação (mm), Umidade (%), Velocidade do vento (km/h))
 temperatura = {
     "ID": list(range(1, tam+1)),
     "Data": [random_date(start_date, end_date).strftime("%Y-%m-%d") for _ in range(tam)],
