@@ -1,0 +1,1001 @@
+ID,Cidade,Bairro,Área (m²),Número de quartos,Número de banheiros,Preço,Ano de construção,Distância do centro
+1,Rio de Janeiro,Zona Oeste,221,5,2,473134,1968,15.34
+2,São Paulo,Zona Oeste,180,4,3,766458,2009,20.47
+3,São Paulo,Zona Oeste,93,2,2,409573,2019,19.96
+4,São Paulo,Centro,202,4,3,237415,1993,22.85
+5,Curitiba,Zona Norte,124,5,1,1171437,1991,22.92
+6,Porto Alegre,Zona Leste,288,2,3,1054031,2020,9.11
+7,São Paulo,Zona Oeste,245,2,3,850202,1965,28.58
+8,São Paulo,Zona Oeste,182,4,3,281824,2023,14.2
+9,Porto Alegre,Zona Oeste,266,1,1,903490,1959,10.01
+10,Curitiba,Zona Norte,224,5,3,937381,1960,22.61
+11,Curitiba,Zona Oeste,52,2,2,709565,2021,19.18
+12,São Paulo,Zona Leste,110,3,1,416776,2021,22.63
+13,Rio de Janeiro,Zona Norte,216,1,2,231424,1996,18.99
+14,Rio de Janeiro,Zona Oeste,210,3,2,1189173,1958,8.94
+15,São Paulo,Centro,70,5,2,324862,1952,12.48
+16,Belo Horizonte,Centro,71,4,3,511827,2021,16.39
+17,São Paulo,Zona Norte,273,2,3,1112855,1961,27.3
+18,Belo Horizonte,Centro,191,3,2,440365,1980,13.57
+19,São Paulo,Zona Leste,296,5,1,475430,1963,29.04
+20,São Paulo,Zona Leste,226,1,1,939184,2020,22.2
+21,Curitiba,Centro,299,1,3,617432,1979,3.76
+22,Porto Alegre,Zona Leste,95,1,1,1097506,1978,29.49
+23,Belo Horizonte,Centro,98,3,1,1158144,1950,2.44
+24,Rio de Janeiro,Zona Sul,113,2,2,299187,1965,18.74
+25,São Paulo,Zona Oeste,132,2,2,1125366,2010,11.44
+26,São Paulo,Zona Leste,268,1,2,196326,1971,23.44
+27,Porto Alegre,Zona Sul,190,2,1,196503,1999,14.87
+28,Rio de Janeiro,Zona Oeste,139,3,3,468274,1998,8.56
+29,Rio de Janeiro,Zona Norte,211,3,3,232644,1971,5.18
+30,Rio de Janeiro,Zona Norte,282,4,3,488733,1953,13.86
+31,São Paulo,Zona Oeste,65,3,3,615159,2004,2.32
+32,São Paulo,Zona Sul,280,1,1,355681,1987,1.5
+33,Curitiba,Zona Leste,215,4,2,415525,1985,18.67
+34,Curitiba,Centro,252,3,2,977675,1993,8.44
+35,Curitiba,Centro,200,1,2,743772,1967,28.42
+36,Belo Horizonte,Zona Oeste,260,5,3,838798,2011,23.19
+37,São Paulo,Centro,74,2,2,991183,1956,27.91
+38,Belo Horizonte,Zona Oeste,295,2,3,507140,1962,10.92
+39,Rio de Janeiro,Centro,246,4,1,843208,1967,22.26
+40,Porto Alegre,Centro,286,3,2,341589,1983,10.21
+41,Porto Alegre,Zona Oeste,186,2,3,620658,1968,7.04
+42,Porto Alegre,Zona Leste,127,3,2,838189,1954,6.31
+43,São Paulo,Zona Oeste,191,3,2,1077047,1994,12.93
+44,Rio de Janeiro,Zona Leste,77,2,1,290251,2016,16.04
+45,Porto Alegre,Zona Norte,234,3,3,718631,1974,15.96
+46,Belo Horizonte,Zona Leste,61,4,1,803564,1978,1.43
+47,Porto Alegre,Zona Leste,162,4,3,411158,1997,1.89
+48,São Paulo,Centro,141,4,2,965653,2020,9.49
+49,Rio de Janeiro,Zona Norte,259,2,2,409050,2002,0.75
+50,Curitiba,Zona Oeste,199,2,2,230119,1961,29.94
+51,Porto Alegre,Zona Leste,163,1,1,1081051,1983,23.54
+52,Porto Alegre,Centro,294,4,3,1064202,2000,19.23
+53,São Paulo,Zona Sul,211,3,2,801365,1977,8.76
+54,Rio de Janeiro,Zona Oeste,215,1,1,506050,2012,2.98
+55,Porto Alegre,Centro,214,3,2,859973,1959,21.16
+56,Belo Horizonte,Centro,144,4,2,873347,2018,25.2
+57,Rio de Janeiro,Zona Oeste,143,4,1,527097,2018,17.73
+58,Belo Horizonte,Zona Oeste,125,4,2,665444,1965,7.16
+59,Porto Alegre,Zona Sul,191,1,2,596433,1979,3.82
+60,São Paulo,Centro,119,1,2,1032708,2011,11.32
+61,São Paulo,Zona Sul,82,3,2,555246,1955,0.77
+62,Porto Alegre,Zona Norte,51,3,3,546917,1957,13.61
+63,Porto Alegre,Zona Oeste,217,1,1,800933,1965,16.89
+64,Porto Alegre,Zona Leste,151,5,3,582576,1967,6.02
+65,Curitiba,Zona Norte,195,5,3,534702,1990,15.87
+66,Rio de Janeiro,Zona Leste,187,3,3,360141,1959,6.87
+67,Rio de Janeiro,Zona Sul,158,3,1,181320,1999,4.81
+68,São Paulo,Zona Sul,140,3,3,899036,1967,1.76
+69,Curitiba,Zona Sul,97,1,1,183805,1990,5.78
+70,Curitiba,Zona Sul,273,4,2,613247,1953,14.28
+71,Porto Alegre,Zona Norte,130,5,1,991033,1978,2.84
+72,Belo Horizonte,Zona Oeste,115,1,2,905123,2003,5.58
+73,São Paulo,Zona Norte,175,5,1,485642,1998,13.24
+74,Porto Alegre,Zona Sul,282,3,1,1028732,2019,15.92
+75,Porto Alegre,Zona Leste,53,3,3,318083,2022,19.42
+76,Curitiba,Zona Norte,299,5,1,1055911,1967,8.24
+77,Belo Horizonte,Zona Leste,164,1,1,1105869,1991,29.78
+78,Belo Horizonte,Centro,179,2,1,865695,2015,16.63
+79,Porto Alegre,Centro,257,1,2,342785,2014,12.01
+80,Curitiba,Centro,194,2,2,868483,2018,18.69
+81,Belo Horizonte,Zona Leste,52,4,1,1066335,1950,6.28
+82,Rio de Janeiro,Centro,107,3,2,720661,1983,29.94
+83,Curitiba,Zona Oeste,155,5,3,738470,1972,19.48
+84,Curitiba,Zona Sul,151,1,3,1041418,1991,28.86
+85,Belo Horizonte,Zona Norte,73,1,3,393632,1995,29.22
+86,Rio de Janeiro,Zona Sul,265,2,3,694431,2016,8.9
+87,São Paulo,Zona Oeste,158,2,1,252650,2016,11.52
+88,São Paulo,Zona Leste,85,2,3,744445,1966,2.44
+89,Porto Alegre,Zona Sul,129,1,2,959577,2006,16.26
+90,Porto Alegre,Zona Norte,239,4,3,988567,1975,28.79
+91,Belo Horizonte,Zona Sul,165,3,1,1014543,1992,23.59
+92,Belo Horizonte,Centro,84,4,3,266898,1955,16.55
+93,Curitiba,Centro,279,4,1,885565,2016,27.83
+94,Porto Alegre,Centro,55,5,1,1193993,1970,16.78
+95,São Paulo,Zona Sul,188,5,3,342232,1998,26.21
+96,Porto Alegre,Centro,206,3,2,255615,1978,23.89
+97,São Paulo,Zona Leste,239,2,3,764829,1974,9.22
+98,Belo Horizonte,Zona Sul,143,4,1,414677,2005,0.63
+99,Curitiba,Zona Sul,120,5,2,1183615,1994,4.48
+100,Belo Horizonte,Zona Sul,213,4,3,446624,2009,17.29
+101,Belo Horizonte,Zona Norte,54,5,1,743695,2022,1.3
+102,São Paulo,Zona Sul,85,4,2,902812,1995,2.57
+103,Rio de Janeiro,Zona Leste,270,2,3,288220,1991,8.79
+104,São Paulo,Zona Leste,264,1,1,505413,1996,6.81
+105,São Paulo,Zona Leste,288,3,3,1172405,2006,15.71
+106,Belo Horizonte,Zona Norte,269,1,2,913511,2001,18.01
+107,Curitiba,Zona Oeste,257,3,1,799916,1964,22.93
+108,Porto Alegre,Centro,109,3,2,948402,1999,15.61
+109,Porto Alegre,Centro,63,2,1,300907,2017,24.5
+110,Rio de Janeiro,Zona Norte,172,5,1,347528,1986,27.04
+111,Belo Horizonte,Zona Leste,117,3,2,177605,2021,12.86
+112,Rio de Janeiro,Zona Oeste,223,4,3,534490,1997,19.5
+113,Rio de Janeiro,Zona Sul,84,2,1,894233,1977,15.6
+114,São Paulo,Zona Leste,137,5,1,784962,1970,20.46
+115,São Paulo,Zona Norte,136,5,1,1163968,2000,23.14
+116,Belo Horizonte,Zona Sul,243,2,3,927816,1987,15.37
+117,São Paulo,Zona Norte,63,4,1,152259,1983,21.2
+118,Porto Alegre,Zona Sul,77,2,3,626747,1986,29.9
+119,Belo Horizonte,Zona Leste,111,3,1,1153315,1982,20.59
+120,Rio de Janeiro,Zona Sul,139,5,2,177868,1990,7.52
+121,Rio de Janeiro,Zona Norte,244,4,2,427754,1993,17.97
+122,Belo Horizonte,Zona Norte,186,5,2,360266,1982,14.38
+123,Porto Alegre,Zona Norte,137,4,3,536734,1978,26.02
+124,Belo Horizonte,Zona Leste,61,3,3,1000807,1965,26.16
+125,Rio de Janeiro,Zona Oeste,115,2,3,763186,1952,5.93
+126,Curitiba,Zona Leste,137,4,2,833455,1996,20.99
+127,Curitiba,Zona Sul,265,3,2,246337,1955,21.25
+128,Belo Horizonte,Zona Leste,281,3,2,959552,1974,18.18
+129,Rio de Janeiro,Zona Oeste,90,4,1,163638,1980,3.31
+130,Porto Alegre,Zona Oeste,249,1,3,461629,2016,23.73
+131,São Paulo,Zona Leste,163,4,3,240874,2012,1.93
+132,Porto Alegre,Zona Sul,190,3,1,440149,1958,24.98
+133,Rio de Janeiro,Zona Leste,142,4,2,915105,2013,14.12
+134,Curitiba,Centro,91,2,3,710019,1997,14.15
+135,Rio de Janeiro,Zona Sul,299,5,2,538493,1989,11.21
+136,Porto Alegre,Zona Sul,172,4,1,897246,2005,19.38
+137,São Paulo,Zona Leste,234,5,2,310065,1967,1.9
+138,Curitiba,Zona Leste,231,3,1,353333,1951,23.14
+139,Belo Horizonte,Zona Sul,137,4,2,1068929,2021,12.72
+140,São Paulo,Centro,283,3,1,539489,1981,22.65
+141,São Paulo,Centro,291,4,2,171629,1981,0.85
+142,Belo Horizonte,Zona Leste,60,5,2,287880,1973,5.51
+143,Porto Alegre,Zona Leste,68,4,1,673210,1973,15.76
+144,São Paulo,Zona Oeste,64,5,2,1171350,1999,24.96
+145,São Paulo,Zona Norte,144,1,2,652985,1959,6.17
+146,Curitiba,Zona Leste,217,2,2,502624,1981,2.88
+147,Rio de Janeiro,Zona Sul,147,4,2,634191,1982,13.21
+148,Belo Horizonte,Zona Leste,275,4,2,610331,1951,26.43
+149,Belo Horizonte,Zona Oeste,254,2,1,1052589,1952,29.67
+150,Belo Horizonte,Zona Leste,100,1,2,736518,2022,19.92
+151,Curitiba,Zona Norte,286,1,2,184716,1960,10.55
+152,Porto Alegre,Zona Sul,252,3,2,835295,1997,7.0
+153,Curitiba,Zona Leste,54,5,1,1139480,1992,27.6
+154,Rio de Janeiro,Zona Leste,125,2,1,659961,1957,18.1
+155,Belo Horizonte,Zona Leste,85,4,3,962499,1986,8.17
+156,Curitiba,Zona Sul,285,2,3,352493,1983,20.03
+157,Porto Alegre,Zona Leste,175,2,3,914737,1984,24.24
+158,São Paulo,Zona Norte,162,4,1,476199,2003,12.77
+159,Curitiba,Zona Norte,287,2,3,1008066,1990,1.75
+160,Rio de Janeiro,Zona Leste,148,2,3,429953,1973,2.8
+161,Rio de Janeiro,Zona Sul,218,4,3,536453,1995,28.9
+162,Rio de Janeiro,Zona Leste,270,4,3,278114,1960,14.82
+163,Rio de Janeiro,Zona Norte,217,2,2,848208,1986,7.64
+164,São Paulo,Zona Leste,225,1,1,837661,1981,4.42
+165,Curitiba,Zona Leste,51,2,3,526424,1956,26.96
+166,Porto Alegre,Centro,108,5,3,749257,1978,4.04
+167,Belo Horizonte,Zona Leste,122,2,2,1067105,2020,10.23
+168,Curitiba,Zona Norte,185,2,2,956569,1989,21.55
+169,Rio de Janeiro,Zona Oeste,74,3,2,630894,1954,0.69
+170,Belo Horizonte,Zona Oeste,261,2,2,438770,1999,18.42
+171,São Paulo,Zona Leste,124,4,1,409594,2000,23.91
+172,Rio de Janeiro,Zona Leste,152,3,3,1016600,2006,23.88
+173,Porto Alegre,Centro,287,4,3,701101,1952,14.21
+174,Belo Horizonte,Centro,255,4,2,948985,1987,0.96
+175,São Paulo,Zona Sul,263,5,1,1177182,1950,12.99
+176,Curitiba,Zona Norte,129,2,2,572371,2008,29.48
+177,Belo Horizonte,Zona Norte,87,2,1,717967,1978,22.94
+178,Curitiba,Zona Leste,174,1,1,398650,1957,25.35
+179,Porto Alegre,Zona Leste,54,3,1,384266,1992,5.1
+180,Belo Horizonte,Zona Leste,262,1,1,856483,1982,25.59
+181,Curitiba,Zona Norte,166,2,1,1014192,1991,20.72
+182,São Paulo,Centro,236,1,1,758982,1980,29.2
+183,Curitiba,Zona Sul,291,5,3,226955,2001,19.26
+184,Curitiba,Zona Sul,114,2,3,1150528,1994,28.95
+185,Belo Horizonte,Centro,126,1,1,957943,1981,28.49
+186,Curitiba,Zona Leste,134,3,1,480659,1950,25.95
+187,Rio de Janeiro,Zona Oeste,159,2,1,828537,2022,23.6
+188,São Paulo,Centro,68,4,2,271020,1958,6.03
+189,Curitiba,Zona Norte,89,1,3,433533,1980,16.71
+190,São Paulo,Centro,255,3,3,379644,2006,20.17
+191,Rio de Janeiro,Centro,57,4,3,616806,1976,18.61
+192,Porto Alegre,Zona Sul,181,5,2,1050263,1952,22.95
+193,Curitiba,Zona Oeste,281,4,3,695638,1970,15.48
+194,Curitiba,Zona Norte,297,1,2,665002,1977,15.02
+195,Rio de Janeiro,Zona Norte,201,5,1,1198260,1984,14.07
+196,São Paulo,Centro,229,5,3,229598,1958,9.66
+197,Porto Alegre,Centro,56,4,2,609182,2014,14.2
+198,Curitiba,Zona Oeste,238,5,2,567882,1962,24.43
+199,Curitiba,Zona Norte,237,5,2,717549,2006,16.16
+200,Curitiba,Centro,240,1,2,349879,2016,19.16
+201,Curitiba,Zona Norte,285,3,3,1012395,1978,6.14
+202,Rio de Janeiro,Zona Oeste,271,4,1,733733,1950,8.6
+203,São Paulo,Zona Sul,246,2,3,191835,2003,14.52
+204,Belo Horizonte,Zona Oeste,97,3,3,1184229,1962,29.61
+205,Rio de Janeiro,Zona Norte,179,5,1,685415,1987,5.24
+206,Porto Alegre,Zona Norte,252,5,1,902829,1971,8.65
+207,Rio de Janeiro,Zona Norte,51,5,1,441250,1960,16.76
+208,Porto Alegre,Zona Leste,51,2,3,941026,2000,28.07
+209,Porto Alegre,Centro,157,1,3,1020420,1969,26.48
+210,Belo Horizonte,Centro,131,3,2,847967,1952,3.94
+211,Belo Horizonte,Zona Leste,187,3,2,181250,1950,21.45
+212,Rio de Janeiro,Zona Norte,239,2,3,703850,1963,1.07
+213,Porto Alegre,Centro,87,5,3,832042,1988,10.21
+214,São Paulo,Zona Norte,247,1,3,521737,1974,28.77
+215,São Paulo,Zona Sul,296,1,2,1039770,1957,3.52
+216,Belo Horizonte,Centro,250,2,1,403528,1984,25.95
+217,São Paulo,Zona Sul,180,2,3,277211,1982,23.44
+218,Belo Horizonte,Zona Oeste,229,3,3,727125,1973,21.56
+219,Rio de Janeiro,Zona Norte,120,1,3,154189,1987,0.5
+220,Belo Horizonte,Zona Oeste,61,2,3,700439,2010,16.02
+221,Porto Alegre,Zona Leste,275,1,3,728515,2012,11.05
+222,Porto Alegre,Zona Oeste,81,4,3,483162,1969,2.17
+223,Belo Horizonte,Zona Leste,168,3,1,637299,2010,26.78
+224,Belo Horizonte,Zona Norte,219,3,2,905189,1984,16.75
+225,Belo Horizonte,Zona Norte,92,2,1,690364,1988,15.76
+226,Belo Horizonte,Zona Norte,277,2,2,977741,2002,26.6
+227,Belo Horizonte,Centro,289,3,2,652506,1985,7.72
+228,Curitiba,Centro,172,5,2,658126,2015,1.09
+229,São Paulo,Zona Oeste,222,3,2,289290,1984,25.78
+230,Curitiba,Centro,290,5,3,787947,1977,23.18
+231,Porto Alegre,Centro,181,3,2,913421,1963,17.6
+232,Porto Alegre,Zona Norte,162,5,3,561108,2011,7.93
+233,Porto Alegre,Zona Leste,231,5,1,720181,1965,6.81
+234,Porto Alegre,Zona Oeste,224,2,2,395468,1970,7.22
+235,Rio de Janeiro,Zona Oeste,143,1,2,535159,2007,29.3
+236,Rio de Janeiro,Centro,88,1,2,713107,1986,18.3
+237,Rio de Janeiro,Zona Sul,106,2,2,625327,2019,13.79
+238,São Paulo,Centro,96,2,2,652833,1998,10.52
+239,São Paulo,Zona Leste,258,2,3,618312,2012,28.93
+240,Curitiba,Zona Sul,260,1,1,690651,1980,25.49
+241,São Paulo,Zona Leste,194,3,2,1163344,1963,13.01
+242,Belo Horizonte,Zona Norte,208,3,3,917698,1965,19.71
+243,Porto Alegre,Centro,148,3,1,474723,1984,23.61
+244,Curitiba,Zona Leste,224,4,1,854954,1950,3.45
+245,São Paulo,Zona Leste,170,5,2,272898,1981,28.39
+246,Curitiba,Zona Oeste,103,5,2,1077750,1978,4.8
+247,São Paulo,Zona Leste,84,2,3,184541,1958,22.88
+248,Belo Horizonte,Zona Norte,225,1,3,1086874,2013,15.82
+249,Curitiba,Centro,180,1,3,594072,2023,17.28
+250,Belo Horizonte,Zona Oeste,85,2,1,1006905,2009,6.64
+251,Belo Horizonte,Centro,195,1,1,1062923,1987,23.55
+252,Belo Horizonte,Zona Norte,160,3,2,357100,2016,11.18
+253,Rio de Janeiro,Zona Norte,274,1,1,218192,1973,19.29
+254,Belo Horizonte,Zona Oeste,273,4,1,988776,1987,21.57
+255,São Paulo,Zona Leste,138,3,1,661687,1957,22.76
+256,Curitiba,Zona Oeste,120,5,3,946911,1984,26.15
+257,São Paulo,Zona Sul,246,5,3,765143,2021,26.51
+258,Rio de Janeiro,Zona Oeste,165,5,3,775041,1987,13.84
+259,Belo Horizonte,Zona Sul,294,5,1,1127910,2006,15.63
+260,Rio de Janeiro,Centro,268,2,1,760724,1974,1.46
+261,Belo Horizonte,Zona Leste,229,3,3,768984,1975,5.42
+262,Curitiba,Zona Leste,116,1,1,455082,2011,8.12
+263,Rio de Janeiro,Centro,275,5,3,632240,1971,20.29
+264,Porto Alegre,Zona Sul,237,5,2,1008773,1998,4.75
+265,Porto Alegre,Zona Sul,118,5,1,168466,2004,7.97
+266,Rio de Janeiro,Centro,85,4,3,1194904,1975,5.7
+267,São Paulo,Zona Oeste,180,1,3,776452,2004,3.69
+268,Belo Horizonte,Zona Oeste,91,2,1,486367,1999,17.89
+269,Porto Alegre,Zona Sul,195,3,1,820694,1980,1.39
+270,Porto Alegre,Centro,101,3,1,204801,1961,27.48
+271,Rio de Janeiro,Zona Sul,243,3,1,268547,1968,0.91
+272,Belo Horizonte,Zona Leste,264,4,2,460902,1958,1.21
+273,Belo Horizonte,Zona Oeste,195,2,2,668490,1997,2.1
+274,São Paulo,Zona Norte,282,1,3,751771,1950,22.48
+275,São Paulo,Zona Sul,164,5,2,656392,2005,23.72
+276,Belo Horizonte,Zona Leste,250,5,3,349378,1983,25.19
+277,Belo Horizonte,Zona Norte,128,2,1,899802,1986,17.49
+278,Rio de Janeiro,Zona Leste,239,2,2,1111466,2017,29.59
+279,Curitiba,Zona Oeste,87,4,1,879398,1956,15.56
+280,Porto Alegre,Zona Leste,295,5,3,743024,1985,24.23
+281,Porto Alegre,Centro,295,2,3,183295,1991,5.74
+282,Rio de Janeiro,Zona Norte,169,1,3,605941,1974,5.06
+283,São Paulo,Zona Leste,147,1,3,676124,2012,19.71
+284,Curitiba,Centro,243,3,2,840874,2004,11.19
+285,Porto Alegre,Zona Oeste,298,4,2,218396,1980,2.47
+286,Curitiba,Zona Sul,62,2,3,341921,1989,29.27
+287,Belo Horizonte,Zona Leste,275,3,1,884805,1963,29.64
+288,Curitiba,Zona Oeste,284,4,3,1046391,2022,6.27
+289,Belo Horizonte,Zona Leste,212,1,1,318761,1963,3.17
+290,São Paulo,Centro,197,4,2,1117556,2006,26.34
+291,Porto Alegre,Zona Oeste,190,1,2,702372,1950,5.57
+292,Rio de Janeiro,Zona Leste,230,2,1,911538,1967,9.42
+293,São Paulo,Zona Sul,116,2,1,756046,1970,2.87
+294,Belo Horizonte,Centro,288,2,2,876632,1978,28.19
+295,Curitiba,Zona Leste,176,3,2,974373,1968,0.95
+296,Rio de Janeiro,Centro,248,4,1,702536,2023,26.35
+297,São Paulo,Zona Norte,143,1,2,330393,1950,6.95
+298,Rio de Janeiro,Zona Oeste,267,4,2,873198,1993,16.18
+299,Rio de Janeiro,Zona Sul,169,3,3,1051219,1972,6.89
+300,Rio de Janeiro,Zona Leste,66,4,2,903607,1969,17.43
+301,Curitiba,Centro,124,4,1,978688,1983,1.72
+302,São Paulo,Zona Oeste,222,3,3,911484,1962,29.63
+303,Curitiba,Centro,227,5,2,208543,1976,3.36
+304,Curitiba,Centro,141,1,1,751005,1996,10.66
+305,São Paulo,Zona Norte,97,1,3,684235,2002,23.03
+306,Rio de Janeiro,Zona Leste,222,1,2,420076,1988,24.69
+307,Belo Horizonte,Zona Leste,272,3,2,425917,1987,20.95
+308,São Paulo,Zona Leste,82,5,1,971614,1966,4.72
+309,São Paulo,Zona Norte,252,1,2,573217,2007,23.26
+310,São Paulo,Zona Leste,156,5,3,651797,1988,13.41
+311,São Paulo,Zona Norte,84,5,3,174273,2004,3.15
+312,Curitiba,Zona Sul,72,1,3,629643,1987,20.98
+313,Rio de Janeiro,Zona Oeste,163,4,2,530060,2010,6.9
+314,Rio de Janeiro,Zona Leste,59,2,3,952393,2008,0.56
+315,Curitiba,Zona Oeste,201,5,1,902803,1959,14.42
+316,Porto Alegre,Centro,62,4,1,158450,1980,14.11
+317,Curitiba,Zona Norte,196,5,2,703466,1997,5.39
+318,São Paulo,Centro,115,2,3,384376,1998,28.38
+319,Belo Horizonte,Zona Norte,285,1,1,436720,2013,13.06
+320,Porto Alegre,Zona Norte,251,4,2,263160,2018,14.93
+321,São Paulo,Zona Oeste,72,1,1,564467,1984,13.35
+322,Rio de Janeiro,Zona Leste,246,1,3,436018,1957,20.73
+323,Rio de Janeiro,Zona Oeste,256,4,2,726379,2013,12.66
+324,Belo Horizonte,Centro,241,3,2,592419,1995,9.17
+325,Curitiba,Zona Oeste,90,2,1,888580,1956,9.61
+326,Rio de Janeiro,Centro,280,1,2,814452,1978,16.31
+327,Porto Alegre,Zona Norte,195,4,3,1079440,1961,25.06
+328,São Paulo,Zona Norte,242,3,3,249314,2016,22.56
+329,Curitiba,Zona Norte,154,3,2,542722,1979,13.64
+330,Belo Horizonte,Zona Oeste,255,2,1,351671,1959,4.1
+331,Rio de Janeiro,Zona Oeste,228,4,2,626500,1968,21.78
+332,São Paulo,Zona Oeste,275,3,2,865273,1964,7.88
+333,São Paulo,Centro,151,1,2,884049,1997,13.91
+334,Belo Horizonte,Zona Sul,174,4,3,1097201,1978,11.97
+335,Belo Horizonte,Zona Oeste,138,2,2,763800,1961,28.48
+336,Porto Alegre,Centro,100,2,2,716786,2010,8.19
+337,Rio de Janeiro,Zona Leste,257,3,2,876240,1962,13.75
+338,São Paulo,Zona Sul,264,2,3,462177,1966,3.98
+339,Belo Horizonte,Zona Oeste,165,1,2,332644,1989,4.57
+340,Curitiba,Zona Norte,281,2,3,854955,2015,8.31
+341,Curitiba,Zona Norte,60,4,2,883504,1997,11.79
+342,São Paulo,Zona Sul,261,3,1,1162186,1954,29.75
+343,Belo Horizonte,Zona Leste,264,4,3,302617,1955,2.13
+344,São Paulo,Zona Leste,282,2,2,1151625,2008,3.17
+345,Curitiba,Zona Sul,188,3,1,976896,1962,26.41
+346,São Paulo,Zona Oeste,121,1,3,1047779,1973,6.4
+347,Belo Horizonte,Centro,142,1,1,1195456,2000,19.04
+348,Curitiba,Zona Leste,71,3,1,214860,2003,9.82
+349,Porto Alegre,Zona Sul,120,2,2,804768,2014,29.08
+350,Porto Alegre,Zona Sul,259,2,2,797393,2021,10.79
+351,Porto Alegre,Zona Sul,59,1,2,1160881,1956,12.21
+352,Porto Alegre,Zona Norte,227,2,1,811240,1979,2.33
+353,Porto Alegre,Zona Sul,242,4,2,530144,2022,6.09
+354,Rio de Janeiro,Centro,121,3,2,919007,2011,8.58
+355,Porto Alegre,Centro,150,1,3,975297,1998,29.48
+356,Belo Horizonte,Zona Leste,107,1,3,1153836,1992,4.37
+357,Porto Alegre,Zona Oeste,212,4,2,1166064,1976,18.45
+358,São Paulo,Zona Leste,50,5,3,758548,2012,27.36
+359,Rio de Janeiro,Zona Norte,299,3,1,362519,1955,12.15
+360,São Paulo,Centro,161,3,2,443443,1998,24.81
+361,Porto Alegre,Centro,132,3,1,459119,2007,20.39
+362,São Paulo,Centro,56,4,2,634882,2003,17.62
+363,Belo Horizonte,Zona Leste,268,3,3,868884,1970,12.34
+364,Porto Alegre,Zona Sul,133,1,3,948183,1986,8.82
+365,Rio de Janeiro,Zona Norte,121,5,1,237263,1984,7.17
+366,São Paulo,Zona Oeste,235,1,3,1109521,1960,9.62
+367,Curitiba,Zona Oeste,277,4,3,507274,2009,25.46
+368,Belo Horizonte,Zona Sul,197,4,1,896185,1976,16.88
+369,Porto Alegre,Centro,239,5,3,1176130,1971,27.33
+370,São Paulo,Centro,223,4,3,514868,1987,5.06
+371,São Paulo,Zona Sul,285,3,3,1085583,1981,17.55
+372,Rio de Janeiro,Zona Leste,64,2,3,1054457,2017,14.06
+373,Porto Alegre,Zona Leste,266,4,3,1090686,1992,18.32
+374,São Paulo,Zona Oeste,299,3,3,1169751,1962,24.69
+375,Porto Alegre,Centro,142,3,1,634159,1983,5.07
+376,Belo Horizonte,Zona Leste,52,1,1,1184282,2019,23.13
+377,Curitiba,Zona Leste,116,3,1,542053,1974,22.32
+378,Rio de Janeiro,Zona Sul,75,2,1,388670,2017,1.02
+379,Porto Alegre,Zona Norte,161,5,3,1051685,1981,26.83
+380,Belo Horizonte,Zona Oeste,103,3,2,271879,2000,2.94
+381,Curitiba,Zona Oeste,259,1,2,705413,2009,1.17
+382,Porto Alegre,Zona Leste,67,3,3,1141585,1996,13.03
+383,Rio de Janeiro,Zona Sul,254,2,3,541454,2021,21.92
+384,São Paulo,Zona Oeste,58,2,2,420254,1987,4.04
+385,São Paulo,Centro,203,5,1,795499,1970,0.79
+386,Rio de Janeiro,Zona Norte,121,3,2,401157,1964,27.47
+387,Curitiba,Zona Leste,203,2,1,701383,2022,5.86
+388,Belo Horizonte,Zona Oeste,228,4,3,781039,2006,10.38
+389,Rio de Janeiro,Zona Norte,281,4,2,1036264,2012,25.55
+390,Rio de Janeiro,Zona Norte,201,5,1,1117865,1970,15.49
+391,Curitiba,Zona Leste,65,1,3,1090414,1970,10.97
+392,Curitiba,Zona Oeste,154,2,3,239192,1996,15.32
+393,São Paulo,Zona Leste,84,5,1,1016370,1967,7.94
+394,Rio de Janeiro,Zona Norte,186,3,2,1087247,2010,29.89
+395,Curitiba,Zona Sul,179,4,1,548281,2021,18.9
+396,Belo Horizonte,Zona Oeste,225,4,2,1144152,1957,16.74
+397,Belo Horizonte,Zona Norte,67,1,1,709550,2006,5.91
+398,Belo Horizonte,Centro,173,2,2,1053785,1999,5.29
+399,Curitiba,Zona Oeste,295,3,1,526017,2013,21.08
+400,Curitiba,Zona Oeste,92,2,1,228273,1985,7.26
+401,Belo Horizonte,Zona Oeste,58,3,2,423037,1951,29.55
+402,São Paulo,Zona Norte,253,2,1,724404,1958,3.0
+403,São Paulo,Zona Oeste,217,5,2,163277,1977,10.65
+404,Belo Horizonte,Centro,157,5,2,518117,2011,6.52
+405,Porto Alegre,Zona Leste,101,5,3,356753,1962,1.14
+406,São Paulo,Zona Oeste,274,4,3,462700,2016,3.21
+407,Rio de Janeiro,Zona Leste,236,3,2,845783,1961,13.66
+408,Porto Alegre,Zona Oeste,204,3,2,976194,2000,14.69
+409,Rio de Janeiro,Zona Leste,152,2,2,755024,2011,1.73
+410,Porto Alegre,Zona Oeste,253,2,3,790448,1963,5.26
+411,Porto Alegre,Zona Leste,292,3,2,754750,1991,22.55
+412,Curitiba,Centro,162,5,2,772207,1984,15.51
+413,Curitiba,Zona Leste,299,2,2,897389,2013,15.73
+414,Curitiba,Zona Norte,67,2,1,1177597,1952,21.32
+415,São Paulo,Zona Oeste,187,4,3,708545,2001,10.43
+416,São Paulo,Zona Sul,235,4,1,438074,1988,21.35
+417,Rio de Janeiro,Zona Leste,130,5,3,357568,2002,13.86
+418,Belo Horizonte,Zona Norte,63,4,2,376057,1968,9.87
+419,São Paulo,Centro,269,4,2,216816,1965,3.52
+420,Rio de Janeiro,Zona Sul,288,2,3,206107,2015,7.9
+421,Rio de Janeiro,Zona Oeste,76,1,2,594610,1981,21.75
+422,Belo Horizonte,Centro,137,2,2,992075,1954,19.16
+423,Belo Horizonte,Zona Oeste,300,1,1,660816,1995,2.29
+424,São Paulo,Zona Sul,258,4,2,682936,1985,19.53
+425,São Paulo,Zona Leste,236,4,3,164475,1972,12.95
+426,Curitiba,Centro,229,1,3,1150977,2009,12.83
+427,Porto Alegre,Zona Leste,209,2,2,820139,1951,24.08
+428,Rio de Janeiro,Zona Norte,71,3,3,690858,1977,2.78
+429,São Paulo,Centro,177,5,3,877151,2006,5.65
+430,Belo Horizonte,Centro,189,2,2,702805,2016,14.56
+431,Belo Horizonte,Zona Norte,223,3,3,1101592,1993,12.5
+432,Belo Horizonte,Zona Leste,57,3,2,1006621,1994,20.43
+433,Belo Horizonte,Centro,56,2,3,603748,1970,6.72
+434,São Paulo,Zona Oeste,263,5,2,405418,1960,17.66
+435,Porto Alegre,Zona Oeste,278,4,2,1151274,2017,3.56
+436,São Paulo,Centro,184,1,3,715777,1984,26.33
+437,Porto Alegre,Zona Leste,269,4,3,1159733,2001,18.06
+438,Porto Alegre,Zona Norte,287,1,1,768693,2004,13.12
+439,Rio de Janeiro,Centro,112,2,2,1068292,1989,6.43
+440,Curitiba,Zona Sul,174,4,2,290184,1955,23.85
+441,Curitiba,Zona Oeste,146,5,2,936732,2013,4.67
+442,Rio de Janeiro,Centro,110,5,3,634772,1962,19.12
+443,Belo Horizonte,Zona Norte,298,3,3,668219,1973,11.85
+444,Belo Horizonte,Zona Oeste,111,3,3,465733,1982,20.02
+445,São Paulo,Zona Leste,134,1,1,597203,2018,22.34
+446,Porto Alegre,Centro,74,2,2,387695,2009,6.68
+447,Rio de Janeiro,Zona Oeste,215,1,2,1106616,1956,17.18
+448,São Paulo,Zona Norte,85,4,1,613570,1960,20.2
+449,Curitiba,Zona Norte,254,3,3,225731,1971,22.3
+450,São Paulo,Zona Leste,205,3,3,817175,2021,19.9
+451,Porto Alegre,Zona Sul,178,5,1,894629,1965,13.98
+452,São Paulo,Zona Oeste,282,3,2,785574,1992,17.18
+453,São Paulo,Zona Leste,50,2,2,932072,2013,23.08
+454,São Paulo,Zona Leste,152,2,1,1104884,1950,22.0
+455,São Paulo,Zona Leste,264,1,2,518688,1994,9.49
+456,Rio de Janeiro,Zona Oeste,185,2,1,551439,2021,26.7
+457,Curitiba,Zona Norte,51,5,3,781846,1967,7.31
+458,Belo Horizonte,Zona Leste,116,1,1,414405,1957,21.82
+459,Curitiba,Centro,88,1,3,750042,2008,23.01
+460,São Paulo,Centro,117,4,1,922115,1987,28.04
+461,Rio de Janeiro,Zona Sul,262,1,2,1120308,1999,23.33
+462,Belo Horizonte,Zona Oeste,97,4,3,903385,1997,25.8
+463,São Paulo,Zona Norte,147,4,1,396761,2001,12.12
+464,São Paulo,Zona Sul,267,4,2,681851,2023,1.54
+465,Curitiba,Zona Sul,86,5,1,853427,1952,6.41
+466,Curitiba,Zona Oeste,163,5,3,747259,1962,6.33
+467,São Paulo,Zona Oeste,93,2,3,871867,2021,15.02
+468,Belo Horizonte,Zona Oeste,246,1,3,1096897,1995,5.63
+469,Belo Horizonte,Zona Oeste,215,4,1,512503,1978,17.15
+470,São Paulo,Zona Leste,212,4,2,801948,2010,13.09
+471,Curitiba,Centro,198,5,1,1154794,1971,17.31
+472,Curitiba,Centro,239,1,3,1092643,1984,21.47
+473,São Paulo,Zona Oeste,290,2,2,933653,2021,10.64
+474,São Paulo,Centro,213,4,3,513499,2012,6.13
+475,São Paulo,Zona Leste,168,3,2,418625,1953,10.2
+476,Belo Horizonte,Zona Leste,116,1,1,667903,1979,17.65
+477,Belo Horizonte,Zona Leste,56,2,1,473241,1955,10.16
+478,Rio de Janeiro,Zona Norte,224,2,1,821816,1957,26.6
+479,Curitiba,Zona Norte,196,4,3,847398,2001,5.93
+480,Curitiba,Zona Norte,232,1,3,614758,1958,4.71
+481,Rio de Janeiro,Zona Leste,193,3,2,544276,1963,3.47
+482,Rio de Janeiro,Zona Norte,276,1,1,439237,1979,12.44
+483,Curitiba,Zona Leste,221,4,3,643505,1952,22.28
+484,Curitiba,Zona Leste,297,5,2,506528,1965,4.13
+485,Belo Horizonte,Zona Sul,160,5,3,1134664,1960,25.46
+486,Porto Alegre,Zona Sul,72,3,1,778882,2022,16.4
+487,Rio de Janeiro,Zona Sul,261,4,2,741219,2020,2.31
+488,Rio de Janeiro,Zona Sul,232,2,2,651572,2013,23.36
+489,Porto Alegre,Zona Norte,251,2,1,637420,1967,8.02
+490,Porto Alegre,Zona Norte,63,4,3,884467,2002,6.73
+491,São Paulo,Zona Leste,264,2,1,727703,2008,4.73
+492,Curitiba,Zona Norte,202,1,2,735239,1983,23.06
+493,Rio de Janeiro,Zona Sul,211,3,3,842483,2004,7.98
+494,Curitiba,Zona Sul,71,1,2,456423,2012,27.25
+495,Porto Alegre,Zona Norte,214,2,2,1062477,1981,28.34
+496,Belo Horizonte,Zona Norte,149,2,2,916660,1976,19.67
+497,Curitiba,Zona Leste,189,1,1,324972,1961,20.23
+498,Belo Horizonte,Zona Leste,131,2,2,315582,2023,8.7
+499,Curitiba,Zona Norte,245,4,1,1062692,1992,11.34
+500,Porto Alegre,Zona Norte,68,3,3,1020808,2023,24.31
+501,Belo Horizonte,Zona Leste,244,2,1,399678,1996,1.76
+502,Belo Horizonte,Zona Leste,81,3,1,487286,1970,24.39
+503,Curitiba,Zona Norte,146,3,3,295473,1992,21.72
+504,Rio de Janeiro,Zona Sul,194,3,2,1101561,1954,16.85
+505,Porto Alegre,Zona Oeste,239,3,2,618123,1968,11.49
+506,Curitiba,Zona Oeste,266,4,2,172545,1991,0.76
+507,São Paulo,Zona Norte,217,4,3,497896,1950,9.35
+508,São Paulo,Zona Oeste,124,3,3,1191943,1983,2.21
+509,Rio de Janeiro,Zona Leste,64,4,2,307058,2005,18.85
+510,São Paulo,Zona Norte,59,3,3,1100997,1998,27.67
+511,Porto Alegre,Zona Sul,173,5,1,775013,1952,18.94
+512,São Paulo,Zona Leste,239,4,3,829756,1993,20.05
+513,Rio de Janeiro,Zona Norte,86,2,2,957321,1970,9.97
+514,Belo Horizonte,Zona Oeste,133,5,3,191425,1982,24.47
+515,Porto Alegre,Zona Oeste,116,2,3,787486,1983,18.17
+516,Belo Horizonte,Zona Norte,253,5,2,362711,1983,8.57
+517,Rio de Janeiro,Zona Norte,117,2,3,1114966,2007,5.05
+518,Curitiba,Zona Oeste,190,4,3,982109,1982,8.05
+519,Curitiba,Centro,236,5,3,1149379,1990,25.92
+520,Porto Alegre,Zona Norte,146,5,3,173158,1994,27.46
+521,Porto Alegre,Zona Sul,121,5,1,753319,1980,27.2
+522,Porto Alegre,Zona Leste,189,4,1,575724,1980,3.46
+523,Rio de Janeiro,Zona Oeste,123,1,1,403036,1965,2.65
+524,São Paulo,Zona Oeste,156,3,3,608369,1994,1.31
+525,Porto Alegre,Zona Sul,168,4,3,654358,1965,16.47
+526,Curitiba,Centro,98,4,1,866512,1982,1.58
+527,Belo Horizonte,Centro,211,2,1,509815,1972,19.89
+528,Porto Alegre,Zona Sul,261,5,3,836085,2019,17.43
+529,Curitiba,Zona Norte,94,4,1,706803,1977,22.7
+530,Curitiba,Centro,228,3,1,179103,1974,20.83
+531,Porto Alegre,Centro,80,3,1,1127439,2004,10.31
+532,Porto Alegre,Centro,164,3,3,1012091,2001,24.5
+533,Rio de Janeiro,Zona Norte,114,5,2,674046,1986,4.39
+534,Rio de Janeiro,Zona Sul,158,2,1,1052734,1952,17.51
+535,Belo Horizonte,Zona Sul,216,3,3,521510,1980,21.58
+536,São Paulo,Zona Leste,235,1,3,1090802,1968,8.54
+537,Porto Alegre,Zona Norte,64,3,3,733675,2013,16.47
+538,São Paulo,Zona Oeste,269,3,1,638467,1954,13.05
+539,Rio de Janeiro,Zona Sul,231,1,3,772142,2011,16.4
+540,Porto Alegre,Zona Oeste,146,3,3,1034647,1981,0.73
+541,Rio de Janeiro,Zona Leste,278,2,2,742356,2008,18.58
+542,São Paulo,Centro,112,2,2,500006,2000,25.06
+543,Belo Horizonte,Zona Sul,212,2,1,980265,1958,22.34
+544,Porto Alegre,Zona Norte,98,1,3,992675,1956,3.59
+545,Belo Horizonte,Zona Oeste,190,5,3,478099,1955,2.17
+546,Porto Alegre,Zona Norte,283,1,3,303569,2006,28.32
+547,São Paulo,Zona Sul,157,1,1,1052053,1999,17.57
+548,Porto Alegre,Zona Leste,135,3,3,733029,2016,26.84
+549,Porto Alegre,Zona Oeste,95,4,3,439259,1957,22.98
+550,Curitiba,Zona Sul,286,1,3,433972,2005,8.28
+551,Rio de Janeiro,Zona Leste,169,2,3,926810,2011,13.6
+552,São Paulo,Zona Oeste,137,3,3,1091517,1983,1.58
+553,Rio de Janeiro,Centro,59,2,3,656922,1991,26.76
+554,São Paulo,Zona Oeste,68,1,2,1049818,1972,6.8
+555,São Paulo,Zona Oeste,119,1,1,858575,1986,23.39
+556,Curitiba,Zona Leste,141,2,3,342491,2010,19.68
+557,Rio de Janeiro,Zona Oeste,297,3,3,1179878,1968,10.45
+558,Rio de Janeiro,Zona Sul,180,4,1,796380,1975,27.72
+559,Curitiba,Zona Norte,140,1,2,971709,1964,28.03
+560,Porto Alegre,Zona Norte,111,3,3,1188397,1952,13.82
+561,São Paulo,Zona Oeste,97,3,1,370080,2021,17.83
+562,São Paulo,Zona Leste,187,1,2,840750,1958,21.52
+563,Rio de Janeiro,Zona Oeste,144,2,3,164637,2018,3.7
+564,Curitiba,Zona Norte,265,4,1,743593,2004,3.55
+565,Rio de Janeiro,Zona Oeste,234,2,2,938001,1989,2.99
+566,Rio de Janeiro,Centro,97,3,1,250902,1961,4.53
+567,Porto Alegre,Centro,115,1,3,364725,1996,16.32
+568,Curitiba,Centro,230,4,3,477008,1969,11.82
+569,Belo Horizonte,Centro,52,3,3,1037091,2001,23.11
+570,São Paulo,Zona Oeste,122,4,2,1092644,1999,13.31
+571,Belo Horizonte,Centro,275,5,2,193610,1966,19.5
+572,Curitiba,Zona Norte,259,4,2,962607,1989,10.57
+573,Curitiba,Centro,218,5,2,718891,1974,27.9
+574,Rio de Janeiro,Zona Oeste,300,5,2,830076,1996,8.13
+575,Rio de Janeiro,Zona Sul,78,2,1,1054117,1956,15.27
+576,Belo Horizonte,Zona Leste,297,3,1,1024162,1987,27.35
+577,Belo Horizonte,Zona Norte,198,5,3,158838,2013,14.34
+578,Porto Alegre,Zona Oeste,203,5,2,572774,2011,10.37
+579,Belo Horizonte,Zona Sul,67,3,2,769601,1989,22.23
+580,Curitiba,Zona Oeste,205,5,2,531821,1961,2.28
+581,Rio de Janeiro,Centro,189,4,3,448511,1998,20.94
+582,São Paulo,Zona Norte,98,1,3,1142996,1983,4.95
+583,Curitiba,Zona Leste,64,4,2,767600,1970,24.82
+584,Rio de Janeiro,Zona Oeste,135,5,1,1158828,1988,3.25
+585,Curitiba,Zona Leste,238,3,2,1141319,1997,29.21
+586,Belo Horizonte,Zona Sul,52,5,1,425773,1973,8.37
+587,São Paulo,Zona Norte,224,1,1,560970,2003,8.93
+588,Porto Alegre,Zona Oeste,103,4,1,985498,2014,27.01
+589,Rio de Janeiro,Centro,295,1,2,1025703,2001,8.39
+590,Rio de Janeiro,Zona Leste,152,1,1,645637,1963,15.35
+591,Rio de Janeiro,Zona Oeste,260,1,2,224194,2008,13.86
+592,Curitiba,Centro,159,5,2,817765,1964,14.3
+593,Curitiba,Centro,213,3,2,339288,1997,10.39
+594,São Paulo,Zona Norte,55,5,1,1109918,1976,4.11
+595,Curitiba,Zona Norte,244,4,1,567517,2008,6.75
+596,São Paulo,Zona Sul,136,4,3,1132920,1984,19.63
+597,Porto Alegre,Zona Norte,290,1,1,803932,2001,18.88
+598,Curitiba,Zona Sul,174,2,2,1013247,1963,28.91
+599,Porto Alegre,Centro,233,3,1,663270,1999,4.84
+600,São Paulo,Zona Leste,114,3,1,785149,1972,28.9
+601,Rio de Janeiro,Zona Leste,119,5,1,710745,1999,23.15
+602,Porto Alegre,Zona Leste,300,4,2,816626,1952,0.68
+603,São Paulo,Zona Leste,170,5,3,900882,1952,12.2
+604,Rio de Janeiro,Zona Norte,73,1,2,764145,1984,5.33
+605,Curitiba,Zona Sul,269,5,2,888023,1995,10.98
+606,São Paulo,Zona Leste,101,5,1,514641,1968,12.16
+607,Porto Alegre,Zona Oeste,277,1,3,525488,1993,9.36
+608,Belo Horizonte,Zona Leste,125,4,3,849756,1978,18.36
+609,São Paulo,Zona Leste,187,2,2,311870,1980,22.0
+610,Curitiba,Centro,110,3,2,410168,2000,10.52
+611,Belo Horizonte,Zona Sul,155,1,3,931549,1975,4.07
+612,Belo Horizonte,Zona Sul,195,3,3,659041,1977,2.8
+613,Rio de Janeiro,Zona Sul,287,2,3,1173468,1967,19.86
+614,Belo Horizonte,Zona Leste,270,1,2,187817,1977,2.29
+615,Curitiba,Zona Oeste,187,2,3,849871,1980,3.89
+616,Rio de Janeiro,Zona Oeste,287,5,1,857014,1991,10.63
+617,Belo Horizonte,Zona Oeste,294,5,2,758820,2007,0.54
+618,São Paulo,Zona Norte,285,5,1,686890,2004,22.19
+619,Porto Alegre,Zona Oeste,80,2,3,411690,1999,27.35
+620,Curitiba,Zona Sul,255,5,1,761231,2021,19.77
+621,Rio de Janeiro,Zona Sul,218,4,2,393226,1959,17.59
+622,Porto Alegre,Zona Norte,189,4,3,1155297,1990,22.83
+623,Curitiba,Zona Oeste,94,1,2,1108460,2019,2.87
+624,São Paulo,Zona Sul,93,4,2,767579,2015,16.4
+625,Porto Alegre,Zona Sul,53,5,3,851526,2004,23.22
+626,Belo Horizonte,Zona Sul,262,5,1,553916,1989,25.69
+627,Curitiba,Zona Oeste,67,2,1,272036,1989,20.28
+628,Porto Alegre,Centro,263,1,1,1012640,1967,28.61
+629,São Paulo,Centro,249,3,2,1089934,1980,2.63
+630,Porto Alegre,Zona Sul,86,1,3,683185,2011,21.64
+631,Porto Alegre,Zona Oeste,149,3,1,355201,1958,14.1
+632,Porto Alegre,Zona Oeste,280,1,1,554572,1979,24.24
+633,Porto Alegre,Zona Norte,217,1,1,493903,1999,24.18
+634,Rio de Janeiro,Zona Sul,64,2,1,966488,1969,8.21
+635,São Paulo,Zona Norte,156,2,1,474356,1963,23.08
+636,Porto Alegre,Zona Oeste,275,3,1,243625,1974,8.34
+637,Belo Horizonte,Zona Sul,264,3,2,532266,1951,14.16
+638,Belo Horizonte,Zona Norte,290,5,2,341427,1975,2.52
+639,Rio de Janeiro,Centro,252,3,2,994205,1996,28.07
+640,Porto Alegre,Zona Leste,190,5,1,941068,1969,20.06
+641,Curitiba,Centro,53,1,3,716879,2021,2.99
+642,Porto Alegre,Centro,55,1,3,456126,2023,20.94
+643,Belo Horizonte,Centro,222,5,3,278840,1962,23.13
+644,Belo Horizonte,Zona Sul,135,2,1,1168622,1990,9.55
+645,Rio de Janeiro,Zona Norte,179,4,1,905124,1998,2.42
+646,Belo Horizonte,Zona Oeste,122,2,3,1001663,1995,9.45
+647,Belo Horizonte,Zona Sul,53,2,1,308149,2001,15.62
+648,Rio de Janeiro,Zona Leste,240,2,1,722723,1967,26.66
+649,Rio de Janeiro,Zona Oeste,239,1,2,818901,1985,8.04
+650,Curitiba,Centro,104,1,1,851991,1960,13.65
+651,Rio de Janeiro,Zona Leste,155,2,1,623834,2003,5.49
+652,Belo Horizonte,Centro,51,5,2,909903,2009,11.13
+653,Rio de Janeiro,Centro,200,1,2,953612,2023,12.09
+654,Belo Horizonte,Zona Leste,294,1,2,944701,2003,28.91
+655,São Paulo,Zona Leste,140,2,3,615657,1950,13.77
+656,Rio de Janeiro,Zona Oeste,82,5,3,640735,2000,23.08
+657,Belo Horizonte,Centro,210,2,1,574689,1991,8.68
+658,Rio de Janeiro,Zona Oeste,83,3,3,295271,1966,26.68
+659,Porto Alegre,Zona Sul,164,3,1,708506,2023,1.06
+660,São Paulo,Zona Oeste,147,5,1,538227,1996,24.0
+661,São Paulo,Zona Norte,89,3,1,300156,1973,20.99
+662,São Paulo,Zona Leste,265,5,3,258901,1951,5.31
+663,São Paulo,Centro,220,4,3,282654,1995,4.63
+664,Porto Alegre,Zona Oeste,97,3,1,1045346,1988,26.69
+665,Curitiba,Centro,196,5,3,271838,1971,3.95
+666,São Paulo,Zona Norte,138,4,3,309035,1975,29.6
+667,Belo Horizonte,Zona Sul,171,4,2,899713,1993,4.23
+668,Porto Alegre,Zona Oeste,116,3,3,814450,2001,18.49
+669,Belo Horizonte,Centro,66,5,2,365857,1985,11.96
+670,São Paulo,Zona Oeste,117,4,3,902890,2010,22.88
+671,Porto Alegre,Zona Leste,56,3,1,818891,1959,18.54
+672,Curitiba,Centro,230,5,3,599681,1954,9.32
+673,Belo Horizonte,Zona Leste,114,3,1,746597,2015,15.92
+674,Curitiba,Zona Leste,132,3,1,739804,1977,4.02
+675,Belo Horizonte,Zona Sul,195,5,3,169266,2007,13.95
+676,Rio de Janeiro,Zona Leste,144,1,3,706539,2013,1.76
+677,Porto Alegre,Zona Leste,153,5,1,288705,1963,9.24
+678,Rio de Janeiro,Zona Oeste,168,2,3,1014132,1994,21.86
+679,Porto Alegre,Zona Leste,287,2,2,161311,1985,3.06
+680,Belo Horizonte,Zona Oeste,256,5,3,196307,2022,10.13
+681,São Paulo,Zona Oeste,107,5,2,853601,2010,20.2
+682,Porto Alegre,Centro,111,2,1,832846,1983,29.17
+683,Porto Alegre,Zona Leste,241,5,2,483374,1967,17.12
+684,Curitiba,Zona Oeste,266,4,1,673367,1978,19.94
+685,Rio de Janeiro,Centro,92,3,2,1006750,2017,10.92
+686,Porto Alegre,Zona Norte,169,3,1,1183636,1975,15.01
+687,Porto Alegre,Zona Leste,89,3,2,171304,2016,12.76
+688,Curitiba,Zona Norte,250,2,1,1023045,1972,7.73
+689,Porto Alegre,Zona Oeste,92,1,1,412163,1969,12.21
+690,Rio de Janeiro,Centro,104,3,1,611387,1984,22.99
+691,Rio de Janeiro,Zona Oeste,260,2,3,160543,1959,0.59
+692,São Paulo,Centro,184,5,1,257811,1958,22.77
+693,Porto Alegre,Centro,198,2,1,1115940,1952,10.62
+694,Curitiba,Zona Norte,117,4,3,158233,1975,20.68
+695,Belo Horizonte,Zona Sul,215,1,1,935534,1950,23.76
+696,Belo Horizonte,Zona Sul,58,1,1,396577,2017,1.1
+697,Belo Horizonte,Centro,179,1,2,301956,1990,15.17
+698,Curitiba,Zona Norte,216,3,2,454404,1987,3.22
+699,Belo Horizonte,Centro,265,4,1,909161,1982,28.94
+700,Belo Horizonte,Zona Norte,249,2,1,863819,2007,16.2
+701,Rio de Janeiro,Zona Norte,90,2,2,955590,1980,19.64
+702,Curitiba,Zona Sul,264,3,2,371107,1969,20.19
+703,Curitiba,Zona Norte,105,4,2,776003,1995,2.52
+704,Belo Horizonte,Zona Leste,120,4,3,1118422,1973,13.79
+705,Belo Horizonte,Zona Sul,211,4,2,354402,1990,0.6
+706,São Paulo,Zona Sul,212,2,1,809811,2012,27.72
+707,Porto Alegre,Zona Norte,78,1,1,645978,2008,23.94
+708,Curitiba,Zona Oeste,293,1,1,393438,1975,10.81
+709,Rio de Janeiro,Zona Sul,178,4,1,417551,2007,29.49
+710,Belo Horizonte,Zona Sul,90,1,3,916365,1998,22.24
+711,Rio de Janeiro,Zona Leste,181,3,2,687743,1970,3.01
+712,Curitiba,Zona Oeste,237,1,2,1169847,2015,21.4
+713,Porto Alegre,Centro,258,5,1,290428,1960,11.79
+714,Rio de Janeiro,Centro,237,3,3,736557,1972,11.88
+715,Curitiba,Zona Norte,73,1,2,1127661,1959,2.18
+716,Rio de Janeiro,Zona Sul,257,4,1,1027046,2021,25.92
+717,Belo Horizonte,Zona Sul,115,5,2,415104,1995,7.11
+718,Belo Horizonte,Zona Oeste,235,3,1,421852,1979,25.2
+719,Curitiba,Zona Leste,134,3,3,762377,1956,24.09
+720,Belo Horizonte,Zona Leste,51,1,2,523567,1955,12.97
+721,Rio de Janeiro,Zona Oeste,59,1,1,427828,1992,22.18
+722,Belo Horizonte,Zona Leste,295,5,3,261042,1955,17.0
+723,Curitiba,Zona Oeste,294,1,2,1191465,1950,1.4
+724,Porto Alegre,Zona Norte,111,1,1,943539,1964,12.62
+725,Curitiba,Zona Oeste,173,5,2,202186,2011,14.12
+726,Rio de Janeiro,Zona Oeste,66,4,3,735247,1968,29.85
+727,Rio de Janeiro,Zona Leste,296,1,1,666091,2009,28.01
+728,Belo Horizonte,Zona Oeste,161,4,1,768042,1995,26.72
+729,Rio de Janeiro,Zona Norte,226,4,1,751638,1972,0.57
+730,Curitiba,Zona Norte,180,1,1,845143,1969,14.3
+731,Belo Horizonte,Zona Sul,263,2,1,277480,2003,20.96
+732,Rio de Janeiro,Zona Oeste,203,3,3,156649,1983,29.5
+733,Rio de Janeiro,Zona Leste,236,1,3,903643,2007,16.71
+734,Rio de Janeiro,Zona Leste,79,4,1,1135260,1953,26.33
+735,Belo Horizonte,Zona Norte,114,5,2,984199,2005,6.77
+736,São Paulo,Zona Leste,273,5,2,1151383,2001,5.21
+737,Rio de Janeiro,Zona Leste,251,4,1,973821,1958,4.61
+738,Curitiba,Zona Leste,284,3,2,422306,1983,20.53
+739,Porto Alegre,Zona Oeste,166,4,2,992425,1958,19.59
+740,Rio de Janeiro,Zona Sul,74,5,3,487524,1950,19.02
+741,Rio de Janeiro,Zona Sul,197,4,2,308817,1958,7.6
+742,Porto Alegre,Zona Leste,174,1,3,195803,2016,6.07
+743,Rio de Janeiro,Centro,256,3,3,724575,1986,28.84
+744,Curitiba,Centro,130,3,2,1112836,1973,1.95
+745,Curitiba,Centro,90,3,1,1104130,1986,26.35
+746,Curitiba,Zona Norte,126,3,2,934328,2019,24.18
+747,Porto Alegre,Zona Oeste,296,5,2,747700,1993,4.84
+748,Curitiba,Zona Sul,222,1,2,464681,1952,10.3
+749,Curitiba,Zona Sul,85,1,3,971934,1981,4.78
+750,Rio de Janeiro,Zona Leste,70,3,2,1063107,1975,29.31
+751,Porto Alegre,Zona Leste,180,1,1,995542,2009,5.03
+752,Belo Horizonte,Zona Oeste,99,2,3,613530,2020,17.02
+753,São Paulo,Zona Sul,209,5,1,943305,1985,19.47
+754,Porto Alegre,Zona Norte,282,5,3,1040349,1962,19.58
+755,Rio de Janeiro,Centro,189,4,2,1112224,1982,11.03
+756,Porto Alegre,Zona Leste,250,1,3,266350,2009,4.83
+757,Porto Alegre,Zona Norte,268,2,1,402964,1998,8.31
+758,Curitiba,Centro,188,5,1,574920,2007,19.01
+759,Rio de Janeiro,Zona Oeste,165,4,1,919844,1970,18.05
+760,São Paulo,Zona Oeste,282,5,2,925727,2015,1.17
+761,Porto Alegre,Centro,83,1,1,497104,1962,26.97
+762,Belo Horizonte,Zona Sul,271,2,3,770127,2001,12.62
+763,Belo Horizonte,Zona Leste,294,5,1,1057822,1962,12.99
+764,São Paulo,Zona Leste,133,1,3,1184007,1959,12.72
+765,São Paulo,Centro,89,2,2,387441,1962,14.02
+766,São Paulo,Zona Sul,104,1,1,1037730,1972,25.88
+767,Porto Alegre,Zona Sul,93,1,1,319073,1969,26.59
+768,Curitiba,Zona Leste,218,1,1,824393,1975,13.68
+769,Curitiba,Zona Oeste,242,2,3,1180953,1971,13.73
+770,Rio de Janeiro,Zona Norte,67,5,1,1157350,1965,7.17
+771,Porto Alegre,Zona Sul,297,1,3,754790,1958,12.76
+772,Curitiba,Zona Oeste,269,4,2,833338,2016,15.04
+773,Porto Alegre,Zona Sul,102,3,2,445575,1966,19.72
+774,Belo Horizonte,Zona Oeste,238,5,1,472256,1962,13.19
+775,Rio de Janeiro,Zona Norte,237,5,3,504296,1992,14.51
+776,Rio de Janeiro,Zona Leste,145,3,3,654337,1968,4.78
+777,São Paulo,Zona Norte,166,5,3,532179,2002,14.4
+778,Porto Alegre,Zona Norte,288,5,3,969295,1968,27.2
+779,Rio de Janeiro,Centro,50,3,1,778508,2011,20.55
+780,São Paulo,Zona Norte,239,1,2,1163880,1977,25.26
+781,Belo Horizonte,Centro,144,1,1,643015,1991,21.47
+782,São Paulo,Zona Norte,51,1,3,749755,1955,12.74
+783,Curitiba,Zona Oeste,200,3,2,242542,1968,12.48
+784,Porto Alegre,Centro,264,3,3,672393,1981,6.78
+785,Curitiba,Zona Oeste,153,5,1,586399,2017,2.37
+786,Belo Horizonte,Zona Leste,183,4,2,1144022,2008,12.41
+787,São Paulo,Zona Norte,117,2,2,877716,1952,3.38
+788,Porto Alegre,Centro,143,5,3,414740,2000,23.91
+789,Belo Horizonte,Zona Oeste,132,4,1,953455,1986,27.98
+790,Belo Horizonte,Zona Sul,203,2,1,645147,1990,7.85
+791,Belo Horizonte,Zona Leste,115,5,3,857807,2012,3.12
+792,Porto Alegre,Zona Oeste,72,3,3,321635,1983,28.17
+793,Rio de Janeiro,Centro,252,3,2,603365,2018,17.68
+794,São Paulo,Zona Sul,56,4,2,732606,1979,24.34
+795,Belo Horizonte,Zona Leste,221,1,2,1193800,2004,6.33
+796,São Paulo,Centro,164,4,2,571054,1984,2.83
+797,São Paulo,Zona Sul,76,1,3,370831,1969,24.14
+798,São Paulo,Zona Sul,84,3,2,674761,2021,5.55
+799,Belo Horizonte,Zona Oeste,274,3,2,1103616,2014,11.24
+800,Porto Alegre,Zona Oeste,223,2,1,914009,1963,7.61
+801,Rio de Janeiro,Centro,277,2,1,615446,1980,9.97
+802,São Paulo,Centro,126,1,2,187413,2003,13.87
+803,São Paulo,Centro,248,4,1,533350,1981,23.76
+804,Porto Alegre,Centro,280,4,2,1125642,2007,7.12
+805,São Paulo,Zona Leste,133,2,2,1099364,2010,13.32
+806,São Paulo,Zona Leste,261,4,2,884586,1971,29.16
+807,Curitiba,Centro,198,5,1,495065,1989,7.88
+808,Curitiba,Centro,184,1,3,672753,1996,8.5
+809,Rio de Janeiro,Zona Oeste,284,5,3,1172962,1982,20.01
+810,Porto Alegre,Zona Leste,257,4,2,1165156,1974,21.1
+811,Curitiba,Zona Oeste,223,5,3,791450,1958,25.51
+812,São Paulo,Centro,92,2,1,560630,1980,21.11
+813,Rio de Janeiro,Zona Norte,255,4,1,859638,1977,18.51
+814,Belo Horizonte,Zona Leste,170,2,2,493978,1973,26.68
+815,Belo Horizonte,Centro,171,4,3,403141,1988,25.91
+816,Rio de Janeiro,Zona Sul,197,5,1,279740,1999,22.95
+817,São Paulo,Zona Oeste,52,1,3,1053606,1980,24.68
+818,Curitiba,Zona Sul,188,2,3,729764,1977,28.47
+819,São Paulo,Zona Leste,292,3,2,914932,1964,18.54
+820,Belo Horizonte,Zona Norte,242,1,3,438132,1960,21.41
+821,São Paulo,Zona Oeste,169,3,2,1014792,1969,29.75
+822,Rio de Janeiro,Centro,275,2,1,709185,2020,12.75
+823,São Paulo,Centro,241,1,3,300670,1982,28.11
+824,Rio de Janeiro,Zona Sul,92,1,2,531271,1963,14.71
+825,São Paulo,Centro,274,3,1,857144,2011,28.25
+826,Rio de Janeiro,Zona Leste,163,4,1,513748,1982,20.5
+827,Curitiba,Zona Sul,55,5,1,509587,1974,5.57
+828,Rio de Janeiro,Centro,223,1,2,610393,2005,17.91
+829,Porto Alegre,Zona Oeste,208,3,3,1079976,1997,0.57
+830,Belo Horizonte,Zona Leste,223,4,3,266567,1964,18.53
+831,Porto Alegre,Zona Sul,245,2,1,151730,1994,25.57
+832,São Paulo,Zona Leste,245,5,2,1166523,2001,8.04
+833,Curitiba,Zona Leste,260,1,3,1039928,1998,10.27
+834,Belo Horizonte,Zona Norte,257,2,1,1075941,1955,2.14
+835,Curitiba,Zona Oeste,169,2,3,763031,2004,8.31
+836,Porto Alegre,Zona Leste,274,5,2,898424,2020,8.36
+837,Belo Horizonte,Zona Oeste,118,3,3,269889,1969,21.91
+838,Curitiba,Zona Norte,52,2,1,1185971,2010,5.3
+839,Rio de Janeiro,Centro,260,3,1,949771,1991,24.44
+840,Rio de Janeiro,Zona Sul,96,2,2,321927,1981,11.98
+841,Curitiba,Centro,102,2,2,181067,1970,7.82
+842,São Paulo,Centro,259,4,2,1135712,1970,5.83
+843,Belo Horizonte,Centro,145,4,2,359923,1977,11.33
+844,Rio de Janeiro,Zona Oeste,250,5,1,1007957,1982,16.97
+845,Curitiba,Zona Norte,174,4,3,702876,2005,9.45
+846,Belo Horizonte,Centro,143,5,1,1021482,1996,7.01
+847,São Paulo,Zona Oeste,244,2,3,841339,2013,6.78
+848,Porto Alegre,Zona Sul,166,1,2,413883,2006,20.55
+849,Rio de Janeiro,Zona Sul,278,2,3,299117,1978,8.4
+850,Porto Alegre,Centro,197,2,2,1011910,1993,9.24
+851,Curitiba,Zona Norte,264,5,1,1037104,2014,7.06
+852,Curitiba,Zona Norte,57,1,2,1093333,1978,12.36
+853,Rio de Janeiro,Centro,254,5,2,919586,1999,18.73
+854,Porto Alegre,Zona Sul,224,2,2,897802,1967,29.93
+855,Rio de Janeiro,Zona Sul,180,3,3,814739,1975,19.2
+856,Porto Alegre,Zona Oeste,62,2,1,466988,1995,6.34
+857,Curitiba,Zona Leste,103,5,1,535970,1982,6.4
+858,Rio de Janeiro,Zona Norte,244,2,1,987196,1998,2.25
+859,Porto Alegre,Zona Leste,234,4,3,782538,2020,9.17
+860,São Paulo,Zona Norte,297,1,1,330789,1990,19.2
+861,Belo Horizonte,Centro,195,1,1,965447,2002,3.32
+862,Belo Horizonte,Zona Oeste,61,4,1,846201,1983,29.75
+863,Curitiba,Zona Oeste,162,3,2,620032,1960,0.66
+864,Porto Alegre,Zona Oeste,222,4,2,1011483,1989,2.51
+865,Curitiba,Centro,169,5,2,657789,1989,2.34
+866,Porto Alegre,Zona Sul,248,3,1,909411,1978,14.05
+867,Rio de Janeiro,Zona Norte,235,5,2,702292,1958,19.69
+868,São Paulo,Zona Norte,65,1,1,246246,1972,18.45
+869,Rio de Janeiro,Zona Norte,197,5,3,189890,1965,17.69
+870,São Paulo,Centro,213,3,2,1021855,1994,2.02
+871,Belo Horizonte,Zona Sul,108,4,1,960911,1959,1.0
+872,Porto Alegre,Zona Norte,164,2,1,482248,1970,27.65
+873,São Paulo,Zona Leste,175,1,2,874320,1995,6.07
+874,Rio de Janeiro,Zona Oeste,74,1,3,1109208,1983,14.72
+875,Rio de Janeiro,Zona Norte,260,5,2,426520,2013,29.41
+876,Porto Alegre,Zona Sul,226,4,1,218984,1957,8.68
+877,Rio de Janeiro,Zona Norte,259,1,1,685133,1973,0.81
+878,Curitiba,Zona Leste,231,4,1,367810,2009,17.72
+879,Porto Alegre,Centro,279,2,3,206309,1960,25.54
+880,Rio de Janeiro,Zona Oeste,295,4,1,687062,1955,1.21
+881,São Paulo,Zona Oeste,113,4,3,1031061,2012,14.94
+882,Porto Alegre,Zona Oeste,75,5,1,965812,1973,0.92
+883,Curitiba,Zona Norte,210,2,1,253586,1963,28.54
+884,Porto Alegre,Zona Oeste,269,3,2,199162,2012,25.07
+885,Curitiba,Centro,207,3,3,650071,1962,21.61
+886,São Paulo,Zona Leste,227,5,3,287206,1982,28.33
+887,Rio de Janeiro,Zona Norte,183,5,2,1187857,2005,23.4
+888,São Paulo,Zona Oeste,131,5,1,695397,1986,12.46
+889,Porto Alegre,Zona Leste,115,5,3,403717,1957,8.4
+890,Porto Alegre,Zona Norte,281,4,3,984536,1953,9.8
+891,Porto Alegre,Zona Oeste,299,1,1,417985,1996,19.8
+892,São Paulo,Zona Norte,74,2,1,602099,1959,5.77
+893,Porto Alegre,Zona Norte,79,1,2,636206,2007,7.74
+894,Curitiba,Zona Norte,223,4,1,305448,1974,18.16
+895,Curitiba,Zona Sul,288,1,2,859366,1997,17.44
+896,Rio de Janeiro,Zona Oeste,261,3,1,165062,2009,4.56
+897,São Paulo,Zona Oeste,229,4,2,285912,1998,11.75
+898,Rio de Janeiro,Zona Sul,222,5,3,882147,1969,2.48
+899,Belo Horizonte,Zona Norte,131,4,3,682425,2014,22.2
+900,Belo Horizonte,Zona Oeste,281,5,1,1127174,2007,8.56
+901,Rio de Janeiro,Centro,54,2,2,154724,1978,17.5
+902,Belo Horizonte,Zona Norte,250,2,2,421566,2003,10.99
+903,Curitiba,Zona Oeste,268,3,3,801632,2007,28.58
+904,Porto Alegre,Zona Leste,183,1,1,1158236,1954,2.19
+905,Porto Alegre,Zona Norte,210,5,1,1123718,1996,18.62
+906,São Paulo,Zona Leste,240,4,2,1089221,1964,9.68
+907,Rio de Janeiro,Zona Oeste,274,5,1,1046826,1996,16.44
+908,Porto Alegre,Zona Oeste,170,1,2,754445,1968,19.25
+909,Curitiba,Zona Leste,96,2,3,944323,1991,24.62
+910,Porto Alegre,Zona Leste,77,3,3,848952,1982,10.8
+911,Rio de Janeiro,Zona Sul,150,2,1,445495,1999,15.87
+912,São Paulo,Centro,81,2,3,634949,1976,25.1
+913,Curitiba,Zona Norte,126,4,3,187069,1987,2.7
+914,Porto Alegre,Centro,114,4,2,326334,1960,28.74
+915,Rio de Janeiro,Zona Leste,71,1,2,519646,1964,18.61
+916,Porto Alegre,Zona Sul,70,3,3,459661,1968,5.85
+917,São Paulo,Zona Oeste,244,4,3,377018,1999,0.77
+918,Porto Alegre,Zona Norte,95,4,1,921698,2017,2.38
+919,São Paulo,Centro,238,4,3,777380,1961,1.12
+920,São Paulo,Zona Oeste,103,2,1,1158255,1953,19.73
+921,Rio de Janeiro,Zona Leste,90,5,1,1056956,1998,9.76
+922,Rio de Janeiro,Zona Norte,165,3,1,635570,1972,21.78
+923,Curitiba,Zona Norte,273,5,1,666833,1954,14.01
+924,São Paulo,Zona Leste,163,5,3,186307,1992,7.93
+925,São Paulo,Centro,108,2,2,1103885,1960,9.87
+926,Porto Alegre,Zona Norte,56,4,2,875371,2009,2.46
+927,Rio de Janeiro,Zona Norte,219,4,2,763201,1980,27.69
+928,São Paulo,Centro,109,2,2,566240,1979,9.39
+929,Porto Alegre,Zona Leste,52,1,3,199223,1984,28.07
+930,Rio de Janeiro,Zona Oeste,250,5,1,701362,2004,17.08
+931,São Paulo,Zona Leste,89,3,3,1137527,2015,7.11
+932,Porto Alegre,Centro,132,3,1,294628,1959,3.27
+933,Curitiba,Zona Oeste,240,3,2,518279,1976,19.3
+934,Belo Horizonte,Zona Norte,257,1,1,223274,2021,9.83
+935,Curitiba,Zona Sul,105,1,2,242403,1964,25.3
+936,São Paulo,Zona Leste,279,5,1,888979,1957,11.31
+937,Curitiba,Zona Norte,192,5,1,497815,1977,1.67
+938,Porto Alegre,Zona Norte,78,4,1,237014,1962,8.0
+939,Belo Horizonte,Centro,187,5,2,937180,2005,14.01
+940,Belo Horizonte,Centro,295,4,2,902978,1955,1.17
+941,Porto Alegre,Zona Oeste,169,2,3,780529,2019,18.5
+942,São Paulo,Zona Oeste,178,5,1,968376,1970,23.52
+943,São Paulo,Centro,57,2,1,944958,1983,27.03
+944,Belo Horizonte,Zona Norte,77,4,3,496452,1984,7.07
+945,Rio de Janeiro,Zona Leste,167,3,3,987994,1958,22.33
+946,Curitiba,Centro,73,3,3,369260,1977,13.09
+947,Curitiba,Zona Norte,184,2,2,318013,1958,10.91
+948,Belo Horizonte,Zona Leste,174,2,2,755552,1966,18.2
+949,Curitiba,Zona Sul,80,2,3,1174838,2000,12.05
+950,Belo Horizonte,Centro,148,3,1,517670,1963,11.5
+951,Curitiba,Centro,280,3,3,1053094,2013,26.97
+952,Curitiba,Zona Oeste,217,5,1,356390,1953,11.33
+953,São Paulo,Zona Norte,180,5,1,492484,1978,25.84
+954,Belo Horizonte,Zona Norte,77,2,1,226999,2004,25.87
+955,Belo Horizonte,Zona Oeste,297,1,1,331681,2009,2.68
+956,Curitiba,Zona Leste,95,1,2,727194,1999,13.9
+957,Belo Horizonte,Centro,239,2,3,377135,1990,25.71
+958,Belo Horizonte,Zona Norte,176,1,1,807266,1992,19.25
+959,Porto Alegre,Zona Norte,220,4,3,846162,1992,25.79
+960,Curitiba,Zona Oeste,137,1,1,553896,1956,14.68
+961,Curitiba,Zona Oeste,142,1,2,848006,2013,17.35
+962,Belo Horizonte,Zona Oeste,223,4,2,470697,1996,19.47
+963,Porto Alegre,Zona Oeste,202,4,2,944304,1967,2.28
+964,Porto Alegre,Centro,288,2,3,973497,1993,27.4
+965,Belo Horizonte,Zona Norte,71,4,3,441066,2017,23.68
+966,Curitiba,Centro,170,2,3,682447,1983,12.31
+967,Rio de Janeiro,Zona Leste,172,1,1,418035,1988,17.88
+968,Curitiba,Centro,220,3,2,1042908,1978,22.62
+969,São Paulo,Centro,69,4,1,780074,1984,4.98
+970,Rio de Janeiro,Zona Norte,295,3,3,600702,1993,19.74
+971,Porto Alegre,Centro,161,2,1,347324,1966,15.48
+972,Belo Horizonte,Zona Leste,174,4,3,537592,1990,23.7
+973,Curitiba,Centro,151,5,2,1171167,1981,8.25
+974,Curitiba,Centro,131,2,1,631439,1985,29.56
+975,Belo Horizonte,Centro,219,3,2,1091758,2000,19.53
+976,Curitiba,Zona Norte,293,4,1,992466,1985,18.27
+977,Belo Horizonte,Zona Sul,259,3,3,627864,1976,20.95
+978,Rio de Janeiro,Zona Norte,191,1,3,792795,1999,7.13
+979,São Paulo,Zona Norte,224,4,3,459764,2020,25.34
+980,Belo Horizonte,Zona Leste,269,3,1,855186,2004,22.83
+981,Porto Alegre,Zona Leste,126,4,1,1112495,2013,11.21
+982,Rio de Janeiro,Zona Sul,280,5,3,324163,2013,23.56
+983,Curitiba,Zona Norte,173,1,1,529638,1960,22.37
+984,Belo Horizonte,Zona Leste,237,1,2,156865,1959,16.66
+985,Curitiba,Zona Leste,111,1,1,225730,1963,6.37
+986,Curitiba,Centro,121,2,2,954407,2002,25.91
+987,São Paulo,Centro,249,2,1,915334,1986,26.29
+988,São Paulo,Zona Sul,52,3,2,167826,2018,16.79
+989,São Paulo,Zona Sul,299,2,1,832447,1984,11.4
+990,São Paulo,Zona Sul,183,1,2,186166,1987,21.86
+991,Belo Horizonte,Zona Leste,101,2,2,747966,2001,10.68
+992,São Paulo,Zona Oeste,165,2,2,628386,1996,6.68
+993,Rio de Janeiro,Centro,180,1,3,447606,1999,24.79
+994,Belo Horizonte,Zona Sul,208,3,2,875075,1972,20.59
+995,Belo Horizonte,Zona Leste,282,2,1,1131256,2018,13.45
+996,Rio de Janeiro,Zona Leste,232,4,2,699821,1971,28.31
+997,Belo Horizonte,Zona Leste,237,5,2,595942,1976,9.41
+998,Rio de Janeiro,Zona Oeste,224,1,1,785023,1974,26.88
+999,São Paulo,Zona Norte,251,3,1,623650,1956,23.36
+1000,Belo Horizonte,Zona Oeste,255,1,1,325847,1989,27.1
