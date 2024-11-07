@@ -9,7 +9,8 @@ object Main extends App {
 	val numero2 = 2
 
 	println(s"Soma: ${soma(numero1, numero2)}")
-	println(s"Subtração: ${subtracao(numero1, numero2)}")
+	println(s"Soma: ${((a: Int, b: Int) => a + b)(numero1, numero2)}")
+	println(s"Subtração: ${(subtracao)(numero1, numero2)}")
 	println(s"Multiplicação: ${multiplicacao(numero1, numero2)}")
 	println(s"Divisão: ${divisao(numero1, numero2)}")
 }

@@ -1,4 +1,3 @@
-//Exemplo prático do uso de: Funções como Retorno de Outras Funções
 //Criação de Funções para Cálculos de Imposto: Em um sistema fiscal, cada tipo de produto pode ter uma taxa de imposto diferente. Podemos criar uma função que gera uma função de cálculo de imposto específica para cada taxa.
 //A função calcularImposto retorna uma função específica para cada taxa de imposto, facilitando o cálculo de diferentes categorias.
 object Main extends App {

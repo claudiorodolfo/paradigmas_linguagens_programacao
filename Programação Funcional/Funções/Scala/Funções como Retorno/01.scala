@@ -1,4 +1,3 @@
-//Exemplo prático do uso de: Funções como Retorno de Outras Funções
 //Função que Retorna um Multiplicador Personalizado: Retorna uma função que multiplica um número por um valor específico.
 
 object Main extends App {

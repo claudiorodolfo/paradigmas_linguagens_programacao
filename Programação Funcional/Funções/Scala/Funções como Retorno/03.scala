@@ -1,4 +1,3 @@
-//Exemplo prático do uso de: Funções como Retorno de Outras Funções
 //Gerador de Funções de Validação com Base no Tipo: Retorna uma função que valida um valor com base no tipo de dado.
 object Main extends App {
   def getFuncaoValidacao(tipoDado: String): String => Boolean = {

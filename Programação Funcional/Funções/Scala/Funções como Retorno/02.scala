@@ -1,5 +1,4 @@
-//Exemplo prático do uso de: Funções como Retorno de Outras Funções
-//Gerador de Funções de Formatação de Strings: Retorna uma função que formata uma String com base no estilo solicitado.
+//Gerador de Funções de Formatação de Strings: 
 object Main extends App {
   def getFuncaoFormatadora(style: String): String => String = {
     style.toLowerCase match {
