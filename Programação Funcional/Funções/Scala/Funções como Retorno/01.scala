@@ -1,14 +1,12 @@
 //Exemplo prático do uso de: Funções como Retorno de Outras Funções
-//Criação de Funções para Cálculos de Imposto: Em um sistema fiscal, cada tipo de produto pode ter uma taxa de imposto diferente. Podemos criar uma função que gera uma função de cálculo de imposto específica para cada taxa.
-//A função calcularImposto retorna uma função específica para cada taxa de imposto, facilitando o cálculo de diferentes categorias.
+//Função que Retorna um Multiplicador Personalizado: Retorna uma função que multiplica um número por um valor específico.
+
 object Main extends App {
-	def calcularImposto(taxa: Double): Double => Double = {
-	(valor: Double) => valor * taxa
-	}
+  def multiplica(x: Int): Int => Int = {
+    (y: Int) => x * y
+  }
 
-	val impostoEletronico = calcularImposto(0.2) // Função para aplicar 20% de imposto
-	val impostoAlimento = calcularImposto(0.05) // Função para aplicar 5% de imposto
-
-	println(impostoEletronico(100)) // Calcula 20% de 100
-	println(impostoAlimento(300)) // Calcula 5% de 300
+  val dobro = multiplica(2)
+  val triplo = multiplica(3)
+  println(triplo(10)) // Saída: 30
 }
