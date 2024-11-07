@@ -5,27 +5,28 @@ object Main extends App {
 
   // Criação do SparkSession
   val spark = SparkSession.builder()
-    .appName("Temperatura")
+    .appName("Transporte")
     .master("local")  // Definido para rodar localmente
     .getOrCreate()
-	
+
   // Carregando o CSV com a inferência de schema
-  val dfTemperatura = spark.read
+  val dfViagens = spark.read
     .format("csv")
     .option("header", "true")      //A primeira linha do arquivo tem cabeçalho. Não começa diretamente nos dados
     .option("inferSchema", "true") // Garante que os tipos corretos sejam inferidos e não ler tudo como texto
-    .load("temperatura.csv")
+    .load("transporte.csv")
 
   // Renomeando as colunas para facilitar o acesso
-  val dfRenomeado = dfTemperatura
-    .withColumnRenamed("Temperatura Máxima (°C)", "tempMax")
-    .withColumnRenamed("Temperatura Mínima (°C)", "tempMin")
+  val dfRenomeado = dfViagens
+    .withColumnRenamed("ID da viagem", "idViagem")
+    .withColumnRenamed("Linha de ônibus", "linhaOnibus")
+    .withColumnRenamed("Tipo de veículo", "tipoVeiculo")
+    .withColumnRenamed("Número de passageiros", "numPassageiros")
 
-	
-  // Calcule a temperatura média (média entre a máxima e a mínima) de todos os registros.
+  // Selecionando as viagens com mais de 50 passageiros
   val resultado = dfRenomeado
-    .withColumn("media_temperatura", ($"tempMax" + $"tempMin") / 2)
-    .agg(avg("media_temperatura").as("temperatura_media_geral"))
+    .filter(col("numPassageiros") > 50)
+    .select("idViagem", "linhaOnibus", "tipoVeiculo")
 
   // Exibindo o resultado completo (sem truncamento)
   resultado.show(false)

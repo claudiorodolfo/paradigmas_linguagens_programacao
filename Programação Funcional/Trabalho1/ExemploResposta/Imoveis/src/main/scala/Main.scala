@@ -5,10 +5,10 @@ object Main extends App {
 
   // Criação do SparkSession
   val spark = SparkSession.builder()
-    .appName("Imóveis")
+    .appName("Imoveis")
     .master("local")  // Definido para rodar localmente
     .getOrCreate()
-	
+
   // Carregando o CSV com a inferência de schema
   val dfImoveis = spark.read
     .format("csv")
@@ -26,7 +26,7 @@ object Main extends App {
 
   // Selecionando os imóveis com área maior que 100 m² e preço superior a 1.000.000
   val resultado = dfRenomeado
-    .filter($"area" > 100 && $"preco" > 1000000)
+    .filter(col("area") > 100 && col("preco") > 1000000)
     .select("id", "cidade", "bairro", "preco")
 
   // Exibindo o resultado completo (sem truncamento)

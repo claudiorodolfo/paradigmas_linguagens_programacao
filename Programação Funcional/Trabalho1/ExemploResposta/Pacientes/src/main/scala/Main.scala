@@ -5,28 +5,29 @@ object Main extends App {
 
   // Criação do SparkSession
   val spark = SparkSession.builder()
-    .appName("Transporte")
+    .appName("Pacientes")
     .master("local")  // Definido para rodar localmente
     .getOrCreate()
 
   // Carregando o CSV com a inferência de schema
-  val dfViagens = spark.read
+  val dfAtendimentos = spark.read
     .format("csv")
     .option("header", "true")      //A primeira linha do arquivo tem cabeçalho. Não começa diretamente nos dados
     .option("inferSchema", "true") // Garante que os tipos corretos sejam inferidos e não ler tudo como texto
-    .load("viagens.csv")
+    .load("pacientes.csv")
 
   // Renomeando as colunas para facilitar o acesso
-  val dfRenomeado = dfViagens
-    .withColumnRenamed("ID da viagem", "idViagem")
-    .withColumnRenamed("Linha de ônibus", "linhaOnibus")
-    .withColumnRenamed("Tipo de veículo", "tipoVeiculo")
-    .withColumnRenamed("Número de passageiros", "numPassageiros")
+  val dfRenomeado = dfAtendimentos
+    .withColumnRenamed("ID Atendimento", "atendimento")
+    .withColumnRenamed("Paciente", "nomePaciente")
+    .withColumnRenamed("Diagnóstico", "diagnostico")
+    .withColumnRenamed("Tratamento", "tratamento")
+    .withColumnRenamed("Idade", "idade")
 
-  // Selecionando as viagens com mais de 50 passageiros
+  // Liste todos os atendimentos de pacientes com mais de 60 anos que receberam tratamento "Fisioterapia".
   val resultado = dfRenomeado
-    .filter($"numPassageiros" > 50)
-    .select("idViagem", "linhaOnibus", "tipoVeiculo")
+    .filter(col("idade") > 60 && col("tratamento") === "Fisioterapia")
+    .select("atendimento", "nomePaciente", "diagnostico")
 
   // Exibindo o resultado completo (sem truncamento)
   resultado.show(false)

@@ -5,29 +5,27 @@ object Main extends App {
 
   // Criação do SparkSession
   val spark = SparkSession.builder()
-    .appName("Pacientes")
+    .appName("Temperatura")
     .master("local")  // Definido para rodar localmente
     .getOrCreate()
-	
+
   // Carregando o CSV com a inferência de schema
-  val dfAtendimentos = spark.read
+  val dfTemperatura = spark.read
     .format("csv")
     .option("header", "true")      //A primeira linha do arquivo tem cabeçalho. Não começa diretamente nos dados
     .option("inferSchema", "true") // Garante que os tipos corretos sejam inferidos e não ler tudo como texto
-    .load("pacientes.csv")
+    .load("temperatura.csv")
 
   // Renomeando as colunas para facilitar o acesso
-  val dfRenomeado = dfAtendimentos
-    .withColumnRenamed("ID Atendimento", "atendimento")
-    .withColumnRenamed("Paciente", "nomePaciente")
-    .withColumnRenamed("Diagnóstico", "diagnostico")
-    .withColumnRenamed("Tratamento", "tratamento")
-    .withColumnRenamed("Idade", "idade")
+  val dfRenomeado = dfTemperatura
+    .withColumnRenamed("Temperatura Máxima (°C)", "tempMax")
+    .withColumnRenamed("Temperatura Mínima (°C)", "tempMin")
 
-  // Liste todos os atendimentos de pacientes com mais de 60 anos que receberam tratamento "Fisioterapia".
+
+  // Calcule a temperatura média (média entre a máxima e a mínima) de todos os registros.
   val resultado = dfRenomeado
-    .filter($"idade" > 60 && $"tratamento" === "Fisioterapia")
-    .select("atendimento", "nomePaciente", "diagnostico")
+    .withColumn("media_temperatura", (col("tempMax") + col("tempMin")) / 2)
+    .agg(avg("media_temperatura").as("temperatura_media_geral"))
 
   // Exibindo o resultado completo (sem truncamento)
   resultado.show(false)
