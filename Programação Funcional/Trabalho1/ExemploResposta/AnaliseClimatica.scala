@@ -1,31 +1,35 @@
-//Temperaturas médias em toda a base de dados: Calcule a temperatura média (média entre a máxima e a mínima) de todos os registros. Exiba apenas o valor da média.
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.SparkSession
 
-object Main {
+object Main extends App {
 
-  case class RegistroClima(
-    data: String,
-    cidade: String,
-    tempMax: Double,
-    tempMin: Double,
-    precipitacao: Double,
-    umidade: Double,
-    velocidadeVento: Double
-  )
+  // Criação do SparkSession
+  val spark = SparkSession.builder()
+    .appName("Temperatura")
+    .master("local")  // Definido para rodar localmente
+    .getOrCreate()
+	
+  // Carregando o CSV com a inferência de schema
+  val dfTemperatura = spark.read
+    .format("csv")
+    .option("header", "true")      //A primeira linha do arquivo tem cabeçalho. Não começa diretamente nos dados
+    .option("inferSchema", "true") // Garante que os tipos corretos sejam inferidos e não ler tudo como texto
+    .load("temperatura.csv")
 
-  def main(args: Array[String]): Unit = {
-    val registros = List(
-      RegistroClima("2024-01-01", "São Paulo", 30.0, 20.0, 5.0, 80.0, 15.0),
-      RegistroClima("2024-01-02", "Rio de Janeiro", 32.0, 22.0, 0.0, 75.0, 10.0),
-      RegistroClima("2024-01-03", "Curitiba", 25.0, 15.0, 2.5, 85.0, 12.0),
-      RegistroClima("2024-01-04", "Brasília", 28.0, 18.0, 3.0, 70.0, 8.0)
-    )
+  // Renomeando as colunas para facilitar o acesso
+  val dfRenomeado = dfTemperatura
+    .withColumnRenamed("Temperatura Máxima (°C)", "tempMax")
+    .withColumnRenamed("Temperatura Mínima (°C)", "tempMin")
 
-    val mediaTemperaturaGeral = registros
-      .map(registro => (registro.tempMax + registro.tempMin) / 2) // Média por registro
-      .sum / registros.length // Média de todas as médias
+	
+  // Calcule a temperatura média (média entre a máxima e a mínima) de todos os registros.
+  val resultado = dfRenomeado
+    .withColumn("media_temperatura", ($"tempMax" + $"tempMin") / 2)
+    .agg(avg("media_temperatura").as("temperatura_media_geral"))
 
-    println(f"Temperatura média geral: $mediaTemperaturaGeral%.2f°C")
-  }
-  //Saída:
-  //Temperatura média geral: 23.75°C
+  // Exibindo o resultado completo (sem truncamento)
+  resultado.show(false)
+
+  // Parando o SparkSession (opcional)
+  spark.stop()
 }

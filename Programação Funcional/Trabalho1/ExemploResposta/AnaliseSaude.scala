@@ -1,31 +1,32 @@
-//Idade média de todos os participantes: Calcule a idade média de todos os participantes na base de dados. Exiba apenas o valor da média.
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.SparkSession
 
-object Main {
+object Main extends App {
 
-  case class DadosSaude(
-    id: Int,
-    idade: Int,
-    genero: String,
-    altura: Double,
-    peso: Double,
-    horasSono: Double,
-    caloriasConsumidas: Int,
-    passosPorDia: Int,
-    atividadeFisicaMin: Int,
-    pressaoArterial: String
-  )
+  // Criação do SparkSession
+  val spark = SparkSession.builder()
+    .appName("Saúde")
+    .master("local")  // Definido para rodar localmente
+    .getOrCreate()
+	
+  // Carregando o CSV com a inferência de schema
+  val dfParticipantes = spark.read
+    .format("csv")
+    .option("header", "true")      //A primeira linha do arquivo tem cabeçalho. Não começa diretamente nos dados	
+    .option("inferSchema", "true") // Garante que os tipos corretos sejam inferidos e não ler tudo como texto
+    .load("saude.csv")
 
-  def main(args: Array[String]): Unit = {
-    val dados = List(
-      DadosSaude(1, 25, "M", 1.75, 70.0, 7.0, 2200, 8000, 30, "120/80"),
-      DadosSaude(2, 45, "F", 1.60, 65.0, 6.5, 1800, 6000, 20, "130/85"),
-      DadosSaude(3, 30, "M", 1.82, 85.0, 8.0, 2500, 10000, 45, "115/75"),
-      DadosSaude(4, 60, "F", 1.70, 78.0, 6.0, 2000, 5000, 15, "140/90")
-    )
+  // Renomeando a coluna 'Idade' para facilitar o acesso
+  val dfRenomeado = dfParticipantes
+    .withColumnRenamed("Idade", "idade")
 
-    val idadeMedia = dados.map(x => x.idade).sum.toDouble / dados.length
+  // Calcule a idade média de todos os participantes na base de dados.
+  val resultado = dfRenomeado
+    .agg(avg("idade").as("idade_media"))
 
-    println(f"Idade média dos participantes: $idadeMedia%.0f anos")
-  }
-  //Idade média dos participantes: 40.00 anos
+  // Exibindo o resultado completo (sem truncamento)
+  resultado.show(false) 
+  
+  // Parando o SparkSession (opcional)
+  spark.stop()
 }
