@@ -5,7 +5,7 @@ object Main {
   // Função principal
   def main(args: Array[String]): Unit = {
     println(celsiusParaFahrenheit(0))    //32
-	println(celsiusParaFahrenheit(100))  //212
-	println(celsiusParaFahrenheit(37.8)) //aproximadamente 100
+    println(celsiusParaFahrenheit(100))  //212
+    println(celsiusParaFahrenheit(37.8)) //aproximadamente 100
   }
 }

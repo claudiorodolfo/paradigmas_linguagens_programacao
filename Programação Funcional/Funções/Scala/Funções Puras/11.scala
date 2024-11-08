@@ -5,7 +5,7 @@ object Main {
   def main(args: Array[String]): Unit = {
     val x = 5
     val y = 10
-	  val z = 3
+    val z = 3
     println(s"O menor entre $x, $y, e $z é: ${menor(menor(x, y), z)}")
   }
 }

@@ -6,7 +6,7 @@ object Main {
  
   // Função principal
   def main(args: Array[String]): Unit = {
-  	val t = new Teste(30)
+    val t = new Teste(30)
     println(s"O Resultado é: ${mult3(t.idade)}")
     //println(mult3(10)) // Deve retornar false
   }

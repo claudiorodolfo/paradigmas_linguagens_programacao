@@ -15,7 +15,6 @@ object Main extends App {
 
 	// Total com bônus para vendas acima de 1000
 	val totalComBonusAcima1000 = calcularTotalComBonus(vendas, (venda: Venda) => venda.valor > 1000, 0.1)
-
 	// Total com bônus para vendas em São Paulo
 	val totalComBonusSaoPaulo = calcularTotalComBonus(vendas, (venda: Venda) => venda.cidade == "São Paulo", 0.1)
 	
