@@ -12,9 +12,10 @@ object Main extends App {
 	def filtrarFuncionarios(funcionarios: List[Funcionario], criterio: Funcionario => Boolean): List[Funcionario] = {
 		funcionarios.filter(criterio)
 	}
-
+	
+	val condicaoAcima80 = (funcionario: Funcionario) => funcionario.pontuacao >= 80
 	// Funcionários com pontuação acima de 80
-	val funcionariosAcima80 = filtrarFuncionarios(funcionarios, (funcionario: Funcionario) => funcionario.pontuacao >= 80)
+	val funcionariosAcima80 = filtrarFuncionarios(funcionarios, condicaoAcima80)
 	
 	println(s"Funcionários com pontuação acima de 80: $funcionariosAcima80")
 	// Saída: List(Funcionario("Alice",85), Funcionario("Carlos",90))

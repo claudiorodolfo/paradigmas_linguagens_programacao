@@ -12,12 +12,15 @@ object Main extends App {
 	def calcularTotalComBonus(vendas: List[Venda], filtro: Venda => Boolean, bonus: Double): Double = {
 	vendas.filter(filtro).map(x => x.valor * (1 + bonus)).sum
 	}
-
-	// Total com bônus para vendas acima de 1000
-	val totalComBonusAcima1000 = calcularTotalComBonus(vendas, (venda: Venda) => venda.valor > 1000, 0.1)
-	// Total com bônus para vendas em São Paulo
-	val totalComBonusSaoPaulo = calcularTotalComBonus(vendas, (venda: Venda) => venda.cidade == "São Paulo", 0.1)
 	
-	println(s"Total com bônus para vendas acima de 1000: $totalComBonusAcima1000") // Saída: 3300.0
-	println(s"Total com bônus para vendas em São Paulo: $totalComBonusSaoPaulo") // Saída: 3300.0
+	val Acima1000 = (venda: Venda) => venda.valor > 1000
+	val VendasSP = (venda: Venda) => venda.cidade == "São Paulo"
+	
+	// Total com bônus para vendas acima de 1000
+	val totalComBonusAcima1000 = calcularTotalComBonus(vendas, Acima1000, 0.1)
+	// Total com bônus para vendas em São Paulo
+	val totalComBonusSaoPaulo = calcularTotalComBonus(vendas, VendasSP , 0.1)
+	
+	println(s"Total com bônus para vendas acima de 1000: $totalComBonusAcima1000") // Saída: 3520.0
+	println(s"Total com bônus para vendas em São Paulo: $totalComBonusSaoPaulo") // Saída: 3520.0
 }

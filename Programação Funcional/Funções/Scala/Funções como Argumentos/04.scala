@@ -10,9 +10,9 @@ object Main extends App {
 		Evento(2, "Alerta", "Alto uso de memória", "alto"),
 		Evento(3, "Atualização", "Nova versão disponível", "médio")
 	)
-
+	val filtroPrioridadeAlta = (evento: Evento) => evento.prioridade == "alto"
 	// Filtro para eventos com prioridade "alto"
-	val eventosPrioridadeAlta = notificarEventos(eventos, (evento: Evento) => evento.prioridade == "alto")
+	val eventosPrioridadeAlta = notificarEventos(eventos, filtroPrioridadeAlta)
 	println(eventosPrioridadeAlta)
 	// Saída esperada: List(Evento(2, "Alerta", "Alto uso de memória", "alto"))
 }

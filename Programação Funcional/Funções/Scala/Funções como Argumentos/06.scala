@@ -12,9 +12,11 @@ object Main extends App {
 		Produto(2, "ProdutoB", 30.0, 8, "2023-02-10"),
 		Produto(3, "ProdutoC", 10.0, 5, "2023-01-10")
 	)
-
+	
+	val criterioPreco = (produto: Produto) => produto.preco
+	
 	// Classificação por preço
-	val produtosPorPreco = classificarProdutos(produtos, (produto: Produto) => produto.preco)
+	val produtosPorPreco = classificarProdutos(produtos, criterioPreco)
 	
 	println(produtosPorPreco)
 	// Saída esperada:
