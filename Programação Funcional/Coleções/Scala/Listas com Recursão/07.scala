@@ -2,7 +2,7 @@ object Main {
   // Função para duplicar os elementos de uma lista
   def duplica[A](lista: List[A]): List[A] = lista match {
     case Nil => Nil // Se a lista estiver vazia, retorna uma lista vazia
-    case a :: x => a :: a :: duplica(x) // Duplicar o primeiro elemento e continuar com o restante da lista
+    case cabeca :: cauda => cabeca :: cabeca :: duplica(cauda) // Duplicar o primeiro elemento e continuar com o restante da lista
   }
 
   // Função principal

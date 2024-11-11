@@ -1,8 +1,10 @@
 object Main {
   // Função para retornar os elementos maiores que um número específico
-  def maiores(x: Int, lista: List[Int]): List[Int] = lista match {
+  def maiores(elemento: Int, lista: List[Int]): List[Int] = lista match {
     case Nil => Nil
-    case a :: t => if (a > x) a :: maiores(x, t) else maiores(x, t)
+    case cabeca :: cauda => 
+		if (cabeca > elemento) cabeca :: maiores(elemento, cauda) 
+		else maiores(elemento, cauda)
   }
 
   // Função principal

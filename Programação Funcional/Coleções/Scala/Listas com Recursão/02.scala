@@ -2,8 +2,8 @@ object Main {
   // Função que recebe uma lista qualquer e retorna o maior elemento da lista.
   def maior(lista: List[Int]): Int = lista match {
     case List() => 0
-    case List(a) => a
-    case a :: x => if (a > maior(x)) a else maior(x)
+    case List(cabeca) => cabeca
+    case cabeca :: cauda => if (cabeca > maior(cauda)) cabeca else maior(cauda)
   }
   
   // Função principal

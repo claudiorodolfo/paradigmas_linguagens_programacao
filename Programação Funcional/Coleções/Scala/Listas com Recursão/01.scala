@@ -2,7 +2,7 @@ object Main {
   // Função que recebe uma lista qualquer e retorna o número de elementos na lista.
   def nroElementos[A](lista: List[A]): Int = lista match {
     case List() => 0
-    case a :: x => 1 + nroElementos(x)
+    case cabeca :: cauda => 1 + nroElementos(cauda)
   }
   
   // Função principal

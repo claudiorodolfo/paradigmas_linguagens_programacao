@@ -1,8 +1,9 @@
 object Main {
   // Função que recebe uma lista qualquer e retorna o número de elementos na lista.
-  def contaOcorrencias(a: Int, lista: List[Int]): Int = lista match {
+  def contaOcorrencias(elemento: Int, lista: List[Int]): Int = lista match {
     case Nil => 0
-    case x :: xs => if (x == a) 1 + contaOcorrencias(a, xs) else contaOcorrencias(a, xs)
+    case cabeca :: cauda => 
+		(if (cabeca == elemento) 1 else 0) + contaOcorrencias(elemento, cauda)
   }
 
   // Função principal
