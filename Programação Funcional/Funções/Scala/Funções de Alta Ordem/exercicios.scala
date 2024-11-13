@@ -1,4 +1,4 @@
-//************* Definição dos Dados
+//************* DEFINIÇÃO DOS DADOS
 case class Funcionario(
   nome: String, 
   salario: Double, cargo: 
@@ -39,7 +39,7 @@ object Departamento extends Enumeration {
 }
 
 object Main extends App {
-//************* Base de Dados
+//************* BASE DE DADOS
   // Lista de Funcionários
   val funcionarios = List(
     Funcionario("Alice", 7500.0, Cargo.EngenheiroSoftware, List(Departamento.TI)),
@@ -58,7 +58,7 @@ object Main extends App {
     Produto("Smartphone", 2500.0, 30),
     Produto("Cadeira de Escritório", 800.0, 20),
     Produto("Teclado Mecânico", 300.0, 50),
-    Produto("Monitor", 1200.0, 25)
+    Produto("Monitor", 1200.0, 0)
   )
 
   // Lista de Clientes
@@ -66,13 +66,13 @@ object Main extends App {
     Cliente("Lucas", 8500.0),
     Cliente("Mariana", 12000.0),
     Cliente("José", 4500.0),
-    Cliente("Fernanda", 6000.0),
+    Cliente("Fernanda Abreu", 6000.0),
     Cliente("Roberta", 3500.0)
   )
 
   // Lista de Vendas
   val vendas = List(
-    Venda("2024-01-01", 3000.0),
+    Venda("2024-01-01", 300.0),
     Venda("2024-02-15", 4500.0),
     Venda("2024-03-10", 2500.0),
     Venda("2024-04-20", 5200.0),
@@ -87,43 +87,150 @@ object Main extends App {
     Projeto("Portal de RH", List(funcionarios(4), funcionarios(7), funcionarios(1)))
   )
   
-  // Questão 01
-  println(s"***************** QUESTÃO 01 *****************")
-  def funcionariosAcimaDeSalario(salarioLimite: Double): List[Funcionario] = {
-    funcionarios.filter(_.salario > salarioLimite)
-  }
-  val salarioFiltro = 7000.0
-  val funcionariosComSalarioAlto = funcionariosAcimaDeSalario(salarioFiltro)
-  println(s"Funcionários que recebem acima de R$$ $salarioFiltro:")
-  funcionariosComSalarioAlto.foreach(println)
+  // Meses
+  val meses = List("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+	
+  // Faturamento Mensal
+  val faturamentoMensal = List(3000.0, 4500.0, 2500.0, 5200.0, 4800.0, 5000.0, 6000.0, 7000.0, 8000.0, 9000.0, 10000.0, 11000.0)
   
-    // Questão 02
-    // Questão 03
-    // Questão 04
-    // Questão 05
-    // Questão 06
-    // Questão 07
-    // Questão 08
-    // Questão 09
-    // Questão 10
-    // Questão 11
-    // Questão 12
-    // Questão 13
-    // Questão 14
-    // Questão 15
-    // Questão 16
-    // Questão 17
-    // Questão 18
-    // Questão 19
-    // Questão 20
-    // Questão 21
-    // Questão 22
-    // Questão 23
-    // Questão 24
-    // Questão 25
-    // Questão 26
-    // Questão 27
-    // Questão 28
-    // Questão 29    
-    // Questão 30
+  //************* QUESTÕES 
+  // Questão 01
+  println("************* Questão 01 *************")
+  val salarioLimite = 7000.0
+  val funcionariosSalarioAlto = funcionarios.filter(x => x.salario > salarioLimite)
+  funcionariosSalarioAlto.foreach(println)
+  
+  // Questão 02
+  println("************* Questão 02 *************")
+  val funcionariosAumento = funcionarios.map(f => f.copy(salario = f.salario * 1.1))
+  funcionariosAumento.foreach(println)
+  
+  // Questão 03
+  println("************* Questão 03 *************")
+  val totalVendas = vendas.map(x => x.valor).reduce((acc, valor) => acc + valor)
+  println(totalVendas)
+  
+  // Questão 04
+  println("************* Questão 04 *************")
+  val totalEstoque = produtos.map(x => x.estoque).sum
+  println(totalEstoque)
+
+  // Questão 05
+  println("************* Questão 05 *************")
+  val existeEstoqueZero = produtos.exists(x => x.estoque == 0)
+  println(existeEstoqueZero)
+  
+  // Questão 06
+  println("************* Questão 06 *************")
+  val clientesNomeLongo = clientes.filter(x => x.nome.length > 8)
+  clientesNomeLongo.foreach(println)
+
+  // Questão 07
+  println("************* Questão 07 *************")
+  val faturamentoAnual = faturamentoMensal.reduce((acc, valor) => acc + valor)
+  println(faturamentoAnual)
+  
+  // Questão 08
+  println("************* Questão 08 *************")
+  val produtosComLetraE = produtos.filter(x => x.nome.contains("e"))
+  produtosComLetraE.foreach(println)
+
+  // Questão 09
+  println("************* Questão 09 *************")
+  val totalEstoqueDuplicado = produtos.map(x => x.estoque * 2).reduce((acc, valor) => acc + valor)
+  println(totalEstoqueDuplicado)
+
+  // Questão 10
+  println("************* Questão 10 *************")
+  val produtosNomeLongo = produtos.count(x => x.nome.length > 10)
+  println(produtosNomeLongo)
+  
+  // Questão 11
+  println("************* Questão 11 *************")
+  val clientesTop5Gastos = clientes.sortBy(cliente => -cliente.totalGasto).take(5)
+  clientesTop5Gastos.foreach(println)
+
+  // Questão 12
+  println("************* Questão 12 *************")
+  val vendasRecentes = vendas.drop(3)
+  vendasRecentes.foreach(println)
+  
+  // Questão 13
+  println("************* Questão 13 *************")
+  val vendasAcimaMil = vendas.filter(x => x.valor > 1000).size
+  println(vendasAcimaMil)
+
+  // Questão 14
+  println("************* Questão 14 *************")
+  val todosProdutosDisponiveis = produtos.forall(x => x.estoque > 0)
+  println(todosProdutosDisponiveis)
+
+  // Questão 15
+  println("************* Questão 15 *************")
+  val projetosNomeParCaracteres = projetos.filter(x => x.nome.length % 2 == 0)
+  projetosNomeParCaracteres.foreach(println)
+  
+  // Questão 16
+  println("************* Questão 16 *************")
+  val somaQuadradosFaturamento = faturamentoMensal.map(v => v * v).reduce((acc, valor) => acc + valor)
+  println(f"$somaQuadradosFaturamento%.2f")
+
+  // Questão 17
+  println("************* Questão 17 *************")
+  val indiceProdutoSemEstoque = produtos.indexWhere(x => x.estoque == 0)
+  println(indiceProdutoSemEstoque)
+
+  // Questão 18
+  println("************* Questão 18 *************")
+  val clienteJosePresente = clientes.exists(x => x.nome == "José")
+  println(clienteJosePresente)
+  
+  // Questão 19
+  println("************* Questão 19 *************")
+  val totalPrimeirasDezCompras = vendas.take(10).map(x => x.valor).reduce((acc, valor) => acc + valor)
+  println(totalPrimeirasDezCompras)
+  
+  // Questão 20
+  println("************* Questão 20 *************")
+  val produtosDisponiveis = produtos.filter(x => x.estoque > 0)
+  produtosDisponiveis.foreach(println)
+  
+  // Questão 21
+  println("************* Questão 21 *************")
+  val faturamentoAcumulado = faturamentoMensal.scanLeft(0.0)((acc, valor) => acc + valor)
+  faturamentoAcumulado.foreach(println)
+  
+  // Questão 22
+  println("************* Questão 22 *************")  
+  val totalEngenheirosSoftware = funcionarios.count(x => x.cargo == Cargo.EngenheiroSoftware)
+  println(totalEngenheirosSoftware)
+
+  // Questão 23
+  println("************* Questão 23 *************")
+  val produtoVendasAteLimite = vendas.takeWhile(x => x.valor >= 500).map(y => y.valor).product
+  println(f"$produtoVendasAteLimite%.2f")
+
+  // Questão 24
+  println("************* Questão 24 *************")
+  val totalVendasInvertido = vendas.reverse.map(x => x.valor).reduce((acc, valor) => acc + valor)
+  println(totalVendasInvertido)
+
+  // Questão 25
+  println("************* Questão 25 *************")  
+  val estoqueProdutoDisponiveis = produtos.filter(x => x.estoque > 0).map(y => y.estoque).reduce((acc, valor) => acc * valor)
+  println(estoqueProdutoDisponiveis)
+
+  // Questão 26
+  println("************* Questão 26 *************")
+  val valorVendaMaxima = vendas.map(x => x.valor).reduce((a, b) => if (a > b) a else b)
+  println(valorVendaMaxima)
+
+  // Questão 27
+  println("************* Questão 27 *************")
+  val faturamentosComparaveis = faturamentoMensal.length == 12
+  println(faturamentosComparaveis)
+
+  // Questão 28
+  println("************* Questão 28 *************")
+  faturamentoMensal.zip(meses).foreach { case (faturamento, mes) => println(s"$mes: R$$ $faturamento") }
 }
