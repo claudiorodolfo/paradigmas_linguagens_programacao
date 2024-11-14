@@ -1,7 +1,8 @@
 //Gerador de Funções de Formatação de Strings: 
 object Main extends App {
   def getFuncaoFormatadora(style: String): String => String = {
-    style.toLowerCase match {
+    val estilo: String = style.toLowerCase 
+	estilo match {
       case "uppercase" => (text: String) => text.toUpperCase
       case "lowercase" => (text: String) => text.toLowerCase
       case "titlecase" => (text: String) => text.split(" ").map(x => x.capitalize).mkString(" ")
