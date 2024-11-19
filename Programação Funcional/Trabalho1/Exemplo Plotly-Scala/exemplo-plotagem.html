@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exemplo de Plotagem</title>
+<script src="https://cdn.plot.ly/plotly-1.54.1.min.js"></script>
+</head>
+<body>
+<div id="chart"></div>
+<script>
+(function () {
+  var data0 = {"x":[1.0,2.0,3.0,4.0],"y":[10.0,15.0,13.0,17.0],"type":"scatter"};
+
+  var data = [data0];
+  var layout = {"title":"Exemplo de Plotagem"};
+ var config = {};
+
+  Plotly.plot('chart', data, layout, config);
+})();
+</script>
+</body>
+</html>
+       
