@@ -1,0 +1,1001 @@
+ID da viagem,Data,Hora,Linha de ônibus,Número de passageiros,Tipo de veículo,Localização de partida,Localização de chegada,Tempo de viagem,Custo da viagem
+1,2023-10-21,18:09,Linha 101,116,Articulado,Zona Sul,Zona Norte,31,7.05
+2,2023-08-25,14:32,Linha 202,54,Articulado,Centro,Zona Leste,76,8.5
+3,2023-08-27,22:32,Linha 505,19,Micro-ônibus,Centro,Zona Oeste,73,8.65
+4,2023-01-06,03:19,Linha 505,44,Ônibus convencional,Zona Oeste,Zona Sul,52,7.7
+5,2023-04-01,01:02,Linha 101,62,Ônibus convencional,Zona Sul,Zona Norte,69,8.95
+6,2023-02-04,22:36,Linha 303,17,Micro-ônibus,Zona Oeste,Centro,35,5.95
+7,2023-10-18,11:36,Linha 505,10,Micro-ônibus,Centro,Zona Oeste,64,8.2
+8,2023-12-23,13:42,Linha 404,26,Elétrico,Zona Sul,Zona Leste,89,10.45
+9,2023-10-18,06:23,Linha 202,19,Elétrico,Centro,Zona Leste,82,8.8
+10,2023-05-12,21:49,Linha 202,61,Ônibus convencional,Centro,Zona Leste,45,6.95
+11,2023-08-01,19:23,Linha 303,122,Articulado,Zona Norte,Zona Oeste,62,8.8
+12,2023-08-18,19:56,Linha 505,44,Elétrico,Zona Oeste,Zona Sul,14,5.9
+13,2023-08-15,16:07,Linha 404,21,Ônibus convencional,Zona Leste,Centro,85,8.45
+14,2023-04-27,09:53,Linha 505,21,Ônibus convencional,Centro,Zona Oeste,35,6.75
+15,2023-12-03,13:21,Linha 404,33,Ônibus convencional,Zona Sul,Zona Leste,87,10.35
+16,2023-08-01,15:15,Linha 505,86,Articulado,Zona Oeste,Zona Sul,71,9.95
+17,2023-03-04,08:03,Linha 202,64,Elétrico,Centro,Zona Leste,18,5.6
+18,2023-12-06,09:15,Linha 202,67,Articulado,Centro,Zona Leste,13,5.35
+19,2023-01-01,10:11,Linha 101,45,Elétrico,Zona Sul,Zona Norte,87,9.85
+20,2023-07-17,07:16,Linha 404,250,Articulado,Zona Leste,Centro,17,6.05
+21,2023-04-26,03:33,Linha 202,36,Elétrico,Centro,Zona Leste,18,5.6
+22,2023-03-29,01:46,Linha 303,34,Ônibus convencional,Zona Norte,Zona Oeste,75,9.45
+23,2023-03-04,07:26,Linha 101,114,Articulado,Centro,Zona Sul,58,7.4
+24,2023-05-19,15:32,Linha 505,48,Ônibus convencional,Zona Oeste,Zona Sul,89,9.55
+25,2023-01-08,02:29,Linha 303,61,Ônibus convencional,Zona Norte,Zona Oeste,15,6.45
+26,2023-05-22,15:04,Linha 404,22,Micro-ônibus,Zona Sul,Zona Leste,85,10.25
+27,2023-09-20,23:50,Linha 303,54,Ônibus convencional,Zona Norte,Zona Oeste,53,8.35
+28,2023-03-03,22:25,Linha 505,9,Micro-ônibus,Zona Oeste,Zona Sul,88,10.9
+29,2023-07-01,18:00,Linha 303,32,Elétrico,Zona Oeste,Centro,37,6.85
+30,2023-08-25,23:02,Linha 505,17,Micro-ônibus,Centro,Zona Oeste,38,6.9
+31,2023-11-07,20:13,Linha 101,99,Articulado,Centro,Zona Sul,89,8.95
+32,2023-10-28,15:58,Linha 404,50,Elétrico,Zona Sul,Zona Leste,69,9.45
+33,2023-03-22,04:44,Linha 505,34,Elétrico,Centro,Zona Oeste,65,8.25
+34,2023-09-27,23:52,Linha 303,50,Articulado,Zona Oeste,Centro,36,7.8
+35,2023-07-21,06:03,Linha 505,85,Articulado,Centro,Zona Oeste,43,7.15
+36,2023-05-09,09:54,Linha 101,17,Elétrico,Zona Sul,Zona Norte,85,9.75
+37,2023-12-03,13:08,Linha 404,23,Micro-ônibus,Zona Sul,Zona Leste,49,8.45
+38,2023-08-23,13:56,Linha 505,100,Articulado,Zona Oeste,Zona Sul,53,7.35
+39,2023-11-24,22:39,Linha 404,20,Elétrico,Zona Sul,Zona Leste,26,7.3
+40,2023-02-26,22:59,Linha 202,26,Micro-ônibus,Zona Norte,Centro,33,7.25
+41,2023-06-07,06:00,Linha 505,24,Elétrico,Zona Oeste,Zona Sul,63,7.45
+42,2023-11-03,02:19,Linha 101,76,Articulado,Zona Sul,Zona Norte,64,8.7
+43,2023-06-29,21:26,Linha 202,21,Ônibus convencional,Centro,Zona Leste,58,7.6
+44,2023-05-02,11:10,Linha 505,48,Ônibus convencional,Zona Oeste,Zona Sul,36,6.9
+45,2023-09-09,22:09,Linha 505,38,Ônibus convencional,Centro,Zona Oeste,14,5.7
+46,2023-07-12,15:43,Linha 101,6,Micro-ônibus,Zona Sul,Zona Norte,30,7.0
+47,2023-01-12,16:10,Linha 303,62,Ônibus convencional,Zona Norte,Zona Oeste,81,9.75
+48,2023-01-09,12:49,Linha 202,21,Elétrico,Centro,Zona Leste,36,6.5
+49,2023-07-12,22:45,Linha 404,24,Ônibus convencional,Zona Leste,Centro,14,4.7
+50,2023-10-01,13:07,Linha 505,9,Micro-ônibus,Centro,Zona Oeste,69,8.45
+51,2023-05-16,13:19,Linha 202,78,Articulado,Zona Norte,Centro,39,8.05
+52,2023-12-14,08:05,Linha 505,260,Articulado,Zona Oeste,Zona Sul,64,8.6
+53,2023-03-22,18:02,Linha 404,78,Ônibus convencional,Zona Sul,Zona Leste,34,7.7
+54,2023-06-09,18:34,Linha 202,20,Micro-ônibus,Zona Norte,Centro,13,7.05
+55,2023-09-12,08:14,Linha 404,74,Elétrico,Zona Leste,Centro,26,6.1
+56,2023-05-07,11:46,Linha 101,28,Micro-ônibus,Zona Sul,Zona Norte,35,7.25
+57,2023-10-05,05:04,Linha 404,6,Micro-ônibus,Zona Leste,Centro,50,8.2
+58,2023-05-27,06:24,Linha 505,94,Articulado,Zona Oeste,Zona Sul,67,9.85
+59,2023-02-14,17:08,Linha 202,72,Elétrico,Zona Norte,Centro,28,5.4
+60,2023-07-05,04:48,Linha 202,35,Ônibus convencional,Zona Norte,Centro,41,6.15
+61,2023-05-15,15:18,Linha 303,25,Ônibus convencional,Zona Oeste,Centro,79,8.05
+62,2023-01-08,15:33,Linha 101,147,Articulado,Zona Sul,Zona Norte,87,9.85
+63,2023-07-22,06:24,Linha 404,25,Micro-ônibus,Zona Sul,Zona Leste,14,6.7
+64,2023-05-28,03:35,Linha 303,27,Ônibus convencional,Zona Norte,Zona Oeste,48,8.1
+65,2023-12-02,13:29,Linha 505,20,Elétrico,Centro,Zona Oeste,66,8.3
+66,2023-08-17,20:09,Linha 404,36,Elétrico,Zona Leste,Centro,63,8.75
+67,2023-05-23,01:13,Linha 101,24,Elétrico,Centro,Zona Sul,63,7.65
+68,2023-02-13,13:22,Linha 101,137,Articulado,Centro,Zona Sul,65,7.75
+69,2023-06-18,20:38,Linha 404,59,Ônibus convencional,Zona Sul,Zona Leste,44,8.2
+70,2023-05-03,12:09,Linha 303,112,Articulado,Zona Norte,Zona Oeste,64,8.9
+71,2023-06-17,10:04,Linha 303,21,Micro-ônibus,Zona Oeste,Centro,76,9.8
+72,2023-10-05,07:09,Linha 404,292,Articulado,Zona Leste,Centro,53,7.95
+73,2023-07-16,18:31,Linha 101,100,Articulado,Zona Sul,Zona Norte,73,9.15
+74,2023-10-18,17:20,Linha 202,200,Articulado,Centro,Zona Leste,80,8.7
+75,2023-07-20,09:59,Linha 404,45,Elétrico,Zona Leste,Centro,55,8.75
+76,2023-07-28,23:51,Linha 101,128,Articulado,Zona Sul,Zona Norte,23,6.65
+77,2023-08-17,09:01,Linha 505,57,Ônibus convencional,Zona Oeste,Zona Sul,19,6.85
+78,2023-11-16,18:53,Linha 101,136,Ônibus convencional,Centro,Zona Sul,39,6.45
+79,2023-08-18,12:09,Linha 303,33,Elétrico,Zona Norte,Zona Oeste,52,8.3
+80,2023-04-12,04:35,Linha 101,10,Micro-ônibus,Centro,Zona Sul,45,6.75
+81,2023-12-15,21:20,Linha 101,123,Articulado,Zona Sul,Zona Norte,46,7.8
+82,2023-07-05,05:43,Linha 202,20,Micro-ônibus,Zona Norte,Centro,48,8.4
+83,2023-01-07,21:27,Linha 202,22,Ônibus convencional,Centro,Zona Leste,35,6.45
+84,2023-11-16,14:41,Linha 202,48,Ônibus convencional,Centro,Zona Leste,53,7.35
+85,2023-05-20,22:49,Linha 303,17,Elétrico,Zona Oeste,Centro,28,6.7
+86,2023-11-22,13:25,Linha 404,47,Ônibus convencional,Zona Sul,Zona Leste,62,9.1
+87,2023-07-08,13:11,Linha 303,17,Micro-ônibus,Zona Oeste,Centro,81,9.95
+88,2023-05-06,13:14,Linha 505,43,Elétrico,Centro,Zona Oeste,14,5.7
+89,2023-03-05,22:38,Linha 202,107,Articulado,Zona Norte,Centro,89,10.55
+90,2023-05-12,21:45,Linha 505,47,Elétrico,Zona Oeste,Zona Sul,52,8.3
+91,2023-04-23,17:54,Linha 202,62,Elétrico,Zona Norte,Centro,88,9.6
+92,2023-09-08,08:00,Linha 505,66,Ônibus convencional,Zona Oeste,Zona Sul,69,7.55
+93,2023-09-13,14:54,Linha 404,19,Micro-ônibus,Zona Sul,Zona Leste,59,8.95
+94,2023-04-21,03:14,Linha 101,23,Elétrico,Centro,Zona Sul,42,6.6
+95,2023-11-08,18:42,Linha 303,54,Micro-ônibus,Zona Norte,Zona Oeste,58,8.6
+96,2023-06-27,13:49,Linha 505,70,Articulado,Zona Oeste,Zona Sul,63,8.75
+97,2023-03-08,13:50,Linha 303,40,Ônibus convencional,Zona Oeste,Centro,12,5.7
+98,2023-06-10,14:49,Linha 202,52,Ônibus convencional,Zona Norte,Centro,57,7.25
+99,2023-12-19,00:36,Linha 505,100,Articulado,Centro,Zona Oeste,37,6.85
+100,2023-08-24,23:14,Linha 101,17,Elétrico,Centro,Zona Sul,31,6.05
+101,2023-05-03,21:52,Linha 202,122,Articulado,Centro,Zona Leste,19,5.65
+102,2023-11-14,02:15,Linha 202,40,Ônibus convencional,Zona Norte,Centro,56,8.0
+103,2023-03-11,12:13,Linha 101,139,Articulado,Zona Sul,Zona Norte,58,8.4
+104,2023-11-28,04:12,Linha 303,6,Micro-ônibus,Zona Oeste,Centro,29,7.35
+105,2023-12-26,10:15,Linha 404,50,Elétrico,Zona Leste,Centro,11,7.05
+106,2023-06-14,17:22,Linha 505,62,Ônibus convencional,Zona Oeste,Zona Sul,82,10.2
+107,2023-01-05,21:04,Linha 404,34,Elétrico,Zona Leste,Centro,70,9.0
+108,2023-05-18,14:00,Linha 404,103,Articulado,Zona Leste,Centro,34,7.9
+109,2023-10-06,22:52,Linha 505,94,Articulado,Zona Oeste,Zona Sul,40,8.2
+110,2023-08-02,13:29,Linha 303,141,Articulado,Zona Norte,Zona Oeste,66,9.0
+111,2023-04-08,11:30,Linha 303,148,Articulado,Zona Norte,Zona Oeste,48,8.1
+112,2023-01-16,21:03,Linha 303,108,Articulado,Zona Norte,Zona Oeste,13,6.35
+113,2023-06-16,09:27,Linha 101,54,Articulado,Zona Sul,Zona Norte,45,7.75
+114,2023-12-07,06:41,Linha 202,50,Elétrico,Zona Norte,Centro,38,6.2
+115,2023-03-18,13:14,Linha 202,144,Articulado,Zona Norte,Centro,45,6.65
+116,2023-08-08,14:05,Linha 505,150,Articulado,Centro,Zona Oeste,25,6.25
+117,2023-07-25,10:10,Linha 404,28,Elétrico,Zona Leste,Centro,66,8.3
+118,2023-09-09,08:32,Linha 404,114,Ônibus convencional,Zona Sul,Zona Leste,36,7.8
+119,2023-09-10,10:57,Linha 505,69,Ônibus convencional,Centro,Zona Oeste,86,9.3
+120,2023-04-21,12:46,Linha 303,16,Micro-ônibus,Zona Norte,Zona Oeste,90,10.2
+121,2023-09-05,17:39,Linha 202,66,Ônibus convencional,Centro,Zona Leste,19,5.65
+122,2023-06-19,21:18,Linha 404,32,Ônibus convencional,Zona Sul,Zona Leste,84,10.2
+123,2023-04-27,04:38,Linha 303,51,Ônibus convencional,Zona Oeste,Centro,21,6.65
+124,2023-12-03,19:30,Linha 101,10,Micro-ônibus,Zona Sul,Zona Norte,59,8.45
+125,2023-06-20,15:48,Linha 101,45,Ônibus convencional,Zona Sul,Zona Norte,29,6.95
+126,2023-10-08,23:32,Linha 101,26,Ônibus convencional,Centro,Zona Sul,39,6.45
+127,2023-01-17,20:22,Linha 303,27,Micro-ônibus,Zona Norte,Zona Oeste,89,10.15
+128,2023-11-30,12:57,Linha 202,66,Articulado,Zona Norte,Centro,73,9.75
+129,2023-10-04,12:33,Linha 404,42,Ônibus convencional,Zona Leste,Centro,46,8.7
+130,2023-05-17,19:53,Linha 303,46,Ônibus convencional,Zona Oeste,Centro,51,6.95
+131,2023-09-04,22:26,Linha 303,15,Micro-ônibus,Zona Norte,Zona Oeste,90,10.2
+132,2023-11-01,03:39,Linha 202,128,Articulado,Centro,Zona Leste,42,6.8
+133,2023-07-09,03:22,Linha 505,35,Elétrico,Zona Oeste,Zona Sul,63,7.75
+134,2023-12-03,14:30,Linha 202,49,Elétrico,Zona Norte,Centro,13,7.15
+135,2023-02-19,06:07,Linha 303,44,Ônibus convencional,Zona Oeste,Centro,55,9.15
+136,2023-12-21,04:11,Linha 101,29,Micro-ônibus,Centro,Zona Sul,83,8.65
+137,2023-08-24,14:36,Linha 505,41,Elétrico,Zona Oeste,Zona Sul,21,7.45
+138,2023-07-06,00:33,Linha 505,76,Articulado,Centro,Zona Oeste,18,5.9
+139,2023-08-13,07:01,Linha 303,28,Micro-ônibus,Zona Oeste,Centro,41,7.45
+140,2023-08-29,16:38,Linha 404,21,Micro-ônibus,Zona Leste,Centro,80,8.6
+141,2023-02-22,23:16,Linha 505,39,Elétrico,Centro,Zona Oeste,53,7.65
+142,2023-10-25,11:09,Linha 101,54,Ônibus convencional,Zona Sul,Zona Norte,61,8.55
+143,2023-10-21,19:54,Linha 202,15,Elétrico,Zona Norte,Centro,26,5.9
+144,2023-08-12,22:57,Linha 505,138,Articulado,Centro,Zona Oeste,85,9.25
+145,2023-07-10,14:31,Linha 303,114,Articulado,Zona Norte,Zona Oeste,45,7.95
+146,2023-03-09,16:03,Linha 101,26,Micro-ônibus,Centro,Zona Sul,26,5.8
+147,2023-10-21,22:05,Linha 101,41,Ônibus convencional,Zona Sul,Zona Norte,72,9.1
+148,2023-04-13,06:39,Linha 404,11,Micro-ônibus,Zona Leste,Centro,62,8.9
+149,2023-01-15,20:21,Linha 202,133,Articulado,Centro,Zona Leste,33,6.35
+150,2023-07-23,09:04,Linha 404,23,Micro-ônibus,Zona Leste,Centro,85,9.25
+151,2023-10-02,03:04,Linha 404,23,Micro-ônibus,Zona Leste,Centro,78,8.8
+152,2023-11-14,15:05,Linha 202,35,Ônibus convencional,Zona Norte,Centro,40,7.1
+153,2023-10-10,19:31,Linha 505,28,Ônibus convencional,Zona Oeste,Zona Sul,38,6.4
+154,2023-04-29,03:24,Linha 101,19,Micro-ônibus,Centro,Zona Sul,61,7.55
+155,2023-08-10,01:33,Linha 505,16,Micro-ônibus,Centro,Zona Oeste,52,7.6
+156,2023-04-29,10:37,Linha 303,66,Ônibus convencional,Zona Oeste,Centro,86,10.3
+157,2023-01-28,03:03,Linha 202,142,Articulado,Centro,Zona Leste,66,8.0
+158,2023-02-11,03:01,Linha 404,56,Ônibus convencional,Zona Leste,Centro,19,7.15
+159,2023-02-14,02:02,Linha 101,73,Articulado,Centro,Zona Sul,77,8.35
+160,2023-01-08,00:45,Linha 404,31,Elétrico,Zona Sul,Zona Leste,81,10.05
+161,2023-04-14,14:12,Linha 101,27,Ônibus convencional,Centro,Zona Sul,83,8.65
+162,2023-09-27,21:21,Linha 303,122,Articulado,Zona Norte,Zona Oeste,67,9.05
+163,2023-09-26,23:13,Linha 505,21,Ônibus convencional,Centro,Zona Oeste,16,5.8
+164,2023-06-11,23:26,Linha 101,7,Micro-ônibus,Zona Sul,Zona Norte,88,9.9
+165,2023-06-28,21:37,Linha 505,61,Ônibus convencional,Zona Oeste,Zona Sul,23,6.15
+166,2023-11-14,11:57,Linha 505,40,Ônibus convencional,Centro,Zona Oeste,35,6.75
+167,2023-04-11,19:05,Linha 505,16,Micro-ônibus,Zona Oeste,Zona Sul,57,6.85
+168,2023-10-21,15:58,Linha 505,70,Ônibus convencional,Centro,Zona Oeste,70,8.5
+169,2023-09-25,15:22,Linha 202,114,Articulado,Zona Norte,Centro,43,7.35
+170,2023-04-23,12:19,Linha 303,31,Elétrico,Zona Norte,Zona Oeste,84,9.9
+171,2023-11-09,03:25,Linha 505,18,Micro-ônibus,Zona Oeste,Zona Sul,20,6.7
+172,2023-02-23,18:29,Linha 404,74,Elétrico,Zona Leste,Centro,39,7.25
+173,2023-01-30,01:17,Linha 505,32,Elétrico,Centro,Zona Oeste,57,7.85
+174,2023-01-18,19:58,Linha 404,44,Ônibus convencional,Zona Sul,Zona Leste,23,7.15
+175,2023-07-13,21:59,Linha 404,37,Ônibus convencional,Zona Leste,Centro,46,7.4
+176,2023-09-20,22:29,Linha 505,21,Ônibus convencional,Zona Oeste,Zona Sul,19,6.15
+177,2023-08-11,11:16,Linha 404,133,Articulado,Zona Sul,Zona Leste,82,10.1
+178,2023-09-15,04:28,Linha 202,25,Elétrico,Centro,Zona Leste,23,5.85
+179,2023-11-20,20:47,Linha 505,21,Elétrico,Centro,Zona Oeste,22,6.1
+180,2023-01-04,07:33,Linha 101,94,Ônibus convencional,Zona Sul,Zona Norte,81,9.55
+181,2023-12-18,06:04,Linha 505,96,Articulado,Zona Oeste,Zona Sul,74,9.4
+182,2023-02-10,21:55,Linha 505,87,Articulado,Zona Oeste,Zona Sul,54,7.5
+183,2023-07-04,09:06,Linha 202,140,Articulado,Zona Norte,Centro,73,9.15
+184,2023-06-17,21:11,Linha 101,10,Micro-ônibus,Centro,Zona Sul,57,7.35
+185,2023-12-21,15:04,Linha 303,40,Ônibus convencional,Zona Norte,Zona Oeste,82,9.8
+186,2023-08-11,15:22,Linha 101,60,Ônibus convencional,Centro,Zona Sul,85,8.75
+187,2023-06-10,17:08,Linha 303,120,Articulado,Zona Oeste,Centro,89,9.45
+188,2023-04-22,21:07,Linha 101,75,Articulado,Centro,Zona Sul,21,5.55
+189,2023-07-17,15:48,Linha 101,35,Ônibus convencional,Centro,Zona Sul,48,6.9
+190,2023-02-20,04:20,Linha 101,20,Micro-ônibus,Centro,Zona Sul,32,6.1
+191,2023-07-20,07:47,Linha 404,234,Articulado,Zona Sul,Zona Leste,43,8.15
+192,2023-10-19,00:32,Linha 101,24,Elétrico,Centro,Zona Sul,62,7.6
+193,2023-12-25,00:13,Linha 202,78,Articulado,Centro,Zona Leste,90,9.2
+194,2023-04-04,21:23,Linha 202,25,Elétrico,Centro,Zona Leste,19,5.65
+195,2023-01-02,17:44,Linha 303,52,Micro-ônibus,Zona Norte,Zona Oeste,62,8.8
+196,2023-10-24,00:36,Linha 505,125,Articulado,Centro,Zona Oeste,44,7.2
+197,2023-01-08,21:45,Linha 202,22,Micro-ônibus,Centro,Zona Leste,52,7.3
+198,2023-09-26,18:58,Linha 101,52,Micro-ônibus,Centro,Zona Sul,35,6.25
+199,2023-03-13,04:36,Linha 303,80,Articulado,Zona Norte,Zona Oeste,75,9.45
+200,2023-04-03,00:21,Linha 404,36,Elétrico,Zona Sul,Zona Leste,76,9.8
+201,2023-05-06,06:52,Linha 101,25,Elétrico,Zona Sul,Zona Norte,43,7.65
+202,2023-07-20,21:56,Linha 101,59,Ônibus convencional,Zona Sul,Zona Norte,84,9.7
+203,2023-11-25,22:23,Linha 404,108,Articulado,Zona Leste,Centro,28,6.0
+204,2023-01-10,03:39,Linha 505,61,Ônibus convencional,Centro,Zona Oeste,90,9.5
+205,2023-10-20,09:16,Linha 202,36,Elétrico,Zona Norte,Centro,73,8.05
+206,2023-01-13,12:20,Linha 202,12,Micro-ônibus,Zona Norte,Centro,88,9.2
+207,2023-08-18,04:05,Linha 404,19,Micro-ônibus,Zona Leste,Centro,36,8.1
+208,2023-02-20,20:38,Linha 303,101,Articulado,Zona Norte,Zona Oeste,29,7.15
+209,2023-10-13,06:20,Linha 303,76,Articulado,Zona Norte,Zona Oeste,76,9.5
+210,2023-12-18,01:49,Linha 303,78,Articulado,Zona Norte,Zona Oeste,83,9.85
+211,2023-09-22,13:32,Linha 404,17,Elétrico,Zona Sul,Zona Leste,11,6.55
+212,2023-08-09,21:10,Linha 505,61,Articulado,Zona Oeste,Zona Sul,65,9.55
+213,2023-06-25,01:33,Linha 303,67,Ônibus convencional,Zona Norte,Zona Oeste,52,8.3
+214,2023-03-14,13:48,Linha 303,65,Ônibus convencional,Zona Oeste,Centro,22,7.2
+215,2023-04-12,07:23,Linha 303,86,Ônibus convencional,Zona Oeste,Centro,48,8.8
+216,2023-03-04,14:19,Linha 404,21,Micro-ônibus,Zona Leste,Centro,32,6.8
+217,2023-05-06,17:55,Linha 505,80,Ônibus convencional,Centro,Zona Oeste,84,9.2
+218,2023-08-05,00:40,Linha 505,23,Micro-ônibus,Zona Oeste,Zona Sul,55,6.85
+219,2023-10-31,20:32,Linha 303,126,Articulado,Zona Norte,Zona Oeste,90,10.2
+220,2023-04-15,16:41,Linha 101,27,Elétrico,Centro,Zona Sul,40,6.5
+221,2023-12-07,16:56,Linha 202,28,Micro-ônibus,Zona Norte,Centro,37,6.25
+222,2023-12-15,03:11,Linha 202,13,Micro-ônibus,Zona Norte,Centro,16,6.0
+223,2023-12-14,09:03,Linha 101,30,Ônibus convencional,Centro,Zona Sul,34,6.2
+224,2023-12-17,19:32,Linha 505,25,Elétrico,Zona Oeste,Zona Sul,29,6.15
+225,2023-05-27,01:37,Linha 505,29,Micro-ônibus,Centro,Zona Oeste,29,6.45
+226,2023-01-05,01:26,Linha 202,18,Elétrico,Centro,Zona Leste,50,7.2
+227,2023-09-12,06:23,Linha 505,17,Micro-ônibus,Centro,Zona Oeste,71,8.55
+228,2023-01-20,11:46,Linha 101,51,Articulado,Zona Sul,Zona Norte,16,6.3
+229,2023-12-21,14:51,Linha 505,13,Micro-ônibus,Zona Oeste,Zona Sul,15,6.45
+230,2023-12-10,06:15,Linha 202,50,Elétrico,Centro,Zona Leste,41,6.75
+231,2023-09-22,15:31,Linha 202,19,Elétrico,Zona Norte,Centro,52,7.5
+232,2023-09-01,01:36,Linha 505,21,Elétrico,Zona Oeste,Zona Sul,74,8.2
+233,2023-07-13,03:25,Linha 404,113,Articulado,Zona Leste,Centro,51,7.55
+234,2023-09-09,07:25,Linha 202,118,Articulado,Centro,Zona Leste,90,9.2
+235,2023-08-26,14:48,Linha 303,60,Ônibus convencional,Zona Oeste,Centro,48,6.8
+236,2023-07-18,13:13,Linha 101,127,Articulado,Zona Sul,Zona Norte,41,7.55
+237,2023-06-06,20:08,Linha 202,6,Micro-ônibus,Centro,Zona Leste,40,6.7
+238,2023-09-13,11:35,Linha 505,57,Ônibus convencional,Zona Oeste,Zona Sul,12,4.7
+239,2023-10-19,12:13,Linha 404,24,Elétrico,Zona Leste,Centro,26,7.8
+240,2023-06-26,11:41,Linha 202,61,Ônibus convencional,Centro,Zona Leste,54,7.4
+241,2023-02-18,15:51,Linha 505,63,Ônibus convencional,Centro,Zona Oeste,38,6.9
+242,2023-03-10,04:31,Linha 404,67,Ônibus convencional,Zona Leste,Centro,69,8.05
+243,2023-08-21,12:18,Linha 202,47,Ônibus convencional,Zona Norte,Centro,34,8.2
+244,2023-04-19,12:51,Linha 101,77,Articulado,Centro,Zona Sul,23,5.65
+245,2023-10-26,22:05,Linha 202,6,Micro-ônibus,Zona Norte,Centro,13,4.65
+246,2023-12-27,12:14,Linha 303,28,Ônibus convencional,Zona Oeste,Centro,18,6.8
+247,2023-10-09,08:28,Linha 303,206,Articulado,Zona Norte,Zona Oeste,51,8.25
+248,2023-11-06,03:21,Linha 202,20,Ônibus convencional,Centro,Zona Leste,12,5.3
+249,2023-02-23,18:47,Linha 303,44,Micro-ônibus,Zona Oeste,Centro,36,6.9
+250,2023-11-25,04:00,Linha 101,23,Micro-ônibus,Zona Sul,Zona Norte,61,8.55
+251,2023-01-24,15:43,Linha 404,69,Articulado,Zona Sul,Zona Leste,39,7.95
+252,2023-10-02,21:18,Linha 505,135,Articulado,Zona Oeste,Zona Sul,88,9.8
+253,2023-03-31,08:51,Linha 202,102,Articulado,Zona Norte,Centro,58,7.6
+254,2023-10-20,03:50,Linha 202,18,Elétrico,Zona Norte,Centro,31,5.55
+255,2023-11-29,18:28,Linha 505,72,Ônibus convencional,Centro,Zona Oeste,83,9.15
+256,2023-04-09,17:35,Linha 101,116,Ônibus convencional,Centro,Zona Sul,58,7.4
+257,2023-06-03,03:18,Linha 505,29,Micro-ônibus,Centro,Zona Oeste,34,6.7
+258,2023-05-07,06:02,Linha 202,32,Ônibus convencional,Centro,Zona Leste,74,8.4
+259,2023-04-10,21:58,Linha 505,46,Elétrico,Centro,Zona Oeste,87,9.35
+260,2023-10-23,15:23,Linha 505,49,Elétrico,Centro,Zona Oeste,16,5.8
+261,2023-03-14,09:00,Linha 303,28,Micro-ônibus,Zona Oeste,Centro,23,6.15
+262,2023-07-27,19:17,Linha 101,26,Micro-ônibus,Zona Sul,Zona Norte,54,8.2
+263,2023-08-27,23:22,Linha 404,88,Articulado,Zona Leste,Centro,59,8.45
+264,2023-02-16,03:45,Linha 404,18,Elétrico,Zona Sul,Zona Leste,65,9.25
+265,2023-10-21,20:44,Linha 101,71,Articulado,Centro,Zona Sul,20,5.5
+266,2023-11-29,05:42,Linha 202,41,Ônibus convencional,Centro,Zona Leste,24,5.9
+267,2023-12-10,11:13,Linha 202,50,Ônibus convencional,Centro,Zona Leste,52,7.3
+268,2023-08-14,01:58,Linha 404,76,Articulado,Zona Leste,Centro,75,9.15
+269,2023-07-20,17:04,Linha 202,98,Ônibus convencional,Centro,Zona Leste,79,8.65
+270,2023-12-29,03:20,Linha 505,45,Ônibus convencional,Centro,Zona Oeste,36,6.8
+271,2023-03-05,20:41,Linha 505,44,Ônibus convencional,Centro,Zona Oeste,15,5.75
+272,2023-10-11,03:25,Linha 202,25,Elétrico,Zona Norte,Centro,73,8.55
+273,2023-08-09,23:27,Linha 101,70,Ônibus convencional,Zona Sul,Zona Norte,30,7.0
+274,2023-06-13,23:37,Linha 101,70,Articulado,Centro,Zona Sul,68,7.9
+275,2023-01-29,02:06,Linha 303,37,Elétrico,Zona Norte,Zona Oeste,82,9.8
+276,2023-01-27,22:34,Linha 303,34,Elétrico,Zona Norte,Zona Oeste,83,9.85
+277,2023-11-19,22:07,Linha 505,122,Articulado,Centro,Zona Oeste,17,5.85
+278,2023-06-10,23:36,Linha 404,127,Articulado,Zona Leste,Centro,62,8.6
+279,2023-11-05,14:10,Linha 505,130,Articulado,Zona Oeste,Zona Sul,64,7.5
+280,2023-10-10,08:49,Linha 101,58,Micro-ônibus,Zona Sul,Zona Norte,17,6.35
+281,2023-06-12,13:15,Linha 303,148,Articulado,Zona Norte,Zona Oeste,86,10.0
+282,2023-09-07,01:45,Linha 101,71,Articulado,Zona Sul,Zona Norte,77,9.35
+283,2023-11-07,04:11,Linha 101,11,Micro-ônibus,Centro,Zona Sul,53,7.15
+284,2023-05-08,00:59,Linha 505,64,Articulado,Zona Oeste,Zona Sul,11,6.35
+285,2023-06-02,03:35,Linha 101,33,Ônibus convencional,Zona Sul,Zona Norte,84,9.7
+286,2023-05-28,15:13,Linha 404,38,Ônibus convencional,Zona Leste,Centro,52,6.6
+287,2023-06-28,00:33,Linha 404,125,Articulado,Zona Leste,Centro,63,8.05
+288,2023-06-07,10:11,Linha 101,15,Micro-ônibus,Centro,Zona Sul,11,5.05
+289,2023-11-25,19:15,Linha 101,69,Ônibus convencional,Zona Sul,Zona Norte,65,8.75
+290,2023-03-13,22:28,Linha 404,67,Ônibus convencional,Zona Leste,Centro,11,4.95
+291,2023-08-29,17:55,Linha 505,50,Micro-ônibus,Centro,Zona Oeste,63,8.15
+292,2023-08-20,22:58,Linha 101,8,Micro-ônibus,Centro,Zona Sul,54,7.2
+293,2023-01-21,19:26,Linha 303,48,Elétrico,Zona Norte,Zona Oeste,41,7.75
+294,2023-04-30,06:42,Linha 202,16,Micro-ônibus,Centro,Zona Leste,12,5.3
+295,2023-06-07,05:39,Linha 101,10,Micro-ônibus,Zona Sul,Zona Norte,47,7.85
+296,2023-06-26,16:40,Linha 303,16,Micro-ônibus,Zona Oeste,Centro,72,9.1
+297,2023-07-19,11:33,Linha 101,28,Elétrico,Zona Sul,Zona Norte,88,9.9
+298,2023-03-05,16:11,Linha 101,59,Ônibus convencional,Centro,Zona Sul,68,7.9
+299,2023-11-01,12:50,Linha 404,29,Micro-ônibus,Zona Leste,Centro,41,7.25
+300,2023-07-29,11:54,Linha 404,124,Articulado,Zona Sul,Zona Leste,34,7.7
+301,2023-11-19,16:20,Linha 404,17,Elétrico,Zona Sul,Zona Leste,55,8.75
+302,2023-04-25,23:46,Linha 404,30,Ônibus convencional,Zona Sul,Zona Leste,54,8.7
+303,2023-01-10,18:01,Linha 101,56,Elétrico,Centro,Zona Sul,74,8.2
+304,2023-05-09,21:48,Linha 404,16,Micro-ônibus,Zona Leste,Centro,27,6.85
+305,2023-08-17,08:25,Linha 505,44,Micro-ônibus,Centro,Zona Oeste,74,8.7
+306,2023-04-07,05:03,Linha 101,43,Ônibus convencional,Centro,Zona Sul,53,7.15
+307,2023-11-01,03:42,Linha 404,19,Elétrico,Zona Sul,Zona Leste,78,9.9
+308,2023-01-16,01:13,Linha 303,61,Articulado,Zona Oeste,Centro,50,8.4
+309,2023-04-10,23:32,Linha 404,30,Micro-ônibus,Zona Sul,Zona Leste,59,8.95
+310,2023-08-20,00:04,Linha 505,30,Ônibus convencional,Centro,Zona Oeste,43,7.15
+311,2023-06-05,22:12,Linha 505,8,Micro-ônibus,Centro,Zona Oeste,16,5.8
+312,2023-01-03,23:57,Linha 505,126,Articulado,Centro,Zona Oeste,51,7.55
+313,2023-08-22,09:00,Linha 505,284,Articulado,Centro,Zona Oeste,67,8.35
+314,2023-01-11,12:12,Linha 101,6,Micro-ônibus,Zona Sul,Zona Norte,43,7.65
+315,2023-04-05,23:10,Linha 303,8,Micro-ônibus,Zona Norte,Zona Oeste,50,8.2
+316,2023-10-24,01:08,Linha 202,24,Elétrico,Centro,Zona Leste,14,5.4
+317,2023-02-07,04:30,Linha 404,7,Micro-ônibus,Zona Sul,Zona Leste,36,7.8
+318,2023-03-28,16:32,Linha 404,43,Ônibus convencional,Zona Sul,Zona Leste,40,8.0
+319,2023-02-07,14:56,Linha 202,32,Elétrico,Centro,Zona Leste,40,6.7
+320,2023-09-12,19:43,Linha 505,16,Elétrico,Zona Oeste,Zona Sul,87,8.45
+321,2023-01-08,20:39,Linha 505,22,Elétrico,Centro,Zona Oeste,14,5.7
+322,2023-06-14,00:29,Linha 303,67,Articulado,Zona Norte,Zona Oeste,90,10.2
+323,2023-02-10,03:39,Linha 505,16,Micro-ônibus,Centro,Zona Oeste,77,8.85
+324,2023-07-29,20:48,Linha 101,24,Elétrico,Zona Sul,Zona Norte,72,9.1
+325,2023-09-25,00:39,Linha 101,18,Micro-ônibus,Zona Sul,Zona Norte,79,9.45
+326,2023-06-08,14:03,Linha 101,21,Elétrico,Centro,Zona Sul,87,8.85
+327,2023-09-18,06:18,Linha 505,50,Elétrico,Centro,Zona Oeste,47,7.35
+328,2023-02-13,10:57,Linha 101,15,Elétrico,Centro,Zona Sul,61,7.55
+329,2023-05-10,10:44,Linha 303,21,Micro-ônibus,Zona Oeste,Centro,89,10.95
+330,2023-11-06,16:25,Linha 505,112,Articulado,Centro,Zona Oeste,37,6.85
+331,2023-10-22,04:30,Linha 202,32,Elétrico,Zona Norte,Centro,79,9.55
+332,2023-06-01,12:03,Linha 505,12,Micro-ônibus,Zona Oeste,Zona Sul,62,7.9
+333,2023-02-28,10:31,Linha 404,47,Elétrico,Zona Leste,Centro,35,7.65
+334,2023-01-15,01:30,Linha 202,59,Ônibus convencional,Zona Norte,Centro,29,6.05
+335,2023-09-28,10:54,Linha 202,33,Elétrico,Centro,Zona Leste,37,6.55
+336,2023-06-28,06:04,Linha 101,40,Ônibus convencional,Centro,Zona Sul,15,5.25
+337,2023-04-12,02:14,Linha 404,22,Ônibus convencional,Zona Sul,Zona Leste,25,7.25
+338,2023-11-24,05:18,Linha 202,33,Elétrico,Zona Norte,Centro,55,8.75
+339,2023-08-17,03:35,Linha 303,23,Ônibus convencional,Zona Norte,Zona Oeste,27,7.05
+340,2023-02-13,08:55,Linha 303,236,Articulado,Zona Norte,Zona Oeste,76,9.5
+341,2023-03-16,14:51,Linha 505,43,Elétrico,Centro,Zona Oeste,38,6.9
+342,2023-06-01,05:31,Linha 202,74,Articulado,Zona Norte,Centro,18,7.3
+343,2023-06-28,22:56,Linha 202,37,Ônibus convencional,Zona Norte,Centro,62,8.1
+344,2023-05-13,02:54,Linha 202,147,Articulado,Zona Norte,Centro,13,5.85
+345,2023-09-10,02:29,Linha 303,126,Articulado,Zona Norte,Zona Oeste,15,6.45
+346,2023-04-25,01:44,Linha 404,25,Elétrico,Zona Sul,Zona Leste,20,7.0
+347,2023-02-03,07:54,Linha 101,20,Micro-ônibus,Zona Sul,Zona Norte,79,9.45
+348,2023-12-16,15:39,Linha 303,127,Articulado,Zona Norte,Zona Oeste,51,8.25
+349,2023-07-27,06:49,Linha 101,127,Articulado,Centro,Zona Sul,30,6.0
+350,2023-10-18,07:25,Linha 404,100,Elétrico,Zona Sul,Zona Leste,61,9.05
+351,2023-05-11,05:19,Linha 505,18,Micro-ônibus,Zona Oeste,Zona Sul,87,8.95
+352,2023-08-13,12:00,Linha 101,32,Elétrico,Centro,Zona Sul,60,7.5
+353,2023-02-24,16:10,Linha 101,15,Elétrico,Centro,Zona Sul,90,9.0
+354,2023-08-20,11:28,Linha 404,20,Elétrico,Zona Leste,Centro,85,9.35
+355,2023-04-07,13:50,Linha 303,54,Ônibus convencional,Zona Norte,Zona Oeste,54,8.4
+356,2023-08-04,15:49,Linha 101,127,Articulado,Zona Sul,Zona Norte,67,8.85
+357,2023-01-17,01:08,Linha 404,15,Elétrico,Zona Leste,Centro,54,8.5
+358,2023-07-14,07:01,Linha 303,48,Micro-ônibus,Zona Oeste,Centro,18,7.0
+359,2023-05-04,03:51,Linha 202,39,Ônibus convencional,Centro,Zona Leste,84,8.9
+360,2023-04-28,04:46,Linha 404,53,Articulado,Zona Leste,Centro,31,6.95
+361,2023-09-14,13:14,Linha 505,61,Ônibus convencional,Centro,Zona Oeste,53,7.65
+362,2023-04-04,03:58,Linha 505,50,Articulado,Centro,Zona Oeste,57,7.85
+363,2023-01-24,10:20,Linha 404,17,Micro-ônibus,Zona Leste,Centro,14,6.4
+364,2023-09-10,08:14,Linha 101,52,Elétrico,Zona Sul,Zona Norte,52,8.1
+365,2023-01-14,18:37,Linha 303,10,Micro-ônibus,Zona Oeste,Centro,87,10.35
+366,2023-02-24,03:03,Linha 202,129,Articulado,Centro,Zona Leste,85,8.95
+367,2023-01-29,21:03,Linha 202,46,Elétrico,Zona Norte,Centro,44,6.2
+368,2023-09-22,13:00,Linha 505,16,Elétrico,Zona Oeste,Zona Sul,58,8.4
+369,2023-09-20,07:23,Linha 303,178,Articulado,Zona Oeste,Centro,15,5.75
+370,2023-09-29,22:47,Linha 202,16,Micro-ônibus,Zona Norte,Centro,25,6.45
+371,2023-03-22,04:13,Linha 202,125,Articulado,Centro,Zona Leste,65,7.95
+372,2023-10-18,06:08,Linha 202,83,Articulado,Zona Norte,Centro,79,10.45
+373,2023-07-01,09:35,Linha 303,92,Articulado,Zona Norte,Zona Oeste,29,7.15
+374,2023-09-16,21:13,Linha 404,43,Ônibus convencional,Zona Sul,Zona Leste,36,7.8
+375,2023-02-14,22:38,Linha 101,62,Ônibus convencional,Zona Sul,Zona Norte,61,8.55
+376,2023-04-28,16:35,Linha 101,13,Micro-ônibus,Zona Sul,Zona Norte,38,7.4
+377,2023-10-05,07:12,Linha 202,140,Ônibus convencional,Centro,Zona Leste,22,5.8
+378,2023-08-24,17:50,Linha 303,98,Elétrico,Zona Oeste,Centro,50,8.0
+379,2023-04-10,19:13,Linha 202,63,Articulado,Centro,Zona Leste,81,8.75
+380,2023-05-06,09:56,Linha 303,37,Ônibus convencional,Zona Oeste,Centro,12,6.4
+381,2023-11-25,13:56,Linha 101,26,Ônibus convencional,Zona Sul,Zona Norte,17,6.35
+382,2023-02-16,09:18,Linha 101,105,Articulado,Zona Sul,Zona Norte,85,9.75
+383,2023-06-21,05:35,Linha 505,9,Micro-ônibus,Zona Oeste,Zona Sul,74,9.9
+384,2023-03-18,12:48,Linha 404,15,Micro-ônibus,Zona Sul,Zona Leste,39,7.95
+385,2023-09-22,19:39,Linha 101,57,Ônibus convencional,Zona Sul,Zona Norte,59,8.45
+386,2023-11-04,21:15,Linha 101,43,Ônibus convencional,Zona Sul,Zona Norte,60,8.5
+387,2023-10-25,07:37,Linha 505,76,Ônibus convencional,Zona Oeste,Zona Sul,40,8.0
+388,2023-09-26,09:52,Linha 101,32,Elétrico,Centro,Zona Sul,53,7.15
+389,2023-02-10,21:38,Linha 505,46,Elétrico,Centro,Zona Oeste,72,8.6
+390,2023-05-16,23:55,Linha 404,69,Ônibus convencional,Zona Sul,Zona Leste,75,9.75
+391,2023-02-28,05:16,Linha 303,55,Articulado,Zona Oeste,Centro,52,7.6
+392,2023-07-20,14:32,Linha 202,28,Micro-ônibus,Centro,Zona Leste,50,7.2
+393,2023-05-29,19:16,Linha 404,110,Articulado,Zona Sul,Zona Leste,63,9.15
+394,2023-10-14,10:10,Linha 101,111,Articulado,Centro,Zona Sul,30,6.0
+395,2023-06-26,13:13,Linha 101,68,Articulado,Centro,Zona Sul,72,8.1
+396,2023-02-01,14:46,Linha 404,95,Articulado,Zona Sul,Zona Leste,29,7.45
+397,2023-07-27,01:52,Linha 505,17,Elétrico,Centro,Zona Oeste,82,9.1
+398,2023-11-04,11:23,Linha 303,29,Elétrico,Zona Norte,Zona Oeste,61,8.75
+399,2023-09-13,19:24,Linha 303,131,Articulado,Zona Norte,Zona Oeste,57,8.55
+400,2023-08-30,11:59,Linha 404,32,Elétrico,Zona Leste,Centro,53,6.75
+401,2023-02-08,22:45,Linha 505,8,Micro-ônibus,Zona Oeste,Zona Sul,86,9.5
+402,2023-01-30,12:09,Linha 202,102,Articulado,Zona Norte,Centro,90,8.5
+403,2023-05-22,01:35,Linha 404,66,Articulado,Zona Sul,Zona Leste,22,7.1
+404,2023-05-08,14:45,Linha 404,68,Ônibus convencional,Zona Sul,Zona Leste,37,7.85
+405,2023-07-28,14:56,Linha 404,15,Micro-ônibus,Zona Sul,Zona Leste,82,10.1
+406,2023-05-13,01:37,Linha 202,15,Micro-ônibus,Centro,Zona Leste,27,6.05
+407,2023-06-04,02:35,Linha 101,68,Articulado,Zona Sul,Zona Norte,88,9.9
+408,2023-11-12,17:53,Linha 101,128,Ônibus convencional,Zona Sul,Zona Norte,34,7.2
+409,2023-11-02,03:32,Linha 505,14,Micro-ônibus,Centro,Zona Oeste,71,8.55
+410,2023-05-25,13:20,Linha 404,26,Micro-ônibus,Zona Sul,Zona Leste,86,10.3
+411,2023-11-26,17:50,Linha 101,106,Articulado,Zona Sul,Zona Norte,37,7.35
+412,2023-12-02,18:42,Linha 404,40,Micro-ônibus,Zona Leste,Centro,13,4.95
+413,2023-11-30,15:22,Linha 404,45,Ônibus convencional,Zona Leste,Centro,59,7.05
+414,2023-02-09,00:06,Linha 505,146,Articulado,Centro,Zona Oeste,60,8.0
+415,2023-09-21,03:00,Linha 101,25,Micro-ônibus,Zona Sul,Zona Norte,76,9.3
+416,2023-05-20,04:59,Linha 404,26,Elétrico,Zona Sul,Zona Leste,90,10.5
+417,2023-08-09,22:17,Linha 505,64,Ônibus convencional,Centro,Zona Oeste,47,7.35
+418,2023-01-30,20:43,Linha 202,41,Elétrico,Zona Norte,Centro,49,6.85
+419,2023-12-21,02:30,Linha 303,45,Ônibus convencional,Zona Oeste,Centro,62,8.7
+420,2023-03-28,19:59,Linha 202,39,Ônibus convencional,Centro,Zona Leste,69,8.15
+421,2023-06-19,16:15,Linha 101,67,Ônibus convencional,Centro,Zona Sul,72,8.1
+422,2023-02-14,16:48,Linha 202,105,Articulado,Zona Norte,Centro,65,8.55
+423,2023-04-22,21:05,Linha 404,38,Ônibus convencional,Zona Leste,Centro,48,7.9
+424,2023-03-30,03:46,Linha 202,142,Articulado,Centro,Zona Leste,26,6.0
+425,2023-08-25,06:20,Linha 404,104,Articulado,Zona Sul,Zona Leste,22,7.1
+426,2023-03-23,10:45,Linha 202,48,Elétrico,Zona Norte,Centro,21,6.05
+427,2023-12-09,12:18,Linha 404,26,Elétrico,Zona Sul,Zona Leste,19,6.95
+428,2023-10-17,18:11,Linha 505,34,Micro-ônibus,Centro,Zona Oeste,82,9.1
+429,2023-07-04,22:04,Linha 101,45,Ônibus convencional,Zona Sul,Zona Norte,52,8.1
+430,2023-02-14,19:43,Linha 101,20,Ônibus convencional,Centro,Zona Sul,25,5.75
+431,2023-10-11,08:12,Linha 505,58,Elétrico,Centro,Zona Oeste,27,6.35
+432,2023-01-31,06:27,Linha 101,34,Ônibus convencional,Zona Sul,Zona Norte,63,8.65
+433,2023-12-02,03:26,Linha 404,15,Elétrico,Zona Sul,Zona Leste,52,8.6
+434,2023-07-28,17:54,Linha 101,40,Ônibus convencional,Centro,Zona Sul,45,6.75
+435,2023-03-18,01:08,Linha 404,68,Articulado,Zona Leste,Centro,32,6.7
+436,2023-01-03,04:17,Linha 505,46,Ônibus convencional,Zona Oeste,Zona Sul,12,6.9
+437,2023-03-26,15:35,Linha 101,23,Elétrico,Zona Sul,Zona Norte,59,8.45
+438,2023-06-18,20:57,Linha 505,17,Elétrico,Zona Oeste,Zona Sul,11,6.95
+439,2023-06-15,07:55,Linha 404,32,Micro-ônibus,Zona Sul,Zona Leste,27,7.35
+440,2023-10-19,03:24,Linha 202,66,Ônibus convencional,Centro,Zona Leste,26,6.0
+441,2023-10-04,14:20,Linha 404,16,Micro-ônibus,Zona Leste,Centro,51,9.05
+442,2023-07-22,19:56,Linha 505,16,Micro-ônibus,Zona Oeste,Zona Sul,84,9.7
+443,2023-11-21,20:15,Linha 202,132,Articulado,Centro,Zona Leste,23,5.85
+444,2023-01-30,18:03,Linha 404,86,Ônibus convencional,Zona Leste,Centro,59,7.65
+445,2023-06-22,13:18,Linha 505,134,Articulado,Centro,Zona Oeste,75,8.75
+446,2023-11-22,13:29,Linha 505,7,Micro-ônibus,Centro,Zona Oeste,62,8.1
+447,2023-02-22,10:45,Linha 505,51,Ônibus convencional,Centro,Zona Oeste,51,7.55
+448,2023-05-06,22:32,Linha 101,18,Micro-ônibus,Zona Sul,Zona Norte,47,7.85
+449,2023-10-24,17:59,Linha 202,96,Ônibus convencional,Zona Norte,Centro,40,7.6
+450,2023-12-14,20:45,Linha 202,21,Micro-ônibus,Centro,Zona Leste,16,5.5
+451,2023-02-27,13:09,Linha 404,17,Micro-ônibus,Zona Leste,Centro,77,8.25
+452,2023-02-03,17:51,Linha 202,110,Articulado,Centro,Zona Leste,10,5.2
+453,2023-01-08,14:59,Linha 303,37,Ônibus convencional,Zona Norte,Zona Oeste,57,8.55
+454,2023-08-25,06:42,Linha 404,102,Articulado,Zona Leste,Centro,45,6.35
+455,2023-11-14,22:47,Linha 101,116,Articulado,Zona Sul,Zona Norte,14,6.2
+456,2023-06-10,18:25,Linha 505,44,Micro-ônibus,Centro,Zona Oeste,62,8.1
+457,2023-09-25,09:28,Linha 505,133,Articulado,Centro,Zona Oeste,49,7.45
+458,2023-10-01,19:27,Linha 404,50,Elétrico,Zona Leste,Centro,86,10.2
+459,2023-05-28,15:27,Linha 202,31,Ônibus convencional,Zona Norte,Centro,26,7.8
+460,2023-04-23,21:36,Linha 303,16,Elétrico,Zona Norte,Zona Oeste,55,8.45
+461,2023-10-31,07:27,Linha 101,128,Ônibus convencional,Centro,Zona Sul,19,5.45
+462,2023-09-10,15:57,Linha 202,17,Micro-ônibus,Zona Norte,Centro,84,10.5
+463,2023-04-02,16:20,Linha 404,53,Ônibus convencional,Zona Leste,Centro,88,10.2
+464,2023-10-11,05:37,Linha 202,46,Elétrico,Zona Norte,Centro,87,9.75
+465,2023-07-07,04:40,Linha 505,75,Articulado,Centro,Zona Oeste,31,6.55
+466,2023-08-05,07:30,Linha 101,66,Elétrico,Zona Sul,Zona Norte,16,6.3
+467,2023-09-22,14:05,Linha 404,24,Ônibus convencional,Zona Leste,Centro,30,6.4
+468,2023-06-04,15:41,Linha 303,128,Articulado,Zona Norte,Zona Oeste,61,8.75
+469,2023-05-07,04:24,Linha 303,76,Articulado,Zona Norte,Zona Oeste,24,6.9
+470,2023-07-21,15:38,Linha 505,114,Articulado,Centro,Zona Oeste,84,9.2
+471,2023-07-30,23:25,Linha 101,92,Articulado,Centro,Zona Sul,33,6.15
+472,2023-07-23,23:37,Linha 101,23,Micro-ônibus,Centro,Zona Sul,65,7.75
+473,2023-10-04,17:35,Linha 101,160,Articulado,Zona Sul,Zona Norte,27,6.85
+474,2023-02-15,18:12,Linha 101,94,Ônibus convencional,Zona Sul,Zona Norte,40,7.5
+475,2023-11-01,22:36,Linha 202,26,Elétrico,Zona Norte,Centro,84,10.7
+476,2023-05-20,18:13,Linha 404,26,Micro-ônibus,Zona Sul,Zona Leste,46,8.3
+477,2023-12-03,19:21,Linha 202,98,Articulado,Zona Norte,Centro,19,7.25
+478,2023-04-02,09:37,Linha 505,109,Articulado,Centro,Zona Oeste,64,8.2
+479,2023-04-11,14:29,Linha 202,29,Elétrico,Zona Norte,Centro,17,5.85
+480,2023-09-10,11:05,Linha 202,110,Articulado,Centro,Zona Leste,57,7.55
+481,2023-05-28,20:45,Linha 101,29,Elétrico,Centro,Zona Sul,47,6.85
+482,2023-01-01,14:36,Linha 101,9,Micro-ônibus,Centro,Zona Sul,50,7.0
+483,2023-02-23,18:36,Linha 505,16,Micro-ônibus,Zona Oeste,Zona Sul,14,6.0
+484,2023-06-04,23:52,Linha 202,57,Ônibus convencional,Centro,Zona Leste,34,6.4
+485,2023-04-14,16:24,Linha 101,104,Articulado,Centro,Zona Sul,63,7.65
+486,2023-01-03,00:06,Linha 303,16,Micro-ônibus,Zona Norte,Zona Oeste,53,8.35
+487,2023-12-03,13:00,Linha 505,43,Ônibus convencional,Centro,Zona Oeste,47,7.35
+488,2023-11-02,16:59,Linha 505,10,Micro-ônibus,Centro,Zona Oeste,33,6.65
+489,2023-05-11,12:28,Linha 505,135,Articulado,Zona Oeste,Zona Sul,51,8.65
+490,2023-05-20,12:01,Linha 101,37,Ônibus convencional,Centro,Zona Sul,67,7.85
+491,2023-03-18,04:30,Linha 303,41,Ônibus convencional,Zona Oeste,Centro,85,9.95
+492,2023-01-24,04:22,Linha 404,33,Ônibus convencional,Zona Leste,Centro,81,10.25
+493,2023-11-22,05:35,Linha 202,35,Elétrico,Centro,Zona Leste,77,8.55
+494,2023-10-24,10:41,Linha 404,67,Articulado,Zona Sul,Zona Leste,20,7.0
+495,2023-11-24,02:15,Linha 202,10,Micro-ônibus,Zona Norte,Centro,23,7.05
+496,2023-02-04,11:04,Linha 101,113,Articulado,Zona Sul,Zona Norte,18,6.4
+497,2023-12-17,10:43,Linha 505,17,Micro-ônibus,Zona Oeste,Zona Sul,57,7.05
+498,2023-08-08,07:05,Linha 505,20,Micro-ônibus,Centro,Zona Oeste,59,7.95
+499,2023-05-19,21:51,Linha 202,35,Elétrico,Centro,Zona Leste,28,6.1
+500,2023-07-19,16:09,Linha 101,30,Ônibus convencional,Zona Sul,Zona Norte,34,7.2
+501,2023-06-08,15:18,Linha 303,30,Elétrico,Zona Norte,Zona Oeste,79,9.65
+502,2023-10-12,13:05,Linha 101,5,Micro-ônibus,Zona Sul,Zona Norte,13,6.15
+503,2023-02-02,18:42,Linha 505,204,Articulado,Zona Oeste,Zona Sul,69,9.95
+504,2023-09-14,06:36,Linha 202,17,Micro-ônibus,Zona Norte,Centro,44,6.3
+505,2023-03-20,18:17,Linha 101,54,Ônibus convencional,Centro,Zona Sul,37,6.35
+506,2023-12-19,04:15,Linha 505,81,Articulado,Zona Oeste,Zona Sul,48,8.4
+507,2023-09-09,07:28,Linha 303,86,Ônibus convencional,Zona Oeste,Centro,51,8.45
+508,2023-03-29,13:14,Linha 303,29,Ônibus convencional,Zona Oeste,Centro,35,7.25
+509,2023-06-11,10:09,Linha 101,130,Articulado,Zona Sul,Zona Norte,90,10.0
+510,2023-12-13,11:44,Linha 303,6,Micro-ônibus,Zona Oeste,Centro,44,7.6
+511,2023-10-09,09:31,Linha 404,52,Articulado,Zona Sul,Zona Leste,15,6.75
+512,2023-01-29,02:46,Linha 404,146,Articulado,Zona Leste,Centro,78,8.9
+513,2023-11-11,12:10,Linha 202,25,Elétrico,Centro,Zona Leste,41,6.75
+514,2023-07-01,13:56,Linha 101,21,Micro-ônibus,Zona Sul,Zona Norte,89,9.95
+515,2023-12-03,16:07,Linha 505,27,Ônibus convencional,Zona Oeste,Zona Sul,72,9.1
+516,2023-06-01,03:05,Linha 505,52,Ônibus convencional,Zona Oeste,Zona Sul,43,8.15
+517,2023-07-08,03:06,Linha 505,130,Articulado,Centro,Zona Oeste,86,9.3
+518,2023-11-23,01:11,Linha 404,28,Micro-ônibus,Zona Leste,Centro,14,6.1
+519,2023-04-14,20:26,Linha 505,26,Micro-ônibus,Zona Oeste,Zona Sul,37,7.85
+520,2023-05-26,05:13,Linha 303,17,Micro-ônibus,Zona Norte,Zona Oeste,59,8.65
+521,2023-08-10,17:15,Linha 202,14,Micro-ônibus,Zona Norte,Centro,71,7.95
+522,2023-09-01,20:59,Linha 404,125,Articulado,Zona Sul,Zona Leste,64,9.2
+523,2023-08-16,09:42,Linha 505,43,Ônibus convencional,Centro,Zona Oeste,55,7.75
+524,2023-11-27,17:00,Linha 101,60,Ônibus convencional,Centro,Zona Sul,72,8.1
+525,2023-06-24,21:33,Linha 202,138,Articulado,Zona Norte,Centro,15,6.85
+526,2023-11-10,07:07,Linha 505,52,Micro-ônibus,Centro,Zona Oeste,75,8.75
+527,2023-04-03,23:31,Linha 303,30,Elétrico,Zona Norte,Zona Oeste,72,9.3
+528,2023-08-01,23:31,Linha 303,62,Articulado,Zona Oeste,Centro,74,9.8
+529,2023-07-30,09:46,Linha 303,114,Articulado,Zona Norte,Zona Oeste,49,8.15
+530,2023-11-16,12:33,Linha 303,10,Micro-ônibus,Zona Norte,Zona Oeste,29,7.15
+531,2023-03-01,15:55,Linha 404,43,Ônibus convencional,Zona Sul,Zona Leste,63,9.15
+532,2023-10-15,11:04,Linha 202,92,Articulado,Zona Norte,Centro,41,6.05
+533,2023-05-13,04:56,Linha 101,25,Ônibus convencional,Zona Sul,Zona Norte,13,6.15
+534,2023-12-15,11:45,Linha 101,13,Micro-ônibus,Zona Sul,Zona Norte,13,6.15
+535,2023-08-31,02:19,Linha 101,43,Elétrico,Centro,Zona Sul,44,6.7
+536,2023-03-24,18:55,Linha 303,72,Elétrico,Zona Oeste,Centro,86,9.3
+537,2023-07-11,04:51,Linha 404,48,Elétrico,Zona Leste,Centro,40,6.2
+538,2023-01-11,01:05,Linha 101,31,Elétrico,Centro,Zona Sul,33,6.15
+539,2023-06-24,20:17,Linha 303,58,Articulado,Zona Oeste,Centro,27,6.15
+540,2023-07-08,06:30,Linha 505,37,Elétrico,Zona Oeste,Zona Sul,22,5.1
+541,2023-12-11,03:34,Linha 404,9,Micro-ônibus,Zona Sul,Zona Leste,41,8.05
+542,2023-10-10,22:28,Linha 202,50,Elétrico,Zona Norte,Centro,65,7.35
+543,2023-11-07,09:58,Linha 303,59,Ônibus convencional,Zona Oeste,Centro,89,10.75
+544,2023-11-01,01:23,Linha 404,19,Elétrico,Zona Sul,Zona Leste,49,8.45
+545,2023-07-27,14:17,Linha 505,77,Articulado,Centro,Zona Oeste,73,8.65
+546,2023-09-01,00:07,Linha 303,57,Ônibus convencional,Zona Oeste,Centro,89,9.15
+547,2023-03-16,06:30,Linha 303,18,Elétrico,Zona Oeste,Centro,20,5.7
+548,2023-04-19,23:11,Linha 505,49,Elétrico,Zona Oeste,Zona Sul,85,8.95
+549,2023-11-17,17:29,Linha 404,94,Elétrico,Zona Sul,Zona Leste,81,10.05
+550,2023-02-11,00:00,Linha 202,142,Articulado,Zona Norte,Centro,59,8.45
+551,2023-07-02,18:42,Linha 505,40,Ônibus convencional,Centro,Zona Oeste,23,6.15
+552,2023-09-29,10:11,Linha 303,118,Articulado,Zona Norte,Zona Oeste,12,6.3
+553,2023-04-24,19:14,Linha 303,38,Elétrico,Zona Norte,Zona Oeste,72,9.3
+554,2023-07-02,11:07,Linha 202,51,Ônibus convencional,Zona Norte,Centro,30,7.6
+555,2023-07-10,06:07,Linha 404,11,Micro-ônibus,Zona Leste,Centro,29,5.85
+556,2023-05-03,07:12,Linha 404,42,Ônibus convencional,Zona Leste,Centro,52,8.7
+557,2023-02-28,11:43,Linha 303,50,Elétrico,Zona Oeste,Centro,89,9.95
+558,2023-09-23,10:20,Linha 303,49,Elétrico,Zona Oeste,Centro,22,5.5
+559,2023-04-08,07:55,Linha 303,238,Articulado,Zona Oeste,Centro,19,6.25
+560,2023-08-09,15:32,Linha 505,57,Ônibus convencional,Centro,Zona Oeste,37,6.85
+561,2023-02-03,00:12,Linha 404,68,Ônibus convencional,Zona Leste,Centro,58,8.9
+562,2023-02-13,13:36,Linha 303,71,Articulado,Zona Oeste,Centro,12,5.0
+563,2023-09-04,14:14,Linha 202,45,Elétrico,Zona Norte,Centro,88,8.4
+564,2023-11-24,08:55,Linha 202,44,Micro-ônibus,Centro,Zona Leste,35,6.45
+565,2023-08-29,05:18,Linha 101,100,Articulado,Zona Sul,Zona Norte,24,6.7
+566,2023-05-15,22:12,Linha 505,44,Ônibus convencional,Zona Oeste,Zona Sul,19,6.85
+567,2023-08-16,00:01,Linha 404,26,Ônibus convencional,Zona Sul,Zona Leste,48,8.4
+568,2023-10-08,23:04,Linha 505,35,Ônibus convencional,Zona Oeste,Zona Sul,57,8.65
+569,2023-02-08,21:11,Linha 303,52,Ônibus convencional,Zona Oeste,Centro,53,7.85
+570,2023-08-15,12:53,Linha 505,23,Micro-ônibus,Centro,Zona Oeste,17,5.85
+571,2023-09-28,02:49,Linha 404,111,Articulado,Zona Leste,Centro,36,7.5
+572,2023-10-07,03:02,Linha 303,33,Ônibus convencional,Zona Norte,Zona Oeste,26,7.0
+573,2023-01-17,07:30,Linha 202,48,Micro-ônibus,Centro,Zona Leste,20,5.7
+574,2023-03-13,08:44,Linha 505,204,Articulado,Zona Oeste,Zona Sul,60,7.0
+575,2023-06-07,02:37,Linha 202,30,Micro-ônibus,Zona Norte,Centro,52,8.0
+576,2023-08-26,17:19,Linha 404,96,Ônibus convencional,Zona Leste,Centro,45,7.05
+577,2023-03-09,14:29,Linha 505,68,Ônibus convencional,Centro,Zona Oeste,30,6.5
+578,2023-08-22,23:24,Linha 505,12,Micro-ônibus,Zona Oeste,Zona Sul,13,5.95
+579,2023-06-02,19:43,Linha 303,59,Articulado,Zona Oeste,Centro,27,5.85
+580,2023-01-30,04:25,Linha 202,97,Articulado,Zona Norte,Centro,74,8.1
+581,2023-06-28,10:33,Linha 505,9,Micro-ônibus,Centro,Zona Oeste,17,5.85
+582,2023-03-03,08:47,Linha 303,42,Ônibus convencional,Zona Norte,Zona Oeste,30,7.2
+583,2023-08-18,02:11,Linha 202,20,Micro-ônibus,Zona Norte,Centro,11,5.45
+584,2023-11-23,03:56,Linha 505,20,Micro-ônibus,Centro,Zona Oeste,36,6.8
+585,2023-11-26,02:43,Linha 404,44,Elétrico,Zona Leste,Centro,80,9.8
+586,2023-03-03,02:16,Linha 404,29,Elétrico,Zona Leste,Centro,78,10.0
+587,2023-05-10,21:54,Linha 303,23,Elétrico,Zona Norte,Zona Oeste,61,8.75
+588,2023-08-17,04:46,Linha 202,144,Articulado,Zona Norte,Centro,67,7.55
+589,2023-05-25,18:03,Linha 202,78,Ônibus convencional,Centro,Zona Leste,23,5.85
+590,2023-01-18,13:49,Linha 404,18,Micro-ônibus,Zona Sul,Zona Leste,24,7.2
+591,2023-08-01,11:16,Linha 404,133,Articulado,Zona Sul,Zona Leste,80,10.0
+592,2023-04-04,02:47,Linha 101,16,Micro-ônibus,Centro,Zona Sul,88,8.9
+593,2023-11-27,09:53,Linha 202,60,Ônibus convencional,Zona Norte,Centro,64,8.3
+594,2023-01-27,14:54,Linha 101,10,Micro-ônibus,Zona Sul,Zona Norte,36,7.3
+595,2023-05-03,04:49,Linha 505,82,Articulado,Zona Oeste,Zona Sul,88,10.9
+596,2023-02-14,23:11,Linha 404,38,Ônibus convencional,Zona Leste,Centro,27,7.05
+597,2023-07-03,03:24,Linha 505,26,Micro-ônibus,Zona Oeste,Zona Sul,55,8.55
+598,2023-08-01,10:09,Linha 404,23,Ônibus convencional,Zona Sul,Zona Leste,54,8.7
+599,2023-01-29,18:45,Linha 404,254,Articulado,Zona Leste,Centro,22,6.6
+600,2023-07-24,02:49,Linha 303,144,Articulado,Zona Norte,Zona Oeste,64,8.9
+601,2023-03-11,03:21,Linha 303,117,Articulado,Zona Oeste,Centro,31,7.05
+602,2023-03-13,10:07,Linha 505,51,Ônibus convencional,Centro,Zona Oeste,40,7.0
+603,2023-10-28,03:45,Linha 303,17,Micro-ônibus,Zona Oeste,Centro,59,8.95
+604,2023-08-02,18:33,Linha 101,192,Articulado,Zona Sul,Zona Norte,57,8.35
+605,2023-02-07,23:06,Linha 404,38,Elétrico,Zona Sul,Zona Leste,38,7.9
+606,2023-08-18,00:46,Linha 202,61,Ônibus convencional,Centro,Zona Leste,77,8.55
+607,2023-06-06,00:38,Linha 101,28,Elétrico,Centro,Zona Sul,82,8.6
+608,2023-11-25,16:57,Linha 101,49,Ônibus convencional,Centro,Zona Sul,76,8.3
+609,2023-03-19,06:36,Linha 303,25,Elétrico,Zona Norte,Zona Oeste,55,8.45
+610,2023-04-12,11:28,Linha 202,8,Micro-ônibus,Centro,Zona Leste,82,8.8
+611,2023-06-22,22:27,Linha 505,30,Micro-ônibus,Centro,Zona Oeste,33,6.65
+612,2023-09-25,20:51,Linha 202,67,Ônibus convencional,Centro,Zona Leste,88,9.1
+613,2023-06-21,20:53,Linha 202,25,Elétrico,Centro,Zona Leste,53,7.35
+614,2023-10-12,20:38,Linha 202,48,Elétrico,Zona Norte,Centro,25,5.85
+615,2023-03-06,10:09,Linha 101,12,Micro-ônibus,Zona Sul,Zona Norte,34,7.2
+616,2023-11-29,07:32,Linha 303,40,Ônibus convencional,Zona Oeste,Centro,90,10.8
+617,2023-03-28,12:16,Linha 505,133,Articulado,Centro,Zona Oeste,42,7.1
+618,2023-04-07,14:37,Linha 202,48,Elétrico,Zona Norte,Centro,78,9.4
+619,2023-09-14,10:22,Linha 202,109,Articulado,Centro,Zona Leste,56,7.5
+620,2023-09-18,10:28,Linha 101,100,Articulado,Centro,Zona Sul,76,8.3
+621,2023-05-13,21:05,Linha 404,85,Articulado,Zona Sul,Zona Leste,83,10.15
+622,2023-02-13,06:42,Linha 101,35,Ônibus convencional,Centro,Zona Sul,29,5.95
+623,2023-10-20,02:24,Linha 303,25,Micro-ônibus,Zona Oeste,Centro,80,10.2
+624,2023-09-12,04:04,Linha 505,49,Elétrico,Zona Oeste,Zona Sul,77,8.35
+625,2023-05-08,13:34,Linha 101,6,Micro-ônibus,Centro,Zona Sul,24,5.7
+626,2023-03-10,07:57,Linha 202,134,Ônibus convencional,Centro,Zona Leste,60,7.7
+627,2023-11-25,02:58,Linha 505,86,Articulado,Centro,Zona Oeste,47,7.35
+628,2023-10-04,19:06,Linha 101,100,Articulado,Zona Sul,Zona Norte,53,8.15
+629,2023-12-21,06:11,Linha 202,123,Articulado,Zona Norte,Centro,42,6.6
+630,2023-02-19,21:01,Linha 101,149,Articulado,Zona Sul,Zona Norte,66,8.8
+631,2023-11-15,01:07,Linha 303,140,Articulado,Zona Oeste,Centro,16,6.6
+632,2023-08-01,14:05,Linha 404,66,Ônibus convencional,Zona Sul,Zona Leste,18,6.9
+633,2023-04-20,10:14,Linha 404,70,Ônibus convencional,Zona Sul,Zona Leste,73,9.65
+634,2023-04-19,18:07,Linha 404,118,Ônibus convencional,Zona Sul,Zona Leste,48,8.4
+635,2023-09-30,21:08,Linha 202,14,Micro-ônibus,Zona Norte,Centro,79,10.05
+636,2023-05-17,11:35,Linha 404,18,Micro-ônibus,Zona Sul,Zona Leste,37,7.85
+637,2023-06-16,03:55,Linha 505,5,Micro-ônibus,Zona Oeste,Zona Sul,15,7.05
+638,2023-11-01,05:09,Linha 101,65,Ônibus convencional,Centro,Zona Sul,37,6.35
+639,2023-05-03,07:09,Linha 303,106,Ônibus convencional,Zona Oeste,Centro,81,9.15
+640,2023-08-03,08:29,Linha 303,80,Elétrico,Zona Norte,Zona Oeste,67,9.05
+641,2023-04-27,21:04,Linha 202,7,Micro-ônibus,Zona Norte,Centro,72,8.3
+642,2023-09-01,03:14,Linha 101,73,Articulado,Zona Sul,Zona Norte,78,9.4
+643,2023-06-02,13:03,Linha 303,19,Elétrico,Zona Norte,Zona Oeste,66,9.0
+644,2023-02-23,11:42,Linha 101,67,Ônibus convencional,Zona Sul,Zona Norte,56,8.3
+645,2023-11-01,00:49,Linha 202,59,Articulado,Zona Norte,Centro,32,7.3
+646,2023-05-08,07:40,Linha 404,46,Elétrico,Zona Leste,Centro,34,6.0
+647,2023-03-19,06:41,Linha 101,27,Elétrico,Zona Sul,Zona Norte,73,9.15
+648,2023-10-25,01:47,Linha 404,31,Ônibus convencional,Zona Leste,Centro,58,8.3
+649,2023-02-04,11:34,Linha 505,28,Elétrico,Zona Oeste,Zona Sul,89,9.25
+650,2023-12-10,10:20,Linha 101,22,Micro-ônibus,Zona Sul,Zona Norte,50,8.0
+651,2023-05-11,11:26,Linha 303,46,Elétrico,Zona Norte,Zona Oeste,40,7.7
+652,2023-04-17,06:54,Linha 202,27,Micro-ônibus,Zona Norte,Centro,48,7.5
+653,2023-02-24,07:03,Linha 202,120,Articulado,Centro,Zona Leste,38,6.6
+654,2023-09-08,10:17,Linha 202,8,Micro-ônibus,Centro,Zona Leste,80,8.7
+655,2023-01-27,14:30,Linha 303,58,Ônibus convencional,Zona Norte,Zona Oeste,50,8.2
+656,2023-01-02,10:12,Linha 505,11,Micro-ônibus,Zona Oeste,Zona Sul,15,5.25
+657,2023-10-11,07:08,Linha 101,88,Ônibus convencional,Zona Sul,Zona Norte,87,9.85
+658,2023-01-07,17:40,Linha 505,186,Articulado,Centro,Zona Oeste,24,6.2
+659,2023-02-19,09:31,Linha 202,35,Ônibus convencional,Centro,Zona Leste,38,6.6
+660,2023-02-28,10:24,Linha 303,45,Ônibus convencional,Zona Norte,Zona Oeste,80,9.7
+661,2023-09-07,17:45,Linha 404,38,Micro-ônibus,Zona Sul,Zona Leste,54,8.7
+662,2023-01-11,19:53,Linha 404,64,Ônibus convencional,Zona Leste,Centro,59,9.05
+663,2023-09-21,18:43,Linha 303,74,Elétrico,Zona Oeste,Centro,88,9.3
+664,2023-03-16,05:28,Linha 505,6,Micro-ônibus,Zona Oeste,Zona Sul,17,6.85
+665,2023-12-23,19:37,Linha 303,26,Micro-ônibus,Zona Oeste,Centro,63,7.25
+666,2023-06-25,15:36,Linha 303,50,Elétrico,Zona Norte,Zona Oeste,49,8.15
+667,2023-11-19,17:33,Linha 101,126,Ônibus convencional,Zona Sul,Zona Norte,58,8.4
+668,2023-10-20,05:52,Linha 303,8,Micro-ônibus,Zona Oeste,Centro,18,7.3
+669,2023-05-07,07:45,Linha 404,18,Micro-ônibus,Zona Sul,Zona Leste,80,10.0
+670,2023-12-08,03:29,Linha 202,36,Elétrico,Zona Norte,Centro,90,9.5
+671,2023-03-22,13:40,Linha 404,101,Articulado,Zona Leste,Centro,56,6.9
+672,2023-04-18,06:43,Linha 505,33,Ônibus convencional,Zona Oeste,Zona Sul,36,8.1
+673,2023-06-11,04:01,Linha 404,22,Ônibus convencional,Zona Sul,Zona Leste,77,9.85
+674,2023-04-09,20:35,Linha 303,20,Ônibus convencional,Zona Norte,Zona Oeste,30,7.2
+675,2023-02-01,06:16,Linha 505,123,Articulado,Zona Oeste,Zona Sul,37,7.75
+676,2023-03-30,09:38,Linha 101,38,Ônibus convencional,Centro,Zona Sul,14,5.2
+677,2023-01-06,15:36,Linha 202,19,Micro-ônibus,Zona Norte,Centro,49,7.05
+678,2023-10-27,15:33,Linha 303,19,Elétrico,Zona Norte,Zona Oeste,54,8.4
+679,2023-09-06,13:37,Linha 101,66,Ônibus convencional,Zona Sul,Zona Norte,19,6.45
+680,2023-03-12,07:14,Linha 505,90,Ônibus convencional,Centro,Zona Oeste,87,9.35
+681,2023-07-02,10:27,Linha 101,19,Elétrico,Zona Sul,Zona Norte,35,7.25
+682,2023-09-24,16:07,Linha 202,16,Micro-ônibus,Centro,Zona Leste,88,9.1
+683,2023-06-06,07:41,Linha 505,42,Ônibus convencional,Zona Oeste,Zona Sul,37,7.45
+684,2023-06-16,15:53,Linha 404,45,Ônibus convencional,Zona Sul,Zona Leste,51,8.55
+685,2023-10-19,23:55,Linha 404,26,Micro-ônibus,Zona Sul,Zona Leste,37,7.85
+686,2023-10-30,12:37,Linha 202,49,Ônibus convencional,Centro,Zona Leste,89,9.15
+687,2023-02-21,03:14,Linha 303,31,Ônibus convencional,Zona Norte,Zona Oeste,58,8.6
+688,2023-12-27,01:58,Linha 404,51,Articulado,Zona Leste,Centro,81,10.35
+689,2023-01-24,00:50,Linha 404,28,Ônibus convencional,Zona Sul,Zona Leste,43,8.15
+690,2023-11-24,01:11,Linha 303,50,Ônibus convencional,Zona Oeste,Centro,59,9.25
+691,2023-01-26,09:13,Linha 404,135,Articulado,Zona Sul,Zona Leste,89,10.45
+692,2023-02-13,09:47,Linha 505,20,Elétrico,Centro,Zona Oeste,20,6.0
+693,2023-01-05,00:19,Linha 202,23,Ônibus convencional,Centro,Zona Leste,64,7.9
+694,2023-07-01,22:15,Linha 505,143,Articulado,Zona Oeste,Zona Sul,86,10.5
+695,2023-11-05,21:04,Linha 404,41,Elétrico,Zona Sul,Zona Leste,17,6.85
+696,2023-01-05,14:47,Linha 303,35,Elétrico,Zona Norte,Zona Oeste,29,7.15
+697,2023-01-02,06:55,Linha 202,91,Articulado,Centro,Zona Leste,11,5.25
+698,2023-03-13,05:18,Linha 404,13,Micro-ônibus,Zona Leste,Centro,49,7.55
+699,2023-02-01,02:40,Linha 303,55,Ônibus convencional,Zona Norte,Zona Oeste,79,9.65
+700,2023-07-05,08:12,Linha 101,32,Micro-ônibus,Zona Sul,Zona Norte,64,8.7
+701,2023-10-15,09:39,Linha 404,54,Ônibus convencional,Zona Leste,Centro,83,10.55
+702,2023-09-21,23:21,Linha 101,21,Elétrico,Zona Sul,Zona Norte,31,7.05
+703,2023-01-29,11:46,Linha 505,46,Elétrico,Centro,Zona Oeste,43,7.15
+704,2023-06-03,10:39,Linha 101,28,Micro-ônibus,Zona Sul,Zona Norte,53,8.15
+705,2023-05-06,23:13,Linha 404,29,Micro-ônibus,Zona Leste,Centro,46,8.4
+706,2023-05-24,08:53,Linha 303,90,Ônibus convencional,Zona Norte,Zona Oeste,54,8.4
+707,2023-03-10,18:20,Linha 303,48,Elétrico,Zona Norte,Zona Oeste,50,8.2
+708,2023-04-23,15:35,Linha 202,30,Micro-ônibus,Zona Norte,Centro,25,6.35
+709,2023-04-27,00:25,Linha 202,12,Micro-ônibus,Centro,Zona Leste,36,6.5
+710,2023-09-11,21:26,Linha 505,68,Ônibus convencional,Centro,Zona Oeste,27,6.35
+711,2023-10-03,11:50,Linha 202,22,Micro-ônibus,Centro,Zona Leste,90,9.2
+712,2023-03-26,10:57,Linha 202,40,Ônibus convencional,Centro,Zona Leste,48,7.1
+713,2023-05-14,00:13,Linha 101,19,Micro-ônibus,Zona Sul,Zona Norte,55,8.25
+714,2023-02-11,00:59,Linha 101,135,Articulado,Centro,Zona Sul,53,7.15
+715,2023-03-05,08:29,Linha 404,42,Elétrico,Zona Sul,Zona Leste,65,9.25
+716,2023-12-21,02:27,Linha 404,44,Ônibus convencional,Zona Leste,Centro,16,5.3
+717,2023-02-24,07:45,Linha 303,100,Ônibus convencional,Zona Norte,Zona Oeste,32,7.3
+718,2023-02-06,18:21,Linha 505,84,Ônibus convencional,Zona Oeste,Zona Sul,76,8.6
+719,2023-10-29,21:50,Linha 101,17,Elétrico,Zona Sul,Zona Norte,76,9.3
+720,2023-03-21,00:37,Linha 101,66,Ônibus convencional,Zona Sul,Zona Norte,11,6.05
+721,2023-11-19,09:36,Linha 404,23,Micro-ônibus,Zona Leste,Centro,61,8.55
+722,2023-09-05,12:54,Linha 303,67,Ônibus convencional,Zona Oeste,Centro,14,6.4
+723,2023-12-17,00:03,Linha 404,16,Micro-ônibus,Zona Sul,Zona Leste,63,9.15
+724,2023-05-31,16:34,Linha 202,10,Micro-ônibus,Centro,Zona Leste,62,7.8
+725,2023-02-18,20:20,Linha 303,8,Micro-ônibus,Zona Norte,Zona Oeste,47,8.05
+726,2023-01-21,00:17,Linha 404,63,Ônibus convencional,Zona Sul,Zona Leste,23,7.15
+727,2023-02-22,09:04,Linha 303,15,Elétrico,Zona Oeste,Centro,88,8.5
+728,2023-04-03,12:06,Linha 202,50,Ônibus convencional,Zona Norte,Centro,45,8.45
+729,2023-02-27,04:32,Linha 202,43,Elétrico,Centro,Zona Leste,14,5.4
+730,2023-10-11,02:40,Linha 202,102,Articulado,Centro,Zona Leste,43,6.85
+731,2023-07-08,02:31,Linha 101,63,Ônibus convencional,Centro,Zona Sul,47,6.85
+732,2023-12-01,12:42,Linha 101,9,Micro-ônibus,Zona Sul,Zona Norte,11,6.05
+733,2023-08-22,12:35,Linha 303,38,Elétrico,Zona Norte,Zona Oeste,43,7.85
+734,2023-04-27,18:05,Linha 202,16,Micro-ônibus,Centro,Zona Leste,30,6.2
+735,2023-04-09,18:00,Linha 303,50,Elétrico,Zona Norte,Zona Oeste,83,9.85
+736,2023-09-03,04:56,Linha 101,14,Micro-ônibus,Zona Sul,Zona Norte,34,7.2
+737,2023-06-01,05:53,Linha 303,47,Ônibus convencional,Zona Norte,Zona Oeste,23,6.85
+738,2023-01-21,16:30,Linha 101,66,Ônibus convencional,Centro,Zona Sul,43,6.65
+739,2023-12-15,01:00,Linha 303,30,Ônibus convencional,Zona Oeste,Centro,85,10.05
+740,2023-10-12,16:56,Linha 404,20,Ônibus convencional,Zona Sul,Zona Leste,28,7.4
+741,2023-10-14,08:11,Linha 404,172,Articulado,Zona Sul,Zona Leste,89,10.45
+742,2023-10-30,10:48,Linha 202,11,Micro-ônibus,Centro,Zona Leste,13,5.35
+743,2023-04-04,08:16,Linha 101,110,Ônibus convencional,Zona Sul,Zona Norte,87,9.85
+744,2023-09-13,06:07,Linha 101,27,Elétrico,Zona Sul,Zona Norte,54,8.2
+745,2023-02-13,06:46,Linha 303,14,Micro-ônibus,Zona Norte,Zona Oeste,66,9.0
+746,2023-01-04,09:51,Linha 303,141,Articulado,Zona Norte,Zona Oeste,53,8.35
+747,2023-08-09,22:35,Linha 202,16,Micro-ônibus,Centro,Zona Leste,17,5.55
+748,2023-07-30,11:46,Linha 303,10,Micro-ônibus,Zona Norte,Zona Oeste,35,7.45
+749,2023-12-02,22:13,Linha 202,21,Elétrico,Zona Norte,Centro,69,9.75
+750,2023-11-15,05:25,Linha 303,62,Articulado,Zona Oeste,Centro,16,6.3
+751,2023-01-17,07:49,Linha 505,110,Ônibus convencional,Centro,Zona Oeste,39,6.95
+752,2023-06-03,14:11,Linha 202,133,Articulado,Centro,Zona Leste,23,5.85
+753,2023-04-28,12:09,Linha 202,143,Articulado,Centro,Zona Leste,26,6.0
+754,2023-03-09,23:58,Linha 202,47,Elétrico,Centro,Zona Leste,39,6.65
+755,2023-06-02,19:43,Linha 101,19,Micro-ônibus,Centro,Zona Sul,53,7.15
+756,2023-06-15,10:09,Linha 505,42,Elétrico,Centro,Zona Oeste,68,8.4
+757,2023-05-01,17:55,Linha 101,158,Articulado,Zona Sul,Zona Norte,90,10.0
+758,2023-02-18,06:01,Linha 404,15,Micro-ônibus,Zona Leste,Centro,42,7.9
+759,2023-04-06,23:04,Linha 303,42,Ônibus convencional,Zona Norte,Zona Oeste,38,7.6
+760,2023-11-23,22:43,Linha 202,21,Micro-ônibus,Centro,Zona Leste,56,7.5
+761,2023-10-12,01:56,Linha 404,43,Ônibus convencional,Zona Sul,Zona Leste,81,10.05
+762,2023-03-16,17:58,Linha 101,78,Elétrico,Centro,Zona Sul,90,9.0
+763,2023-09-10,16:53,Linha 202,17,Micro-ônibus,Zona Norte,Centro,79,8.65
+764,2023-10-01,03:18,Linha 505,27,Ônibus convencional,Zona Oeste,Zona Sul,85,8.65
+765,2023-02-22,17:43,Linha 101,32,Elétrico,Zona Sul,Zona Norte,56,8.3
+766,2023-02-10,09:57,Linha 202,20,Ônibus convencional,Centro,Zona Leste,83,8.85
+767,2023-02-18,09:13,Linha 505,27,Ônibus convencional,Zona Oeste,Zona Sul,35,7.55
+768,2023-09-03,03:16,Linha 505,20,Elétrico,Centro,Zona Oeste,10,5.5
+769,2023-04-11,08:47,Linha 101,30,Micro-ônibus,Zona Sul,Zona Norte,88,9.9
+770,2023-12-11,16:56,Linha 202,101,Articulado,Centro,Zona Leste,57,7.55
+771,2023-12-20,21:08,Linha 303,78,Articulado,Zona Oeste,Centro,40,8.0
+772,2023-02-01,13:46,Linha 404,119,Articulado,Zona Leste,Centro,37,8.35
+773,2023-08-07,03:44,Linha 101,44,Elétrico,Zona Sul,Zona Norte,39,7.45
+774,2023-07-13,10:26,Linha 404,26,Elétrico,Zona Leste,Centro,78,9.6
+775,2023-10-03,05:18,Linha 303,28,Micro-ônibus,Zona Norte,Zona Oeste,77,9.55
+776,2023-05-04,11:35,Linha 202,23,Micro-ônibus,Centro,Zona Leste,86,9.0
+777,2023-07-31,15:45,Linha 202,85,Articulado,Zona Norte,Centro,14,4.7
+778,2023-08-02,01:43,Linha 202,20,Elétrico,Centro,Zona Leste,20,5.7
+779,2023-06-27,01:19,Linha 303,27,Micro-ônibus,Zona Norte,Zona Oeste,36,7.5
+780,2023-02-18,15:42,Linha 303,56,Ônibus convencional,Zona Norte,Zona Oeste,52,8.3
+781,2023-12-07,20:05,Linha 101,28,Ônibus convencional,Zona Sul,Zona Norte,33,7.15
+782,2023-03-12,09:21,Linha 101,10,Micro-ônibus,Zona Sul,Zona Norte,41,7.55
+783,2023-06-08,23:44,Linha 202,48,Elétrico,Zona Norte,Centro,29,5.95
+784,2023-12-27,02:04,Linha 505,52,Ônibus convencional,Zona Oeste,Zona Sul,54,8.9
+785,2023-04-09,07:34,Linha 101,132,Articulado,Zona Sul,Zona Norte,59,8.45
+786,2023-01-27,14:32,Linha 202,48,Elétrico,Centro,Zona Leste,22,5.8
+787,2023-06-19,08:52,Linha 404,52,Micro-ônibus,Zona Sul,Zona Leste,65,9.25
+788,2023-03-22,17:18,Linha 202,288,Articulado,Zona Norte,Centro,21,6.95
+789,2023-11-21,18:26,Linha 303,92,Elétrico,Zona Norte,Zona Oeste,52,8.3
+790,2023-03-27,11:21,Linha 202,62,Ônibus convencional,Centro,Zona Leste,82,8.8
+791,2023-11-02,12:57,Linha 303,31,Elétrico,Zona Oeste,Centro,55,8.25
+792,2023-10-16,06:47,Linha 505,139,Articulado,Zona Oeste,Zona Sul,77,8.55
+793,2023-03-06,22:47,Linha 404,25,Elétrico,Zona Leste,Centro,31,5.55
+794,2023-11-10,13:50,Linha 101,13,Micro-ônibus,Centro,Zona Sul,30,6.0
+795,2023-12-05,03:11,Linha 101,25,Elétrico,Centro,Zona Sul,37,6.35
+796,2023-12-18,15:52,Linha 101,89,Articulado,Zona Sul,Zona Norte,80,9.5
+797,2023-08-20,00:31,Linha 303,95,Articulado,Zona Norte,Zona Oeste,36,7.5
+798,2023-01-24,22:18,Linha 303,13,Micro-ônibus,Zona Norte,Zona Oeste,51,8.25
+799,2023-08-03,03:22,Linha 101,26,Micro-ônibus,Centro,Zona Sul,58,7.4
+800,2023-07-13,02:44,Linha 101,16,Micro-ônibus,Zona Sul,Zona Norte,80,9.5
+801,2023-08-14,02:09,Linha 505,43,Ônibus convencional,Centro,Zona Oeste,20,6.0
+802,2023-09-22,21:12,Linha 303,47,Elétrico,Zona Norte,Zona Oeste,29,7.15
+803,2023-12-26,16:32,Linha 303,24,Elétrico,Zona Norte,Zona Oeste,15,6.45
+804,2023-12-15,02:47,Linha 101,29,Micro-ônibus,Zona Sul,Zona Norte,40,7.5
+805,2023-10-17,07:15,Linha 101,50,Micro-ônibus,Zona Sul,Zona Norte,19,6.45
+806,2023-11-20,22:05,Linha 101,56,Articulado,Centro,Zona Sul,77,8.35
+807,2023-01-21,22:32,Linha 505,21,Micro-ônibus,Centro,Zona Oeste,27,6.35
+808,2023-03-23,02:13,Linha 303,31,Elétrico,Zona Oeste,Centro,78,9.5
+809,2023-11-18,19:59,Linha 303,93,Articulado,Zona Oeste,Centro,57,9.25
+810,2023-09-23,01:45,Linha 505,10,Micro-ônibus,Zona Oeste,Zona Sul,29,6.25
+811,2023-04-15,16:19,Linha 101,32,Ônibus convencional,Zona Sul,Zona Norte,35,7.25
+812,2023-03-15,06:29,Linha 505,18,Elétrico,Centro,Zona Oeste,30,6.5
+813,2023-04-16,06:56,Linha 202,6,Micro-ônibus,Centro,Zona Leste,23,5.85
+814,2023-03-16,16:01,Linha 404,38,Ônibus convencional,Zona Sul,Zona Leste,49,8.45
+815,2023-03-07,07:20,Linha 101,24,Micro-ônibus,Zona Sul,Zona Norte,54,8.2
+816,2023-04-14,07:12,Linha 404,276,Articulado,Zona Leste,Centro,82,9.2
+817,2023-06-15,13:15,Linha 101,33,Elétrico,Zona Sul,Zona Norte,33,7.15
+818,2023-07-25,05:27,Linha 505,95,Articulado,Centro,Zona Oeste,26,6.3
+819,2023-09-13,01:34,Linha 505,46,Elétrico,Zona Oeste,Zona Sul,77,8.75
+820,2023-01-12,05:52,Linha 404,13,Micro-ônibus,Zona Sul,Zona Leste,87,10.35
+821,2023-03-05,01:05,Linha 505,24,Ônibus convencional,Centro,Zona Oeste,77,8.85
+822,2023-01-18,01:35,Linha 303,29,Micro-ônibus,Zona Norte,Zona Oeste,83,9.85
+823,2023-01-23,02:57,Linha 303,6,Micro-ônibus,Zona Oeste,Centro,88,10.0
+824,2023-03-17,06:14,Linha 505,50,Elétrico,Zona Oeste,Zona Sul,62,7.2
+825,2023-03-10,23:04,Linha 404,139,Articulado,Zona Sul,Zona Leste,37,7.85
+826,2023-07-04,18:54,Linha 202,38,Micro-ônibus,Centro,Zona Leste,27,6.05
+827,2023-03-25,05:41,Linha 404,63,Ônibus convencional,Zona Leste,Centro,18,6.2
+828,2023-03-01,20:47,Linha 202,24,Elétrico,Zona Norte,Centro,80,9.2
+829,2023-08-19,23:32,Linha 505,44,Ônibus convencional,Zona Oeste,Zona Sul,11,4.75
+830,2023-05-27,02:22,Linha 202,44,Ônibus convencional,Centro,Zona Leste,32,6.3
+831,2023-04-02,10:38,Linha 202,24,Micro-ônibus,Zona Norte,Centro,45,8.45
+832,2023-05-18,23:41,Linha 101,59,Ônibus convencional,Zona Sul,Zona Norte,51,8.05
+833,2023-04-09,10:47,Linha 202,79,Articulado,Centro,Zona Leste,53,7.35
+834,2023-02-19,00:43,Linha 303,22,Ônibus convencional,Zona Oeste,Centro,56,8.0
+835,2023-10-25,08:54,Linha 101,50,Ônibus convencional,Centro,Zona Sul,17,5.35
+836,2023-02-02,22:40,Linha 101,11,Micro-ônibus,Centro,Zona Sul,45,6.75
+837,2023-07-29,21:44,Linha 505,11,Micro-ônibus,Centro,Zona Oeste,90,9.5
+838,2023-09-22,06:12,Linha 404,143,Articulado,Zona Leste,Centro,22,6.7
+839,2023-10-24,13:47,Linha 101,35,Elétrico,Zona Sul,Zona Norte,13,6.15
+840,2023-10-03,09:56,Linha 303,70,Ônibus convencional,Zona Norte,Zona Oeste,46,8.0
+841,2023-05-05,14:47,Linha 505,11,Micro-ônibus,Centro,Zona Oeste,49,7.45
+842,2023-05-27,20:07,Linha 202,53,Ônibus convencional,Zona Norte,Centro,28,7.8
+843,2023-12-13,00:57,Linha 505,15,Elétrico,Zona Oeste,Zona Sul,41,7.35
+844,2023-12-25,11:24,Linha 202,17,Elétrico,Centro,Zona Leste,78,8.6
+845,2023-05-29,07:44,Linha 303,52,Elétrico,Zona Oeste,Centro,42,7.2
+846,2023-06-06,06:01,Linha 404,24,Elétrico,Zona Sul,Zona Leste,13,6.65
+847,2023-10-12,09:41,Linha 505,131,Articulado,Zona Oeste,Zona Sul,22,6.5
+848,2023-01-17,17:40,Linha 404,124,Articulado,Zona Leste,Centro,43,7.45
+849,2023-10-04,12:40,Linha 303,25,Micro-ônibus,Zona Norte,Zona Oeste,25,6.95
+850,2023-11-23,14:21,Linha 404,19,Elétrico,Zona Sul,Zona Leste,63,9.15
+851,2023-05-19,18:09,Linha 505,92,Elétrico,Zona Oeste,Zona Sul,77,8.95
+852,2023-08-20,07:51,Linha 404,16,Micro-ônibus,Zona Leste,Centro,29,5.75
+853,2023-01-16,22:45,Linha 101,62,Articulado,Centro,Zona Sul,46,6.8
+854,2023-06-24,19:19,Linha 303,68,Articulado,Zona Oeste,Centro,51,6.65
+855,2023-07-04,16:18,Linha 202,18,Elétrico,Centro,Zona Leste,31,6.25
+856,2023-07-26,20:48,Linha 303,43,Elétrico,Zona Norte,Zona Oeste,35,7.45
+857,2023-08-13,02:48,Linha 303,24,Elétrico,Zona Oeste,Centro,74,9.2
+858,2023-01-22,19:08,Linha 404,68,Ônibus convencional,Zona Leste,Centro,51,6.95
+859,2023-05-12,13:55,Linha 101,50,Elétrico,Zona Sul,Zona Norte,16,6.3
+860,2023-02-22,12:17,Linha 404,63,Ônibus convencional,Zona Sul,Zona Leste,20,7.0
+861,2023-03-11,14:26,Linha 202,21,Micro-ônibus,Zona Norte,Centro,66,8.9
+862,2023-03-03,14:55,Linha 404,29,Elétrico,Zona Sul,Zona Leste,50,8.5
+863,2023-04-12,04:11,Linha 101,40,Ônibus convencional,Centro,Zona Sul,45,6.75
+864,2023-10-09,08:12,Linha 505,44,Elétrico,Centro,Zona Oeste,24,6.2
+865,2023-12-07,21:07,Linha 202,65,Ônibus convencional,Zona Norte,Centro,44,8.5
+866,2023-04-26,17:16,Linha 404,70,Elétrico,Zona Leste,Centro,64,7.9
+867,2023-06-26,23:24,Linha 404,58,Articulado,Zona Leste,Centro,81,8.05
+868,2023-02-24,20:57,Linha 505,123,Articulado,Centro,Zona Oeste,81,9.05
+869,2023-09-07,17:14,Linha 202,182,Articulado,Centro,Zona Leste,11,5.25
+870,2023-03-12,10:44,Linha 303,19,Micro-ônibus,Zona Norte,Zona Oeste,62,8.8
+871,2023-04-30,21:13,Linha 303,72,Articulado,Zona Norte,Zona Oeste,57,8.55
+872,2023-04-23,18:07,Linha 404,296,Articulado,Zona Leste,Centro,27,7.65
+873,2023-11-04,20:08,Linha 404,139,Articulado,Zona Sul,Zona Leste,59,8.95
+874,2023-04-18,01:09,Linha 404,31,Ônibus convencional,Zona Leste,Centro,64,8.6
+875,2023-01-03,05:08,Linha 404,34,Elétrico,Zona Sul,Zona Leste,83,10.15
+876,2023-05-19,17:39,Linha 101,98,Elétrico,Centro,Zona Sul,39,6.45
+877,2023-11-07,02:34,Linha 404,132,Articulado,Zona Leste,Centro,58,8.4
+878,2023-03-02,15:01,Linha 202,19,Micro-ônibus,Centro,Zona Leste,42,6.8
+879,2023-11-22,02:40,Linha 202,90,Articulado,Centro,Zona Leste,35,6.45
+880,2023-11-11,13:14,Linha 101,59,Ônibus convencional,Zona Sul,Zona Norte,22,6.6
+881,2023-08-22,02:17,Linha 303,22,Micro-ônibus,Zona Oeste,Centro,44,7.1
+882,2023-04-07,23:15,Linha 303,27,Micro-ônibus,Zona Norte,Zona Oeste,54,8.4
+883,2023-10-11,13:56,Linha 101,50,Ônibus convencional,Zona Sul,Zona Norte,54,8.2
+884,2023-11-25,07:03,Linha 101,80,Elétrico,Zona Sul,Zona Norte,49,7.95
+885,2023-09-17,03:38,Linha 202,50,Articulado,Centro,Zona Leste,25,5.95
+886,2023-06-15,23:16,Linha 101,35,Ônibus convencional,Centro,Zona Sul,54,7.2
+887,2023-09-01,16:44,Linha 101,31,Elétrico,Centro,Zona Sul,45,6.75
+888,2023-04-02,10:02,Linha 101,7,Micro-ônibus,Zona Sul,Zona Norte,66,8.8
+889,2023-10-04,02:49,Linha 101,11,Micro-ônibus,Centro,Zona Sul,42,6.6
+890,2023-11-08,20:46,Linha 101,33,Elétrico,Centro,Zona Sul,23,5.65
+891,2023-08-24,07:23,Linha 505,36,Micro-ônibus,Zona Oeste,Zona Sul,83,8.75
+892,2023-07-27,15:56,Linha 303,26,Micro-ônibus,Zona Oeste,Centro,19,5.75
+893,2023-12-17,20:44,Linha 303,30,Micro-ônibus,Zona Norte,Zona Oeste,89,10.15
+894,2023-08-21,20:44,Linha 404,15,Elétrico,Zona Sul,Zona Leste,29,7.45
+895,2023-11-07,22:38,Linha 101,27,Ônibus convencional,Zona Sul,Zona Norte,26,6.8
+896,2023-03-09,05:04,Linha 202,24,Ônibus convencional,Zona Norte,Centro,47,8.15
+897,2023-09-23,07:04,Linha 404,214,Articulado,Zona Sul,Zona Leste,26,7.3
+898,2023-08-16,03:00,Linha 505,63,Articulado,Centro,Zona Oeste,11,5.55
+899,2023-03-06,21:39,Linha 505,24,Elétrico,Centro,Zona Oeste,23,6.15
+900,2023-03-24,22:14,Linha 202,139,Articulado,Centro,Zona Leste,58,7.6
+901,2023-05-10,06:08,Linha 202,41,Elétrico,Centro,Zona Leste,90,9.2
+902,2023-07-24,00:37,Linha 404,76,Articulado,Zona Sul,Zona Leste,21,7.05
+903,2023-02-02,09:14,Linha 202,20,Elétrico,Zona Norte,Centro,88,10.2
+904,2023-08-29,08:15,Linha 202,34,Micro-ônibus,Zona Norte,Centro,89,8.75
+905,2023-06-06,10:29,Linha 505,20,Ônibus convencional,Centro,Zona Oeste,86,9.3
+906,2023-10-23,18:29,Linha 404,108,Ônibus convencional,Zona Sul,Zona Leste,12,6.6
+907,2023-03-03,07:10,Linha 505,106,Ônibus convencional,Zona Oeste,Zona Sul,53,9.15
+908,2023-07-15,07:47,Linha 404,88,Elétrico,Zona Leste,Centro,14,5.5
+909,2023-04-10,13:22,Linha 202,47,Elétrico,Centro,Zona Leste,77,8.55
+910,2023-02-13,07:55,Linha 404,132,Articulado,Zona Sul,Zona Leste,71,9.55
+911,2023-05-19,17:19,Linha 101,94,Elétrico,Centro,Zona Sul,30,6.0
+912,2023-02-17,11:11,Linha 404,9,Micro-ônibus,Zona Sul,Zona Leste,22,7.1
+913,2023-08-29,10:51,Linha 202,142,Articulado,Centro,Zona Leste,24,5.9
+914,2023-12-27,21:16,Linha 303,12,Micro-ônibus,Zona Norte,Zona Oeste,23,6.85
+915,2023-05-16,17:43,Linha 101,116,Ônibus convencional,Centro,Zona Sul,51,7.05
+916,2023-03-12,13:45,Linha 505,16,Elétrico,Zona Oeste,Zona Sul,48,6.8
+917,2023-03-07,00:01,Linha 202,10,Micro-ônibus,Centro,Zona Leste,11,5.25
+918,2023-01-02,09:05,Linha 505,9,Micro-ônibus,Centro,Zona Oeste,82,9.1
+919,2023-08-01,19:16,Linha 303,111,Articulado,Zona Norte,Zona Oeste,15,6.45
+920,2023-03-22,23:00,Linha 202,51,Articulado,Zona Norte,Centro,64,9.5
+921,2023-11-14,03:37,Linha 202,48,Elétrico,Centro,Zona Leste,74,8.4
+922,2023-12-25,18:22,Linha 101,92,Ônibus convencional,Zona Sul,Zona Norte,55,8.25
+923,2023-07-03,22:58,Linha 202,22,Elétrico,Zona Norte,Centro,80,10.3
+924,2023-04-03,10:18,Linha 303,47,Elétrico,Zona Norte,Zona Oeste,88,10.1
+925,2023-08-17,15:44,Linha 404,22,Micro-ônibus,Zona Sul,Zona Leste,12,6.6
+926,2023-03-14,00:46,Linha 202,42,Ônibus convencional,Centro,Zona Leste,11,5.25
+927,2023-08-06,03:07,Linha 505,44,Elétrico,Centro,Zona Oeste,90,9.5
+928,2023-01-30,12:16,Linha 303,66,Ônibus convencional,Zona Oeste,Centro,70,8.2
+929,2023-12-13,13:07,Linha 505,63,Ônibus convencional,Zona Oeste,Zona Sul,90,11.0
+930,2023-01-17,10:06,Linha 303,98,Articulado,Zona Norte,Zona Oeste,56,8.5
+931,2023-03-08,13:00,Linha 101,24,Elétrico,Zona Sul,Zona Norte,85,9.75
+932,2023-08-03,02:12,Linha 404,16,Elétrico,Zona Sul,Zona Leste,69,9.45
+933,2023-12-18,05:37,Linha 404,40,Elétrico,Zona Sul,Zona Leste,20,7.0
+934,2023-03-15,04:34,Linha 404,28,Micro-ônibus,Zona Sul,Zona Leste,30,7.5
+935,2023-11-07,18:52,Linha 202,54,Elétrico,Centro,Zona Leste,16,5.5
+936,2023-03-18,04:23,Linha 505,69,Ônibus convencional,Centro,Zona Oeste,13,5.65
+937,2023-01-11,04:35,Linha 303,137,Articulado,Zona Norte,Zona Oeste,13,6.35
+938,2023-07-14,00:40,Linha 303,128,Articulado,Zona Norte,Zona Oeste,60,8.7
+939,2023-02-12,06:42,Linha 303,35,Ônibus convencional,Zona Norte,Zona Oeste,28,7.1
+940,2023-11-01,14:14,Linha 202,64,Ônibus convencional,Centro,Zona Leste,34,6.4
+941,2023-06-01,07:43,Linha 303,158,Articulado,Zona Oeste,Centro,59,8.95
+942,2023-08-17,17:03,Linha 101,100,Elétrico,Zona Sul,Zona Norte,81,9.55
+943,2023-05-17,09:20,Linha 101,48,Elétrico,Zona Sul,Zona Norte,12,6.1
+944,2023-06-20,03:09,Linha 202,41,Ônibus convencional,Zona Norte,Centro,81,8.45
+945,2023-04-24,12:05,Linha 404,109,Articulado,Zona Sul,Zona Leste,47,8.35
+946,2023-02-03,05:47,Linha 101,26,Elétrico,Zona Sul,Zona Norte,18,6.4
+947,2023-10-23,02:17,Linha 303,145,Articulado,Zona Oeste,Centro,37,6.85
+948,2023-10-23,09:31,Linha 202,6,Micro-ônibus,Centro,Zona Leste,74,8.4
+949,2023-06-17,18:23,Linha 303,270,Articulado,Zona Norte,Zona Oeste,59,8.65
+950,2023-11-29,08:30,Linha 404,196,Articulado,Zona Sul,Zona Leste,42,8.1
+951,2023-08-11,00:52,Linha 404,21,Micro-ônibus,Zona Leste,Centro,29,6.25
+952,2023-10-10,22:25,Linha 202,39,Ônibus convencional,Centro,Zona Leste,23,5.85
+953,2023-11-22,05:51,Linha 101,36,Ônibus convencional,Zona Sul,Zona Norte,39,7.45
+954,2023-08-14,23:19,Linha 101,9,Micro-ônibus,Zona Sul,Zona Norte,88,9.9
+955,2023-07-25,17:30,Linha 101,36,Micro-ônibus,Centro,Zona Sul,72,8.1
+956,2023-12-01,01:46,Linha 101,73,Articulado,Centro,Zona Sul,90,9.0
+957,2023-12-03,07:17,Linha 303,62,Ônibus convencional,Zona Norte,Zona Oeste,90,10.2
+958,2023-05-17,09:42,Linha 303,86,Articulado,Zona Norte,Zona Oeste,42,7.8
+959,2023-07-06,12:42,Linha 101,106,Articulado,Zona Sul,Zona Norte,80,9.5
+960,2023-06-20,13:41,Linha 303,42,Elétrico,Zona Oeste,Centro,69,9.95
+961,2023-04-20,22:32,Linha 202,62,Ônibus convencional,Centro,Zona Leste,84,8.9
+962,2023-09-02,21:38,Linha 202,48,Ônibus convencional,Zona Norte,Centro,24,6.6
+963,2023-12-15,17:22,Linha 303,214,Articulado,Zona Norte,Zona Oeste,56,8.5
+964,2023-10-30,14:02,Linha 303,87,Articulado,Zona Norte,Zona Oeste,47,8.05
+965,2023-01-13,00:46,Linha 202,70,Articulado,Zona Norte,Centro,55,8.75
+966,2023-07-08,14:04,Linha 202,30,Ônibus convencional,Centro,Zona Leste,24,5.9
+967,2023-01-04,10:47,Linha 202,88,Articulado,Zona Norte,Centro,64,7.2
+968,2023-12-16,01:53,Linha 101,36,Ônibus convencional,Zona Sul,Zona Norte,66,8.8
+969,2023-03-13,12:39,Linha 505,144,Articulado,Zona Oeste,Zona Sul,24,6.3
+970,2023-07-11,17:58,Linha 404,48,Elétrico,Zona Sul,Zona Leste,81,10.05
+971,2023-09-08,10:44,Linha 505,78,Articulado,Zona Oeste,Zona Sul,13,6.25
+972,2023-11-21,13:29,Linha 404,47,Ônibus convencional,Zona Sul,Zona Leste,15,6.75
+973,2023-11-24,12:30,Linha 404,31,Ônibus convencional,Zona Sul,Zona Leste,35,7.75
+974,2023-03-22,10:03,Linha 101,110,Articulado,Zona Sul,Zona Norte,79,9.45
+975,2023-03-20,12:52,Linha 303,49,Elétrico,Zona Oeste,Centro,34,7.3
+976,2023-11-18,00:28,Linha 202,58,Ônibus convencional,Centro,Zona Leste,43,6.85
+977,2023-08-07,18:27,Linha 101,282,Articulado,Zona Sul,Zona Norte,78,9.4
+978,2023-11-25,17:20,Linha 404,100,Ônibus convencional,Zona Leste,Centro,30,6.8
+979,2023-05-05,20:35,Linha 303,24,Micro-ônibus,Zona Oeste,Centro,32,7.6
+980,2023-09-26,05:21,Linha 202,41,Elétrico,Zona Norte,Centro,58,8.0
+981,2023-09-27,23:55,Linha 101,40,Elétrico,Centro,Zona Sul,78,8.4
+982,2023-06-24,10:28,Linha 202,26,Ônibus convencional,Centro,Zona Leste,14,5.4
+983,2023-09-16,08:44,Linha 101,74,Ônibus convencional,Centro,Zona Sul,82,8.6
+984,2023-08-05,20:57,Linha 101,82,Articulado,Centro,Zona Sul,23,5.65
+985,2023-12-17,00:24,Linha 101,34,Elétrico,Centro,Zona Sul,51,7.05
+986,2023-07-18,21:07,Linha 505,30,Ônibus convencional,Zona Oeste,Zona Sul,23,7.25
+987,2023-11-02,21:15,Linha 404,145,Articulado,Zona Leste,Centro,20,7.5
+988,2023-09-18,05:34,Linha 404,38,Elétrico,Zona Leste,Centro,52,6.9
+989,2023-06-06,03:19,Linha 101,143,Articulado,Zona Sul,Zona Norte,56,8.3
+990,2023-06-06,14:59,Linha 202,56,Articulado,Zona Norte,Centro,13,6.35
+991,2023-05-08,11:54,Linha 303,60,Ônibus convencional,Zona Norte,Zona Oeste,59,8.65
+992,2023-06-18,17:48,Linha 505,76,Elétrico,Centro,Zona Oeste,39,6.95
+993,2023-12-20,22:35,Linha 303,31,Elétrico,Zona Norte,Zona Oeste,48,8.1
+994,2023-11-07,13:34,Linha 505,74,Articulado,Zona Oeste,Zona Sul,34,7.6
+995,2023-03-18,16:37,Linha 202,25,Elétrico,Zona Norte,Centro,62,7.7
+996,2023-12-05,08:24,Linha 303,248,Articulado,Zona Norte,Zona Oeste,62,8.8
+997,2023-10-24,09:08,Linha 505,99,Articulado,Zona Oeste,Zona Sul,71,8.75
+998,2023-05-11,10:28,Linha 303,125,Articulado,Zona Norte,Zona Oeste,77,9.55
+999,2023-07-30,05:02,Linha 202,44,Ônibus convencional,Centro,Zona Leste,58,7.6
+1000,2023-09-26,13:04,Linha 303,127,Articulado,Zona Oeste,Centro,81,8.15
