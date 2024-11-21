@@ -1,8 +1,8 @@
 //************* DEFINIÇÃO DOS DADOS
 case class Funcionario(
   nome: String, 
-  salario: Double, cargo: 
-  Cargo.Value, 
+  salario: Double, 
+  cargo: Cargo.Value, 
   departamentos: List[Departamento.Value]
 )
 
@@ -10,13 +10,13 @@ case class Produto(
   nome: String, 
   preco: Double, 
   estoque: Int
-
 )
+
 case class Cliente(
   nome: String, 
   totalGasto: Double
-
 )
+
 case class Venda(
   data: String, 
   valor: Double
