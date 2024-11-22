@@ -102,7 +102,8 @@ object Main extends App {
   
   // Questão 02
   println("************* Questão 02 *************")
-  val funcionariosAumento = funcionarios.map(f => f.copy(salario = f.salario * 1.1))
+  val aumentoPorcento = 10.0
+  val funcionariosAumento = funcionarios.map(f => f.copy(salario = f.salario * (100.0 + aumentoPorcento/100.0)))
   funcionariosAumento.foreach(println)
   
   // Questão 03
@@ -121,8 +122,9 @@ object Main extends App {
   println(existeEstoqueZero)
   
   // Questão 06
+  val numCaracteres = 8
   println("************* Questão 06 *************")
-  val clientesNomeLongo = clientes.filter(x => x.nome.length > 8)
+  val clientesNomeLongo = clientes.filter(x => x.nome.length > numCaracteres)
   clientesNomeLongo.foreach(println)
 
   // Questão 07
@@ -132,32 +134,38 @@ object Main extends App {
   
   // Questão 08
   println("************* Questão 08 *************")
-  val produtosComLetraE = produtos.filter(x => x.nome.contains("e"))
-  produtosComLetraE.foreach(println)
+  val letraE = "e"
+  val produtosComLetraEspecifica = produtos.filter(x => x.nome.contains(letraE))
+  produtosComLetraEspecifica.foreach(println)
 
   // Questão 09
   println("************* Questão 09 *************")
-  val totalEstoqueDuplicado = produtos.map(x => x.estoque * 2).reduce((acc, valor) => acc + valor)
+  val totalEstoqueDuplicado = produtos.map(x => x.estoque * 2).sum
   println(totalEstoqueDuplicado)
 
   // Questão 10
   println("************* Questão 10 *************")
-  val produtosNomeLongo = produtos.count(x => x.nome.length > 10)
+  val qntCaracteres = 10
+  val produtosNomeLongo = produtos.count(x => x.nome.length > qntCaracteres)
   println(produtosNomeLongo)
   
   // Questão 11
   println("************* Questão 11 *************")
-  val clientesTop5Gastos = clientes.sortBy(cliente => -cliente.totalGasto).take(5)
-  clientesTop5Gastos.foreach(println)
+  val maiores5Gastos = 5
+  val clientesTopGastos = clientes.sortBy(cliente => -cliente.totalGasto).take(maiores5Gastos)
+  //val clientesTopGastos = clientes.map(cliente => cliente.totalGasto).sorted(Ordering.Double.reverse).take(maiores5Gastos)
+  clientesTopGastos.foreach(println)
 
   // Questão 12
   println("************* Questão 12 *************")
-  val vendasRecentes = vendas.drop(3)
+  val entradas = 3
+  val vendasRecentes = vendas.drop(entradas)
   vendasRecentes.foreach(println)
   
   // Questão 13
   println("************* Questão 13 *************")
-  val vendasAcimaMil = vendas.filter(x => x.valor > 1000).size
+  val vendasLimite = 1000
+  val vendasAcimaMil = vendas.filter(x => x.valor > vendasLimite).size
   println(vendasAcimaMil)
 
   // Questão 14
@@ -182,13 +190,15 @@ object Main extends App {
 
   // Questão 18
   println("************* Questão 18 *************")
-  val clienteJosePresente = clientes.exists(x => x.nome == "José")
-  println(clienteJosePresente)
+  val clienteJose = "José"
+  val clienteEspecificoPresente = clientes.exists(x => x.nome == clienteJose)
+  println(clienteEspecificoPresente)
   
   // Questão 19
   println("************* Questão 19 *************")
-  val totalPrimeirasDezCompras = vendas.take(10).map(x => x.valor).reduce((acc, valor) => acc + valor)
-  println(totalPrimeirasDezCompras)
+  val primeiras10 = 10
+  val totalPrimeirasCompras = vendas.take(primeiras10).map(x => x.valor).reduce((acc, valor) => acc + valor)
+  println(totalPrimeirasCompras)
   
   // Questão 20
   println("************* Questão 20 *************")
@@ -207,13 +217,14 @@ object Main extends App {
 
   // Questão 23
   println("************* Questão 23 *************")
-  val produtoVendasAteLimite = vendas.takeWhile(x => x.valor >= 500).map(y => y.valor).product
+  val venda500 = 500
+  val produtoVendasAteLimite = vendas.takeWhile(x => x.valor >= venda500).map(y => y.valor).product
   println(f"$produtoVendasAteLimite%.2f")
 
   // Questão 24
   println("************* Questão 24 *************")
-  val totalVendasInvertido = vendas.reverse.map(x => x.valor).reduce((acc, valor) => acc + valor)
-  println(totalVendasInvertido)
+  val totalFaturamentoInvertido = faturamentoMensal.foldRight(0.0)((x, acc) => x + acc)
+  println(totalFaturamentoInvertido)
 
   // Questão 25
   println("************* Questão 25 *************")  
@@ -223,14 +234,16 @@ object Main extends App {
   // Questão 26
   println("************* Questão 26 *************")
   val valorVendaMaxima = vendas.map(x => x.valor).reduce((a, b) => if (a > b) a else b)
+  //val valorVendaMaxima = vendas.map(x => x.valor).max
   println(valorVendaMaxima)
 
   // Questão 27
   println("************* Questão 27 *************")
-  val faturamentosComparaveis = faturamentoMensal.length == 12
+  val faturamentoMensal2 = List(1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0)
+  val faturamentosComparaveis =  faturamentoMensal.zip(faturamentoMensal2).forall(x => true)
   println(faturamentosComparaveis)
 
   // Questão 28
   println("************* Questão 28 *************")
-  faturamentoMensal.zip(meses).foreach { case (faturamento, mes) => println(s"$mes: R$$ $faturamento") }
+  meses.zip(faturamentoMensal).foreach { case (faturamento, mes) => println(s"$mes: R$$ $faturamento") }
 }
