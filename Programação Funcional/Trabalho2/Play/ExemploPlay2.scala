@@ -14,7 +14,7 @@ import models.User
 @Singleton
 class UserController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
-  // Dados simulados, no mundo real, você usaria um banco de dados
+  // Dados simulados. No mundo real você usaria um BD.
   var users: List[User] = List(
     User(1, "Alice", "alice@example.com"),
     User(2, "Bob", "bob@example.com")
@@ -24,12 +24,12 @@ class UserController @Inject()(cc: ControllerComponents) extends AbstractControl
   implicit val userFormat: OFormat[User] = Json.format[User]
 
   // Endpoint para listar todos os usuários
-  def getAllUsers = Action {
+  def indexUser = Action {
     Ok(Json.toJson(users))
   }
 
   // Endpoint para obter um usuário específico pelo id
-  def getUser(id: Long) = Action {
+  def showUser(id: Long) = Action {
     users.find(_.id == id) match {
       case Some(user) => Ok(Json.toJson(user))
       case None => NotFound(Json.obj("message" -> "User not found"))

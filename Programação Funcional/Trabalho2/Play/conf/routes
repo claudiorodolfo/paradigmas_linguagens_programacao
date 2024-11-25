@@ -1,12 +1,16 @@
 # Listar todos os usuários
-GET     /users                   UserController.getAllUsers
+GET     /users                   UserController.indexUser
 # Obter um usuário pelo id
-GET     /users/:id               UserController.getUser(id: Long)
+GET     /users/:id               UserController.showUser(id: Long)
 
 # O exemplo fornecido só tem o mapeamento de todas para as operações acima
 # Criar um novo usuário
-POST    /users                   UserController.createUser
+POST    /users                   UserController.storeUser
 # Atualizar um usuário
 PUT     /users/:id               UserController.updateUser(id: Long)
 # Deletar um usuário
 DELETE  /users/:id               UserController.deleteUser(id: Long)
+# Formuário para criar um usuário
+GET  /users/create               UserController.createUser
+# Formulário para editar um usuário
+GET  /users/:id/edit               UserController.editUser(id: Long)
