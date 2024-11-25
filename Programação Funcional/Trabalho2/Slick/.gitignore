@@ -1,0 +1,60 @@
+# Logs
+logs/
+*.log
+*.log.*
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Artefatos do sbt (ferramenta de build do Scala)
+target/
+project/target/
+project/project/
+*.lock
+.history
+
+# Relatórios do ScalaTest ou cobertura de testes
+test-reports/
+coverage/
+
+# Arquivos gerados por builds
+*.class
+*.jar
+*.war
+*.ear
+dist/
+
+# Arquivos específicos do SO
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
+
+# Dados locais de execução e deploy
+*.pem
+*.key
+state/
+
+# Configuração do Slick
+slick-codegen/
+generated-src/
+db-config.json
+
+# Node.js (caso o projeto tenha integração com frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Arquivos de deploy
+*.pem
+*.key
+*.crt
+*.csr
