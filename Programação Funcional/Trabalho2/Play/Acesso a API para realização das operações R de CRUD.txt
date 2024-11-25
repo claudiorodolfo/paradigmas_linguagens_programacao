@@ -1,0 +1,26 @@
+//Testar com a extensão Postman para Google Chrome
+1. Listar todos os usuários (GET):
+GET http://localhost:9000/users
+
+2. Obter um usuário pelo id (GET):
+GET http://localhost:9000/users/1
+
+//O exemplo fornecido só tem suporte aos endpoints acima
+3. Criar um novo usuário (POST):
+POST http://localhost:9000/users
+Content-Type: application/json
+{
+  "name": "Charlie",
+  "email": "charlie@example.com"
+}
+
+4. Atualizar um usuário (PUT):
+PUT http://localhost:9000/users/1
+Content-Type: application/json
+{
+  "name": "Alice Updated",
+  "email": "alice.updated@example.com"
+}
+
+5. Deletar um usuário (DELETE):
+DELETE http://localhost:9000/users/1

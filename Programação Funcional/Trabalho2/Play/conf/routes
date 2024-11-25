@@ -1,0 +1,12 @@
+# Listar todos os usuários
+GET     /users                   UserController.getAllUsers
+# Obter um usuário pelo id
+GET     /users/:id               UserController.getUser(id: Long)
+
+# O exemplo fornecido só tem o mapeamento de todas para as operações acima
+# Criar um novo usuário
+POST    /users                   UserController.createUser
+# Atualizar um usuário
+PUT     /users/:id               UserController.updateUser(id: Long)
+# Deletar um usuário
+DELETE  /users/:id               UserController.deleteUser(id: Long)
