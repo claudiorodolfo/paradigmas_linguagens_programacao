@@ -1,0 +1,60 @@
+# Logs
+logs/
+*.log
+*.log.*
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Arquivos específicos do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Play Framework
+target/
+tmp/
+project/target/
+project/project/
+public/tmp/
+conf/messages.*
+conf/routes.*
+logs/
+
+# Arquivos gerados pelo sbt (build tool para Scala)
+*.lock
+.history
+
+# Relatórios do ScalaTest
+test-reports/
+
+# Arquivos gerados pelo Play relacionados a assets (frontend)
+public/**/*.js
+public/**/*.css
+public/**/*.map
+public/*.gz
+public/*.br
+
+# Artefatos de build
+dist/
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos temporários diversos
+*.swp
+*.bak
+*.tmp
+
+# Node.js (caso seja utilizado com Play para o frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Relatórios de cobertura de testes
+coverage/
