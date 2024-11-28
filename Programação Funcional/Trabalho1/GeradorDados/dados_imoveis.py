@@ -59,5 +59,8 @@ imoveis["Preço"] = [
 
 # Converte os dados em DataFrame
 df_imoveis = pd.DataFrame(imoveis)
-#df_imoveis.to_csv(index=False)
-print(df_imoveis)
+# Configura o Pandas para exibir todas as linhas
+pd.set_option('display.max_rows', None)
+
+# Salva o DataFrame em um arquivo CSV
+df_imoveis.to_csv("imoveis_1000.csv", index=False)
