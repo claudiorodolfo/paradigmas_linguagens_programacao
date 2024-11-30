@@ -1,1001 +1,1001 @@
-ID Atendimento,Paciente,Especialidade,Médico responsável,Diagnóstico,Tratamento,Custo do tratamento,Data de início
-1,Juliana Almeida,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,187.55,2021-04-13
-2,Carlos Aparecido,Psiquiatria,Dr. Brito,Depressão,Observação,374.45,2021-02-18
-3,Helena Barbosa,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,875.93,2020-06-29
-4,Lucas Maciel,Cardiologia,Dr. Santos,Arritmia,Implante,3548.74,2023-08-11
-5,Gabriel Almeida,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1862.8,2021-06-29
-6,Fernanda Aparecido,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,697.36,2021-07-25
-7,Nilma Pereira,Psiquiatria,Dr. Maciel,Ansiedade,Observação,244.25,2021-07-19
-8,Ana Silva,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,6300.78,2023-07-14
-9,Gabriel Barbosa,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Medicação,662.84,2021-07-08
-10,Bruno Pereira,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1785.5,2020-04-26
-11,Gabriel Barbosa,Cardiologia,Dr. Pereira,Arritmia,Medicação,958.32,2023-08-13
-12,Eduardo Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,1766.2,2021-08-08
-13,Helena Silveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Medicação,440.51,2023-09-21
-14,Kaik Santos,Psiquiatria,Dr. Maciel,Depressão,Medicação,869.33,2023-06-05
-15,Lucas Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,414.66,2020-12-22
-16,Daniela Brito,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,1699.74,2021-02-02
-17,Juliana Aparecido,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,220.63,2022-02-17
-18,Nilma Silveira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,9481.34,2021-05-10
-19,Nilma Silva,Psiquiatria,Dr. Brito,Ansiedade,Observação,237.12,2021-03-26
-20,Juliana Ferreira,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1486.0,2023-07-14
-21,Daniela Ferreira,Ortopedia,Dr. Souza,Fratura Óssea,Imobilização,475.84,2020-10-16
-22,Eduardo Souza,Cardiologia,Dr. Oliveira,Arritmia,Cirurgia,11516.84,2022-10-28
-23,Mariana Pereira,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,380.63,2021-04-11
-24,Daniela Pereira,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,507.41,2021-04-12
-25,Helena Aparecido,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,16850.57,2021-01-22
-26,Osvaldo Costa,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,799.26,2020-02-11
-27,Nilma Oliveira,Pneumologia,Dr. Silva,Asma,Repouso,192.21,2023-08-09
-28,Osvaldo Oliveira,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Medicação,798.62,2022-02-26
-29,Osvaldo Almeida,Psiquiatria,Dr. Brito,Depressão,Observação,461.4,2020-10-04
-30,Lucas Gomes,Ortopedia,Dr. Souza,Fratura Óssea,Cirurgia,10031.79,2022-03-02
-31,Bruno Santos,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,348.81,2022-12-04
-32,Eduardo Almeida,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,519.06,2022-11-25
-33,Mariana Ferreira,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,14771.17,2020-02-12
-34,Fernanda Santos,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1214.38,2020-10-11
-35,Fernanda Aparecido,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Medicação,491.47,2022-03-22
-36,Eduardo Aparecido,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,7993.37,2021-05-15
-37,Eduardo Santos,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,316.34,2020-04-12
-38,Helena Sousa,Ortopedia,Dr. Souza,Fratura Óssea,Cirurgia,7854.67,2020-02-13
-39,Bruno Silva,Ortopedia,Dr. Souza,Fratura Óssea,Cirurgia,17355.35,2021-09-23
-40,Carlos Gomes,Psiquiatria,Dr. Maciel,Ansiedade,Observação,201.42,2022-09-13
-41,Juliana Aparecido,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,443.04,2023-08-25
-42,Eduardo Souza,Cardiologia,Dr. Santos,Arritmia,Medicação,640.07,2020-10-15
-43,Fernanda Aparecido,Pneumologia,Dr. Costa,Asma,Medicação,205.98,2021-12-21
-44,Kaik Silva,Pneumologia,Dr. Silva,Asma,Medicação,990.86,2021-08-28
-45,Daniela Maciel,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,85.52,2022-03-19
-46,Osvaldo Santos,Ortopedia,Dr. Gomes,Hérnia de Disco,Medicação,740.54,2023-03-13
-47,Juliana Pereira,Pneumologia,Dr. Costa,Asma,Medicação,623.87,2022-11-09
-48,Daniela Silveira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,7284.88,2021-01-04
-49,Daniela Silva,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Fisioterapia,1326.33,2020-04-17
-50,Eduardo Barbosa,Ortopedia,Dr. Souza,Artrite,Medicação,480.85,2023-08-14
-51,Mariana Ferreira,Pneumologia,Dr. Silva,Pneumonia,Medicação,757.12,2020-03-27
-52,Ana Souza,Cardiologia,Dr. Pereira,Arritmia,Implante,2941.79,2021-04-10
-53,Eduardo Silva,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,331.24,2023-04-02
-54,Carlos Pereira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,12102.99,2020-03-13
-55,Kaik Sousa,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Medicação,310.76,2023-12-01
-56,Mariana Brito,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,1042.36,2020-02-20
-57,Nilma Santos,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2675.28,2022-07-14
-58,Eduardo Brito,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,592.08,2021-10-12
-59,Osvaldo Almeida,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,303.36,2021-10-05
-60,Bruno Silveira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,465.88,2021-03-20
-61,Ana Barbosa,Pneumologia,Dr. Costa,Asma,Nebulização,215.39,2021-09-01
-62,Gabriel Ferreira,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,249.38,2020-05-06
-63,Lucas Maciel,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,282.36,2023-01-05
-64,Fernanda Santos,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1358.73,2022-09-21
-65,Lucas Silveira,Ortopedia,Dr. Souza,Fratura Óssea,Cirurgia,8762.24,2022-06-08
-66,Carlos Silva,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,863.44,2021-11-03
-67,Gabriel Costa,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,9716.44,2023-05-26
-68,Helena Santos,Psiquiatria,Dr. Brito,Depressão,Terapia,1945.99,2023-06-07
-69,Eduardo Santos,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,706.03,2023-01-20
-70,Gabriel Pereira,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2823.39,2021-01-28
-71,Daniela Pereira,Pneumologia,Dr. Costa,Asma,Repouso,77.8,2020-06-17
-72,Helena Aparecido,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,509.92,2021-09-08
-73,Bruno Maciel,Pneumologia,Dr. Costa,Asma,Nebulização,332.8,2020-05-20
-74,Daniela Santos,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1088.56,2021-07-19
-75,Mariana Silveira,Cardiologia,Dr. Santos,Arritmia,Cirurgia,5532.75,2023-11-29
-76,Gabriel Costa,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,606.46,2023-12-05
-77,Bruno Gomes,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1326.64,2020-02-01
-78,Eduardo Sousa,Pneumologia,Dr. Silva,Pneumonia,Nebulização,170.19,2023-08-20
-79,Igor Oliveira,Psiquiatria,Dr. Almeida,Depressão,Terapia,1046.51,2021-06-23
-80,Eduardo Sousa,Ortopedia,Dr. Souza,Artrite,Fisioterapia,898.18,2021-05-31
-81,Nilma Pereira,Pneumologia,Dr. Barbosa,Asma,Nebulização,379.02,2020-08-01
-82,Osvaldo Aparecido,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,731.23,2022-05-09
-83,Osvaldo Barbosa,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,342.1,2022-06-17
-84,Ana Silveira,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1472.35,2020-05-22
-85,Kaik Maciel,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,958.0,2023-05-17
-86,Juliana Brito,Pneumologia,Dr. Barbosa,Asma,Medicação,296.01,2023-01-23
-87,Kaik Maciel,Pneumologia,Dr. Costa,Pneumonia,Nebulização,177.37,2023-09-08
-88,Eduardo Silva,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2102.77,2021-02-19
-89,Fernanda Oliveira,Psiquiatria,Dr. Almeida,Depressão,Terapia,1722.03,2022-10-02
-90,Kaik Silva,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,748.51,2023-06-15
-91,Helena Souza,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,659.82,2023-02-07
-92,Nilma Barbosa,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,547.07,2023-06-23
-93,Juliana Silveira,Cardiologia,Dr. Oliveira,Arritmia,Implante,3407.77,2020-12-10
-94,Mariana Souza,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,759.2,2022-12-31
-95,Osvaldo Oliveira,Ortopedia,Dr. Gomes,Artrite,Observação,136.04,2023-03-31
-96,Daniela Souza,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,73.05,2022-02-21
-97,Osvaldo Oliveira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,9847.0,2023-01-31
-98,Mariana Silva,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1060.55,2020-11-06
-99,Bruno Sousa,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,393.78,2021-04-29
-100,Osvaldo Pereira,Pneumologia,Dr. Costa,Pneumonia,Medicação,718.04,2023-08-12
-101,Fernanda Almeida,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1583.57,2021-06-05
-102,Eduardo Souza,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,212.36,2023-10-14
-103,Lucas Silva,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,947.26,2022-06-21
-104,Carlos Silva,Ortopedia,Dr. Souza,Artrite,Observação,164.88,2020-10-27
-105,Lucas Almeida,Pneumologia,Dr. Costa,Pneumonia,Nebulização,362.86,2020-06-27
-106,Eduardo Brito,Cardiologia,Dr. Oliveira,Arritmia,Cirurgia,13488.54,2021-02-06
-107,Ana Oliveira,Pneumologia,Dr. Silva,Pneumonia,Medicação,363.2,2022-11-18
-108,Mariana Gomes,Psiquiatria,Dr. Brito,Ansiedade,Observação,388.34,2020-01-13
-109,Fernanda Maciel,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2646.58,2023-11-16
-110,Fernanda Ferreira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,147.76,2021-04-27
-111,Ana Silva,Psiquiatria,Dr. Brito,Depressão,Observação,232.71,2023-03-16
-112,Gabriel Costa,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,250.88,2020-04-01
-113,Helena Aparecido,Psiquiatria,Dr. Brito,Ansiedade,Observação,147.09,2020-10-04
-114,Helena Barbosa,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1193.3,2022-05-10
-115,Lucas Costa,Psiquiatria,Dr. Almeida,Ansiedade,Terapia,2446.67,2023-05-24
-116,Osvaldo Brito,Cardiologia,Dr. Santos,Arritmia,Medicação,277.12,2023-11-10
-117,Daniela Ferreira,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,380.29,2023-07-30
-118,Bruno Barbosa,Psiquiatria,Dr. Maciel,Ansiedade,Observação,439.49,2023-08-25
-119,Kaik Almeida,Pneumologia,Dr. Barbosa,Asma,Nebulização,136.68,2021-11-22
-120,Nilma Barbosa,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,7419.67,2023-08-09
-121,Nilma Brito,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,346.58,2021-04-26
-122,Eduardo Souza,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1581.13,2023-02-03
-123,Bruno Almeida,Cardiologia,Dr. Pereira,Arritmia,Medicação,386.79,2023-07-28
-124,Igor Santos,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,882.11,2023-04-06
-125,Osvaldo Souza,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,654.71,2022-07-18
-126,Ana Maciel,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,1056.48,2023-08-03
-127,Lucas Maciel,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,490.72,2020-09-30
-128,Mariana Brito,Psiquiatria,Dr. Brito,Ansiedade,Medicação,445.89,2020-12-20
-129,Mariana Pereira,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,10645.53,2023-11-03
-130,Igor Costa,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2151.25,2022-12-01
-131,Fernanda Aparecido,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1183.58,2021-09-25
-132,Bruno Silva,Psiquiatria,Dr. Brito,Depressão,Observação,305.62,2020-04-05
-133,Helena Souza,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,272.48,2021-05-26
-134,Lucas Souza,Pneumologia,Dr. Costa,Asma,Medicação,325.8,2023-02-20
-135,Ana Ferreira,Pneumologia,Dr. Costa,Asma,Repouso,86.14,2020-09-11
-136,Lucas Sousa,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,596.64,2021-08-05
-137,Helena Silva,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,13302.67,2022-12-27
-138,Igor Oliveira,Psiquiatria,Dr. Maciel,Depressão,Observação,364.39,2022-12-02
-139,Kaik Santos,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,558.14,2022-04-30
-140,Helena Maciel,Psiquiatria,Dr. Brito,Ansiedade,Observação,109.76,2022-08-20
-141,Helena Oliveira,Pneumologia,Dr. Costa,Pneumonia,Medicação,348.39,2022-12-23
-142,Nilma Oliveira,Pneumologia,Dr. Silva,Asma,Nebulização,248.56,2021-09-23
-143,Lucas Santos,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,430.28,2023-05-18
-144,Carlos Oliveira,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1463.39,2021-02-13
-145,Carlos Aparecido,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,269.92,2023-08-20
-146,Helena Almeida,Psiquiatria,Dr. Brito,Depressão,Medicação,760.48,2020-06-17
-147,Mariana Brito,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,14577.73,2020-05-07
-148,Osvaldo Sousa,Pneumologia,Dr. Silva,Pneumonia,Medicação,724.31,2022-06-24
-149,Osvaldo Aparecido,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,698.38,2022-02-16
-150,Gabriel Maciel,Psiquiatria,Dr. Maciel,Depressão,Medicação,419.18,2021-04-02
-151,Kaik Silveira,Psiquiatria,Dr. Maciel,Ansiedade,Observação,318.21,2021-01-03
-152,Helena Oliveira,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,2270.43,2021-02-09
-153,Helena Santos,Cardiologia,Dr. Oliveira,Arritmia,Implante,2522.16,2022-02-18
-154,Daniela Almeida,Cardiologia,Dr. Santos,Arritmia,Implante,4555.07,2022-06-18
-155,Igor Maciel,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,761.56,2022-03-31
-156,Osvaldo Santos,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,570.93,2021-10-18
-157,Mariana Gomes,Ortopedia,Dr. Souza,Hérnia de Disco,Fisioterapia,313.51,2021-09-15
-158,Helena Silveira,Pneumologia,Dr. Costa,Asma,Repouso,190.71,2023-01-16
-159,Daniela Brito,Psiquiatria,Dr. Brito,Ansiedade,Medicação,988.68,2020-02-28
-160,Osvaldo Souza,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,88.64,2022-09-19
-161,Eduardo Costa,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,221.25,2020-09-02
-162,Kaik Silva,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,92.33,2023-07-18
-163,Nilma Brito,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,962.07,2020-02-10
-164,Mariana Oliveira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,16035.13,2023-06-22
-165,Osvaldo Gomes,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,251.14,2023-08-19
-166,Fernanda Ferreira,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,906.53,2023-05-20
-167,Daniela Ferreira,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1262.0,2020-05-11
-168,Bruno Sousa,Psiquiatria,Dr. Brito,Depressão,Terapia,2700.48,2023-02-12
-169,Daniela Silveira,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,340.75,2020-10-07
-170,Kaik Ferreira,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,19608.49,2020-10-05
-171,Helena Santos,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,917.83,2023-01-27
-172,Igor Souza,Psiquiatria,Dr. Almeida,Depressão,Terapia,2904.59,2023-05-31
-173,Mariana Costa,Cardiologia,Dr. Pereira,Arritmia,Implante,2991.53,2022-06-13
-174,Daniela Costa,Pneumologia,Dr. Costa,Asma,Medicação,526.22,2021-03-20
-175,Fernanda Ferreira,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1807.74,2020-12-27
-176,Kaik Silva,Cardiologia,Dr. Santos,Arritmia,Cirurgia,9339.79,2021-10-09
-177,Fernanda Santos,Cardiologia,Dr. Oliveira,Arritmia,Implante,4625.89,2020-01-27
-178,Fernanda Silva,Pneumologia,Dr. Costa,Asma,Repouso,156.93,2023-02-24
-179,Carlos Gomes,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1463.6,2023-01-30
-180,Helena Santos,Ortopedia,Dr. Souza,Hérnia de Disco,Fisioterapia,1383.02,2020-07-05
-181,Ana Silveira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,545.62,2021-05-03
-182,Bruno Brito,Ortopedia,Dr. Ferreira,Artrite,Observação,347.48,2023-11-14
-183,Helena Aparecido,Psiquiatria,Dr. Almeida,Ansiedade,Observação,418.88,2023-06-22
-184,Osvaldo Oliveira,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1271.01,2023-10-30
-185,Gabriel Ferreira,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,910.27,2023-08-01
-186,Gabriel Almeida,Ortopedia,Dr. Gomes,Artrite,Observação,204.41,2021-04-19
-187,Lucas Oliveira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,367.17,2020-11-05
-188,Fernanda Brito,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,489.81,2020-08-04
-189,Kaik Aparecido,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,487.14,2021-09-12
-190,Nilma Barbosa,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,314.2,2021-11-16
-191,Kaik Silveira,Psiquiatria,Dr. Brito,Ansiedade,Medicação,653.47,2020-08-16
-192,Bruno Oliveira,Pneumologia,Dr. Costa,Pneumonia,Nebulização,320.52,2021-12-03
-193,Fernanda Pereira,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1991.53,2023-09-12
-194,Juliana Aparecido,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,1135.91,2021-01-28
-195,Ana Maciel,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1168.16,2020-06-15
-196,Juliana Silveira,Psiquiatria,Dr. Almeida,Depressão,Medicação,204.49,2020-09-15
-197,Igor Gomes,Pneumologia,Dr. Barbosa,Asma,Nebulização,380.25,2021-05-23
-198,Daniela Ferreira,Cardiologia,Dr. Pereira,Arritmia,Implante,3124.18,2022-02-20
-199,Osvaldo Ferreira,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,15570.39,2020-05-04
-200,Lucas Aparecido,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,807.89,2021-04-01
-201,Igor Silva,Pneumologia,Dr. Barbosa,Asma,Repouso,198.5,2021-02-05
-202,Nilma Brito,Psiquiatria,Dr. Maciel,Ansiedade,Observação,394.31,2020-10-06
-203,Bruno Barbosa,Pneumologia,Dr. Silva,Asma,Medicação,762.98,2023-04-28
-204,Kaik Santos,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,333.09,2020-10-30
-205,Bruno Silva,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,227.61,2023-11-17
-206,Lucas Maciel,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,985.22,2021-04-05
-207,Igor Pereira,Cardiologia,Dr. Pereira,Arritmia,Implante,4780.48,2020-07-27
-208,Mariana Barbosa,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,15385.59,2022-05-09
-209,Mariana Almeida,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,1139.28,2021-07-18
-210,Igor Sousa,Pneumologia,Dr. Costa,Asma,Nebulização,108.75,2023-02-03
-211,Gabriel Gomes,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,332.38,2022-06-09
-212,Kaik Silveira,Pneumologia,Dr. Silva,Pneumonia,Nebulização,212.98,2022-03-15
-213,Daniela Souza,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,504.97,2022-01-30
-214,Osvaldo Sousa,Psiquiatria,Dr. Almeida,Depressão,Terapia,741.42,2021-05-16
-215,Bruno Costa,Pneumologia,Dr. Silva,Asma,Repouso,105.07,2021-10-14
-216,Carlos Ferreira,Psiquiatria,Dr. Maciel,Depressão,Medicação,402.34,2022-11-12
-217,Fernanda Barbosa,Psiquiatria,Dr. Maciel,Depressão,Observação,209.81,2021-11-13
-218,Nilma Maciel,Pneumologia,Dr. Silva,Asma,Nebulização,248.19,2020-01-22
-219,Helena Gomes,Ortopedia,Dr. Gomes,Artrite,Observação,253.65,2022-12-22
-220,Nilma Maciel,Ortopedia,Dr. Gomes,Hérnia de Disco,Medicação,446.86,2021-10-21
-221,Gabriel Almeida,Ortopedia,Dr. Souza,Artrite,Medicação,986.79,2022-07-25
-222,Bruno Sousa,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,545.33,2020-10-10
-223,Gabriel Souza,Pneumologia,Dr. Costa,Asma,Repouso,87.3,2020-01-05
-224,Bruno Silveira,Psiquiatria,Dr. Brito,Ansiedade,Terapia,2858.15,2023-01-28
-225,Igor Ferreira,Ortopedia,Dr. Ferreira,Artrite,Medicação,240.94,2023-04-04
-226,Juliana Souza,Psiquiatria,Dr. Brito,Depressão,Medicação,312.38,2022-06-14
-227,Lucas Souza,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,1779.33,2020-01-23
-228,Daniela Souza,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,1395.89,2021-01-13
-229,Kaik Oliveira,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,172.54,2022-09-10
-230,Osvaldo Costa,Ortopedia,Dr. Souza,Artrite,Observação,211.65,2020-12-12
-231,Gabriel Gomes,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,524.3,2020-01-19
-232,Igor Ferreira,Cardiologia,Dr. Pereira,Arritmia,Implante,3166.43,2021-01-07
-233,Igor Ferreira,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,559.97,2021-01-02
-234,Daniela Santos,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1946.06,2023-08-28
-235,Carlos Silva,Pneumologia,Dr. Silva,Asma,Nebulização,155.81,2021-02-19
-236,Bruno Pereira,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Medicação,876.11,2022-01-19
-237,Gabriel Silveira,Ortopedia,Dr. Gomes,Artrite,Medicação,621.06,2022-05-26
-238,Bruno Gomes,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1393.56,2022-03-09
-239,Daniela Pereira,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Medicação,925.68,2021-06-23
-240,Carlos Gomes,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,90.91,2022-10-13
-241,Kaik Ferreira,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1398.12,2020-03-06
-242,Juliana Almeida,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,2370.58,2023-10-27
-243,Eduardo Pereira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,759.48,2023-07-05
-244,Eduardo Oliveira,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,310.08,2020-02-07
-245,Igor Pereira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,811.6,2020-05-29
-246,Nilma Almeida,Pneumologia,Dr. Costa,Asma,Medicação,692.7,2022-12-20
-247,Carlos Oliveira,Ortopedia,Dr. Gomes,Artrite,Medicação,251.41,2023-08-18
-248,Helena Santos,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,496.64,2020-05-28
-249,Kaik Costa,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,347.77,2022-03-08
-250,Mariana Sousa,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2078.73,2020-03-05
-251,Igor Silveira,Psiquiatria,Dr. Brito,Depressão,Observação,263.92,2023-05-03
-252,Carlos Silva,Pneumologia,Dr. Barbosa,Asma,Repouso,94.21,2021-07-08
-253,Fernanda Silveira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,964.76,2022-03-07
-254,Igor Souza,Ortopedia,Dr. Ferreira,Fratura Óssea,Imobilização,723.93,2021-08-01
-255,Igor Souza,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,864.24,2021-05-18
-256,Nilma Souza,Ortopedia,Dr. Ferreira,Artrite,Medicação,980.41,2023-07-22
-257,Fernanda Barbosa,Psiquiatria,Dr. Maciel,Ansiedade,Observação,310.07,2021-06-09
-258,Mariana Ferreira,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,2457.36,2022-09-07
-259,Bruno Gomes,Psiquiatria,Dr. Brito,Depressão,Observação,282.71,2023-05-23
-260,Igor Maciel,Psiquiatria,Dr. Maciel,Ansiedade,Observação,126.04,2023-06-19
-261,Kaik Maciel,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,437.7,2020-05-06
-262,Fernanda Aparecido,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,357.4,2021-10-09
-263,Lucas Pereira,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Fisioterapia,576.61,2023-03-05
-264,Nilma Barbosa,Psiquiatria,Dr. Brito,Depressão,Medicação,816.79,2020-08-02
-265,Carlos Santos,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,674.42,2021-03-03
-266,Fernanda Silva,Pneumologia,Dr. Costa,Asma,Nebulização,131.45,2020-05-31
-267,Nilma Souza,Pneumologia,Dr. Silva,Asma,Repouso,168.04,2022-08-10
-268,Lucas Barbosa,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,15565.43,2022-02-22
-269,Nilma Brito,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Fisioterapia,1431.26,2022-05-20
-270,Gabriel Pereira,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,19422.98,2022-11-06
-271,Carlos Ferreira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,506.46,2023-12-04
-272,Nilma Santos,Psiquiatria,Dr. Maciel,Depressão,Observação,215.03,2022-01-13
-273,Igor Gomes,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,8183.03,2021-06-06
-274,Juliana Barbosa,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,9789.22,2021-01-08
-275,Ana Aparecido,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,686.01,2022-02-22
-276,Ana Brito,Pneumologia,Dr. Silva,Pneumonia,Nebulização,235.44,2021-12-23
-277,Osvaldo Ferreira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,190.78,2022-01-16
-278,Lucas Brito,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,138.28,2020-10-11
-279,Ana Sousa,Pneumologia,Dr. Silva,Pneumonia,Medicação,582.83,2023-05-12
-280,Nilma Santos,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,883.58,2021-05-22
-281,Lucas Silveira,Pneumologia,Dr. Barbosa,Asma,Nebulização,380.41,2022-05-27
-282,Lucas Brito,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,597.68,2020-12-22
-283,Juliana Almeida,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,901.31,2020-02-03
-284,Lucas Costa,Psiquiatria,Dr. Brito,Ansiedade,Medicação,300.52,2023-04-16
-285,Osvaldo Maciel,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,315.74,2022-02-11
-286,Mariana Maciel,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,2302.65,2021-08-04
-287,Kaik Costa,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,607.41,2020-05-21
-288,Gabriel Silveira,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,421.64,2021-01-23
-289,Bruno Silva,Pneumologia,Dr. Costa,Asma,Medicação,637.39,2021-01-22
-290,Carlos Brito,Cardiologia,Dr. Santos,Arritmia,Medicação,791.49,2020-07-29
-291,Nilma Silva,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,1092.25,2020-02-19
-292,Ana Gomes,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2743.58,2023-05-12
-293,Gabriel Santos,Ortopedia,Dr. Gomes,Artrite,Medicação,725.72,2022-05-28
-294,Gabriel Ferreira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,696.35,2021-03-17
-295,Igor Barbosa,Cardiologia,Dr. Oliveira,Arritmia,Implante,3324.45,2020-05-28
-296,Carlos Maciel,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,238.14,2023-07-30
-297,Mariana Santos,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,792.36,2023-09-18
-298,Juliana Aparecido,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,430.79,2023-07-18
-299,Lucas Almeida,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,16759.06,2020-07-13
-300,Carlos Souza,Ortopedia,Dr. Souza,Hérnia de Disco,Fisioterapia,658.52,2021-06-05
-301,Juliana Barbosa,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,2948.97,2020-03-18
-302,Eduardo Sousa,Psiquiatria,Dr. Brito,Ansiedade,Medicação,634.57,2023-06-08
-303,Eduardo Ferreira,Pneumologia,Dr. Costa,Asma,Repouso,51.96,2020-11-29
-304,Carlos Almeida,Psiquiatria,Dr. Almeida,Ansiedade,Observação,412.5,2020-09-08
-305,Eduardo Almeida,Pneumologia,Dr. Barbosa,Asma,Medicação,647.15,2023-08-28
-306,Igor Costa,Psiquiatria,Dr. Brito,Ansiedade,Terapia,2357.84,2022-01-03
-307,Lucas Santos,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,289.2,2021-02-13
-308,Kaik Souza,Psiquiatria,Dr. Almeida,Ansiedade,Observação,176.54,2023-04-07
-309,Helena Silveira,Pneumologia,Dr. Silva,Asma,Medicação,905.83,2023-05-24
-310,Eduardo Costa,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,314.25,2020-04-19
-311,Gabriel Silveira,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,557.08,2021-09-30
-312,Carlos Oliveira,Ortopedia,Dr. Gomes,Artrite,Medicação,555.15,2023-06-12
-313,Mariana Oliveira,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,367.62,2022-06-26
-314,Osvaldo Gomes,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,6459.45,2022-01-19
-315,Bruno Sousa,Psiquiatria,Dr. Brito,Depressão,Terapia,1983.41,2021-03-13
-316,Bruno Santos,Pneumologia,Dr. Silva,Asma,Medicação,585.31,2020-09-07
-317,Igor Costa,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1037.42,2023-12-27
-318,Fernanda Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,753.25,2021-05-23
-319,Kaik Gomes,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,2122.7,2023-11-19
-320,Ana Silva,Pneumologia,Dr. Costa,Pneumonia,Nebulização,262.93,2023-01-14
-321,Nilma Santos,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,173.13,2023-10-18
-322,Nilma Gomes,Ortopedia,Dr. Souza,Artrite,Observação,499.33,2021-11-10
-323,Osvaldo Barbosa,Cardiologia,Dr. Pereira,Arritmia,Medicação,621.97,2023-04-29
-324,Eduardo Santos,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,596.76,2022-11-19
-325,Carlos Sousa,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,941.43,2022-07-29
-326,Carlos Santos,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,661.43,2023-04-19
-327,Mariana Aparecido,Ortopedia,Dr. Gomes,Artrite,Medicação,708.18,2023-06-21
-328,Mariana Silva,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,9848.09,2021-12-26
-329,Bruno Almeida,Ortopedia,Dr. Ferreira,Artrite,Observação,324.73,2021-09-28
-330,Gabriel Almeida,Ortopedia,Dr. Ferreira,Fratura Óssea,Imobilização,278.63,2022-08-11
-331,Helena Oliveira,Cardiologia,Dr. Oliveira,Arritmia,Implante,3994.49,2022-12-12
-332,Fernanda Oliveira,Psiquiatria,Dr. Maciel,Depressão,Medicação,572.4,2020-12-28
-333,Lucas Santos,Pneumologia,Dr. Barbosa,Asma,Repouso,94.54,2023-07-04
-334,Igor Silva,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1766.15,2020-09-15
-335,Igor Souza,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,847.07,2021-09-16
-336,Igor Costa,Cardiologia,Dr. Oliveira,Arritmia,Medicação,246.75,2023-05-12
-337,Carlos Pereira,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,652.4,2023-01-04
-338,Ana Gomes,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,16228.74,2020-10-28
-339,Gabriel Sousa,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,119.64,2021-06-17
-340,Bruno Almeida,Psiquiatria,Dr. Brito,Depressão,Terapia,1776.58,2021-11-21
-341,Osvaldo Silveira,Psiquiatria,Dr. Almeida,Ansiedade,Observação,108.61,2021-02-25
-342,Lucas Gomes,Psiquiatria,Dr. Brito,Depressão,Medicação,244.81,2022-03-29
-343,Bruno Barbosa,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,299.13,2023-09-25
-344,Carlos Brito,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,189.34,2020-09-25
-345,Mariana Sousa,Cardiologia,Dr. Santos,Arritmia,Cirurgia,6791.9,2021-05-29
-346,Ana Oliveira,Pneumologia,Dr. Silva,Asma,Nebulização,160.53,2022-12-02
-347,Igor Ferreira,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,13892.15,2021-03-12
-348,Mariana Almeida,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,606.82,2021-11-02
-349,Mariana Gomes,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1166.12,2022-04-18
-350,Eduardo Pereira,Pneumologia,Dr. Barbosa,Asma,Nebulização,153.01,2022-12-26
-351,Eduardo Barbosa,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,170.55,2023-07-19
-352,Juliana Aparecido,Cardiologia,Dr. Santos,Arritmia,Implante,3103.42,2021-06-30
-353,Kaik Silveira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,1040.64,2022-10-23
-354,Igor Oliveira,Pneumologia,Dr. Costa,Asma,Medicação,662.84,2020-06-28
-355,Bruno Ferreira,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,331.65,2023-05-16
-356,Ana Maciel,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,155.59,2022-01-30
-357,Carlos Silva,Psiquiatria,Dr. Brito,Depressão,Medicação,217.52,2020-10-18
-358,Eduardo Sousa,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,991.8,2021-12-04
-359,Helena Pereira,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1212.66,2022-04-04
-360,Gabriel Maciel,Pneumologia,Dr. Barbosa,Asma,Nebulização,201.49,2022-12-03
-361,Osvaldo Silveira,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,339.25,2022-07-09
-362,Ana Oliveira,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,123.2,2023-03-24
-363,Mariana Sousa,Psiquiatria,Dr. Maciel,Ansiedade,Observação,244.96,2023-04-13
-364,Nilma Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,5024.13,2020-01-05
-365,Helena Ferreira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,145.13,2020-01-05
-366,Fernanda Barbosa,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,952.03,2022-03-30
-367,Ana Costa,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,898.41,2021-02-16
-368,Ana Pereira,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,133.97,2023-05-27
-369,Juliana Maciel,Psiquiatria,Dr. Maciel,Depressão,Observação,329.7,2020-01-11
-370,Nilma Santos,Pneumologia,Dr. Costa,Asma,Medicação,674.2,2021-05-12
-371,Bruno Silveira,Ortopedia,Dr. Gomes,Artrite,Observação,356.24,2020-08-20
-372,Bruno Ferreira,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,6502.21,2021-07-03
-373,Mariana Brito,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,514.4,2021-05-27
-374,Osvaldo Sousa,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Medicação,746.26,2022-11-08
-375,Kaik Aparecido,Ortopedia,Dr. Ferreira,Fratura Óssea,Imobilização,603.61,2021-05-06
-376,Osvaldo Silva,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,274.44,2020-09-25
-377,Bruno Santos,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,383.63,2021-10-05
-378,Lucas Pereira,Ortopedia,Dr. Souza,Artrite,Fisioterapia,446.35,2022-07-23
-379,Carlos Silveira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,747.61,2021-09-13
-380,Helena Silveira,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1772.04,2021-01-07
-381,Gabriel Sousa,Pneumologia,Dr. Silva,Asma,Repouso,169.29,2021-07-30
-382,Kaik Costa,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Medicação,561.82,2023-05-11
-383,Osvaldo Silva,Psiquiatria,Dr. Brito,Depressão,Medicação,268.41,2022-03-08
-384,Lucas Souza,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,593.01,2020-12-05
-385,Lucas Silveira,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,614.62,2023-03-07
-386,Kaik Sousa,Pneumologia,Dr. Silva,Asma,Repouso,193.42,2021-01-10
-387,Juliana Brito,Cardiologia,Dr. Pereira,Arritmia,Implante,4354.23,2021-06-03
-388,Osvaldo Sousa,Ortopedia,Dr. Souza,Hérnia de Disco,Fisioterapia,358.99,2022-11-20
-389,Mariana Souza,Ortopedia,Dr. Souza,Fratura Óssea,Imobilização,213.42,2021-02-14
-390,Ana Santos,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,874.75,2023-03-22
-391,Nilma Almeida,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1933.75,2022-08-14
-392,Fernanda Gomes,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,7910.6,2021-11-20
-393,Gabriel Gomes,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,201.35,2021-04-20
-394,Helena Silva,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Fisioterapia,1709.86,2022-09-24
-395,Bruno Almeida,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,182.34,2020-05-23
-396,Juliana Maciel,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,720.95,2023-11-03
-397,Mariana Almeida,Cardiologia,Dr. Santos,Arritmia,Implante,3632.73,2023-07-13
-398,Kaik Almeida,Psiquiatria,Dr. Almeida,Depressão,Medicação,630.93,2022-08-05
-399,Helena Pereira,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,6760.13,2023-07-06
-400,Nilma Sousa,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,479.38,2022-09-23
-401,Nilma Gomes,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,450.39,2021-10-29
-402,Helena Maciel,Ortopedia,Dr. Souza,Artrite,Fisioterapia,652.96,2021-12-23
-403,Lucas Silveira,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Medicação,548.61,2023-01-08
-404,Juliana Barbosa,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,757.82,2023-10-07
-405,Igor Oliveira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,1366.6,2021-11-27
-406,Ana Oliveira,Psiquiatria,Dr. Maciel,Depressão,Observação,470.82,2021-10-16
-407,Daniela Costa,Pneumologia,Dr. Costa,Asma,Repouso,69.19,2023-09-25
-408,Juliana Oliveira,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,12973.27,2021-12-20
-409,Bruno Souza,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,15900.28,2021-01-19
-410,Osvaldo Oliveira,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,18459.92,2022-03-30
-411,Gabriel Silva,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,1433.76,2020-06-16
-412,Juliana Pereira,Ortopedia,Dr. Souza,Artrite,Medicação,401.23,2020-10-28
-413,Gabriel Pereira,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,1479.07,2021-06-10
-414,Helena Santos,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1520.28,2023-06-01
-415,Nilma Oliveira,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,14474.71,2023-09-17
-416,Nilma Pereira,Psiquiatria,Dr. Almeida,Depressão,Terapia,1661.6,2022-03-22
-417,Ana Souza,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,717.23,2020-12-19
-418,Helena Souza,Ortopedia,Dr. Souza,Artrite,Observação,122.61,2021-06-25
-419,Osvaldo Almeida,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,533.1,2023-09-24
-420,Eduardo Pereira,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1427.08,2020-07-05
-421,Igor Silva,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,1485.5,2021-06-02
-422,Eduardo Sousa,Cardiologia,Dr. Oliveira,Arritmia,Implante,3694.69,2021-11-14
-423,Gabriel Costa,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,831.92,2020-07-25
-424,Lucas Santos,Cardiologia,Dr. Santos,Arritmia,Cirurgia,12809.73,2022-08-10
-425,Kaik Silveira,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,105.5,2021-10-06
-426,Daniela Silveira,Psiquiatria,Dr. Brito,Ansiedade,Observação,385.27,2021-06-24
-427,Nilma Costa,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,139.52,2021-02-09
-428,Gabriel Costa,Pneumologia,Dr. Costa,Asma,Repouso,132.03,2022-01-10
-429,Daniela Maciel,Pneumologia,Dr. Barbosa,Asma,Medicação,638.09,2023-11-14
-430,Carlos Pereira,Pneumologia,Dr. Silva,Pneumonia,Medicação,644.32,2023-07-15
-431,Mariana Costa,Cardiologia,Dr. Santos,Arritmia,Implante,2303.74,2020-01-12
-432,Igor Sousa,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,346.45,2020-08-07
-433,Lucas Gomes,Psiquiatria,Dr. Almeida,Ansiedade,Observação,183.14,2021-02-20
-434,Kaik Brito,Psiquiatria,Dr. Almeida,Ansiedade,Terapia,1861.01,2022-06-05
-435,Helena Silveira,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1540.75,2020-06-04
-436,Nilma Oliveira,Cardiologia,Dr. Santos,Arritmia,Medicação,460.62,2020-07-06
-437,Ana Silveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,837.38,2020-03-03
-438,Osvaldo Costa,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,1047.24,2023-08-22
-439,Juliana Pereira,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,18476.12,2023-07-20
-440,Ana Souza,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1751.83,2023-09-07
-441,Lucas Almeida,Psiquiatria,Dr. Brito,Depressão,Medicação,369.11,2021-07-29
-442,Eduardo Oliveira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,602.71,2020-12-16
-443,Lucas Silva,Pneumologia,Dr. Costa,Asma,Nebulização,150.62,2021-06-21
-444,Eduardo Souza,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,101.48,2021-12-30
-445,Helena Santos,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1600.56,2020-03-05
-446,Daniela Santos,Pneumologia,Dr. Silva,Asma,Nebulização,320.62,2023-07-05
-447,Gabriel Costa,Cardiologia,Dr. Santos,Arritmia,Implante,2386.12,2023-04-23
-448,Nilma Silva,Pneumologia,Dr. Costa,Pneumonia,Medicação,208.44,2023-03-04
-449,Igor Brito,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1042.54,2020-10-07
-450,Eduardo Silveira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,571.8,2021-02-17
-451,Helena Costa,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,10507.14,2022-07-20
-452,Igor Sousa,Ortopedia,Dr. Souza,Fratura Óssea,Imobilização,659.67,2022-04-21
-453,Osvaldo Souza,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1104.92,2023-10-17
-454,Helena Maciel,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,360.32,2021-07-01
-455,Igor Ferreira,Ortopedia,Dr. Gomes,Artrite,Medicação,226.23,2020-03-10
-456,Helena Ferreira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,11263.44,2023-03-21
-457,Eduardo Maciel,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,11255.53,2022-02-25
-458,Daniela Silva,Ortopedia,Dr. Gomes,Artrite,Observação,334.53,2022-03-19
-459,Igor Barbosa,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,500.03,2022-02-12
-460,Osvaldo Souza,Ortopedia,Dr. Gomes,Hérnia de Disco,Medicação,733.52,2022-04-21
-461,Gabriel Aparecido,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,1708.52,2021-11-16
-462,Fernanda Costa,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1170.61,2021-12-03
-463,Helena Pereira,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,117.78,2022-05-04
-464,Lucas Pereira,Psiquiatria,Dr. Maciel,Depressão,Medicação,275.86,2023-12-29
-465,Gabriel Sousa,Cardiologia,Dr. Oliveira,Arritmia,Medicação,814.66,2022-08-18
-466,Kaik Santos,Pneumologia,Dr. Costa,Asma,Nebulização,283.97,2022-03-30
-467,Juliana Almeida,Psiquiatria,Dr. Almeida,Ansiedade,Observação,212.68,2022-10-04
-468,Mariana Maciel,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1129.69,2020-10-05
-469,Eduardo Brito,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1244.43,2023-05-21
-470,Daniela Maciel,Pneumologia,Dr. Costa,Asma,Nebulização,123.96,2023-03-28
-471,Kaik Sousa,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,913.95,2021-08-09
-472,Nilma Gomes,Ortopedia,Dr. Souza,Artrite,Observação,153.33,2023-11-29
-473,Bruno Silva,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,385.12,2020-06-14
-474,Eduardo Pereira,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,972.11,2022-10-10
-475,Gabriel Ferreira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,611.12,2022-11-01
-476,Eduardo Pereira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1248.15,2021-01-14
-477,Lucas Gomes,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,258.06,2021-04-10
-478,Bruno Santos,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,628.07,2020-05-12
-479,Kaik Maciel,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,487.21,2021-12-26
-480,Daniela Pereira,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,884.52,2022-12-19
-481,Nilma Oliveira,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,1802.49,2022-08-10
-482,Nilma Aparecido,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1457.02,2020-12-10
-483,Osvaldo Santos,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1549.69,2023-04-18
-484,Eduardo Sousa,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,246.12,2021-02-12
-485,Nilma Silveira,Psiquiatria,Dr. Almeida,Ansiedade,Observação,157.01,2020-06-13
-486,Nilma Ferreira,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,873.78,2021-10-03
-487,Ana Barbosa,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1458.07,2020-07-28
-488,Juliana Silveira,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,248.12,2020-03-29
-489,Nilma Silva,Pneumologia,Dr. Costa,Pneumonia,Medicação,320.78,2020-10-06
-490,Juliana Costa,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,437.33,2023-06-17
-491,Helena Silveira,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,106.45,2023-10-25
-492,Eduardo Gomes,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,767.86,2023-10-01
-493,Carlos Ferreira,Ortopedia,Dr. Souza,Fratura Óssea,Imobilização,317.48,2020-03-11
-494,Lucas Costa,Pneumologia,Dr. Silva,Pneumonia,Nebulização,264.22,2021-06-22
-495,Igor Ferreira,Psiquiatria,Dr. Brito,Ansiedade,Observação,340.68,2023-03-15
-496,Mariana Aparecido,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,531.95,2021-03-12
-497,Daniela Gomes,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,723.08,2020-09-29
-498,Carlos Pereira,Pneumologia,Dr. Silva,Pneumonia,Medicação,334.51,2021-10-20
-499,Kaik Santos,Pneumologia,Dr. Silva,Pneumonia,Antibióticos,914.84,2020-10-08
-500,Juliana Silva,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,18429.85,2023-08-15
-501,Ana Silveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Medicação,817.09,2022-01-26
-502,Fernanda Silva,Cardiologia,Dr. Oliveira,Arritmia,Medicação,294.71,2021-01-19
-503,Daniela Silva,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,535.25,2021-07-08
-504,Mariana Gomes,Cardiologia,Dr. Pereira,Arritmia,Implante,2484.14,2021-04-07
-505,Bruno Brito,Psiquiatria,Dr. Maciel,Depressão,Medicação,620.24,2023-03-06
-506,Ana Brito,Pneumologia,Dr. Barbosa,Asma,Nebulização,261.28,2020-12-06
-507,Mariana Santos,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,664.82,2023-06-01
-508,Carlos Souza,Pneumologia,Dr. Costa,Asma,Repouso,144.85,2020-01-30
-509,Mariana Santos,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,141.12,2023-08-27
-510,Gabriel Sousa,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1028.08,2022-01-18
-511,Ana Oliveira,Pneumologia,Dr. Silva,Pneumonia,Nebulização,293.15,2021-10-28
-512,Helena Ferreira,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,1239.49,2020-06-04
-513,Kaik Brito,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Fisioterapia,1170.35,2020-06-15
-514,Eduardo Barbosa,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,1416.55,2020-04-06
-515,Helena Ferreira,Psiquiatria,Dr. Brito,Depressão,Terapia,2705.86,2020-10-30
-516,Eduardo Gomes,Cardiologia,Dr. Oliveira,Arritmia,Medicação,363.75,2022-12-13
-517,Helena Costa,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1205.22,2020-03-12
-518,Daniela Brito,Psiquiatria,Dr. Brito,Depressão,Observação,420.42,2022-02-24
-519,Helena Silveira,Pneumologia,Dr. Barbosa,Asma,Repouso,111.01,2021-05-03
-520,Gabriel Silveira,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,573.21,2021-05-18
-521,Helena Barbosa,Psiquiatria,Dr. Almeida,Ansiedade,Observação,439.82,2021-10-03
-522,Daniela Ferreira,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,420.02,2020-03-22
-523,Igor Costa,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,300.67,2020-07-26
-524,Lucas Silveira,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2827.83,2021-09-16
-525,Mariana Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,1513.02,2022-11-06
-526,Kaik Brito,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,368.3,2020-09-06
-527,Daniela Aparecido,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,356.36,2020-04-13
-528,Mariana Souza,Cardiologia,Dr. Oliveira,Arritmia,Medicação,451.36,2020-08-21
-529,Ana Silva,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,618.28,2023-11-16
-530,Juliana Silveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,7482.45,2023-03-03
-531,Helena Maciel,Psiquiatria,Dr. Almeida,Depressão,Observação,115.28,2022-05-09
-532,Nilma Silva,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,550.37,2021-12-04
-533,Kaik Oliveira,Pneumologia,Dr. Costa,Asma,Repouso,103.92,2020-04-26
-534,Nilma Santos,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,899.14,2022-01-14
-535,Eduardo Oliveira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1182.84,2020-02-11
-536,Mariana Oliveira,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,5846.8,2023-06-18
-537,Fernanda Maciel,Cardiologia,Dr. Santos,Arritmia,Medicação,552.37,2022-12-14
-538,Mariana Oliveira,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,357.54,2023-07-11
-539,Osvaldo Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,877.59,2022-02-06
-540,Nilma Pereira,Ortopedia,Dr. Souza,Artrite,Medicação,424.95,2023-08-12
-541,Fernanda Gomes,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,345.38,2021-09-13
-542,Ana Silveira,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,507.21,2022-11-26
-543,Helena Oliveira,Psiquiatria,Dr. Almeida,Ansiedade,Observação,436.47,2023-05-15
-544,Gabriel Silveira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,655.17,2020-05-29
-545,Kaik Maciel,Pneumologia,Dr. Costa,Pneumonia,Medicação,728.83,2021-07-12
-546,Helena Silveira,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1193.81,2021-11-17
-547,Kaik Pereira,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,731.46,2023-08-25
-548,Bruno Ferreira,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,1749.34,2023-03-21
-549,Bruno Brito,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,160.32,2020-03-31
-550,Osvaldo Silveira,Ortopedia,Dr. Souza,Artrite,Observação,152.38,2023-10-28
-551,Mariana Silveira,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,918.32,2023-11-25
-552,Bruno Costa,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,946.74,2023-12-11
-553,Lucas Pereira,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1337.54,2020-02-04
-554,Ana Almeida,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Medicação,632.51,2023-02-20
-555,Daniela Aparecido,Pneumologia,Dr. Costa,Pneumonia,Medicação,432.72,2023-08-09
-556,Mariana Gomes,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,761.93,2023-07-11
-557,Mariana Maciel,Cardiologia,Dr. Santos,Arritmia,Medicação,535.05,2020-05-17
-558,Eduardo Santos,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1456.78,2020-07-11
-559,Ana Costa,Cardiologia,Dr. Oliveira,Arritmia,Implante,2577.85,2023-08-08
-560,Bruno Silva,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,2236.48,2021-11-11
-561,Gabriel Silveira,Psiquiatria,Dr. Brito,Depressão,Observação,405.15,2023-12-03
-562,Osvaldo Maciel,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,351.32,2023-07-16
-563,Daniela Costa,Pneumologia,Dr. Silva,Asma,Medicação,985.95,2022-07-25
-564,Nilma Barbosa,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,5757.61,2022-09-19
-565,Lucas Ferreira,Ortopedia,Dr. Souza,Fratura Óssea,Cirurgia,17405.32,2021-06-13
-566,Gabriel Aparecido,Psiquiatria,Dr. Brito,Ansiedade,Observação,155.83,2020-08-23
-567,Bruno Silva,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1247.47,2022-08-29
-568,Helena Barbosa,Pneumologia,Dr. Costa,Pneumonia,Nebulização,203.6,2021-07-31
-569,Helena Almeida,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,12245.78,2022-01-18
-570,Eduardo Silva,Cardiologia,Dr. Pereira,Arritmia,Implante,3760.18,2021-02-03
-571,Fernanda Santos,Ortopedia,Dr. Souza,Artrite,Fisioterapia,354.2,2020-03-15
-572,Fernanda Aparecido,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,304.73,2020-05-15
-573,Mariana Brito,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1597.75,2020-09-01
-574,Osvaldo Ferreira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,697.85,2023-07-12
-575,Nilma Brito,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1889.82,2023-06-20
-576,Osvaldo Almeida,Cardiologia,Dr. Santos,Arritmia,Cirurgia,17500.41,2022-03-18
-577,Ana Costa,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,2514.0,2020-05-16
-578,Helena Souza,Pneumologia,Dr. Silva,Asma,Nebulização,326.88,2020-08-06
-579,Bruno Oliveira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,824.08,2021-09-13
-580,Bruno Pereira,Ortopedia,Dr. Souza,Artrite,Observação,225.76,2022-08-28
-581,Helena Gomes,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,571.73,2021-03-21
-582,Carlos Silveira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,103.48,2023-01-02
-583,Daniela Santos,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Medicação,869.6,2021-09-03
-584,Eduardo Silveira,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,395.08,2022-09-12
-585,Fernanda Costa,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,626.3,2020-02-05
-586,Eduardo Pereira,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,1631.88,2020-02-19
-587,Fernanda Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,1158.91,2022-02-18
-588,Juliana Almeida,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1259.13,2020-02-11
-589,Nilma Ferreira,Psiquiatria,Dr. Brito,Ansiedade,Observação,440.11,2020-09-23
-590,Helena Maciel,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,602.06,2021-09-26
-591,Osvaldo Silva,Psiquiatria,Dr. Brito,Ansiedade,Terapia,1854.42,2023-02-26
-592,Helena Ferreira,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,16969.22,2021-02-20
-593,Daniela Santos,Pneumologia,Dr. Costa,Asma,Repouso,198.83,2021-05-16
-594,Fernanda Barbosa,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,1368.4,2023-01-16
-595,Kaik Costa,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,113.51,2021-07-30
-596,Carlos Silveira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,500.7,2021-12-31
-597,Carlos Oliveira,Pneumologia,Dr. Costa,Asma,Medicação,483.27,2020-11-23
-598,Gabriel Gomes,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,326.39,2021-09-12
-599,Daniela Pereira,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,78.85,2022-06-22
-600,Eduardo Almeida,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,642.53,2023-04-19
-601,Helena Barbosa,Psiquiatria,Dr. Brito,Depressão,Observação,449.8,2020-11-09
-602,Eduardo Aparecido,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,591.36,2022-08-26
-603,Nilma Oliveira,Pneumologia,Dr. Barbosa,Asma,Nebulização,319.95,2021-09-30
-604,Eduardo Almeida,Pneumologia,Dr. Silva,Asma,Nebulização,151.27,2020-11-21
-605,Kaik Maciel,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Medicação,983.71,2021-08-16
-606,Osvaldo Costa,Pneumologia,Dr. Costa,Pneumonia,Medicação,803.18,2022-10-09
-607,Kaik Pereira,Cardiologia,Dr. Pereira,Arritmia,Cirurgia,17626.98,2023-05-02
-608,Ana Almeida,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1363.86,2023-11-17
-609,Mariana Barbosa,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,119.06,2021-06-04
-610,Ana Aparecido,Psiquiatria,Dr. Brito,Depressão,Terapia,1933.35,2020-05-28
-611,Lucas Souza,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1083.77,2020-04-03
-612,Ana Almeida,Ortopedia,Dr. Souza,Artrite,Medicação,263.34,2020-02-23
-613,Kaik Almeida,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,508.2,2023-05-27
-614,Helena Silva,Pneumologia,Dr. Costa,Pneumonia,Medicação,591.26,2022-02-11
-615,Bruno Costa,Pneumologia,Dr. Barbosa,Asma,Medicação,217.85,2021-10-25
-616,Carlos Brito,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,806.94,2023-04-10
-617,Lucas Maciel,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1512.89,2021-07-15
-618,Eduardo Gomes,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,131.71,2020-04-28
-619,Gabriel Gomes,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,804.26,2021-11-12
-620,Juliana Brito,Psiquiatria,Dr. Almeida,Ansiedade,Terapia,1670.03,2022-09-13
-621,Eduardo Costa,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,399.79,2022-02-21
-622,Lucas Barbosa,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,100.82,2020-08-21
-623,Kaik Costa,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1759.36,2022-06-28
-624,Ana Aparecido,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,833.29,2021-12-02
-625,Mariana Souza,Pneumologia,Dr. Silva,Pneumonia,Antibióticos,1317.76,2023-09-15
-626,Mariana Barbosa,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Medicação,825.35,2023-06-11
-627,Lucas Maciel,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,237.82,2021-10-11
-628,Ana Silva,Psiquiatria,Dr. Brito,Depressão,Terapia,1758.15,2021-10-03
-629,Fernanda Santos,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,2780.78,2022-12-24
-630,Osvaldo Aparecido,Psiquiatria,Dr. Almeida,Depressão,Medicação,381.31,2021-06-03
-631,Nilma Brito,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1070.53,2021-06-19
-632,Eduardo Brito,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,16514.18,2022-06-19
-633,Mariana Barbosa,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1180.22,2020-10-20
-634,Juliana Costa,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,13834.77,2022-10-11
-635,Mariana Sousa,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,1596.65,2021-07-07
-636,Kaik Souza,Pneumologia,Dr. Silva,Pneumonia,Antibióticos,660.27,2023-09-16
-637,Ana Almeida,Psiquiatria,Dr. Brito,Depressão,Observação,375.58,2022-01-02
-638,Fernanda Costa,Psiquiatria,Dr. Brito,Depressão,Terapia,2849.35,2023-06-20
-639,Gabriel Silveira,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,438.52,2023-12-23
-640,Daniela Sousa,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,15378.83,2022-07-16
-641,Eduardo Costa,Ortopedia,Dr. Ferreira,Artrite,Observação,326.17,2021-05-09
-642,Bruno Silva,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,128.23,2021-01-21
-643,Nilma Ferreira,Pneumologia,Dr. Barbosa,Asma,Nebulização,104.65,2022-10-10
-644,Fernanda Silveira,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,667.26,2020-06-21
-645,Eduardo Gomes,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Fisioterapia,1162.47,2020-08-04
-646,Ana Costa,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Medicação,677.16,2021-07-10
-647,Kaik Pereira,Psiquiatria,Dr. Almeida,Ansiedade,Terapia,2853.39,2021-12-16
-648,Juliana Oliveira,Ortopedia,Dr. Ferreira,Artrite,Observação,128.12,2023-09-01
-649,Ana Pereira,Pneumologia,Dr. Barbosa,Pneumonia,Antibióticos,1082.96,2023-02-05
-650,Eduardo Santos,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Fisioterapia,1354.51,2023-11-13
-651,Lucas Gomes,Psiquiatria,Dr. Maciel,Ansiedade,Observação,366.68,2022-06-18
-652,Mariana Barbosa,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Medicação,914.93,2023-09-03
-653,Nilma Silva,Ortopedia,Dr. Souza,Hérnia de Disco,Fisioterapia,404.37,2020-01-13
-654,Nilma Brito,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Fisioterapia,1810.21,2023-03-13
-655,Lucas Barbosa,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1508.69,2021-10-13
-656,Nilma Almeida,Pneumologia,Dr. Costa,Asma,Repouso,112.97,2021-06-22
-657,Kaik Almeida,Psiquiatria,Dr. Maciel,Depressão,Medicação,233.05,2020-06-10
-658,Kaik Souza,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,703.41,2021-07-16
-659,Mariana Barbosa,Psiquiatria,Dr. Almeida,Depressão,Terapia,2004.47,2022-12-26
-660,Helena Sousa,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2206.82,2022-11-24
-661,Gabriel Souza,Pneumologia,Dr. Barbosa,Asma,Nebulização,340.03,2022-07-26
-662,Gabriel Souza,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2991.04,2022-12-27
-663,Helena Barbosa,Pneumologia,Dr. Costa,Asma,Nebulização,334.24,2022-11-05
-664,Eduardo Gomes,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1240.85,2020-10-18
-665,Kaik Silva,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,18000.68,2023-02-24
-666,Eduardo Maciel,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Fisioterapia,617.0,2020-10-12
-667,Bruno Sousa,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Medicação,704.28,2021-04-16
-668,Gabriel Aparecido,Ortopedia,Dr. Ferreira,Artrite,Medicação,548.75,2022-04-16
-669,Gabriel Oliveira,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,11453.17,2023-02-20
-670,Nilma Souza,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,121.58,2021-06-13
-671,Mariana Silveira,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1124.99,2023-06-26
-672,Kaik Sousa,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,590.89,2021-02-10
-673,Daniela Souza,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,990.39,2020-03-20
-674,Bruno Gomes,Psiquiatria,Dr. Brito,Depressão,Observação,393.29,2020-08-08
-675,Igor Gomes,Cardiologia,Dr. Santos,Arritmia,Medicação,714.83,2021-02-08
-676,Bruno Oliveira,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,307.95,2021-02-22
-677,Kaik Silveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,314.57,2022-12-27
-678,Eduardo Aparecido,Pneumologia,Dr. Barbosa,Asma,Repouso,195.99,2022-09-04
-679,Osvaldo Pereira,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,8276.08,2023-12-11
-680,Gabriel Almeida,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,334.73,2023-11-21
-681,Daniela Aparecido,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,425.74,2021-10-15
-682,Bruno Silva,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,1272.89,2020-06-26
-683,Helena Silva,Cardiologia,Dr. Santos,Arritmia,Medicação,403.47,2023-07-10
-684,Ana Santos,Pneumologia,Dr. Costa,Asma,Repouso,199.52,2023-12-30
-685,Bruno Sousa,Cardiologia,Dr. Santos,Arritmia,Implante,2172.72,2020-03-22
-686,Kaik Oliveira,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,211.01,2020-10-19
-687,Bruno Costa,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,1630.0,2022-06-11
-688,Juliana Maciel,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,692.81,2020-03-18
-689,Bruno Sousa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,8905.65,2023-09-03
-690,Carlos Maciel,Psiquiatria,Dr. Almeida,Ansiedade,Observação,295.67,2021-01-09
-691,Daniela Santos,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,6185.36,2023-06-02
-692,Fernanda Maciel,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,594.91,2023-07-11
-693,Gabriel Sousa,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,512.15,2022-10-07
-694,Lucas Almeida,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,803.57,2023-11-26
-695,Eduardo Sousa,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1053.96,2023-10-20
-696,Fernanda Barbosa,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,1216.59,2023-05-02
-697,Bruno Brito,Cardiologia,Dr. Santos,Arritmia,Medicação,675.75,2022-01-19
-698,Juliana Ferreira,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,255.25,2021-03-02
-699,Gabriel Brito,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,1821.14,2022-06-09
-700,Carlos Maciel,Psiquiatria,Dr. Almeida,Depressão,Medicação,590.48,2021-12-11
-701,Bruno Gomes,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,374.33,2023-08-01
-702,Eduardo Silva,Pneumologia,Dr. Barbosa,Asma,Repouso,153.16,2023-10-29
-703,Bruno Almeida,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1613.77,2022-01-06
-704,Daniela Sousa,Cardiologia,Dr. Santos,Arritmia,Cirurgia,11301.04,2021-05-22
-705,Osvaldo Maciel,Psiquiatria,Dr. Brito,Depressão,Medicação,879.75,2020-05-21
-706,Juliana Sousa,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,144.09,2020-02-08
-707,Fernanda Oliveira,Psiquiatria,Dr. Brito,Depressão,Terapia,2712.19,2023-11-23
-708,Bruno Santos,Pneumologia,Dr. Barbosa,Asma,Repouso,122.85,2022-04-02
-709,Mariana Pereira,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,839.85,2020-10-30
-710,Eduardo Brito,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,8163.1,2020-04-23
-711,Kaik Barbosa,Pneumologia,Dr. Costa,Asma,Nebulização,308.48,2023-06-09
-712,Kaik Silveira,Pneumologia,Dr. Costa,Asma,Medicação,800.92,2021-05-13
-713,Daniela Silva,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1248.48,2020-10-04
-714,Lucas Oliveira,Psiquiatria,Dr. Maciel,Depressão,Terapia,1009.49,2022-03-04
-715,Nilma Santos,Ortopedia,Dr. Gomes,Artrite,Observação,479.5,2022-12-11
-716,Osvaldo Gomes,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,599.38,2022-08-27
-717,Daniela Almeida,Pneumologia,Dr. Silva,Pneumonia,Nebulização,355.66,2022-09-07
-718,Carlos Brito,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,239.73,2020-01-22
-719,Carlos Sousa,Psiquiatria,Dr. Maciel,Depressão,Medicação,676.05,2022-07-01
-720,Gabriel Silva,Pneumologia,Dr. Barbosa,Asma,Nebulização,329.3,2022-12-13
-721,Bruno Barbosa,Psiquiatria,Dr. Almeida,Ansiedade,Observação,129.8,2023-07-26
-722,Carlos Silveira,Cardiologia,Dr. Oliveira,Arritmia,Medicação,494.3,2023-05-14
-723,Igor Barbosa,Ortopedia,Dr. Ferreira,Fratura Óssea,Imobilização,546.03,2020-03-05
-724,Nilma Gomes,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,8960.96,2023-04-21
-725,Fernanda Oliveira,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,282.54,2020-12-04
-726,Lucas Brito,Psiquiatria,Dr. Brito,Depressão,Observação,466.5,2023-01-22
-727,Osvaldo Oliveira,Ortopedia,Dr. Gomes,Artrite,Observação,151.21,2022-06-14
-728,Fernanda Santos,Psiquiatria,Dr. Maciel,Ansiedade,Observação,380.07,2020-09-03
-729,Helena Almeida,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,753.26,2023-09-04
-730,Ana Almeida,Cardiologia,Dr. Pereira,Arritmia,Medicação,710.18,2022-04-10
-731,Gabriel Pereira,Psiquiatria,Dr. Almeida,Ansiedade,Terapia,2291.57,2023-08-20
-732,Juliana Silva,Psiquiatria,Dr. Almeida,Ansiedade,Observação,246.39,2020-01-09
-733,Igor Pereira,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,494.48,2022-11-27
-734,Ana Silveira,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,18933.43,2021-04-21
-735,Juliana Pereira,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,613.35,2020-03-09
-736,Kaik Barbosa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,6332.94,2020-04-05
-737,Fernanda Gomes,Ortopedia,Dr. Souza,Artrite,Medicação,999.32,2022-12-31
-738,Carlos Santos,Psiquiatria,Dr. Brito,Depressão,Observação,436.39,2021-08-05
-739,Kaik Oliveira,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,570.19,2020-10-01
-740,Mariana Costa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,1774.23,2023-05-04
-741,Bruno Maciel,Psiquiatria,Dr. Almeida,Ansiedade,Observação,284.85,2023-01-28
-742,Gabriel Oliveira,Ortopedia,Dr. Gomes,Artrite,Observação,182.32,2022-06-23
-743,Bruno Souza,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,382.91,2021-07-16
-744,Kaik Almeida,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,108.75,2022-04-17
-745,Bruno Ferreira,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,794.71,2022-01-19
-746,Eduardo Silveira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,679.99,2023-11-29
-747,Ana Souza,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,880.32,2022-08-17
-748,Bruno Sousa,Psiquiatria,Dr. Brito,Ansiedade,Observação,123.42,2023-08-11
-749,Lucas Silva,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,521.0,2023-10-30
-750,Nilma Brito,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,9288.29,2023-12-01
-751,Igor Aparecido,Cardiologia,Dr. Santos,Arritmia,Cirurgia,12570.66,2020-02-07
-752,Helena Brito,Pneumologia,Dr. Costa,Asma,Repouso,121.14,2022-11-30
-753,Kaik Aparecido,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,981.99,2022-01-14
-754,Nilma Costa,Ortopedia,Dr. Ferreira,Artrite,Medicação,410.36,2021-06-15
-755,Juliana Aparecido,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,516.25,2021-08-28
-756,Helena Aparecido,Pneumologia,Dr. Costa,Pneumonia,Medicação,393.15,2023-02-24
-757,Nilma Gomes,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,914.28,2023-07-16
-758,Carlos Maciel,Pneumologia,Dr. Silva,Pneumonia,Medicação,489.6,2020-09-23
-759,Lucas Barbosa,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,304.12,2023-07-23
-760,Kaik Maciel,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,1564.52,2021-10-03
-761,Nilma Ferreira,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,606.94,2021-02-16
-762,Ana Souza,Cardiologia,Dr. Oliveira,Arritmia,Cirurgia,18894.64,2020-06-17
-763,Nilma Barbosa,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,114.03,2022-01-05
-764,Mariana Silva,Ortopedia,Dr. Souza,Fratura Óssea,Cirurgia,9005.34,2022-11-05
-765,Osvaldo Silva,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,523.11,2020-08-11
-766,Nilma Silva,Cardiologia,Dr. Santos,Arritmia,Medicação,565.08,2022-12-20
-767,Fernanda Gomes,Psiquiatria,Dr. Brito,Depressão,Observação,428.85,2023-12-27
-768,Kaik Silva,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2506.49,2021-03-02
-769,Juliana Aparecido,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,8143.36,2021-04-16
-770,Daniela Brito,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,331.78,2021-04-02
-771,Igor Oliveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,1330.73,2020-01-08
-772,Ana Oliveira,Pneumologia,Dr. Costa,Pneumonia,Nebulização,330.85,2022-08-31
-773,Kaik Costa,Pneumologia,Dr. Silva,Asma,Medicação,912.59,2022-03-22
-774,Eduardo Brito,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,173.48,2021-11-22
-775,Bruno Gomes,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,879.77,2020-11-30
-776,Ana Souza,Ortopedia,Dr. Gomes,Artrite,Observação,192.43,2022-03-21
-777,Osvaldo Silva,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,1312.35,2020-08-30
-778,Nilma Aparecido,Pneumologia,Dr. Costa,Asma,Repouso,66.63,2020-02-11
-779,Nilma Maciel,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,462.09,2021-12-20
-780,Fernanda Oliveira,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1209.92,2020-08-04
-781,Kaik Santos,Pneumologia,Dr. Silva,Asma,Medicação,864.6,2023-10-31
-782,Juliana Barbosa,Pneumologia,Dr. Silva,Pneumonia,Medicação,495.76,2023-12-16
-783,Nilma Silveira,Ortopedia,Dr. Ferreira,Fratura Óssea,Imobilização,703.11,2020-11-30
-784,Nilma Barbosa,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2120.83,2020-11-07
-785,Lucas Barbosa,Ortopedia,Dr. Gomes,Hérnia de Disco,Medicação,302.35,2022-02-05
-786,Juliana Gomes,Pneumologia,Dr. Costa,Pneumonia,Medicação,990.94,2020-04-17
-787,Juliana Maciel,Ortopedia,Dr. Ferreira,Artrite,Observação,174.55,2020-10-13
-788,Mariana Silva,Psiquiatria,Dr. Brito,Ansiedade,Medicação,529.11,2021-06-09
-789,Kaik Gomes,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,583.78,2023-06-22
-790,Carlos Santos,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,569.06,2021-12-24
-791,Kaik Almeida,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,905.81,2023-09-16
-792,Mariana Souza,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Medicação,667.31,2023-04-24
-793,Kaik Pereira,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,291.8,2023-05-29
-794,Fernanda Santos,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,124.51,2021-11-05
-795,Igor Costa,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Fisioterapia,1565.24,2020-04-22
-796,Carlos Oliveira,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1994.86,2023-07-05
-797,Mariana Silveira,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1195.45,2023-10-19
-798,Juliana Barbosa,Ortopedia,Dr. Gomes,Artrite,Medicação,246.6,2023-04-18
-799,Carlos Aparecido,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1155.52,2023-12-16
-800,Nilma Barbosa,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Mudança de estilo de vida,317.42,2020-12-25
-801,Ana Ferreira,Ortopedia,Dr. Souza,Hérnia de Disco,Fisioterapia,1093.2,2021-01-06
-802,Ana Oliveira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,767.68,2023-09-22
-803,Kaik Maciel,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1676.95,2022-05-12
-804,Kaik Silveira,Cardiologia,Dr. Pereira,Arritmia,Implante,3515.71,2020-07-20
-805,Ana Santos,Ortopedia,Dr. Gomes,Fratura Óssea,Fisioterapia,1425.31,2021-02-22
-806,Mariana Pereira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,10212.5,2020-07-09
-807,Osvaldo Maciel,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,380.15,2021-06-19
-808,Nilma Brito,Ortopedia,Dr. Souza,Fratura Óssea,Imobilização,600.46,2023-11-05
-809,Nilma Almeida,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,1099.83,2021-05-03
-810,Igor Gomes,Pneumologia,Dr. Barbosa,Asma,Medicação,262.79,2021-12-18
-811,Igor Almeida,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,1362.87,2021-12-30
-812,Carlos Oliveira,Psiquiatria,Dr. Maciel,Ansiedade,Observação,351.17,2021-04-23
-813,Fernanda Almeida,Pneumologia,Dr. Costa,Pneumonia,Medicação,853.57,2023-09-26
-814,Eduardo Barbosa,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,2391.42,2020-12-17
-815,Gabriel Barbosa,Pneumologia,Dr. Silva,Pneumonia,Antibióticos,530.26,2021-07-14
-816,Juliana Ferreira,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,10455.98,2023-08-16
-817,Gabriel Silva,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,13203.38,2022-02-15
-818,Eduardo Ferreira,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,344.49,2023-05-03
-819,Helena Maciel,Ortopedia,Dr. Gomes,Artrite,Observação,432.37,2022-05-22
-820,Ana Santos,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,336.3,2022-10-02
-821,Ana Gomes,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,801.75,2021-04-22
-822,Ana Santos,Psiquiatria,Dr. Maciel,Depressão,Observação,125.28,2020-06-12
-823,Daniela Pereira,Psiquiatria,Dr. Maciel,Ansiedade,Observação,471.12,2022-05-08
-824,Mariana Souza,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2555.41,2023-04-04
-825,Juliana Brito,Cardiologia,Dr. Pereira,Arritmia,Medicação,541.98,2020-11-02
-826,Juliana Souza,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,462.65,2021-08-13
-827,Bruno Maciel,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,717.0,2020-02-08
-828,Bruno Pereira,Ortopedia,Dr. Gomes,Artrite,Observação,247.46,2021-10-05
-829,Igor Aparecido,Pneumologia,Dr. Costa,Asma,Medicação,513.09,2022-09-16
-830,Kaik Barbosa,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,195.77,2022-01-21
-831,Ana Aparecido,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,18959.5,2022-06-09
-832,Igor Aparecido,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,11767.8,2023-11-18
-833,Fernanda Pereira,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,15864.03,2023-12-02
-834,Daniela Maciel,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Medicação,206.19,2021-05-02
-835,Gabriel Santos,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1242.69,2022-10-10
-836,Lucas Ferreira,Cardiologia,Dr. Oliveira,Arritmia,Medicação,349.33,2020-07-01
-837,Mariana Aparecido,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,5572.48,2023-01-01
-838,Nilma Ferreira,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,428.37,2022-06-08
-839,Fernanda Sousa,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,398.11,2021-09-02
-840,Juliana Ferreira,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,922.0,2021-09-13
-841,Osvaldo Gomes,Ortopedia,Dr. Gomes,Artrite,Medicação,753.0,2020-01-25
-842,Mariana Maciel,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,858.63,2022-09-10
-843,Fernanda Barbosa,Pneumologia,Dr. Barbosa,Asma,Repouso,181.65,2023-03-23
-844,Bruno Santos,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,536.44,2023-06-17
-845,Mariana Silva,Ortopedia,Dr. Gomes,Hérnia de Disco,Medicação,343.22,2022-08-27
-846,Kaik Oliveira,Psiquiatria,Dr. Almeida,Depressão,Observação,106.87,2020-02-04
-847,Mariana Maciel,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,6439.99,2020-07-30
-848,Mariana Costa,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,1756.81,2023-11-08
-849,Eduardo Maciel,Pneumologia,Dr. Silva,Pneumonia,Medicação,934.07,2020-01-26
-850,Igor Maciel,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,429.48,2023-05-25
-851,Daniela Maciel,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,1417.1,2022-07-31
-852,Fernanda Silva,Ortopedia,Dr. Ferreira,Artrite,Fisioterapia,1473.95,2021-06-19
-853,Igor Silva,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,306.19,2021-04-19
-854,Ana Gomes,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1814.54,2020-06-17
-855,Gabriel Almeida,Ortopedia,Dr. Ferreira,Artrite,Medicação,791.85,2020-10-07
-856,Bruno Pereira,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,18304.44,2022-03-15
-857,Osvaldo Santos,Cardiologia,Dr. Santos,Infarto do Miocárdio,Repouso,173.17,2020-10-23
-858,Kaik Brito,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Medicação,688.64,2022-09-19
-859,Osvaldo Maciel,Ortopedia,Dr. Souza,Artrite,Medicação,642.68,2020-10-12
-860,Carlos Sousa,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Fisioterapia,1499.78,2023-03-16
-861,Carlos Santos,Ortopedia,Dr. Souza,Artrite,Fisioterapia,845.68,2021-09-19
-862,Eduardo Almeida,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2739.79,2023-11-20
-863,Bruno Aparecido,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1347.01,2022-01-24
-864,Igor Silveira,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,711.05,2022-01-12
-865,Eduardo Aparecido,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,1115.02,2020-04-06
-866,Juliana Ferreira,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,128.91,2021-05-11
-867,Osvaldo Silveira,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,11220.52,2023-01-23
-868,Osvaldo Brito,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,960.21,2022-02-12
-869,Kaik Barbosa,Ortopedia,Dr. Ferreira,Fratura Óssea,Imobilização,620.31,2023-11-04
-870,Ana Barbosa,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,19442.23,2023-10-05
-871,Juliana Silva,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Medicação,717.03,2021-09-28
-872,Fernanda Almeida,Cardiologia,Dr. Santos,Infarto do Miocárdio,Cirurgia,15928.93,2020-02-08
-873,Lucas Pereira,Psiquiatria,Dr. Almeida,Depressão,Terapia,739.26,2022-06-20
-874,Ana Almeida,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,586.71,2023-01-03
-875,Kaik Almeida,Cardiologia,Dr. Oliveira,Arritmia,Implante,2903.92,2020-05-17
-876,Lucas Maciel,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,850.35,2022-10-10
-877,Igor Silveira,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,281.01,2021-05-21
-878,Carlos Ferreira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1452.5,2021-03-19
-879,Eduardo Barbosa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,917.18,2022-10-12
-880,Gabriel Santos,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,815.39,2022-05-03
-881,Bruno Ferreira,Psiquiatria,Dr. Almeida,Ansiedade,Medicação,629.29,2023-02-24
-882,Daniela Almeida,Ortopedia,Dr. Ferreira,Artrite,Observação,388.28,2022-02-11
-883,Eduardo Silveira,Ortopedia,Dr. Souza,Hérnia de Disco,Cirurgia,5324.75,2021-03-12
-884,Kaik Aparecido,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,331.51,2023-02-25
-885,Lucas Santos,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,588.96,2023-09-06
-886,Eduardo Sousa,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,300.38,2021-08-09
-887,Helena Silva,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Repouso,161.18,2023-10-20
-888,Osvaldo Ferreira,Cardiologia,Dr. Santos,Arritmia,Implante,2797.36,2022-05-25
-889,Igor Maciel,Ortopedia,Dr. Gomes,Artrite,Fisioterapia,849.55,2023-08-09
-890,Eduardo Aparecido,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,248.84,2023-06-22
-891,Osvaldo Aparecido,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,1147.29,2021-01-02
-892,Helena Aparecido,Cardiologia,Dr. Oliveira,Arritmia,Implante,2340.73,2020-03-09
-893,Igor Barbosa,Psiquiatria,Dr. Almeida,Depressão,Medicação,801.03,2020-11-01
-894,Juliana Maciel,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,14480.04,2023-01-02
-895,Juliana Souza,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,241.45,2020-05-10
-896,Osvaldo Aparecido,Psiquiatria,Dr. Maciel,Depressão,Terapia,2101.8,2020-01-31
-897,Helena Ferreira,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,261.06,2022-02-01
-898,Igor Gomes,Pneumologia,Dr. Costa,Asma,Medicação,270.56,2020-09-09
-899,Mariana Brito,Pneumologia,Dr. Silva,Asma,Nebulização,306.4,2021-10-07
-900,Mariana Maciel,Psiquiatria,Dr. Almeida,Ansiedade,Terapia,952.3,2022-03-12
-901,Helena Pereira,Cardiologia,Dr. Oliveira,Insuficiência Cardíaca,Fisioterapia,1014.4,2023-10-05
-902,Osvaldo Oliveira,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1890.46,2023-05-16
-903,Bruno Almeida,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,5272.82,2021-03-11
-904,Daniela Maciel,Pneumologia,Dr. Silva,Asma,Repouso,148.8,2023-06-24
-905,Mariana Sousa,Ortopedia,Dr. Souza,Artrite,Fisioterapia,1455.34,2023-05-06
-906,Ana Silva,Pneumologia,Dr. Silva,Pneumonia,Nebulização,225.15,2021-01-18
-907,Osvaldo Gomes,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,2903.31,2021-12-25
-908,Juliana Ferreira,Pneumologia,Dr. Silva,Pneumonia,Medicação,894.3,2020-05-02
-909,Gabriel Sousa,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Fisioterapia,1604.25,2020-06-29
-910,Mariana Souza,Ortopedia,Dr. Ferreira,Fratura Óssea,Fisioterapia,1847.47,2023-07-25
-911,Ana Santos,Cardiologia,Dr. Santos,Arritmia,Cirurgia,19915.18,2022-08-04
-912,Fernanda Ferreira,Ortopedia,Dr. Ferreira,Artrite,Observação,401.67,2023-02-12
-913,Juliana Sousa,Ortopedia,Dr. Ferreira,Fratura Óssea,Cirurgia,12632.41,2021-12-06
-914,Helena Souza,Psiquiatria,Dr. Brito,Esquizofrenia,Terapia,1275.19,2023-01-07
-915,Juliana Brito,Psiquiatria,Dr. Almeida,Esquizofrenia,Medicação,592.1,2021-04-05
-916,Osvaldo Almeida,Pneumologia,Dr. Silva,Pneumonia,Nebulização,225.59,2021-06-16
-917,Lucas Souza,Psiquiatria,Dr. Almeida,Depressão,Observação,460.16,2022-10-19
-918,Carlos Ferreira,Psiquiatria,Dr. Brito,Esquizofrenia,Medicação,391.57,2022-06-08
-919,Gabriel Sousa,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,276.95,2021-08-05
-920,Gabriel Sousa,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,860.48,2021-06-09
-921,Kaik Oliveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,17484.99,2020-10-27
-922,Kaik Ferreira,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,16256.03,2020-12-01
-923,Kaik Santos,Psiquiatria,Dr. Maciel,Ansiedade,Observação,236.37,2021-08-25
-924,Daniela Costa,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,8851.33,2023-03-21
-925,Daniela Pereira,Psiquiatria,Dr. Brito,Ansiedade,Terapia,589.34,2021-03-19
-926,Mariana Gomes,Pneumologia,Dr. Costa,Pneumonia,Antibióticos,844.6,2022-08-05
-927,Lucas Oliveira,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Repouso,129.19,2021-02-09
-928,Kaik Almeida,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,2775.86,2022-04-23
-929,Gabriel Maciel,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Medicação,345.46,2020-07-11
-930,Eduardo Ferreira,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,979.41,2023-07-23
-931,Osvaldo Costa,Ortopedia,Dr. Ferreira,Hérnia de Disco,Medicação,295.37,2023-09-13
-932,Eduardo Silva,Cardiologia,Dr. Oliveira,Arritmia,Medicação,877.11,2021-09-08
-933,Carlos Barbosa,Pneumologia,Dr. Barbosa,Asma,Medicação,525.72,2022-07-17
-934,Daniela Ferreira,Psiquiatria,Dr. Brito,Depressão,Observação,280.0,2022-03-26
-935,Mariana Pereira,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,528.27,2020-04-16
-936,Nilma Pereira,Ortopedia,Dr. Gomes,Hérnia de Disco,Cirurgia,19256.05,2021-11-16
-937,Nilma Maciel,Ortopedia,Dr. Souza,Hérnia de Disco,Medicação,590.59,2020-04-17
-938,Bruno Silva,Psiquiatria,Dr. Brito,Ansiedade,Medicação,422.09,2023-04-11
-939,Gabriel Ferreira,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,18486.79,2020-04-25
-940,Lucas Aparecido,Psiquiatria,Dr. Almeida,Depressão,Terapia,2963.94,2020-10-08
-941,Daniela Silveira,Ortopedia,Dr. Gomes,Hérnia de Disco,Fisioterapia,782.93,2021-07-11
-942,Fernanda Silveira,Ortopedia,Dr. Gomes,Fratura Óssea,Imobilização,275.63,2021-06-10
-943,Ana Pereira,Cardiologia,Dr. Oliveira,Arritmia,Medicação,270.99,2020-08-27
-944,Osvaldo Barbosa,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,948.82,2020-11-24
-945,Fernanda Silva,Ortopedia,Dr. Souza,Fratura Óssea,Imobilização,543.69,2020-10-22
-946,Nilma Pereira,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Medicação,235.31,2022-10-02
-947,Eduardo Pereira,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,999.75,2021-01-25
-948,Kaik Santos,Ortopedia,Dr. Ferreira,Fratura Óssea,Imobilização,608.17,2022-08-22
-949,Igor Aparecido,Cardiologia,Dr. Oliveira,Arritmia,Implante,2409.01,2023-12-13
-950,Helena Gomes,Psiquiatria,Dr. Maciel,Esquizofrenia,Terapia,1434.95,2023-01-03
-951,Ana Ferreira,Pneumologia,Dr. Costa,Asma,Repouso,149.74,2022-11-23
-952,Mariana Maciel,Psiquiatria,Dr. Almeida,Ansiedade,Terapia,837.8,2022-09-02
-953,Mariana Ferreira,Ortopedia,Dr. Ferreira,Hérnia de Disco,Fisioterapia,1846.81,2021-09-06
-954,Gabriel Santos,Pneumologia,Dr. Silva,Asma,Repouso,143.45,2021-08-14
-955,Osvaldo Gomes,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,435.16,2022-11-20
-956,Helena Pereira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,463.01,2023-11-11
-957,Bruno Barbosa,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,10421.46,2022-07-15
-958,Juliana Souza,Cardiologia,Dr. Pereira,Arritmia,Implante,4213.73,2021-12-23
-959,Fernanda Costa,Psiquiatria,Dr. Almeida,Depressão,Observação,192.41,2022-05-22
-960,Daniela Barbosa,Cardiologia,Dr. Pereira,Infarto do Miocárdio,Cirurgia,5386.56,2023-03-02
-961,Fernanda Maciel,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,327.65,2023-01-30
-962,Kaik Almeida,Psiquiatria,Dr. Maciel,Ansiedade,Medicação,800.59,2022-06-09
-963,Daniela Silva,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,483.8,2022-11-21
-964,Nilma Santos,Pneumologia,Dr. Barbosa,Asma,Repouso,112.66,2022-09-05
-965,Osvaldo Santos,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,2283.03,2023-11-25
-966,Osvaldo Silva,Psiquiatria,Dr. Brito,Ansiedade,Observação,364.59,2023-11-13
-967,Daniela Aparecido,Pneumologia,Dr. Costa,Asma,Medicação,392.59,2020-10-28
-968,Kaik Souza,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,456.26,2023-10-28
-969,Juliana Maciel,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,739.57,2020-10-08
-970,Bruno Ferreira,Pneumologia,Dr. Costa,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1292.65,2023-05-23
-971,Osvaldo Gomes,Ortopedia,Dr. Souza,Fratura Óssea,Fisioterapia,1037.26,2021-07-14
-972,Daniela Silveira,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,180.59,2023-11-17
-973,Lucas Brito,Psiquiatria,Dr. Maciel,Esquizofrenia,Medicação,960.07,2021-03-09
-974,Helena Gomes,Ortopedia,Dr. Souza,Artrite,Observação,158.46,2023-07-07
-975,Lucas Silva,Cardiologia,Dr. Pereira,Arritmia,Medicação,350.58,2021-12-02
-976,Kaik Gomes,Cardiologia,Dr. Santos,Infarto do Miocárdio,Medicação,964.83,2021-02-19
-977,Ana Pereira,Psiquiatria,Dr. Almeida,Ansiedade,Observação,484.76,2022-07-24
-978,Eduardo Almeida,Ortopedia,Dr. Ferreira,Hérnia de Disco,Cirurgia,9238.53,2023-05-28
-979,Mariana Santos,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1527.08,2020-04-25
-980,Eduardo Ferreira,Cardiologia,Dr. Oliveira,Arritmia,Implante,4358.72,2021-01-12
-981,Helena Ferreira,Pneumologia,Dr. Barbosa,Pneumonia,Nebulização,117.55,2022-07-18
-982,Daniela Brito,Pneumologia,Dr. Costa,Asma,Repouso,94.45,2021-12-21
-983,Kaik Costa,Pneumologia,Dr. Barbosa,Asma,Repouso,115.53,2020-03-07
-984,Fernanda Gomes,Ortopedia,Dr. Gomes,Fratura Óssea,Cirurgia,16663.16,2021-12-07
-985,Helena Silva,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Medicação,572.67,2021-03-07
-986,Igor Silveira,Cardiologia,Dr. Pereira,Insuficiência Cardíaca,Mudança de estilo de vida,258.22,2020-09-14
-987,Fernanda Maciel,Psiquiatria,Dr. Almeida,Depressão,Observação,358.83,2020-08-08
-988,Juliana Almeida,Cardiologia,Dr. Oliveira,Infarto do Miocárdio,Cirurgia,19760.01,2022-10-28
-989,Mariana Pereira,Pneumologia,Dr. Barbosa,DPOC (Doença Pulmonar Obstrutiva Crônica),Antibióticos,1123.28,2023-10-17
-990,Juliana Costa,Pneumologia,Dr. Silva,DPOC (Doença Pulmonar Obstrutiva Crônica),Fisioterapia,1284.51,2023-06-02
-991,Igor Souza,Psiquiatria,Dr. Maciel,Ansiedade,Terapia,2134.72,2021-01-28
-992,Ana Gomes,Pneumologia,Dr. Barbosa,Pneumonia,Medicação,804.8,2021-12-22
-993,Lucas Santos,Ortopedia,Dr. Ferreira,Artrite,Medicação,883.74,2021-08-30
-994,Helena Silveira,Pneumologia,Dr. Costa,Pneumonia,Medicação,610.07,2023-01-06
-995,Bruno Brito,Psiquiatria,Dr. Almeida,Esquizofrenia,Terapia,1448.47,2021-12-11
-996,Lucas Barbosa,Cardiologia,Dr. Santos,Arritmia,Cirurgia,15160.26,2022-12-15
-997,Osvaldo Brito,Psiquiatria,Dr. Maciel,Ansiedade,Observação,412.31,2022-01-25
-998,Juliana Almeida,Cardiologia,Dr. Santos,Insuficiência Cardíaca,Mudança de estilo de vida,221.21,2020-04-22
-999,Juliana Brito,Ortopedia,Dr. Gomes,Artrite,Observação,212.21,2022-10-30
-1000,Ana Oliveira,Cardiologia,Dr. Santos,Arritmia,Cirurgia,7966.3,2020-12-01
+ID Atendimento,Paciente,Gênero,Idade,Diagnóstico,Tratamento,Custo do tratamento,Médico responsável,Especialidade,Duração do tratamento (dias),Data de início
+1,Cecília Oliveira,Feminino,51,Infarto,Repouso,86.32,Dra. Ana,Cardiologia,55,2024-10-28
+2,Laura Pereira,Feminino,84,Artrite,Medicação,222.2,Dr. João,Ortopedia,21,2024-11-06
+3,Ravi Pereira,Masculino,23,Infarto,Medicação,382.29,Dr. Carlos,Cardiologia,82,2024-08-26
+4,Laura Pereira,Feminino,79,Artrite,Fisioterapia,1649.1,Dra. Clara,Ortopedia,59,2024-11-04
+5,Liz Costa,Feminino,31,Luxação,Fisioterapia,892.09,Dr. João,Ortopedia,164,2024-09-22
+6,Noah Santos,Masculino,46,Artrite,Fisioterapia,1263.76,Dr. Pedro,Ortopedia,104,2024-12-13
+7,Noah Oliveira,Masculino,75,Artrite,Medicação,597.65,Dra. Clara,Ortopedia,173,2024-12-25
+8,Helena Santos,Feminino,86,Luxação,Fisioterapia,1150.3,Dr. Pedro,Ortopedia,78,2024-12-29
+9,Laura Santos,Feminino,77,Arritmia,Implante de marcapasso,19092.82,Dra. Ana,Cardiologia,118,2024-09-03
+10,Ravi Santos,Masculino,84,Arritmia,Implante de marcapasso,26124.35,Dra. Ana,Cardiologia,24,2024-12-26
+11,Helena Pereira,Feminino,46,Hipertensão,Mudança de estilo de vida,164.99,Dr. Carlos,Cardiologia,66,2024-11-16
+12,Maria Alice Pereira,Feminino,30,Luxação,Reposição,2123.09,Dr. João,Ortopedia,78,2024-09-25
+13,Arthur Santos,Masculino,71,Artrite,Fisioterapia,449.12,Dr. João,Ortopedia,169,2024-08-28
+14,Davi Santos,Masculino,55,Infarto,Cirurgia,17831.25,Dr. Carlos,Cardiologia,152,2025-01-29
+15,Gael Silva,Masculino,15,Hipertensão,Medicação,887.05,Dr. Carlos,Cardiologia,98,2024-08-13
+16,Heitor Silva,Masculino,33,Infarto,Medicação,862.21,Dra. Ana,Cardiologia,16,2024-08-20
+17,Ravi Oliveira,Masculino,31,Infarto,Cirurgia,10204.96,Dr. Carlos,Cardiologia,19,2025-01-07
+18,Liz Costa,Feminino,62,Luxação,Reposição,2307.75,Dr. João,Ortopedia,168,2024-11-29
+19,Antonella Pereira,Feminino,21,Artrite,Medicação,529.83,Dr. João,Ortopedia,154,2024-12-14
+20,Davi Santos,Masculino,17,Infarto,Cirurgia,17443.4,Dr. Roberto,Cardiologia,64,2025-01-23
+21,Davi Santos,Masculino,25,Artrite,Medicação,317.88,Dr. Pedro,Ortopedia,136,2024-10-19
+22,Maitê Silva,Feminino,74,Luxação,Reposição,2380.19,Dr. Pedro,Ortopedia,107,2024-10-19
+23,Davi Oliveira,Masculino,72,Hipertensão,Medicação,820.3,Dr. Carlos,Cardiologia,58,2024-10-22
+24,Samuel Santos,Masculino,64,Infarto,Cirurgia,19883.94,Dra. Ana,Cardiologia,5,2024-10-30
+25,Arthur Pereira,Masculino,34,Fratura,Imobilização,252.19,Dr. João,Ortopedia,158,2024-12-14
+26,Helena Costa,Feminino,72,Luxação,Fisioterapia,681.8,Dr. Pedro,Ortopedia,28,2024-08-24
+27,Bernardo Silva,Masculino,18,Fratura,Imobilização,215.09,Dr. João,Ortopedia,32,2025-01-06
+28,Samuel Costa,Masculino,47,Artrite,Medicação,293.08,Dra. Clara,Ortopedia,150,2024-11-06
+29,Maria Alice Oliveira,Feminino,28,Luxação,Reposição,1002.1,Dr. Pedro,Ortopedia,58,2024-12-05
+30,Liz Costa,Feminino,22,Hipertensão,Mudança de estilo de vida,458.28,Dra. Ana,Cardiologia,101,2024-12-04
+31,Laura Pereira,Feminino,31,Infarto,Repouso,76.14,Dra. Ana,Cardiologia,58,2024-10-09
+32,Alice Silva,Feminino,25,Infarto,Medicação,909.56,Dr. Roberto,Cardiologia,91,2024-11-26
+33,Samuel Pereira,Masculino,85,Arritmia,Medicação,508.0,Dr. Roberto,Cardiologia,136,2024-09-16
+34,Heitor Silva,Masculino,43,Fratura,Cirurgia,9410.12,Dr. Pedro,Ortopedia,21,2025-01-03
+35,Bernardo Costa,Masculino,58,Luxação,Fisioterapia,1866.04,Dr. João,Ortopedia,137,2024-12-15
+36,Maitê Silva,Feminino,80,Arritmia,Implante de marcapasso,23025.21,Dr. Carlos,Cardiologia,22,2024-09-09
+37,Alice Oliveira,Feminino,51,Infarto,Medicação,246.56,Dr. Carlos,Cardiologia,72,2024-08-20
+38,Maria Alice Silva,Feminino,83,Fratura,Imobilização,442.03,Dra. Clara,Ortopedia,119,2024-10-07
+39,Antonella Pereira,Feminino,70,Fratura,Cirurgia,10894.68,Dr. Pedro,Ortopedia,156,2025-01-22
+40,Ravi Oliveira,Masculino,86,Luxação,Fisioterapia,1162.06,Dr. João,Ortopedia,5,2024-11-02
+41,Bernardo Oliveira,Masculino,53,Hipertensão,Mudança de estilo de vida,333.09,Dr. Carlos,Cardiologia,99,2024-08-21
+42,Samuel Santos,Masculino,75,Hipertensão,Mudança de estilo de vida,196.09,Dr. Carlos,Cardiologia,142,2024-10-02
+43,Théo Silva,Masculino,17,Fratura,Cirurgia,6071.74,Dr. Pedro,Ortopedia,119,2024-12-11
+44,Aurora Silva,Feminino,81,Arritmia,Medicação,573.84,Dr. Carlos,Cardiologia,119,2024-09-23
+45,Gael Costa,Masculino,64,Fratura,Imobilização,751.49,Dr. João,Ortopedia,153,2024-09-30
+46,Bernardo Silva,Masculino,38,Artrite,Medicação,895.25,Dr. Pedro,Ortopedia,164,2024-10-24
+47,Davi Oliveira,Masculino,79,Fratura,Cirurgia,18124.5,Dr. Pedro,Ortopedia,94,2024-11-02
+48,Liz Silva,Feminino,52,Luxação,Reposição,1416.5,Dra. Clara,Ortopedia,12,2024-08-02
+49,Heitor Silva,Masculino,56,Fratura,Imobilização,686.85,Dr. João,Ortopedia,17,2024-08-05
+50,Helena Oliveira,Feminino,27,Artrite,Fisioterapia,404.61,Dr. João,Ortopedia,11,2024-10-05
+51,Antonella Silva,Feminino,34,Arritmia,Medicação,685.28,Dra. Ana,Cardiologia,4,2024-11-14
+52,Maitê Oliveira,Feminino,17,Fratura,Imobilização,549.44,Dr. Pedro,Ortopedia,104,2024-10-29
+53,Aurora Pereira,Feminino,34,Artrite,Medicação,767.13,Dr. Pedro,Ortopedia,129,2024-10-08
+54,Helena Silva,Feminino,20,Arritmia,Implante de marcapasso,23383.59,Dr. Roberto,Cardiologia,99,2024-08-16
+55,Bernardo Silva,Masculino,39,Infarto,Cirurgia,14295.44,Dra. Ana,Cardiologia,147,2024-12-20
+56,Arthur Pereira,Masculino,17,Arritmia,Implante de marcapasso,16360.33,Dr. Roberto,Cardiologia,107,2024-11-21
+57,Ravi Silva,Masculino,80,Infarto,Repouso,185.62,Dra. Ana,Cardiologia,32,2025-01-17
+58,Heloísa Silva,Feminino,36,Infarto,Cirurgia,6519.05,Dr. Carlos,Cardiologia,39,2024-08-06
+59,Gael Silva,Masculino,32,Artrite,Fisioterapia,596.67,Dr. João,Ortopedia,115,2025-01-04
+60,Noah Silva,Masculino,90,Fratura,Imobilização,786.49,Dr. João,Ortopedia,156,2024-10-02
+61,Bernardo Oliveira,Masculino,76,Hipertensão,Mudança de estilo de vida,344.9,Dr. Roberto,Cardiologia,70,2024-12-31
+62,Maitê Santos,Feminino,29,Arritmia,Implante de marcapasso,16044.97,Dr. Carlos,Cardiologia,166,2024-12-29
+63,Antonella Costa,Feminino,59,Artrite,Fisioterapia,1986.82,Dra. Clara,Ortopedia,97,2024-09-05
+64,Antonella Pereira,Feminino,33,Arritmia,Medicação,704.55,Dr. Carlos,Cardiologia,127,2024-09-28
+65,Bernardo Oliveira,Masculino,59,Fratura,Imobilização,761.26,Dra. Clara,Ortopedia,27,2024-08-21
+66,Miguel Pereira,Masculino,86,Hipertensão,Mudança de estilo de vida,492.21,Dr. Roberto,Cardiologia,162,2024-10-25
+67,Antonella Costa,Feminino,54,Hipertensão,Mudança de estilo de vida,472.7,Dr. Roberto,Cardiologia,169,2024-08-18
+68,Aurora Santos,Feminino,90,Luxação,Reposição,2508.67,Dra. Clara,Ortopedia,119,2024-08-05
+69,Maitê Oliveira,Feminino,87,Luxação,Fisioterapia,944.28,Dr. João,Ortopedia,54,2024-11-10
+70,Davi Oliveira,Masculino,41,Infarto,Cirurgia,15841.22,Dra. Ana,Cardiologia,97,2024-08-03
+71,Théo Pereira,Masculino,58,Arritmia,Implante de marcapasso,22936.85,Dra. Ana,Cardiologia,41,2024-12-16
+72,Antonella Costa,Feminino,53,Arritmia,Medicação,686.97,Dra. Ana,Cardiologia,114,2024-08-20
+73,Arthur Costa,Masculino,86,Hipertensão,Mudança de estilo de vida,441.99,Dr. Roberto,Cardiologia,60,2024-12-07
+74,Heitor Costa,Masculino,62,Artrite,Medicação,291.39,Dr. João,Ortopedia,66,2025-01-06
+75,Samuel Pereira,Masculino,67,Hipertensão,Mudança de estilo de vida,247.75,Dra. Ana,Cardiologia,124,2025-01-26
+76,Noah Oliveira,Masculino,39,Fratura,Imobilização,445.39,Dr. Pedro,Ortopedia,85,2024-09-26
+77,Maitê Oliveira,Feminino,77,Hipertensão,Mudança de estilo de vida,230.11,Dra. Ana,Cardiologia,38,2024-11-13
+78,Alice Pereira,Feminino,85,Infarto,Repouso,66.35,Dra. Ana,Cardiologia,65,2024-12-05
+79,Bernardo Santos,Masculino,57,Infarto,Cirurgia,5456.39,Dr. Carlos,Cardiologia,125,2024-08-09
+80,Ravi Costa,Masculino,76,Arritmia,Medicação,447.65,Dra. Ana,Cardiologia,3,2024-11-05
+81,Heloísa Costa,Feminino,67,Hipertensão,Medicação,898.33,Dr. Roberto,Cardiologia,163,2025-01-09
+82,Arthur Santos,Masculino,47,Infarto,Repouso,95.69,Dr. Carlos,Cardiologia,32,2024-11-03
+83,Bernardo Silva,Masculino,50,Luxação,Reposição,1415.63,Dra. Clara,Ortopedia,105,2024-10-29
+84,Arthur Santos,Masculino,32,Arritmia,Medicação,761.6,Dra. Ana,Cardiologia,90,2024-08-10
+85,Helena Silva,Feminino,83,Luxação,Reposição,1623.09,Dr. Pedro,Ortopedia,94,2024-10-31
+86,Heloísa Santos,Feminino,86,Fratura,Cirurgia,9188.87,Dr. João,Ortopedia,6,2024-12-22
+87,Maitê Pereira,Feminino,56,Artrite,Medicação,432.28,Dr. João,Ortopedia,175,2025-01-03
+88,Noah Silva,Masculino,90,Fratura,Imobilização,666.19,Dra. Clara,Ortopedia,130,2024-10-21
+89,Aurora Silva,Feminino,78,Hipertensão,Mudança de estilo de vida,196.32,Dr. Carlos,Cardiologia,115,2024-10-16
+90,Miguel Oliveira,Masculino,32,Fratura,Imobilização,291.15,Dr. João,Ortopedia,53,2024-11-05
+91,Théo Pereira,Masculino,18,Arritmia,Implante de marcapasso,28177.6,Dr. Roberto,Cardiologia,5,2024-10-26
+92,Arthur Costa,Masculino,29,Infarto,Cirurgia,7562.47,Dr. Roberto,Cardiologia,121,2024-12-13
+93,Miguel Pereira,Masculino,75,Infarto,Medicação,702.72,Dra. Ana,Cardiologia,58,2024-11-09
+94,Gael Oliveira,Masculino,48,Hipertensão,Medicação,589.37,Dr. Roberto,Cardiologia,159,2025-01-23
+95,Samuel Pereira,Masculino,18,Fratura,Imobilização,548.89,Dra. Clara,Ortopedia,95,2024-08-15
+96,Noah Pereira,Masculino,28,Arritmia,Medicação,734.7,Dr. Roberto,Cardiologia,99,2024-09-09
+97,Noah Santos,Masculino,45,Fratura,Imobilização,495.31,Dr. João,Ortopedia,76,2024-08-20
+98,Heitor Costa,Masculino,69,Hipertensão,Mudança de estilo de vida,468.05,Dr. Carlos,Cardiologia,59,2024-09-22
+99,Alice Costa,Feminino,58,Artrite,Medicação,895.34,Dr. João,Ortopedia,137,2024-12-25
+100,Bernardo Oliveira,Masculino,74,Arritmia,Medicação,916.27,Dra. Ana,Cardiologia,69,2024-09-08
+101,Heitor Pereira,Masculino,82,Infarto,Medicação,328.77,Dr. Carlos,Cardiologia,4,2024-12-18
+102,Heloísa Pereira,Feminino,32,Hipertensão,Mudança de estilo de vida,319.41,Dra. Ana,Cardiologia,71,2024-12-04
+103,Heloísa Silva,Feminino,77,Artrite,Medicação,732.94,Dr. João,Ortopedia,50,2024-08-29
+104,Arthur Oliveira,Masculino,63,Luxação,Reposição,1880.07,Dr. João,Ortopedia,111,2024-09-15
+105,Arthur Oliveira,Masculino,44,Hipertensão,Medicação,934.02,Dra. Ana,Cardiologia,117,2024-09-22
+106,Aurora Pereira,Feminino,63,Arritmia,Medicação,415.32,Dr. Carlos,Cardiologia,86,2025-01-28
+107,Laura Santos,Feminino,82,Arritmia,Medicação,951.1,Dr. Roberto,Cardiologia,159,2024-12-17
+108,Liz Pereira,Feminino,38,Luxação,Fisioterapia,1226.36,Dra. Clara,Ortopedia,79,2024-12-13
+109,Maria Alice Costa,Feminino,28,Arritmia,Implante de marcapasso,20296.1,Dr. Carlos,Cardiologia,147,2024-09-07
+110,Miguel Costa,Masculino,73,Arritmia,Implante de marcapasso,22548.66,Dr. Carlos,Cardiologia,11,2024-09-12
+111,Bernardo Santos,Masculino,66,Infarto,Medicação,319.49,Dra. Ana,Cardiologia,59,2024-12-05
+112,Maria Alice Silva,Feminino,85,Luxação,Reposição,1407.35,Dr. Pedro,Ortopedia,108,2024-09-09
+113,Arthur Santos,Masculino,46,Hipertensão,Mudança de estilo de vida,345.42,Dr. Carlos,Cardiologia,24,2024-11-12
+114,Maria Alice Silva,Feminino,53,Arritmia,Medicação,746.56,Dr. Carlos,Cardiologia,18,2024-11-04
+115,Liz Santos,Feminino,17,Luxação,Fisioterapia,1728.33,Dra. Clara,Ortopedia,135,2024-11-23
+116,Samuel Silva,Masculino,36,Infarto,Repouso,135.9,Dr. Carlos,Cardiologia,145,2024-12-29
+117,Maria Alice Silva,Feminino,65,Infarto,Cirurgia,6393.6,Dra. Ana,Cardiologia,117,2024-11-10
+118,Maitê Santos,Feminino,73,Luxação,Fisioterapia,911.39,Dr. João,Ortopedia,166,2024-10-29
+119,Bernardo Costa,Masculino,48,Luxação,Reposição,1992.17,Dr. João,Ortopedia,36,2025-01-12
+120,Noah Pereira,Masculino,68,Luxação,Reposição,1259.78,Dr. João,Ortopedia,24,2024-08-18
+121,Aurora Santos,Feminino,29,Artrite,Medicação,611.52,Dr. João,Ortopedia,8,2025-01-17
+122,Maria Alice Oliveira,Feminino,17,Hipertensão,Medicação,292.66,Dra. Ana,Cardiologia,61,2024-10-29
+123,Maria Alice Costa,Feminino,38,Fratura,Imobilização,756.77,Dra. Clara,Ortopedia,42,2024-08-15
+124,Laura Silva,Feminino,84,Artrite,Fisioterapia,1395.38,Dr. Pedro,Ortopedia,111,2024-11-20
+125,Aurora Oliveira,Feminino,32,Infarto,Cirurgia,18460.04,Dra. Ana,Cardiologia,132,2024-11-08
+126,Liz Silva,Feminino,23,Hipertensão,Mudança de estilo de vida,447.16,Dra. Ana,Cardiologia,1,2025-01-13
+127,Ravi Oliveira,Masculino,75,Hipertensão,Mudança de estilo de vida,212.37,Dra. Ana,Cardiologia,142,2024-08-11
+128,Alice Costa,Feminino,57,Hipertensão,Mudança de estilo de vida,271.14,Dr. Roberto,Cardiologia,161,2025-01-16
+129,Heitor Pereira,Masculino,43,Fratura,Cirurgia,7102.3,Dr. João,Ortopedia,146,2024-10-25
+130,Noah Pereira,Masculino,25,Artrite,Fisioterapia,466.41,Dr. João,Ortopedia,36,2024-11-20
+131,Bernardo Pereira,Masculino,27,Fratura,Imobilização,519.32,Dr. João,Ortopedia,110,2024-12-03
+132,Théo Santos,Masculino,65,Artrite,Fisioterapia,338.23,Dra. Clara,Ortopedia,110,2024-08-10
+133,Arthur Oliveira,Masculino,78,Infarto,Medicação,233.02,Dr. Roberto,Cardiologia,141,2024-08-05
+134,Davi Costa,Masculino,22,Luxação,Reposição,2747.9,Dr. Pedro,Ortopedia,54,2024-12-04
+135,Ravi Pereira,Masculino,66,Artrite,Medicação,521.36,Dr. Pedro,Ortopedia,142,2024-11-14
+136,Maitê Pereira,Feminino,45,Infarto,Cirurgia,12199.16,Dr. Roberto,Cardiologia,162,2024-09-30
+137,Maitê Pereira,Feminino,56,Arritmia,Medicação,576.46,Dr. Roberto,Cardiologia,17,2024-08-20
+138,Maitê Pereira,Feminino,85,Infarto,Cirurgia,18220.31,Dra. Ana,Cardiologia,62,2024-08-23
+139,Gael Silva,Masculino,66,Artrite,Medicação,968.05,Dr. Pedro,Ortopedia,139,2024-09-26
+140,Maria Alice Silva,Feminino,49,Infarto,Medicação,495.98,Dra. Ana,Cardiologia,31,2025-01-15
+141,Alice Pereira,Feminino,70,Arritmia,Implante de marcapasso,17193.62,Dra. Ana,Cardiologia,161,2024-09-06
+142,Miguel Costa,Masculino,76,Hipertensão,Mudança de estilo de vida,135.93,Dr. Roberto,Cardiologia,29,2024-12-24
+143,Théo Silva,Masculino,71,Luxação,Fisioterapia,1227.92,Dra. Clara,Ortopedia,117,2024-11-15
+144,Samuel Pereira,Masculino,15,Fratura,Imobilização,228.08,Dr. Pedro,Ortopedia,49,2024-09-25
+145,Antonella Oliveira,Feminino,84,Artrite,Medicação,902.2,Dr. João,Ortopedia,113,2024-12-29
+146,Davi Costa,Masculino,30,Fratura,Cirurgia,18541.83,Dr. João,Ortopedia,161,2024-08-25
+147,Noah Santos,Masculino,33,Arritmia,Implante de marcapasso,23335.38,Dr. Carlos,Cardiologia,73,2025-01-06
+148,Miguel Pereira,Masculino,27,Luxação,Reposição,1109.38,Dr. Pedro,Ortopedia,96,2024-11-04
+149,Laura Oliveira,Feminino,51,Fratura,Imobilização,232.1,Dr. João,Ortopedia,133,2024-09-07
+150,Maria Alice Pereira,Feminino,71,Infarto,Medicação,360.13,Dr. Carlos,Cardiologia,25,2025-01-08
+151,Davi Pereira,Masculino,18,Luxação,Reposição,1015.95,Dra. Clara,Ortopedia,73,2024-11-12
+152,Aurora Costa,Feminino,69,Fratura,Imobilização,292.28,Dr. Pedro,Ortopedia,52,2024-08-22
+153,Liz Costa,Feminino,62,Artrite,Medicação,259.59,Dr. João,Ortopedia,31,2024-11-09
+154,Maria Alice Silva,Feminino,38,Arritmia,Implante de marcapasso,17888.59,Dr. Carlos,Cardiologia,171,2024-08-15
+155,Gael Oliveira,Masculino,41,Hipertensão,Medicação,801.13,Dr. Roberto,Cardiologia,134,2024-11-16
+156,Arthur Costa,Masculino,35,Fratura,Cirurgia,17632.25,Dra. Clara,Ortopedia,144,2025-01-29
+157,Laura Santos,Feminino,45,Fratura,Cirurgia,7140.2,Dr. João,Ortopedia,80,2024-09-16
+158,Maitê Santos,Feminino,69,Fratura,Cirurgia,7041.87,Dr. Pedro,Ortopedia,151,2024-10-02
+159,Davi Pereira,Masculino,15,Fratura,Imobilização,790.73,Dr. João,Ortopedia,17,2024-08-06
+160,Arthur Santos,Masculino,68,Artrite,Fisioterapia,1791.23,Dr. Pedro,Ortopedia,123,2024-10-21
+161,Ravi Santos,Masculino,47,Arritmia,Implante de marcapasso,27063.17,Dr. Carlos,Cardiologia,155,2025-01-04
+162,Gael Costa,Masculino,66,Luxação,Fisioterapia,423.71,Dr. João,Ortopedia,49,2024-08-09
+163,Arthur Santos,Masculino,42,Arritmia,Medicação,241.44,Dr. Carlos,Cardiologia,71,2024-12-13
+164,Théo Costa,Masculino,71,Fratura,Imobilização,783.5,Dra. Clara,Ortopedia,91,2024-11-27
+165,Davi Oliveira,Masculino,49,Hipertensão,Mudança de estilo de vida,332.23,Dr. Carlos,Cardiologia,43,2024-11-12
+166,Antonella Costa,Feminino,30,Infarto,Medicação,999.13,Dr. Roberto,Cardiologia,147,2024-09-23
+167,Aurora Pereira,Feminino,32,Artrite,Fisioterapia,1042.43,Dra. Clara,Ortopedia,29,2024-09-20
+168,Bernardo Santos,Masculino,42,Hipertensão,Medicação,773.88,Dr. Roberto,Cardiologia,110,2024-08-17
+169,Aurora Santos,Feminino,18,Artrite,Medicação,744.96,Dr. João,Ortopedia,150,2024-08-03
+170,Helena Santos,Feminino,77,Hipertensão,Mudança de estilo de vida,421.94,Dra. Ana,Cardiologia,75,2024-11-25
+171,Laura Pereira,Feminino,63,Arritmia,Medicação,500.18,Dra. Ana,Cardiologia,148,2024-08-21
+172,Laura Silva,Feminino,26,Arritmia,Medicação,283.61,Dr. Roberto,Cardiologia,146,2024-09-04
+173,Arthur Pereira,Masculino,34,Luxação,Fisioterapia,1009.76,Dr. Pedro,Ortopedia,159,2024-08-12
+174,Maitê Oliveira,Feminino,21,Luxação,Reposição,2802.5,Dr. Pedro,Ortopedia,119,2024-09-04
+175,Arthur Santos,Masculino,64,Fratura,Imobilização,670.0,Dr. João,Ortopedia,153,2024-09-18
+176,Maria Alice Silva,Feminino,61,Hipertensão,Medicação,450.02,Dr. Roberto,Cardiologia,107,2025-01-24
+177,Bernardo Santos,Masculino,72,Artrite,Fisioterapia,1839.83,Dr. Pedro,Ortopedia,148,2024-12-13
+178,Miguel Oliveira,Masculino,64,Luxação,Fisioterapia,859.87,Dr. João,Ortopedia,15,2024-08-24
+179,Davi Silva,Masculino,66,Arritmia,Medicação,200.48,Dr. Roberto,Cardiologia,67,2024-12-06
+180,Aurora Oliveira,Feminino,24,Fratura,Imobilização,347.73,Dra. Clara,Ortopedia,153,2024-09-08
+181,Heitor Pereira,Masculino,69,Luxação,Fisioterapia,1886.7,Dr. Pedro,Ortopedia,92,2024-11-20
+182,Cecília Santos,Feminino,81,Hipertensão,Medicação,537.29,Dra. Ana,Cardiologia,86,2024-11-19
+183,Heloísa Oliveira,Feminino,50,Hipertensão,Medicação,765.07,Dr. Carlos,Cardiologia,170,2024-10-03
+184,Alice Silva,Feminino,63,Luxação,Reposição,2801.34,Dr. João,Ortopedia,139,2024-10-24
+185,Heitor Pereira,Masculino,75,Artrite,Fisioterapia,1469.69,Dr. Pedro,Ortopedia,112,2024-09-19
+186,Maitê Silva,Feminino,39,Hipertensão,Medicação,889.07,Dr. Carlos,Cardiologia,165,2024-08-09
+187,Ravi Silva,Masculino,82,Hipertensão,Mudança de estilo de vida,318.61,Dr. Carlos,Cardiologia,39,2024-09-28
+188,Liz Costa,Feminino,21,Artrite,Medicação,464.75,Dra. Clara,Ortopedia,95,2024-12-14
+189,Heitor Santos,Masculino,19,Hipertensão,Mudança de estilo de vida,474.91,Dra. Ana,Cardiologia,96,2024-11-24
+190,Heitor Santos,Masculino,88,Arritmia,Medicação,236.15,Dr. Carlos,Cardiologia,17,2024-08-04
+191,Alice Pereira,Feminino,72,Luxação,Fisioterapia,1696.55,Dra. Clara,Ortopedia,179,2024-10-29
+192,Maitê Oliveira,Feminino,54,Luxação,Fisioterapia,1692.44,Dra. Clara,Ortopedia,25,2024-09-17
+193,Bernardo Pereira,Masculino,72,Fratura,Cirurgia,16013.14,Dr. Pedro,Ortopedia,122,2024-10-19
+194,Noah Silva,Masculino,31,Fratura,Imobilização,705.93,Dr. João,Ortopedia,81,2024-08-23
+195,Arthur Silva,Masculino,40,Luxação,Reposição,1018.14,Dr. Pedro,Ortopedia,144,2024-10-28
+196,Ravi Costa,Masculino,64,Infarto,Cirurgia,14779.22,Dr. Carlos,Cardiologia,6,2024-08-28
+197,Ravi Oliveira,Masculino,36,Arritmia,Medicação,359.19,Dra. Ana,Cardiologia,1,2024-10-06
+198,Gael Oliveira,Masculino,68,Fratura,Imobilização,584.09,Dra. Clara,Ortopedia,170,2024-08-11
+199,Théo Oliveira,Masculino,34,Fratura,Imobilização,563.51,Dr. Pedro,Ortopedia,170,2024-08-24
+200,Liz Costa,Feminino,71,Infarto,Cirurgia,19142.3,Dra. Ana,Cardiologia,81,2024-11-22
+201,Liz Santos,Feminino,88,Artrite,Fisioterapia,1825.3,Dr. Pedro,Ortopedia,46,2024-12-08
+202,Heitor Costa,Masculino,16,Artrite,Fisioterapia,634.56,Dr. João,Ortopedia,88,2024-12-08
+203,Ravi Santos,Masculino,24,Hipertensão,Mudança de estilo de vida,182.9,Dr. Roberto,Cardiologia,128,2024-11-23
+204,Davi Pereira,Masculino,20,Luxação,Fisioterapia,1902.48,Dr. João,Ortopedia,65,2025-01-14
+205,Arthur Costa,Masculino,19,Arritmia,Implante de marcapasso,20492.85,Dra. Ana,Cardiologia,98,2024-08-12
+206,Heloísa Pereira,Feminino,84,Infarto,Repouso,123.6,Dra. Ana,Cardiologia,87,2024-09-21
+207,Ravi Silva,Masculino,49,Luxação,Fisioterapia,1263.9,Dr. João,Ortopedia,91,2024-12-06
+208,Helena Oliveira,Feminino,18,Hipertensão,Medicação,268.47,Dr. Roberto,Cardiologia,12,2024-11-02
+209,Ravi Oliveira,Masculino,53,Artrite,Medicação,366.3,Dra. Clara,Ortopedia,105,2024-11-09
+210,Maitê Silva,Feminino,82,Arritmia,Implante de marcapasso,24257.91,Dr. Roberto,Cardiologia,87,2024-10-30
+211,Laura Santos,Feminino,25,Hipertensão,Mudança de estilo de vida,490.29,Dr. Roberto,Cardiologia,57,2025-01-28
+212,Miguel Pereira,Masculino,32,Fratura,Imobilização,630.27,Dr. João,Ortopedia,126,2024-12-23
+213,Heloísa Pereira,Feminino,58,Infarto,Medicação,214.15,Dra. Ana,Cardiologia,31,2024-10-02
+214,Heloísa Oliveira,Feminino,88,Luxação,Fisioterapia,1670.67,Dra. Clara,Ortopedia,54,2024-08-11
+215,Heloísa Santos,Feminino,62,Luxação,Fisioterapia,1005.02,Dr. Pedro,Ortopedia,100,2024-12-21
+216,Maitê Costa,Feminino,30,Artrite,Medicação,449.45,Dra. Clara,Ortopedia,165,2025-01-14
+217,Helena Oliveira,Feminino,42,Artrite,Medicação,249.95,Dr. Pedro,Ortopedia,75,2024-08-03
+218,Noah Costa,Masculino,23,Infarto,Cirurgia,12190.99,Dr. Carlos,Cardiologia,170,2024-12-23
+219,Bernardo Silva,Masculino,29,Infarto,Medicação,512.92,Dr. Carlos,Cardiologia,70,2024-12-08
+220,Maria Alice Silva,Feminino,87,Luxação,Fisioterapia,629.38,Dr. João,Ortopedia,140,2025-01-12
+221,Alice Santos,Feminino,35,Hipertensão,Medicação,706.46,Dr. Roberto,Cardiologia,56,2024-11-08
+222,Gael Oliveira,Masculino,31,Luxação,Reposição,1150.36,Dr. Pedro,Ortopedia,139,2024-08-06
+223,Théo Santos,Masculino,67,Luxação,Reposição,1244.03,Dra. Clara,Ortopedia,6,2024-11-05
+224,Miguel Oliveira,Masculino,71,Fratura,Imobilização,481.01,Dra. Clara,Ortopedia,45,2024-10-08
+225,Davi Costa,Masculino,71,Fratura,Imobilização,637.88,Dr. João,Ortopedia,137,2024-10-09
+226,Antonella Costa,Feminino,47,Luxação,Reposição,2143.02,Dra. Clara,Ortopedia,110,2024-08-12
+227,Noah Costa,Masculino,30,Arritmia,Medicação,841.99,Dra. Ana,Cardiologia,106,2024-10-20
+228,Aurora Silva,Feminino,44,Luxação,Fisioterapia,300.3,Dr. Pedro,Ortopedia,99,2024-08-22
+229,Aurora Costa,Feminino,32,Fratura,Cirurgia,14620.51,Dr. João,Ortopedia,71,2024-11-19
+230,Davi Oliveira,Masculino,54,Luxação,Reposição,2876.36,Dra. Clara,Ortopedia,49,2024-08-13
+231,Théo Oliveira,Masculino,46,Fratura,Imobilização,664.5,Dr. Pedro,Ortopedia,16,2024-09-25
+232,Maria Alice Oliveira,Feminino,58,Fratura,Cirurgia,19788.63,Dra. Clara,Ortopedia,88,2024-09-18
+233,Miguel Costa,Masculino,82,Luxação,Reposição,1205.21,Dra. Clara,Ortopedia,173,2024-11-28
+234,Cecília Oliveira,Feminino,31,Fratura,Cirurgia,11061.2,Dra. Clara,Ortopedia,168,2024-09-08
+235,Heitor Silva,Masculino,84,Luxação,Reposição,2484.67,Dra. Clara,Ortopedia,83,2024-12-10
+236,Liz Santos,Feminino,41,Hipertensão,Mudança de estilo de vida,273.72,Dr. Carlos,Cardiologia,171,2024-11-02
+237,Noah Costa,Masculino,29,Hipertensão,Mudança de estilo de vida,118.27,Dra. Ana,Cardiologia,96,2024-12-21
+238,Helena Oliveira,Feminino,71,Luxação,Reposição,1490.49,Dr. Pedro,Ortopedia,149,2025-01-26
+239,Bernardo Pereira,Masculino,80,Arritmia,Medicação,449.52,Dr. Roberto,Cardiologia,30,2024-08-31
+240,Cecília Santos,Feminino,34,Luxação,Reposição,1263.47,Dr. Pedro,Ortopedia,6,2024-12-16
+241,Helena Costa,Feminino,64,Infarto,Medicação,690.97,Dra. Ana,Cardiologia,135,2025-01-05
+242,Arthur Santos,Masculino,22,Artrite,Fisioterapia,1860.77,Dr. João,Ortopedia,95,2024-08-08
+243,Théo Oliveira,Masculino,40,Fratura,Cirurgia,13368.77,Dr. Pedro,Ortopedia,80,2025-01-15
+244,Liz Silva,Feminino,25,Luxação,Fisioterapia,322.14,Dra. Clara,Ortopedia,18,2024-11-30
+245,Théo Santos,Masculino,64,Artrite,Medicação,926.73,Dr. João,Ortopedia,177,2025-01-21
+246,Cecília Costa,Feminino,77,Luxação,Reposição,1875.9,Dr. Pedro,Ortopedia,8,2024-08-24
+247,Arthur Costa,Masculino,37,Artrite,Fisioterapia,1020.62,Dra. Clara,Ortopedia,111,2024-11-03
+248,Gael Silva,Masculino,88,Fratura,Cirurgia,8544.82,Dra. Clara,Ortopedia,35,2024-11-05
+249,Aurora Silva,Feminino,47,Luxação,Fisioterapia,679.74,Dr. Pedro,Ortopedia,81,2024-10-22
+250,Samuel Costa,Masculino,17,Luxação,Reposição,2767.54,Dr. João,Ortopedia,67,2024-08-16
+251,Ravi Santos,Masculino,88,Fratura,Cirurgia,16727.53,Dr. João,Ortopedia,46,2024-11-12
+252,Antonella Costa,Feminino,34,Infarto,Repouso,135.86,Dra. Ana,Cardiologia,82,2024-10-16
+253,Miguel Santos,Masculino,63,Hipertensão,Mudança de estilo de vida,199.66,Dr. Carlos,Cardiologia,141,2024-08-03
+254,Arthur Pereira,Masculino,35,Hipertensão,Mudança de estilo de vida,224.43,Dr. Roberto,Cardiologia,164,2024-10-24
+255,Helena Santos,Feminino,83,Artrite,Medicação,382.79,Dra. Clara,Ortopedia,61,2024-09-20
+256,Noah Costa,Masculino,31,Luxação,Reposição,2649.32,Dra. Clara,Ortopedia,119,2024-10-19
+257,Davi Silva,Masculino,62,Artrite,Medicação,362.09,Dr. Pedro,Ortopedia,30,2024-12-08
+258,Davi Santos,Masculino,58,Fratura,Cirurgia,17521.05,Dr. Pedro,Ortopedia,142,2024-12-05
+259,Alice Oliveira,Feminino,89,Fratura,Cirurgia,19051.47,Dr. João,Ortopedia,139,2025-01-18
+260,Heloísa Costa,Feminino,21,Luxação,Reposição,1948.44,Dr. João,Ortopedia,153,2024-11-07
+261,Laura Costa,Feminino,39,Arritmia,Medicação,390.35,Dr. Carlos,Cardiologia,160,2024-08-14
+262,Ravi Silva,Masculino,53,Fratura,Cirurgia,8497.15,Dr. João,Ortopedia,43,2024-09-14
+263,Alice Santos,Feminino,61,Infarto,Repouso,145.87,Dr. Roberto,Cardiologia,101,2024-09-30
+264,Helena Costa,Feminino,17,Fratura,Imobilização,687.23,Dra. Clara,Ortopedia,117,2024-11-20
+265,Davi Silva,Masculino,47,Fratura,Imobilização,396.63,Dr. Pedro,Ortopedia,135,2025-01-03
+266,Helena Costa,Feminino,57,Infarto,Medicação,845.15,Dra. Ana,Cardiologia,122,2024-09-07
+267,Antonella Silva,Feminino,33,Hipertensão,Mudança de estilo de vida,414.75,Dr. Carlos,Cardiologia,80,2024-09-08
+268,Miguel Oliveira,Masculino,75,Luxação,Reposição,1482.98,Dra. Clara,Ortopedia,167,2024-12-25
+269,Gael Oliveira,Masculino,26,Luxação,Fisioterapia,1489.74,Dra. Clara,Ortopedia,75,2024-11-17
+270,Gael Silva,Masculino,59,Artrite,Medicação,534.78,Dr. João,Ortopedia,123,2025-01-03
+271,Heitor Silva,Masculino,62,Artrite,Medicação,368.29,Dra. Clara,Ortopedia,84,2024-12-26
+272,Maitê Silva,Feminino,79,Artrite,Medicação,515.96,Dra. Clara,Ortopedia,144,2024-08-13
+273,Bernardo Costa,Masculino,29,Fratura,Cirurgia,12246.74,Dr. Pedro,Ortopedia,31,2024-09-01
+274,Davi Oliveira,Masculino,59,Fratura,Imobilização,402.33,Dra. Clara,Ortopedia,154,2025-01-18
+275,Bernardo Oliveira,Masculino,38,Arritmia,Medicação,344.82,Dr. Roberto,Cardiologia,168,2024-10-24
+276,Liz Pereira,Feminino,22,Luxação,Reposição,2791.66,Dr. João,Ortopedia,123,2025-01-01
+277,Gael Silva,Masculino,43,Artrite,Medicação,569.32,Dr. João,Ortopedia,82,2025-01-13
+278,Miguel Oliveira,Masculino,17,Fratura,Cirurgia,18664.33,Dr. Pedro,Ortopedia,73,2024-11-18
+279,Helena Pereira,Feminino,66,Luxação,Fisioterapia,683.12,Dra. Clara,Ortopedia,14,2024-10-06
+280,Maria Alice Santos,Feminino,53,Artrite,Medicação,416.46,Dra. Clara,Ortopedia,115,2024-09-11
+281,Ravi Silva,Masculino,59,Luxação,Fisioterapia,1767.07,Dra. Clara,Ortopedia,69,2025-01-25
+282,Maria Alice Oliveira,Feminino,38,Infarto,Medicação,648.9,Dr. Roberto,Cardiologia,49,2024-10-27
+283,Gael Silva,Masculino,20,Infarto,Medicação,539.64,Dr. Roberto,Cardiologia,108,2024-11-04
+284,Maria Alice Costa,Feminino,77,Hipertensão,Medicação,706.4,Dra. Ana,Cardiologia,86,2024-08-08
+285,Liz Pereira,Feminino,60,Luxação,Reposição,2387.33,Dr. João,Ortopedia,99,2024-09-05
+286,Arthur Silva,Masculino,87,Fratura,Cirurgia,6407.75,Dr. João,Ortopedia,7,2024-09-08
+287,Cecília Costa,Feminino,43,Artrite,Medicação,778.44,Dra. Clara,Ortopedia,61,2024-09-07
+288,Cecília Pereira,Feminino,40,Fratura,Cirurgia,17729.67,Dr. Pedro,Ortopedia,166,2025-01-05
+289,Maitê Pereira,Feminino,60,Fratura,Imobilização,665.97,Dr. João,Ortopedia,22,2025-01-09
+290,Ravi Oliveira,Masculino,61,Arritmia,Implante de marcapasso,24281.15,Dr. Roberto,Cardiologia,34,2024-11-03
+291,Samuel Pereira,Masculino,79,Artrite,Medicação,772.52,Dr. João,Ortopedia,78,2024-09-24
+292,Davi Oliveira,Masculino,43,Artrite,Fisioterapia,1853.78,Dr. João,Ortopedia,48,2024-08-05
+293,Gael Costa,Masculino,15,Hipertensão,Medicação,305.58,Dr. Roberto,Cardiologia,57,2024-12-11
+294,Gael Costa,Masculino,74,Arritmia,Medicação,961.52,Dr. Roberto,Cardiologia,100,2024-11-15
+295,Miguel Silva,Masculino,34,Infarto,Medicação,906.47,Dr. Roberto,Cardiologia,79,2024-10-12
+296,Noah Silva,Masculino,57,Luxação,Reposição,2361.43,Dr. João,Ortopedia,147,2024-08-27
+297,Noah Pereira,Masculino,53,Arritmia,Medicação,827.67,Dr. Roberto,Cardiologia,62,2025-01-04
+298,Théo Costa,Masculino,79,Artrite,Medicação,969.34,Dr. João,Ortopedia,22,2025-01-23
+299,Maitê Oliveira,Feminino,37,Artrite,Fisioterapia,1621.9,Dr. João,Ortopedia,22,2024-11-07
+300,Noah Oliveira,Masculino,88,Infarto,Repouso,88.61,Dra. Ana,Cardiologia,39,2024-11-11
+301,Helena Santos,Feminino,64,Infarto,Cirurgia,17086.56,Dr. Roberto,Cardiologia,87,2024-12-17
+302,Miguel Costa,Masculino,49,Arritmia,Medicação,283.4,Dr. Roberto,Cardiologia,75,2024-12-30
+303,Noah Oliveira,Masculino,86,Artrite,Fisioterapia,922.54,Dra. Clara,Ortopedia,114,2024-11-07
+304,Heitor Pereira,Masculino,15,Arritmia,Medicação,991.7,Dr. Roberto,Cardiologia,15,2025-01-27
+305,Heitor Santos,Masculino,74,Fratura,Imobilização,372.17,Dr. Pedro,Ortopedia,133,2024-11-17
+306,Antonella Pereira,Feminino,85,Fratura,Imobilização,604.55,Dra. Clara,Ortopedia,30,2024-09-21
+307,Bernardo Silva,Masculino,29,Artrite,Medicação,828.43,Dr. João,Ortopedia,25,2024-08-08
+308,Noah Silva,Masculino,40,Hipertensão,Medicação,674.82,Dr. Carlos,Cardiologia,39,2025-01-12
+309,Heloísa Silva,Feminino,63,Fratura,Cirurgia,16025.8,Dr. Pedro,Ortopedia,162,2024-10-21
+310,Helena Costa,Feminino,84,Luxação,Reposição,2840.58,Dr. Pedro,Ortopedia,169,2024-08-03
+311,Maitê Oliveira,Feminino,16,Infarto,Medicação,493.46,Dra. Ana,Cardiologia,71,2024-08-27
+312,Ravi Silva,Masculino,73,Artrite,Fisioterapia,486.09,Dra. Clara,Ortopedia,103,2024-12-04
+313,Aurora Costa,Feminino,65,Infarto,Repouso,163.12,Dra. Ana,Cardiologia,4,2024-08-03
+314,Noah Santos,Masculino,59,Hipertensão,Medicação,224.76,Dr. Roberto,Cardiologia,103,2025-01-25
+315,Heloísa Santos,Feminino,72,Hipertensão,Mudança de estilo de vida,400.97,Dra. Ana,Cardiologia,160,2024-10-16
+316,Liz Oliveira,Feminino,49,Luxação,Fisioterapia,1719.11,Dr. Pedro,Ortopedia,20,2024-08-03
+317,Antonella Santos,Feminino,33,Fratura,Cirurgia,7429.31,Dra. Clara,Ortopedia,8,2024-12-09
+318,Liz Silva,Feminino,32,Hipertensão,Mudança de estilo de vida,433.86,Dra. Ana,Cardiologia,20,2024-08-26
+319,Maitê Silva,Feminino,50,Hipertensão,Medicação,752.2,Dr. Carlos,Cardiologia,66,2025-01-14
+320,Antonella Pereira,Feminino,37,Infarto,Repouso,109.66,Dr. Roberto,Cardiologia,50,2024-08-02
+321,Samuel Oliveira,Masculino,26,Fratura,Cirurgia,19233.06,Dr. Pedro,Ortopedia,14,2024-08-11
+322,Helena Silva,Feminino,66,Artrite,Medicação,934.39,Dra. Clara,Ortopedia,88,2024-11-23
+323,Liz Pereira,Feminino,15,Fratura,Imobilização,562.81,Dr. Pedro,Ortopedia,117,2024-10-17
+324,Heitor Pereira,Masculino,18,Luxação,Fisioterapia,413.81,Dr. João,Ortopedia,45,2024-09-08
+325,Davi Oliveira,Masculino,62,Fratura,Cirurgia,11267.1,Dr. João,Ortopedia,166,2025-01-22
+326,Cecília Silva,Feminino,85,Arritmia,Implante de marcapasso,28760.4,Dra. Ana,Cardiologia,169,2024-11-27
+327,Samuel Silva,Masculino,21,Luxação,Reposição,2331.3,Dr. João,Ortopedia,30,2024-10-07
+328,Cecília Santos,Feminino,16,Arritmia,Medicação,742.72,Dr. Carlos,Cardiologia,111,2024-12-31
+329,Alice Pereira,Feminino,36,Fratura,Cirurgia,16397.84,Dra. Clara,Ortopedia,114,2024-12-25
+330,Antonella Silva,Feminino,80,Luxação,Reposição,2137.32,Dr. João,Ortopedia,145,2025-01-24
+331,Davi Costa,Masculino,80,Artrite,Medicação,869.28,Dr. Pedro,Ortopedia,41,2024-11-26
+332,Cecília Oliveira,Feminino,71,Fratura,Cirurgia,17600.2,Dr. João,Ortopedia,163,2024-09-06
+333,Arthur Pereira,Masculino,68,Fratura,Imobilização,671.03,Dra. Clara,Ortopedia,141,2024-09-16
+334,Liz Oliveira,Feminino,84,Arritmia,Medicação,461.54,Dr. Carlos,Cardiologia,112,2024-10-18
+335,Cecília Silva,Feminino,55,Artrite,Fisioterapia,1400.98,Dra. Clara,Ortopedia,179,2024-12-10
+336,Laura Oliveira,Feminino,62,Arritmia,Implante de marcapasso,15093.75,Dr. Roberto,Cardiologia,47,2024-11-22
+337,Cecília Santos,Feminino,51,Infarto,Cirurgia,7822.82,Dr. Carlos,Cardiologia,26,2024-08-15
+338,Maria Alice Santos,Feminino,59,Fratura,Cirurgia,11189.11,Dr. Pedro,Ortopedia,15,2024-12-26
+339,Théo Silva,Masculino,55,Artrite,Medicação,913.18,Dr. João,Ortopedia,175,2024-12-25
+340,Heloísa Pereira,Feminino,78,Hipertensão,Medicação,471.09,Dr. Roberto,Cardiologia,139,2024-09-13
+341,Liz Oliveira,Feminino,29,Arritmia,Medicação,501.77,Dr. Roberto,Cardiologia,116,2024-08-18
+342,Alice Silva,Feminino,20,Arritmia,Medicação,304.52,Dra. Ana,Cardiologia,137,2024-10-13
+343,Maitê Silva,Feminino,57,Arritmia,Medicação,203.98,Dr. Carlos,Cardiologia,107,2024-10-16
+344,Aurora Pereira,Feminino,31,Arritmia,Medicação,722.57,Dr. Roberto,Cardiologia,3,2024-08-09
+345,Samuel Pereira,Masculino,61,Fratura,Cirurgia,7975.45,Dr. Pedro,Ortopedia,50,2024-10-22
+346,Liz Costa,Feminino,74,Infarto,Repouso,133.89,Dr. Carlos,Cardiologia,48,2024-12-25
+347,Cecília Santos,Feminino,39,Arritmia,Implante de marcapasso,16609.36,Dr. Carlos,Cardiologia,112,2024-09-02
+348,Miguel Costa,Masculino,19,Arritmia,Implante de marcapasso,20283.0,Dr. Carlos,Cardiologia,123,2024-08-03
+349,Ravi Oliveira,Masculino,40,Fratura,Cirurgia,15364.94,Dr. João,Ortopedia,36,2024-08-08
+350,Heitor Santos,Masculino,47,Luxação,Fisioterapia,1806.94,Dra. Clara,Ortopedia,162,2024-09-22
+351,Antonella Santos,Feminino,41,Infarto,Repouso,100.8,Dra. Ana,Cardiologia,20,2024-08-21
+352,Samuel Pereira,Masculino,87,Infarto,Medicação,700.58,Dr. Roberto,Cardiologia,64,2024-11-01
+353,Théo Costa,Masculino,77,Infarto,Cirurgia,5711.88,Dra. Ana,Cardiologia,50,2024-12-12
+354,Noah Pereira,Masculino,50,Infarto,Cirurgia,16394.93,Dr. Carlos,Cardiologia,164,2024-08-20
+355,Bernardo Pereira,Masculino,32,Arritmia,Medicação,215.1,Dr. Carlos,Cardiologia,164,2024-10-22
+356,Laura Silva,Feminino,18,Artrite,Medicação,335.62,Dr. Pedro,Ortopedia,155,2024-12-10
+357,Heloísa Santos,Feminino,65,Luxação,Reposição,2656.17,Dra. Clara,Ortopedia,96,2024-10-06
+358,Liz Santos,Feminino,26,Artrite,Fisioterapia,498.69,Dr. Pedro,Ortopedia,155,2024-12-01
+359,Ravi Silva,Masculino,83,Artrite,Medicação,861.28,Dr. Pedro,Ortopedia,124,2024-10-14
+360,Ravi Santos,Masculino,39,Arritmia,Implante de marcapasso,24794.32,Dra. Ana,Cardiologia,90,2025-01-08
+361,Davi Santos,Masculino,37,Hipertensão,Mudança de estilo de vida,465.68,Dra. Ana,Cardiologia,120,2024-11-03
+362,Heloísa Silva,Feminino,75,Infarto,Cirurgia,12815.43,Dr. Carlos,Cardiologia,59,2024-09-03
+363,Heloísa Oliveira,Feminino,87,Luxação,Fisioterapia,1356.87,Dra. Clara,Ortopedia,121,2025-01-22
+364,Arthur Pereira,Masculino,60,Arritmia,Implante de marcapasso,26463.21,Dra. Ana,Cardiologia,28,2024-10-23
+365,Helena Santos,Feminino,75,Luxação,Fisioterapia,1482.98,Dr. João,Ortopedia,155,2025-01-07
+366,Théo Costa,Masculino,71,Arritmia,Implante de marcapasso,15540.67,Dr. Carlos,Cardiologia,83,2024-08-27
+367,Maria Alice Silva,Feminino,75,Infarto,Medicação,668.43,Dr. Roberto,Cardiologia,54,2024-12-07
+368,Arthur Santos,Masculino,22,Luxação,Reposição,2059.77,Dra. Clara,Ortopedia,52,2025-01-21
+369,Antonella Costa,Feminino,28,Fratura,Cirurgia,7075.68,Dr. João,Ortopedia,138,2024-12-08
+370,Laura Silva,Feminino,32,Arritmia,Implante de marcapasso,26191.71,Dra. Ana,Cardiologia,13,2024-12-17
+371,Ravi Santos,Masculino,86,Infarto,Repouso,114.26,Dr. Roberto,Cardiologia,167,2024-10-14
+372,Maria Alice Pereira,Feminino,50,Infarto,Repouso,128.4,Dr. Carlos,Cardiologia,25,2024-12-28
+373,Arthur Oliveira,Masculino,49,Hipertensão,Medicação,347.02,Dr. Roberto,Cardiologia,92,2024-11-30
+374,Arthur Silva,Masculino,79,Infarto,Medicação,663.49,Dra. Ana,Cardiologia,66,2025-01-03
+375,Heloísa Silva,Feminino,45,Infarto,Cirurgia,8061.03,Dra. Ana,Cardiologia,62,2024-12-17
+376,Samuel Silva,Masculino,84,Arritmia,Implante de marcapasso,16075.02,Dra. Ana,Cardiologia,23,2025-01-30
+377,Liz Pereira,Feminino,40,Fratura,Cirurgia,15666.19,Dr. João,Ortopedia,108,2024-11-28
+378,Liz Silva,Feminino,77,Arritmia,Implante de marcapasso,23482.65,Dr. Roberto,Cardiologia,82,2024-09-10
+379,Maitê Santos,Feminino,70,Infarto,Repouso,155.88,Dra. Ana,Cardiologia,1,2024-09-26
+380,Laura Silva,Feminino,80,Artrite,Fisioterapia,554.08,Dra. Clara,Ortopedia,81,2024-12-06
+381,Cecília Costa,Feminino,18,Arritmia,Implante de marcapasso,18268.02,Dr. Roberto,Cardiologia,12,2024-08-20
+382,Maitê Costa,Feminino,28,Infarto,Repouso,80.85,Dr. Carlos,Cardiologia,166,2024-12-13
+383,Ravi Santos,Masculino,51,Fratura,Imobilização,656.28,Dra. Clara,Ortopedia,94,2024-10-10
+384,Gael Pereira,Masculino,61,Luxação,Reposição,1811.59,Dra. Clara,Ortopedia,33,2024-09-12
+385,Heloísa Oliveira,Feminino,78,Artrite,Fisioterapia,1202.22,Dra. Clara,Ortopedia,16,2024-08-05
+386,Cecília Oliveira,Feminino,61,Hipertensão,Medicação,622.53,Dra. Ana,Cardiologia,47,2024-08-26
+387,Laura Oliveira,Feminino,65,Hipertensão,Mudança de estilo de vida,220.04,Dra. Ana,Cardiologia,109,2024-11-16
+388,Laura Santos,Feminino,78,Hipertensão,Medicação,299.64,Dr. Carlos,Cardiologia,85,2024-10-04
+389,Théo Costa,Masculino,76,Luxação,Reposição,1740.92,Dr. João,Ortopedia,13,2024-08-21
+390,Théo Pereira,Masculino,81,Fratura,Cirurgia,18646.4,Dr. João,Ortopedia,168,2024-10-02
+391,Heloísa Silva,Feminino,24,Arritmia,Medicação,698.6,Dra. Ana,Cardiologia,98,2024-12-18
+392,Heloísa Pereira,Feminino,61,Infarto,Cirurgia,15607.79,Dr. Carlos,Cardiologia,8,2025-01-21
+393,Arthur Costa,Masculino,70,Fratura,Cirurgia,8412.54,Dra. Clara,Ortopedia,71,2025-01-11
+394,Arthur Santos,Masculino,83,Luxação,Reposição,1773.75,Dra. Clara,Ortopedia,91,2024-10-27
+395,Samuel Santos,Masculino,41,Luxação,Fisioterapia,1856.38,Dr. João,Ortopedia,110,2024-11-20
+396,Antonella Santos,Feminino,26,Hipertensão,Medicação,644.92,Dra. Ana,Cardiologia,179,2024-12-11
+397,Laura Silva,Feminino,36,Infarto,Cirurgia,13377.11,Dra. Ana,Cardiologia,63,2024-11-26
+398,Cecília Costa,Feminino,90,Hipertensão,Medicação,806.04,Dra. Ana,Cardiologia,180,2024-08-21
+399,Heitor Pereira,Masculino,25,Artrite,Medicação,558.19,Dra. Clara,Ortopedia,18,2024-12-04
+400,Laura Silva,Feminino,26,Artrite,Fisioterapia,890.02,Dra. Clara,Ortopedia,81,2024-08-10
+401,Maria Alice Pereira,Feminino,21,Hipertensão,Medicação,833.88,Dr. Carlos,Cardiologia,28,2024-09-20
+402,Bernardo Santos,Masculino,71,Fratura,Cirurgia,10213.57,Dra. Clara,Ortopedia,37,2024-11-02
+403,Théo Costa,Masculino,23,Arritmia,Medicação,283.85,Dr. Roberto,Cardiologia,144,2024-12-14
+404,Liz Santos,Feminino,85,Hipertensão,Mudança de estilo de vida,280.51,Dra. Ana,Cardiologia,174,2025-01-26
+405,Antonella Costa,Feminino,84,Fratura,Imobilização,207.55,Dra. Clara,Ortopedia,39,2024-09-18
+406,Liz Costa,Feminino,25,Hipertensão,Medicação,671.17,Dra. Ana,Cardiologia,51,2024-09-14
+407,Heitor Oliveira,Masculino,81,Luxação,Fisioterapia,624.85,Dr. Pedro,Ortopedia,87,2024-12-24
+408,Noah Silva,Masculino,66,Luxação,Reposição,2588.17,Dr. João,Ortopedia,46,2024-09-09
+409,Gael Silva,Masculino,58,Artrite,Fisioterapia,566.66,Dr. Pedro,Ortopedia,36,2024-09-22
+410,Davi Pereira,Masculino,41,Luxação,Reposição,1254.21,Dr. Pedro,Ortopedia,58,2024-08-01
+411,Aurora Santos,Feminino,55,Fratura,Imobilização,331.53,Dr. João,Ortopedia,113,2024-09-01
+412,Heloísa Santos,Feminino,27,Luxação,Fisioterapia,929.74,Dr. João,Ortopedia,114,2024-12-22
+413,Liz Silva,Feminino,70,Arritmia,Medicação,253.49,Dra. Ana,Cardiologia,172,2024-09-25
+414,Arthur Pereira,Masculino,64,Fratura,Cirurgia,18714.39,Dr. Pedro,Ortopedia,19,2024-12-20
+415,Davi Santos,Masculino,90,Artrite,Medicação,958.24,Dra. Clara,Ortopedia,143,2024-08-08
+416,Arthur Silva,Masculino,18,Fratura,Imobilização,796.35,Dr. João,Ortopedia,117,2024-08-05
+417,Davi Santos,Masculino,40,Luxação,Reposição,2891.42,Dra. Clara,Ortopedia,160,2024-12-27
+418,Ravi Pereira,Masculino,78,Hipertensão,Mudança de estilo de vida,441.51,Dr. Roberto,Cardiologia,154,2025-01-17
+419,Liz Pereira,Feminino,15,Infarto,Medicação,976.34,Dra. Ana,Cardiologia,2,2024-09-06
+420,Arthur Pereira,Masculino,56,Hipertensão,Medicação,990.06,Dr. Carlos,Cardiologia,180,2024-12-25
+421,Alice Pereira,Feminino,72,Fratura,Imobilização,215.74,Dra. Clara,Ortopedia,98,2024-11-05
+422,Cecília Costa,Feminino,79,Luxação,Fisioterapia,878.19,Dr. Pedro,Ortopedia,109,2024-10-11
+423,Théo Silva,Masculino,47,Infarto,Medicação,544.75,Dr. Roberto,Cardiologia,135,2025-01-22
+424,Helena Oliveira,Feminino,26,Fratura,Imobilização,743.58,Dr. Pedro,Ortopedia,145,2024-11-15
+425,Gael Oliveira,Masculino,40,Arritmia,Implante de marcapasso,27305.8,Dr. Roberto,Cardiologia,19,2024-11-27
+426,Helena Costa,Feminino,17,Arritmia,Medicação,967.84,Dr. Roberto,Cardiologia,17,2025-01-20
+427,Bernardo Pereira,Masculino,50,Arritmia,Implante de marcapasso,22769.04,Dra. Ana,Cardiologia,165,2024-08-12
+428,Maria Alice Pereira,Feminino,59,Artrite,Fisioterapia,1530.82,Dr. Pedro,Ortopedia,115,2025-01-07
+429,Alice Oliveira,Feminino,83,Luxação,Fisioterapia,1013.37,Dr. João,Ortopedia,83,2024-12-13
+430,Antonella Silva,Feminino,56,Hipertensão,Medicação,212.51,Dr. Roberto,Cardiologia,8,2024-10-12
+431,Antonella Pereira,Feminino,78,Arritmia,Implante de marcapasso,20705.23,Dr. Carlos,Cardiologia,134,2024-11-02
+432,Arthur Costa,Masculino,68,Fratura,Imobilização,515.35,Dr. Pedro,Ortopedia,35,2024-11-17
+433,Cecília Oliveira,Feminino,82,Fratura,Cirurgia,18071.12,Dr. João,Ortopedia,141,2024-09-09
+434,Arthur Costa,Masculino,72,Infarto,Medicação,656.09,Dra. Ana,Cardiologia,141,2024-09-14
+435,Arthur Silva,Masculino,69,Hipertensão,Medicação,370.37,Dr. Carlos,Cardiologia,11,2024-09-28
+436,Laura Costa,Feminino,45,Fratura,Cirurgia,11513.71,Dra. Clara,Ortopedia,82,2024-09-11
+437,Cecília Silva,Feminino,36,Artrite,Fisioterapia,1424.16,Dra. Clara,Ortopedia,109,2024-09-17
+438,Théo Costa,Masculino,31,Luxação,Reposição,2805.21,Dra. Clara,Ortopedia,25,2024-11-24
+439,Gael Oliveira,Masculino,54,Luxação,Reposição,1832.78,Dr. Pedro,Ortopedia,107,2024-08-30
+440,Maria Alice Silva,Feminino,69,Luxação,Reposição,1079.79,Dr. João,Ortopedia,56,2024-08-27
+441,Bernardo Silva,Masculino,27,Luxação,Fisioterapia,860.35,Dra. Clara,Ortopedia,155,2024-08-24
+442,Heitor Pereira,Masculino,78,Hipertensão,Mudança de estilo de vida,168.34,Dr. Carlos,Cardiologia,117,2025-01-25
+443,Samuel Oliveira,Masculino,59,Arritmia,Implante de marcapasso,20480.46,Dra. Ana,Cardiologia,48,2025-01-29
+444,Ravi Silva,Masculino,24,Arritmia,Medicação,942.13,Dra. Ana,Cardiologia,82,2024-08-02
+445,Cecília Silva,Feminino,84,Fratura,Cirurgia,15662.86,Dra. Clara,Ortopedia,165,2024-12-30
+446,Liz Silva,Feminino,56,Artrite,Fisioterapia,475.6,Dr. Pedro,Ortopedia,45,2024-12-17
+447,Cecília Pereira,Feminino,36,Luxação,Fisioterapia,1876.55,Dr. João,Ortopedia,160,2024-09-21
+448,Helena Pereira,Feminino,59,Luxação,Fisioterapia,1374.73,Dr. Pedro,Ortopedia,171,2024-08-01
+449,Maitê Costa,Feminino,26,Artrite,Fisioterapia,1744.39,Dra. Clara,Ortopedia,29,2024-09-13
+450,Antonella Oliveira,Feminino,28,Fratura,Cirurgia,6619.78,Dr. João,Ortopedia,3,2024-09-24
+451,Heitor Santos,Masculino,85,Hipertensão,Medicação,386.59,Dr. Roberto,Cardiologia,66,2024-11-06
+452,Gael Costa,Masculino,47,Artrite,Fisioterapia,1588.52,Dr. Pedro,Ortopedia,11,2024-09-06
+453,Théo Costa,Masculino,36,Fratura,Cirurgia,8519.97,Dr. João,Ortopedia,104,2024-12-24
+454,Helena Costa,Feminino,33,Hipertensão,Medicação,848.49,Dr. Roberto,Cardiologia,83,2024-11-07
+455,Gael Pereira,Masculino,70,Infarto,Medicação,386.63,Dr. Roberto,Cardiologia,117,2024-08-10
+456,Gael Silva,Masculino,34,Luxação,Fisioterapia,1586.73,Dra. Clara,Ortopedia,27,2024-08-25
+457,Liz Santos,Feminino,34,Infarto,Medicação,520.81,Dr. Carlos,Cardiologia,27,2024-11-12
+458,Théo Oliveira,Masculino,47,Infarto,Cirurgia,17047.04,Dr. Roberto,Cardiologia,56,2024-12-07
+459,Aurora Costa,Feminino,20,Fratura,Imobilização,319.86,Dr. Pedro,Ortopedia,162,2024-08-16
+460,Davi Santos,Masculino,82,Artrite,Medicação,278.66,Dr. Pedro,Ortopedia,136,2024-12-20
+461,Ravi Pereira,Masculino,15,Hipertensão,Mudança de estilo de vida,417.92,Dra. Ana,Cardiologia,98,2024-12-14
+462,Heloísa Oliveira,Feminino,29,Luxação,Fisioterapia,603.94,Dra. Clara,Ortopedia,28,2024-12-17
+463,Davi Oliveira,Masculino,80,Arritmia,Medicação,974.77,Dra. Ana,Cardiologia,111,2024-08-14
+464,Théo Costa,Masculino,40,Infarto,Repouso,90.46,Dra. Ana,Cardiologia,3,2024-08-05
+465,Gael Pereira,Masculino,83,Fratura,Imobilização,418.48,Dr. João,Ortopedia,7,2025-01-12
+466,Gael Costa,Masculino,29,Arritmia,Implante de marcapasso,23935.94,Dr. Carlos,Cardiologia,140,2024-10-31
+467,Liz Costa,Feminino,31,Infarto,Medicação,813.29,Dr. Roberto,Cardiologia,137,2024-11-11
+468,Théo Costa,Masculino,33,Infarto,Medicação,970.31,Dr. Carlos,Cardiologia,76,2024-10-04
+469,Théo Silva,Masculino,88,Artrite,Fisioterapia,1106.07,Dra. Clara,Ortopedia,173,2024-12-17
+470,Arthur Pereira,Masculino,62,Infarto,Repouso,52.62,Dra. Ana,Cardiologia,103,2024-10-18
+471,Cecília Santos,Feminino,48,Infarto,Repouso,89.59,Dra. Ana,Cardiologia,102,2024-09-06
+472,Samuel Silva,Masculino,19,Luxação,Reposição,1009.94,Dra. Clara,Ortopedia,91,2024-12-09
+473,Alice Oliveira,Feminino,48,Luxação,Reposição,2792.9,Dr. Pedro,Ortopedia,60,2024-10-14
+474,Gael Silva,Masculino,23,Fratura,Cirurgia,8380.39,Dr. João,Ortopedia,40,2024-08-25
+475,Maria Alice Costa,Feminino,76,Fratura,Cirurgia,15277.69,Dr. Pedro,Ortopedia,4,2024-08-22
+476,Samuel Santos,Masculino,18,Hipertensão,Mudança de estilo de vida,445.72,Dr. Roberto,Cardiologia,68,2024-11-30
+477,Helena Silva,Feminino,84,Hipertensão,Medicação,764.23,Dr. Roberto,Cardiologia,95,2024-12-01
+478,Liz Silva,Feminino,32,Luxação,Reposição,1242.64,Dr. Pedro,Ortopedia,25,2025-01-09
+479,Cecília Santos,Feminino,39,Hipertensão,Medicação,476.22,Dr. Carlos,Cardiologia,88,2024-10-13
+480,Heloísa Silva,Feminino,56,Artrite,Medicação,228.7,Dr. João,Ortopedia,8,2024-11-25
+481,Samuel Costa,Masculino,16,Luxação,Fisioterapia,1179.63,Dra. Clara,Ortopedia,105,2024-11-25
+482,Gael Costa,Masculino,76,Fratura,Cirurgia,7093.54,Dra. Clara,Ortopedia,54,2025-01-08
+483,Maitê Silva,Feminino,62,Arritmia,Implante de marcapasso,22525.92,Dr. Carlos,Cardiologia,70,2024-08-27
+484,Antonella Pereira,Feminino,52,Artrite,Medicação,750.29,Dra. Clara,Ortopedia,126,2024-09-04
+485,Miguel Santos,Masculino,23,Infarto,Cirurgia,18077.6,Dr. Roberto,Cardiologia,52,2024-08-13
+486,Noah Costa,Masculino,31,Fratura,Imobilização,454.6,Dr. João,Ortopedia,180,2024-10-10
+487,Miguel Pereira,Masculino,33,Luxação,Reposição,1586.5,Dr. João,Ortopedia,153,2025-01-26
+488,Noah Oliveira,Masculino,67,Fratura,Cirurgia,7051.51,Dr. João,Ortopedia,179,2024-10-19
+489,Antonella Pereira,Feminino,23,Hipertensão,Mudança de estilo de vida,426.86,Dra. Ana,Cardiologia,21,2024-12-05
+490,Bernardo Santos,Masculino,71,Arritmia,Implante de marcapasso,29230.75,Dr. Roberto,Cardiologia,82,2024-12-25
+491,Liz Costa,Feminino,18,Arritmia,Implante de marcapasso,19039.21,Dra. Ana,Cardiologia,61,2024-10-10
+492,Bernardo Costa,Masculino,25,Fratura,Imobilização,736.66,Dr. João,Ortopedia,144,2025-01-06
+493,Davi Silva,Masculino,86,Infarto,Medicação,253.76,Dr. Roberto,Cardiologia,53,2024-08-27
+494,Liz Oliveira,Feminino,22,Hipertensão,Mudança de estilo de vida,451.58,Dr. Roberto,Cardiologia,127,2024-11-30
+495,Bernardo Santos,Masculino,25,Fratura,Cirurgia,19477.73,Dr. João,Ortopedia,69,2024-12-11
+496,Noah Santos,Masculino,61,Artrite,Medicação,983.1,Dr. João,Ortopedia,94,2024-11-05
+497,Heitor Oliveira,Masculino,58,Luxação,Fisioterapia,1155.87,Dra. Clara,Ortopedia,91,2024-09-05
+498,Antonella Pereira,Feminino,29,Luxação,Reposição,2867.08,Dr. Pedro,Ortopedia,123,2024-11-19
+499,Arthur Santos,Masculino,15,Fratura,Cirurgia,14261.08,Dr. João,Ortopedia,128,2025-01-05
+500,Laura Pereira,Feminino,49,Luxação,Reposição,1369.47,Dra. Clara,Ortopedia,8,2024-11-10
+501,Liz Oliveira,Feminino,17,Fratura,Cirurgia,8173.95,Dr. João,Ortopedia,9,2024-12-23
+502,Alice Pereira,Feminino,84,Arritmia,Implante de marcapasso,15423.73,Dr. Carlos,Cardiologia,105,2025-01-10
+503,Ravi Silva,Masculino,47,Fratura,Cirurgia,5936.96,Dr. Pedro,Ortopedia,104,2024-11-27
+504,Alice Silva,Feminino,46,Arritmia,Medicação,733.54,Dr. Carlos,Cardiologia,154,2024-12-27
+505,Samuel Silva,Masculino,35,Arritmia,Implante de marcapasso,26254.77,Dr. Carlos,Cardiologia,135,2024-11-23
+506,Cecília Oliveira,Feminino,90,Infarto,Repouso,56.69,Dr. Carlos,Cardiologia,106,2025-01-20
+507,Maria Alice Oliveira,Feminino,15,Fratura,Imobilização,410.59,Dra. Clara,Ortopedia,94,2024-08-22
+508,Cecília Pereira,Feminino,85,Artrite,Medicação,876.91,Dra. Clara,Ortopedia,176,2024-12-22
+509,Heloísa Costa,Feminino,43,Infarto,Medicação,701.34,Dr. Roberto,Cardiologia,170,2024-12-30
+510,Ravi Costa,Masculino,63,Infarto,Medicação,979.78,Dra. Ana,Cardiologia,131,2025-01-23
+511,Liz Oliveira,Feminino,25,Arritmia,Implante de marcapasso,18590.28,Dr. Carlos,Cardiologia,129,2024-09-21
+512,Maria Alice Santos,Feminino,67,Fratura,Cirurgia,14463.86,Dra. Clara,Ortopedia,102,2024-10-15
+513,Bernardo Costa,Masculino,35,Luxação,Fisioterapia,1886.55,Dra. Clara,Ortopedia,70,2025-01-30
+514,Alice Santos,Feminino,90,Hipertensão,Mudança de estilo de vida,357.54,Dr. Carlos,Cardiologia,74,2024-11-04
+515,Heloísa Oliveira,Feminino,58,Luxação,Fisioterapia,834.24,Dra. Clara,Ortopedia,7,2024-12-28
+516,Aurora Oliveira,Feminino,37,Infarto,Cirurgia,14302.36,Dr. Carlos,Cardiologia,82,2025-01-06
+517,Théo Oliveira,Masculino,21,Arritmia,Implante de marcapasso,22601.51,Dr. Roberto,Cardiologia,34,2024-09-24
+518,Gael Silva,Masculino,60,Arritmia,Medicação,437.67,Dr. Roberto,Cardiologia,81,2024-12-08
+519,Liz Santos,Feminino,79,Arritmia,Implante de marcapasso,15640.36,Dr. Roberto,Cardiologia,9,2024-10-20
+520,Heloísa Silva,Feminino,56,Luxação,Fisioterapia,626.76,Dr. João,Ortopedia,171,2024-11-20
+521,Noah Silva,Masculino,53,Arritmia,Medicação,985.01,Dr. Carlos,Cardiologia,137,2025-01-09
+522,Laura Pereira,Feminino,69,Artrite,Fisioterapia,588.87,Dr. Pedro,Ortopedia,129,2024-09-05
+523,Heloísa Oliveira,Feminino,80,Fratura,Cirurgia,8217.43,Dra. Clara,Ortopedia,39,2024-12-10
+524,Helena Pereira,Feminino,16,Arritmia,Implante de marcapasso,22848.16,Dr. Carlos,Cardiologia,10,2024-12-19
+525,Ravi Oliveira,Masculino,54,Luxação,Fisioterapia,496.95,Dr. Pedro,Ortopedia,103,2024-09-30
+526,Maria Alice Oliveira,Feminino,15,Infarto,Repouso,146.62,Dr. Roberto,Cardiologia,177,2024-10-01
+527,Maria Alice Costa,Feminino,66,Arritmia,Implante de marcapasso,26900.94,Dra. Ana,Cardiologia,96,2024-10-17
+528,Gael Santos,Masculino,23,Luxação,Fisioterapia,1451.89,Dr. Pedro,Ortopedia,95,2024-10-19
+529,Maria Alice Santos,Feminino,84,Arritmia,Medicação,771.6,Dr. Roberto,Cardiologia,78,2025-01-23
+530,Ravi Costa,Masculino,68,Arritmia,Implante de marcapasso,26883.18,Dr. Roberto,Cardiologia,106,2024-11-21
+531,Heitor Costa,Masculino,52,Fratura,Imobilização,557.43,Dra. Clara,Ortopedia,29,2024-08-20
+532,Miguel Santos,Masculino,35,Arritmia,Medicação,671.47,Dr. Roberto,Cardiologia,77,2024-11-14
+533,Arthur Silva,Masculino,45,Artrite,Fisioterapia,1607.21,Dr. João,Ortopedia,97,2024-10-07
+534,Théo Pereira,Masculino,63,Fratura,Cirurgia,18047.58,Dra. Clara,Ortopedia,162,2024-09-13
+535,Samuel Costa,Masculino,48,Fratura,Cirurgia,14516.39,Dr. João,Ortopedia,111,2024-08-27
+536,Miguel Santos,Masculino,48,Infarto,Cirurgia,13258.04,Dr. Roberto,Cardiologia,60,2024-11-09
+537,Maitê Santos,Feminino,89,Infarto,Medicação,700.24,Dr. Carlos,Cardiologia,38,2024-09-11
+538,Helena Pereira,Feminino,25,Fratura,Imobilização,397.48,Dr. João,Ortopedia,138,2024-08-19
+539,Laura Oliveira,Feminino,42,Hipertensão,Mudança de estilo de vida,152.08,Dr. Carlos,Cardiologia,101,2024-09-18
+540,Miguel Costa,Masculino,85,Infarto,Medicação,742.86,Dr. Carlos,Cardiologia,109,2024-08-11
+541,Maria Alice Costa,Feminino,21,Infarto,Cirurgia,8395.9,Dr. Roberto,Cardiologia,5,2025-01-25
+542,Antonella Oliveira,Feminino,49,Infarto,Repouso,169.81,Dra. Ana,Cardiologia,102,2024-12-04
+543,Aurora Oliveira,Feminino,28,Arritmia,Medicação,447.32,Dr. Roberto,Cardiologia,144,2024-09-25
+544,Helena Santos,Feminino,78,Artrite,Medicação,691.28,Dra. Clara,Ortopedia,18,2024-10-22
+545,Antonella Pereira,Feminino,81,Artrite,Fisioterapia,1555.13,Dra. Clara,Ortopedia,101,2025-01-22
+546,Davi Costa,Masculino,89,Artrite,Medicação,689.98,Dr. João,Ortopedia,175,2024-08-04
+547,Heloísa Pereira,Feminino,56,Luxação,Reposição,2165.5,Dra. Clara,Ortopedia,57,2024-11-04
+548,Davi Oliveira,Masculino,77,Luxação,Fisioterapia,436.71,Dr. João,Ortopedia,166,2024-08-10
+549,Noah Costa,Masculino,62,Hipertensão,Medicação,697.2,Dr. Roberto,Cardiologia,36,2024-10-24
+550,Helena Silva,Feminino,15,Infarto,Medicação,392.21,Dr. Carlos,Cardiologia,134,2024-08-15
+551,Cecília Silva,Feminino,77,Infarto,Medicação,965.14,Dr. Carlos,Cardiologia,94,2024-09-22
+552,Aurora Oliveira,Feminino,55,Hipertensão,Medicação,347.96,Dr. Carlos,Cardiologia,6,2024-09-03
+553,Cecília Santos,Feminino,42,Fratura,Imobilização,588.51,Dr. João,Ortopedia,91,2025-01-22
+554,Heitor Costa,Masculino,87,Artrite,Medicação,925.15,Dr. João,Ortopedia,71,2025-01-30
+555,Arthur Pereira,Masculino,70,Artrite,Fisioterapia,776.31,Dr. João,Ortopedia,25,2024-11-12
+556,Aurora Costa,Feminino,50,Hipertensão,Mudança de estilo de vida,104.3,Dra. Ana,Cardiologia,61,2024-11-03
+557,Samuel Pereira,Masculino,60,Hipertensão,Medicação,804.15,Dr. Carlos,Cardiologia,105,2024-09-10
+558,Arthur Silva,Masculino,83,Arritmia,Medicação,539.95,Dr. Roberto,Cardiologia,162,2024-10-20
+559,Cecília Pereira,Feminino,31,Fratura,Imobilização,460.49,Dr. João,Ortopedia,51,2024-11-06
+560,Arthur Silva,Masculino,39,Luxação,Reposição,1148.56,Dr. Pedro,Ortopedia,151,2025-01-25
+561,Noah Santos,Masculino,60,Arritmia,Implante de marcapasso,24295.43,Dr. Roberto,Cardiologia,102,2024-08-30
+562,Cecília Santos,Feminino,78,Hipertensão,Mudança de estilo de vida,152.78,Dra. Ana,Cardiologia,90,2024-10-29
+563,Antonella Costa,Feminino,16,Artrite,Fisioterapia,1613.83,Dr. João,Ortopedia,67,2024-08-25
+564,Aurora Silva,Feminino,37,Hipertensão,Mudança de estilo de vida,297.52,Dr. Roberto,Cardiologia,97,2024-12-21
+565,Gael Silva,Masculino,38,Arritmia,Medicação,585.61,Dra. Ana,Cardiologia,69,2024-08-20
+566,Heloísa Santos,Feminino,79,Luxação,Reposição,1296.62,Dr. João,Ortopedia,165,2024-09-30
+567,Cecília Silva,Feminino,32,Fratura,Cirurgia,9883.68,Dra. Clara,Ortopedia,178,2024-10-18
+568,Samuel Pereira,Masculino,21,Luxação,Reposição,1490.11,Dr. Pedro,Ortopedia,143,2024-11-05
+569,Bernardo Santos,Masculino,31,Fratura,Cirurgia,6004.16,Dr. Pedro,Ortopedia,52,2025-01-17
+570,Bernardo Costa,Masculino,77,Luxação,Fisioterapia,1472.87,Dr. Pedro,Ortopedia,59,2024-10-11
+571,Liz Santos,Feminino,24,Arritmia,Medicação,945.29,Dra. Ana,Cardiologia,105,2024-08-15
+572,Davi Santos,Masculino,84,Hipertensão,Medicação,661.16,Dr. Roberto,Cardiologia,7,2025-01-17
+573,Samuel Costa,Masculino,32,Luxação,Fisioterapia,655.49,Dra. Clara,Ortopedia,177,2024-09-16
+574,Aurora Pereira,Feminino,36,Artrite,Medicação,893.83,Dra. Clara,Ortopedia,41,2024-11-19
+575,Ravi Pereira,Masculino,21,Luxação,Reposição,1248.46,Dr. João,Ortopedia,167,2024-11-11
+576,Heitor Pereira,Masculino,86,Artrite,Medicação,422.39,Dr. Pedro,Ortopedia,130,2025-01-21
+577,Heitor Costa,Masculino,80,Fratura,Cirurgia,15049.21,Dra. Clara,Ortopedia,11,2024-12-06
+578,Antonella Silva,Feminino,32,Infarto,Medicação,774.03,Dr. Carlos,Cardiologia,115,2024-10-31
+579,Davi Costa,Masculino,33,Arritmia,Medicação,453.74,Dr. Roberto,Cardiologia,130,2024-08-20
+580,Maria Alice Costa,Feminino,42,Luxação,Fisioterapia,1190.1,Dra. Clara,Ortopedia,42,2024-10-28
+581,Miguel Costa,Masculino,79,Arritmia,Implante de marcapasso,15979.47,Dra. Ana,Cardiologia,160,2025-01-23
+582,Cecília Pereira,Feminino,59,Luxação,Fisioterapia,1493.41,Dra. Clara,Ortopedia,60,2024-08-30
+583,Théo Pereira,Masculino,16,Fratura,Imobilização,286.9,Dra. Clara,Ortopedia,151,2024-11-05
+584,Davi Oliveira,Masculino,19,Artrite,Medicação,709.62,Dra. Clara,Ortopedia,164,2024-09-16
+585,Antonella Silva,Feminino,67,Arritmia,Implante de marcapasso,24951.89,Dr. Roberto,Cardiologia,162,2024-11-11
+586,Théo Costa,Masculino,27,Arritmia,Medicação,547.59,Dr. Roberto,Cardiologia,155,2024-12-04
+587,Bernardo Santos,Masculino,57,Arritmia,Medicação,954.62,Dra. Ana,Cardiologia,27,2024-11-20
+588,Antonella Costa,Feminino,71,Luxação,Reposição,2277.43,Dr. Pedro,Ortopedia,9,2024-09-26
+589,Laura Oliveira,Feminino,50,Luxação,Reposição,1824.3,Dr. Pedro,Ortopedia,176,2024-12-18
+590,Bernardo Oliveira,Masculino,66,Fratura,Cirurgia,7238.77,Dra. Clara,Ortopedia,128,2024-10-07
+591,Antonella Silva,Feminino,73,Artrite,Fisioterapia,1389.71,Dr. Pedro,Ortopedia,133,2024-09-01
+592,Samuel Costa,Masculino,54,Arritmia,Implante de marcapasso,23568.05,Dr. Roberto,Cardiologia,97,2024-08-13
+593,Alice Oliveira,Feminino,58,Fratura,Imobilização,374.92,Dr. João,Ortopedia,31,2024-08-12
+594,Aurora Pereira,Feminino,24,Artrite,Medicação,588.82,Dra. Clara,Ortopedia,150,2024-10-21
+595,Ravi Costa,Masculino,46,Luxação,Reposição,1095.23,Dr. Pedro,Ortopedia,81,2024-08-24
+596,Maria Alice Costa,Feminino,68,Infarto,Cirurgia,14955.4,Dr. Carlos,Cardiologia,22,2024-09-04
+597,Miguel Silva,Masculino,16,Fratura,Imobilização,581.58,Dra. Clara,Ortopedia,52,2025-01-24
+598,Cecília Silva,Feminino,33,Infarto,Medicação,441.11,Dr. Carlos,Cardiologia,172,2024-11-26
+599,Davi Silva,Masculino,61,Luxação,Reposição,1289.22,Dr. Pedro,Ortopedia,142,2025-01-24
+600,Davi Pereira,Masculino,73,Hipertensão,Medicação,351.64,Dra. Ana,Cardiologia,85,2024-10-24
+601,Samuel Costa,Masculino,24,Arritmia,Implante de marcapasso,20269.07,Dr. Roberto,Cardiologia,137,2024-11-19
+602,Laura Silva,Feminino,35,Hipertensão,Mudança de estilo de vida,158.56,Dra. Ana,Cardiologia,66,2024-08-05
+603,Helena Oliveira,Feminino,51,Fratura,Cirurgia,18706.2,Dr. João,Ortopedia,2,2024-09-15
+604,Helena Silva,Feminino,68,Hipertensão,Medicação,302.74,Dr. Carlos,Cardiologia,137,2024-10-10
+605,Heitor Santos,Masculino,79,Luxação,Fisioterapia,1030.61,Dr. João,Ortopedia,96,2024-09-12
+606,Gael Costa,Masculino,32,Arritmia,Medicação,314.28,Dra. Ana,Cardiologia,180,2024-08-04
+607,Cecília Santos,Feminino,59,Fratura,Cirurgia,17198.96,Dr. João,Ortopedia,159,2024-12-12
+608,Bernardo Silva,Masculino,73,Infarto,Medicação,459.78,Dr. Carlos,Cardiologia,62,2024-10-04
+609,Helena Oliveira,Feminino,81,Infarto,Medicação,479.5,Dr. Roberto,Cardiologia,23,2025-01-05
+610,Cecília Pereira,Feminino,51,Arritmia,Implante de marcapasso,26933.3,Dr. Roberto,Cardiologia,139,2024-11-27
+611,Davi Oliveira,Masculino,56,Infarto,Medicação,307.82,Dra. Ana,Cardiologia,26,2024-08-27
+612,Cecília Oliveira,Feminino,80,Fratura,Cirurgia,7357.84,Dr. Pedro,Ortopedia,151,2024-10-04
+613,Gael Silva,Masculino,41,Hipertensão,Mudança de estilo de vida,238.32,Dra. Ana,Cardiologia,151,2024-10-22
+614,Antonella Santos,Feminino,33,Luxação,Reposição,2119.11,Dra. Clara,Ortopedia,165,2024-12-08
+615,Helena Costa,Feminino,58,Fratura,Imobilização,277.1,Dr. João,Ortopedia,84,2024-12-23
+616,Théo Pereira,Masculino,61,Luxação,Fisioterapia,573.38,Dra. Clara,Ortopedia,139,2024-09-04
+617,Heloísa Oliveira,Feminino,59,Luxação,Reposição,2179.12,Dr. Pedro,Ortopedia,19,2024-10-28
+618,Heitor Oliveira,Masculino,52,Luxação,Reposição,1051.09,Dra. Clara,Ortopedia,47,2024-08-19
+619,Aurora Silva,Feminino,81,Luxação,Reposição,2343.36,Dra. Clara,Ortopedia,84,2024-12-26
+620,Liz Pereira,Feminino,36,Luxação,Fisioterapia,579.52,Dr. João,Ortopedia,125,2024-11-22
+621,Liz Pereira,Feminino,46,Arritmia,Implante de marcapasso,26083.44,Dra. Ana,Cardiologia,15,2024-12-12
+622,Miguel Costa,Masculino,74,Arritmia,Medicação,348.79,Dr. Roberto,Cardiologia,29,2024-09-13
+623,Laura Oliveira,Feminino,43,Artrite,Medicação,589.74,Dr. Pedro,Ortopedia,18,2024-10-28
+624,Antonella Oliveira,Feminino,52,Infarto,Cirurgia,18769.09,Dra. Ana,Cardiologia,151,2024-10-20
+625,Heitor Pereira,Masculino,56,Fratura,Imobilização,305.47,Dra. Clara,Ortopedia,1,2025-01-20
+626,Arthur Santos,Masculino,74,Arritmia,Implante de marcapasso,16723.81,Dra. Ana,Cardiologia,3,2024-12-15
+627,Antonella Pereira,Feminino,47,Hipertensão,Medicação,266.78,Dra. Ana,Cardiologia,1,2024-10-31
+628,Alice Santos,Feminino,46,Artrite,Fisioterapia,1797.84,Dr. João,Ortopedia,120,2024-09-28
+629,Samuel Pereira,Masculino,18,Infarto,Cirurgia,7497.13,Dr. Carlos,Cardiologia,74,2024-08-10
+630,Arthur Oliveira,Masculino,62,Fratura,Cirurgia,12341.56,Dr. João,Ortopedia,134,2024-09-20
+631,Samuel Pereira,Masculino,50,Fratura,Imobilização,760.24,Dr. João,Ortopedia,160,2025-01-26
+632,Noah Silva,Masculino,67,Infarto,Cirurgia,16761.64,Dr. Carlos,Cardiologia,46,2024-12-25
+633,Antonella Silva,Feminino,34,Fratura,Cirurgia,11061.58,Dr. Pedro,Ortopedia,6,2025-01-29
+634,Ravi Oliveira,Masculino,43,Infarto,Repouso,170.79,Dra. Ana,Cardiologia,28,2024-10-16
+635,Aurora Santos,Feminino,20,Arritmia,Implante de marcapasso,23289.77,Dr. Roberto,Cardiologia,80,2025-01-30
+636,Samuel Pereira,Masculino,90,Luxação,Fisioterapia,1134.07,Dr. Pedro,Ortopedia,111,2024-10-20
+637,Heloísa Silva,Feminino,60,Arritmia,Implante de marcapasso,18801.1,Dra. Ana,Cardiologia,18,2025-01-22
+638,Maria Alice Oliveira,Feminino,59,Infarto,Cirurgia,7542.37,Dr. Carlos,Cardiologia,159,2025-01-29
+639,Davi Pereira,Masculino,71,Luxação,Fisioterapia,357.22,Dr. João,Ortopedia,121,2024-08-09
+640,Bernardo Silva,Masculino,87,Arritmia,Implante de marcapasso,21192.93,Dra. Ana,Cardiologia,38,2024-11-29
+641,Liz Silva,Feminino,77,Hipertensão,Medicação,668.28,Dr. Roberto,Cardiologia,124,2024-08-08
+642,Laura Pereira,Feminino,56,Artrite,Fisioterapia,1223.24,Dr. Pedro,Ortopedia,16,2024-11-09
+643,Miguel Santos,Masculino,72,Infarto,Repouso,161.7,Dr. Roberto,Cardiologia,163,2024-10-26
+644,Cecília Santos,Feminino,80,Fratura,Cirurgia,12717.0,Dr. Pedro,Ortopedia,167,2024-09-30
+645,Miguel Santos,Masculino,31,Hipertensão,Mudança de estilo de vida,403.11,Dra. Ana,Cardiologia,56,2024-08-03
+646,Bernardo Costa,Masculino,90,Infarto,Medicação,321.6,Dr. Roberto,Cardiologia,110,2024-08-21
+647,Gael Costa,Masculino,32,Infarto,Medicação,407.12,Dr. Carlos,Cardiologia,45,2024-12-23
+648,Bernardo Costa,Masculino,32,Luxação,Reposição,2229.56,Dr. João,Ortopedia,13,2024-12-25
+649,Ravi Oliveira,Masculino,23,Luxação,Reposição,2288.12,Dra. Clara,Ortopedia,113,2024-12-23
+650,Cecília Oliveira,Feminino,80,Artrite,Medicação,250.86,Dra. Clara,Ortopedia,6,2025-01-26
+651,Samuel Costa,Masculino,70,Artrite,Fisioterapia,811.89,Dr. João,Ortopedia,101,2024-08-01
+652,Antonella Costa,Feminino,50,Fratura,Imobilização,451.12,Dra. Clara,Ortopedia,65,2024-10-06
+653,Maria Alice Silva,Feminino,80,Infarto,Repouso,115.15,Dra. Ana,Cardiologia,135,2024-08-02
+654,Alice Pereira,Feminino,50,Infarto,Repouso,94.5,Dra. Ana,Cardiologia,117,2024-10-27
+655,Samuel Santos,Masculino,79,Fratura,Imobilização,596.55,Dr. Pedro,Ortopedia,77,2025-01-25
+656,Maitê Pereira,Feminino,74,Luxação,Reposição,1534.14,Dr. Pedro,Ortopedia,150,2024-09-06
+657,Samuel Costa,Masculino,56,Arritmia,Medicação,394.08,Dr. Carlos,Cardiologia,145,2024-11-01
+658,Heloísa Silva,Feminino,86,Arritmia,Implante de marcapasso,17325.94,Dra. Ana,Cardiologia,115,2024-10-07
+659,Ravi Silva,Masculino,56,Arritmia,Implante de marcapasso,27757.86,Dr. Roberto,Cardiologia,117,2024-12-24
+660,Cecília Oliveira,Feminino,80,Luxação,Fisioterapia,595.54,Dr. João,Ortopedia,118,2024-10-21
+661,Antonella Santos,Feminino,25,Arritmia,Implante de marcapasso,29022.45,Dr. Carlos,Cardiologia,124,2024-08-30
+662,Liz Silva,Feminino,75,Infarto,Medicação,620.8,Dra. Ana,Cardiologia,29,2025-01-02
+663,Maria Alice Silva,Feminino,18,Luxação,Reposição,2586.95,Dr. João,Ortopedia,162,2024-12-18
+664,Gael Pereira,Masculino,83,Infarto,Cirurgia,11030.81,Dra. Ana,Cardiologia,167,2024-09-05
+665,Arthur Oliveira,Masculino,15,Hipertensão,Medicação,696.91,Dr. Roberto,Cardiologia,96,2024-09-08
+666,Aurora Pereira,Feminino,81,Fratura,Imobilização,682.33,Dr. Pedro,Ortopedia,76,2025-01-09
+667,Bernardo Santos,Masculino,16,Fratura,Imobilização,355.39,Dr. João,Ortopedia,155,2024-11-12
+668,Bernardo Oliveira,Masculino,73,Infarto,Repouso,61.49,Dra. Ana,Cardiologia,45,2024-09-20
+669,Davi Oliveira,Masculino,60,Hipertensão,Mudança de estilo de vida,394.62,Dr. Carlos,Cardiologia,7,2024-11-02
+670,Antonella Costa,Feminino,76,Artrite,Fisioterapia,1828.4,Dra. Clara,Ortopedia,12,2024-11-07
+671,Gael Pereira,Masculino,44,Artrite,Fisioterapia,743.62,Dr. Pedro,Ortopedia,148,2025-01-25
+672,Samuel Silva,Masculino,36,Artrite,Fisioterapia,578.73,Dr. Pedro,Ortopedia,116,2024-12-28
+673,Heloísa Costa,Feminino,46,Luxação,Fisioterapia,1720.66,Dr. Pedro,Ortopedia,86,2025-01-07
+674,Gael Pereira,Masculino,42,Fratura,Cirurgia,12696.84,Dra. Clara,Ortopedia,28,2024-08-18
+675,Noah Silva,Masculino,47,Infarto,Repouso,125.24,Dra. Ana,Cardiologia,25,2024-10-27
+676,Ravi Santos,Masculino,86,Luxação,Fisioterapia,1510.52,Dr. Pedro,Ortopedia,26,2024-08-10
+677,Helena Santos,Feminino,76,Hipertensão,Mudança de estilo de vida,222.75,Dra. Ana,Cardiologia,62,2024-11-06
+678,Laura Oliveira,Feminino,50,Artrite,Medicação,780.1,Dr. João,Ortopedia,2,2024-08-10
+679,Antonella Pereira,Feminino,19,Infarto,Medicação,861.3,Dr. Carlos,Cardiologia,134,2024-12-08
+680,Maria Alice Oliveira,Feminino,43,Hipertensão,Mudança de estilo de vida,111.71,Dr. Carlos,Cardiologia,1,2024-10-13
+681,Liz Costa,Feminino,59,Artrite,Fisioterapia,1043.37,Dr. Pedro,Ortopedia,76,2024-08-13
+682,Arthur Silva,Masculino,72,Fratura,Imobilização,211.2,Dra. Clara,Ortopedia,128,2024-08-18
+683,Cecília Costa,Feminino,76,Hipertensão,Medicação,609.51,Dra. Ana,Cardiologia,102,2024-12-20
+684,Maitê Pereira,Feminino,88,Infarto,Cirurgia,10744.7,Dra. Ana,Cardiologia,168,2024-12-01
+685,Aurora Oliveira,Feminino,49,Arritmia,Medicação,877.25,Dra. Ana,Cardiologia,10,2024-12-28
+686,Maitê Silva,Feminino,28,Infarto,Cirurgia,11501.83,Dra. Ana,Cardiologia,78,2024-09-15
+687,Alice Costa,Feminino,45,Fratura,Imobilização,738.54,Dra. Clara,Ortopedia,105,2024-08-16
+688,Aurora Santos,Feminino,77,Fratura,Cirurgia,13264.39,Dr. João,Ortopedia,26,2024-10-27
+689,Ravi Pereira,Masculino,33,Luxação,Fisioterapia,1832.58,Dra. Clara,Ortopedia,40,2024-08-15
+690,Heloísa Costa,Feminino,45,Luxação,Fisioterapia,543.14,Dr. João,Ortopedia,130,2024-08-03
+691,Heitor Costa,Masculino,65,Arritmia,Medicação,940.54,Dr. Carlos,Cardiologia,174,2024-10-25
+692,Arthur Silva,Masculino,80,Arritmia,Medicação,673.57,Dr. Carlos,Cardiologia,128,2024-10-06
+693,Ravi Santos,Masculino,83,Arritmia,Implante de marcapasso,19940.92,Dr. Roberto,Cardiologia,56,2024-12-09
+694,Alice Costa,Feminino,74,Arritmia,Medicação,713.99,Dra. Ana,Cardiologia,100,2024-10-28
+695,Gael Silva,Masculino,58,Arritmia,Implante de marcapasso,27224.36,Dr. Roberto,Cardiologia,143,2024-11-19
+696,Ravi Oliveira,Masculino,39,Hipertensão,Medicação,727.74,Dra. Ana,Cardiologia,159,2024-10-31
+697,Cecília Santos,Feminino,59,Hipertensão,Mudança de estilo de vida,180.45,Dra. Ana,Cardiologia,23,2024-09-21
+698,Miguel Costa,Masculino,16,Luxação,Fisioterapia,907.81,Dra. Clara,Ortopedia,1,2024-10-28
+699,Aurora Costa,Feminino,57,Infarto,Repouso,86.19,Dra. Ana,Cardiologia,158,2024-09-14
+700,Davi Santos,Masculino,70,Arritmia,Implante de marcapasso,26119.54,Dra. Ana,Cardiologia,83,2024-12-03
+701,Antonella Oliveira,Feminino,27,Infarto,Repouso,173.53,Dra. Ana,Cardiologia,173,2024-11-01
+702,Laura Costa,Feminino,63,Luxação,Reposição,1461.51,Dr. João,Ortopedia,72,2025-01-08
+703,Laura Pereira,Feminino,87,Arritmia,Medicação,736.15,Dra. Ana,Cardiologia,167,2025-01-14
+704,Heitor Santos,Masculino,45,Infarto,Medicação,278.25,Dr. Carlos,Cardiologia,70,2024-09-13
+705,Laura Silva,Feminino,73,Arritmia,Medicação,609.31,Dra. Ana,Cardiologia,11,2024-11-09
+706,Aurora Santos,Feminino,55,Hipertensão,Mudança de estilo de vida,320.6,Dra. Ana,Cardiologia,102,2024-10-03
+707,Heloísa Pereira,Feminino,86,Hipertensão,Medicação,611.72,Dr. Carlos,Cardiologia,15,2025-01-01
+708,Samuel Oliveira,Masculino,63,Infarto,Cirurgia,11198.24,Dra. Ana,Cardiologia,155,2025-01-06
+709,Liz Costa,Feminino,90,Luxação,Reposição,1462.97,Dra. Clara,Ortopedia,132,2024-10-02
+710,Maria Alice Silva,Feminino,85,Arritmia,Implante de marcapasso,16485.03,Dr. Roberto,Cardiologia,47,2025-01-30
+711,Antonella Oliveira,Feminino,44,Arritmia,Medicação,633.29,Dr. Roberto,Cardiologia,112,2024-09-06
+712,Miguel Santos,Masculino,36,Infarto,Cirurgia,9027.44,Dr. Carlos,Cardiologia,121,2024-08-09
+713,Antonella Costa,Feminino,66,Arritmia,Medicação,243.65,Dra. Ana,Cardiologia,51,2025-01-07
+714,Helena Pereira,Feminino,65,Infarto,Cirurgia,7240.03,Dr. Roberto,Cardiologia,55,2024-10-13
+715,Aurora Silva,Feminino,61,Artrite,Fisioterapia,1936.4,Dr. Pedro,Ortopedia,82,2025-01-26
+716,Maria Alice Santos,Feminino,30,Hipertensão,Mudança de estilo de vida,422.11,Dra. Ana,Cardiologia,118,2024-08-07
+717,Théo Costa,Masculino,60,Infarto,Repouso,106.53,Dr. Carlos,Cardiologia,75,2024-09-06
+718,Ravi Costa,Masculino,23,Infarto,Cirurgia,5504.75,Dra. Ana,Cardiologia,41,2024-12-09
+719,Laura Silva,Feminino,81,Hipertensão,Medicação,306.1,Dr. Carlos,Cardiologia,75,2024-08-16
+720,Bernardo Silva,Masculino,45,Artrite,Fisioterapia,819.02,Dra. Clara,Ortopedia,93,2024-09-22
+721,Miguel Oliveira,Masculino,47,Arritmia,Implante de marcapasso,16245.87,Dra. Ana,Cardiologia,101,2024-08-02
+722,Noah Costa,Masculino,40,Luxação,Reposição,1311.39,Dr. Pedro,Ortopedia,93,2024-10-29
+723,Davi Silva,Masculino,25,Hipertensão,Mudança de estilo de vida,499.8,Dr. Carlos,Cardiologia,121,2024-08-31
+724,Davi Oliveira,Masculino,83,Fratura,Imobilização,734.56,Dr. Pedro,Ortopedia,167,2025-01-13
+725,Noah Pereira,Masculino,81,Arritmia,Medicação,310.31,Dr. Carlos,Cardiologia,33,2025-01-16
+726,Aurora Oliveira,Feminino,43,Artrite,Fisioterapia,1476.26,Dr. Pedro,Ortopedia,140,2024-10-03
+727,Théo Oliveira,Masculino,61,Infarto,Medicação,994.14,Dra. Ana,Cardiologia,27,2024-09-23
+728,Davi Silva,Masculino,17,Fratura,Imobilização,663.33,Dra. Clara,Ortopedia,80,2024-12-17
+729,Maria Alice Costa,Feminino,53,Hipertensão,Medicação,790.18,Dr. Carlos,Cardiologia,109,2024-12-03
+730,Maitê Santos,Feminino,41,Infarto,Repouso,166.06,Dr. Carlos,Cardiologia,132,2024-09-02
+731,Samuel Costa,Masculino,84,Hipertensão,Mudança de estilo de vida,480.95,Dr. Roberto,Cardiologia,96,2025-01-27
+732,Heitor Costa,Masculino,87,Infarto,Repouso,175.33,Dra. Ana,Cardiologia,145,2024-12-25
+733,Maria Alice Pereira,Feminino,48,Arritmia,Medicação,413.76,Dr. Carlos,Cardiologia,104,2024-10-21
+734,Maria Alice Silva,Feminino,61,Fratura,Imobilização,200.25,Dr. João,Ortopedia,20,2024-09-21
+735,Laura Pereira,Feminino,63,Hipertensão,Mudança de estilo de vida,138.07,Dr. Roberto,Cardiologia,102,2024-11-27
+736,Cecília Santos,Feminino,34,Infarto,Repouso,65.04,Dra. Ana,Cardiologia,48,2024-10-05
+737,Aurora Santos,Feminino,32,Luxação,Fisioterapia,454.44,Dr. João,Ortopedia,175,2024-10-06
+738,Maitê Silva,Feminino,21,Artrite,Fisioterapia,376.7,Dra. Clara,Ortopedia,149,2025-01-25
+739,Aurora Santos,Feminino,45,Luxação,Fisioterapia,1834.13,Dra. Clara,Ortopedia,23,2024-08-17
+740,Maria Alice Oliveira,Feminino,61,Infarto,Cirurgia,5853.59,Dra. Ana,Cardiologia,39,2024-08-08
+741,Liz Silva,Feminino,24,Artrite,Medicação,501.37,Dra. Clara,Ortopedia,100,2024-11-27
+742,Liz Santos,Feminino,23,Arritmia,Implante de marcapasso,17595.31,Dr. Roberto,Cardiologia,79,2024-11-17
+743,Davi Oliveira,Masculino,64,Arritmia,Implante de marcapasso,18349.05,Dra. Ana,Cardiologia,70,2025-01-04
+744,Maitê Pereira,Feminino,27,Luxação,Fisioterapia,1957.15,Dr. Pedro,Ortopedia,138,2024-08-27
+745,Noah Oliveira,Masculino,18,Fratura,Imobilização,437.39,Dra. Clara,Ortopedia,162,2024-09-08
+746,Noah Silva,Masculino,62,Luxação,Fisioterapia,1137.63,Dr. João,Ortopedia,27,2024-08-04
+747,Bernardo Santos,Masculino,22,Artrite,Medicação,578.4,Dra. Clara,Ortopedia,56,2024-09-09
+748,Cecília Pereira,Feminino,17,Infarto,Cirurgia,16331.13,Dr. Carlos,Cardiologia,157,2024-10-12
+749,Bernardo Pereira,Masculino,52,Hipertensão,Medicação,615.23,Dr. Carlos,Cardiologia,178,2025-01-05
+750,Bernardo Silva,Masculino,44,Artrite,Fisioterapia,1735.62,Dr. Pedro,Ortopedia,29,2024-12-13
+751,Cecília Oliveira,Feminino,51,Fratura,Imobilização,208.48,Dra. Clara,Ortopedia,179,2025-01-18
+752,Davi Pereira,Masculino,59,Infarto,Medicação,961.62,Dra. Ana,Cardiologia,141,2025-01-11
+753,Gael Pereira,Masculino,49,Fratura,Imobilização,398.92,Dr. Pedro,Ortopedia,75,2024-11-03
+754,Ravi Pereira,Masculino,31,Luxação,Reposição,2601.63,Dr. João,Ortopedia,19,2024-10-10
+755,Davi Costa,Masculino,32,Hipertensão,Medicação,233.0,Dra. Ana,Cardiologia,12,2024-12-23
+756,Heitor Silva,Masculino,54,Luxação,Reposição,2919.46,Dra. Clara,Ortopedia,101,2024-12-09
+757,Antonella Oliveira,Feminino,57,Luxação,Fisioterapia,925.43,Dra. Clara,Ortopedia,64,2025-01-27
+758,Arthur Silva,Masculino,64,Infarto,Medicação,418.92,Dra. Ana,Cardiologia,72,2025-01-13
+759,Laura Oliveira,Feminino,86,Hipertensão,Mudança de estilo de vida,246.57,Dr. Roberto,Cardiologia,25,2024-10-21
+760,Heitor Oliveira,Masculino,69,Fratura,Imobilização,689.71,Dr. Pedro,Ortopedia,35,2024-08-10
+761,Bernardo Oliveira,Masculino,41,Artrite,Medicação,780.84,Dra. Clara,Ortopedia,17,2024-09-13
+762,Alice Silva,Feminino,73,Luxação,Reposição,1450.6,Dr. Pedro,Ortopedia,94,2024-09-13
+763,Théo Santos,Masculino,61,Hipertensão,Mudança de estilo de vida,175.69,Dr. Roberto,Cardiologia,137,2024-08-20
+764,Liz Silva,Feminino,27,Artrite,Medicação,884.84,Dra. Clara,Ortopedia,13,2024-12-12
+765,Noah Silva,Masculino,16,Fratura,Cirurgia,10538.47,Dr. Pedro,Ortopedia,40,2024-11-03
+766,Noah Silva,Masculino,20,Infarto,Cirurgia,19557.61,Dr. Roberto,Cardiologia,136,2024-10-06
+767,Alice Pereira,Feminino,25,Infarto,Repouso,127.43,Dr. Roberto,Cardiologia,100,2024-08-20
+768,Noah Pereira,Masculino,85,Artrite,Medicação,219.47,Dr. Pedro,Ortopedia,71,2024-12-14
+769,Heloísa Santos,Feminino,85,Luxação,Fisioterapia,1107.74,Dr. João,Ortopedia,81,2024-11-06
+770,Noah Silva,Masculino,40,Fratura,Imobilização,758.58,Dr. João,Ortopedia,131,2024-10-13
+771,Maria Alice Costa,Feminino,32,Fratura,Imobilização,392.46,Dr. Pedro,Ortopedia,177,2024-08-16
+772,Miguel Santos,Masculino,57,Hipertensão,Medicação,819.75,Dr. Carlos,Cardiologia,121,2024-08-07
+773,Ravi Oliveira,Masculino,45,Luxação,Fisioterapia,1921.44,Dra. Clara,Ortopedia,170,2024-08-09
+774,Ravi Oliveira,Masculino,33,Luxação,Fisioterapia,1006.74,Dra. Clara,Ortopedia,22,2024-10-20
+775,Davi Pereira,Masculino,58,Arritmia,Medicação,936.6,Dr. Roberto,Cardiologia,99,2024-12-03
+776,Heloísa Santos,Feminino,73,Luxação,Fisioterapia,1179.79,Dra. Clara,Ortopedia,78,2024-12-04
+777,Gael Oliveira,Masculino,44,Infarto,Cirurgia,7891.44,Dr. Carlos,Cardiologia,67,2025-01-30
+778,Heloísa Costa,Feminino,58,Arritmia,Medicação,541.32,Dr. Roberto,Cardiologia,127,2024-10-08
+779,Alice Santos,Feminino,76,Arritmia,Medicação,335.1,Dra. Ana,Cardiologia,63,2024-08-03
+780,Cecília Santos,Feminino,69,Artrite,Medicação,752.16,Dr. João,Ortopedia,27,2024-10-01
+781,Laura Silva,Feminino,88,Fratura,Imobilização,592.37,Dr. Pedro,Ortopedia,161,2024-09-06
+782,Cecília Oliveira,Feminino,30,Luxação,Fisioterapia,317.93,Dra. Clara,Ortopedia,109,2025-01-14
+783,Cecília Costa,Feminino,19,Hipertensão,Mudança de estilo de vida,110.79,Dra. Ana,Cardiologia,69,2024-12-14
+784,Théo Silva,Masculino,66,Artrite,Medicação,229.61,Dra. Clara,Ortopedia,155,2024-08-26
+785,Antonella Oliveira,Feminino,51,Artrite,Medicação,875.8,Dr. Pedro,Ortopedia,98,2024-09-12
+786,Heitor Oliveira,Masculino,17,Artrite,Fisioterapia,730.78,Dr. Pedro,Ortopedia,155,2024-09-29
+787,Théo Silva,Masculino,16,Fratura,Imobilização,553.5,Dr. João,Ortopedia,61,2024-08-02
+788,Antonella Pereira,Feminino,88,Artrite,Fisioterapia,1237.77,Dra. Clara,Ortopedia,8,2024-08-30
+789,Laura Santos,Feminino,32,Artrite,Medicação,412.19,Dr. João,Ortopedia,145,2024-09-06
+790,Noah Santos,Masculino,29,Arritmia,Medicação,944.76,Dr. Carlos,Cardiologia,21,2024-09-16
+791,Helena Oliveira,Feminino,67,Artrite,Medicação,943.79,Dr. João,Ortopedia,83,2024-09-29
+792,Bernardo Costa,Masculino,81,Artrite,Fisioterapia,1478.47,Dr. João,Ortopedia,163,2025-01-03
+793,Miguel Silva,Masculino,17,Hipertensão,Mudança de estilo de vida,457.68,Dr. Roberto,Cardiologia,17,2024-12-12
+794,Miguel Costa,Masculino,69,Arritmia,Implante de marcapasso,19062.73,Dr. Carlos,Cardiologia,20,2025-01-17
+795,Helena Oliveira,Feminino,81,Arritmia,Medicação,505.98,Dr. Carlos,Cardiologia,95,2024-12-12
+796,Ravi Silva,Masculino,40,Luxação,Fisioterapia,530.17,Dra. Clara,Ortopedia,114,2024-12-30
+797,Laura Silva,Feminino,70,Arritmia,Medicação,804.66,Dr. Roberto,Cardiologia,117,2025-01-23
+798,Noah Oliveira,Masculino,75,Hipertensão,Medicação,892.39,Dr. Carlos,Cardiologia,142,2025-01-08
+799,Aurora Santos,Feminino,50,Artrite,Medicação,749.26,Dr. Pedro,Ortopedia,64,2024-08-25
+800,Cecília Oliveira,Feminino,25,Fratura,Imobilização,634.21,Dr. Pedro,Ortopedia,6,2024-09-22
+801,Laura Oliveira,Feminino,66,Infarto,Medicação,273.39,Dr. Roberto,Cardiologia,76,2024-08-16
+802,Cecília Oliveira,Feminino,53,Artrite,Fisioterapia,1310.18,Dr. Pedro,Ortopedia,26,2024-08-28
+803,Arthur Oliveira,Masculino,39,Hipertensão,Mudança de estilo de vida,401.17,Dra. Ana,Cardiologia,78,2024-10-29
+804,Théo Oliveira,Masculino,68,Arritmia,Implante de marcapasso,27703.62,Dr. Roberto,Cardiologia,129,2024-12-13
+805,Miguel Silva,Masculino,17,Luxação,Reposição,2663.48,Dr. João,Ortopedia,130,2024-09-08
+806,Arthur Silva,Masculino,32,Infarto,Cirurgia,11674.85,Dr. Carlos,Cardiologia,89,2024-10-17
+807,Gael Silva,Masculino,29,Infarto,Medicação,618.81,Dr. Roberto,Cardiologia,114,2024-08-06
+808,Heitor Silva,Masculino,35,Artrite,Fisioterapia,823.59,Dr. João,Ortopedia,139,2024-08-19
+809,Liz Costa,Feminino,73,Infarto,Cirurgia,10727.53,Dra. Ana,Cardiologia,122,2024-11-25
+810,Alice Pereira,Feminino,55,Artrite,Medicação,443.29,Dr. Pedro,Ortopedia,180,2024-09-27
+811,Laura Costa,Feminino,77,Fratura,Imobilização,766.65,Dra. Clara,Ortopedia,139,2024-10-19
+812,Alice Silva,Feminino,53,Artrite,Medicação,659.37,Dr. Pedro,Ortopedia,160,2024-11-16
+813,Heitor Oliveira,Masculino,28,Artrite,Medicação,860.54,Dra. Clara,Ortopedia,51,2024-12-17
+814,Heitor Oliveira,Masculino,59,Fratura,Cirurgia,13145.31,Dr. Pedro,Ortopedia,78,2024-09-15
+815,Cecília Costa,Feminino,50,Hipertensão,Mudança de estilo de vida,321.53,Dr. Carlos,Cardiologia,131,2024-08-28
+816,Théo Oliveira,Masculino,34,Luxação,Fisioterapia,860.62,Dr. Pedro,Ortopedia,5,2024-08-20
+817,Gael Silva,Masculino,89,Fratura,Cirurgia,7441.92,Dra. Clara,Ortopedia,50,2024-09-27
+818,Davi Silva,Masculino,52,Hipertensão,Medicação,237.88,Dr. Roberto,Cardiologia,60,2024-08-16
+819,Maitê Oliveira,Feminino,25,Fratura,Imobilização,462.56,Dr. João,Ortopedia,164,2024-08-08
+820,Gael Pereira,Masculino,81,Infarto,Cirurgia,19777.63,Dr. Carlos,Cardiologia,88,2025-01-08
+821,Heloísa Costa,Feminino,75,Artrite,Medicação,549.89,Dra. Clara,Ortopedia,28,2024-10-08
+822,Helena Pereira,Feminino,35,Hipertensão,Mudança de estilo de vida,486.8,Dra. Ana,Cardiologia,83,2024-09-12
+823,Maitê Costa,Feminino,47,Fratura,Imobilização,401.82,Dr. Pedro,Ortopedia,24,2024-08-09
+824,Cecília Silva,Feminino,82,Artrite,Medicação,280.23,Dra. Clara,Ortopedia,88,2024-12-04
+825,Liz Pereira,Feminino,19,Luxação,Reposição,2002.84,Dr. Pedro,Ortopedia,47,2024-08-02
+826,Cecília Silva,Feminino,59,Artrite,Fisioterapia,1056.42,Dr. João,Ortopedia,60,2024-09-30
+827,Liz Costa,Feminino,48,Fratura,Imobilização,561.45,Dr. Pedro,Ortopedia,65,2024-09-02
+828,Antonella Pereira,Feminino,63,Artrite,Fisioterapia,1033.69,Dra. Clara,Ortopedia,59,2024-12-24
+829,Liz Oliveira,Feminino,83,Infarto,Cirurgia,16225.37,Dr. Roberto,Cardiologia,107,2024-10-02
+830,Maitê Oliveira,Feminino,65,Artrite,Fisioterapia,1528.55,Dr. Pedro,Ortopedia,162,2024-10-16
+831,Aurora Silva,Feminino,62,Hipertensão,Medicação,847.04,Dr. Carlos,Cardiologia,82,2024-12-30
+832,Miguel Pereira,Masculino,45,Fratura,Cirurgia,5016.75,Dra. Clara,Ortopedia,99,2025-01-24
+833,Cecília Santos,Feminino,28,Artrite,Medicação,876.51,Dra. Clara,Ortopedia,132,2024-09-05
+834,Heloísa Pereira,Feminino,82,Fratura,Imobilização,569.12,Dr. João,Ortopedia,63,2024-11-19
+835,Bernardo Costa,Masculino,18,Luxação,Reposição,1708.18,Dra. Clara,Ortopedia,46,2024-10-09
+836,Aurora Pereira,Feminino,82,Fratura,Cirurgia,13350.11,Dr. Pedro,Ortopedia,105,2024-12-19
+837,Ravi Santos,Masculino,31,Infarto,Medicação,376.93,Dr. Carlos,Cardiologia,116,2024-12-01
+838,Laura Pereira,Feminino,48,Arritmia,Medicação,884.35,Dra. Ana,Cardiologia,1,2025-01-29
+839,Alice Oliveira,Feminino,16,Infarto,Cirurgia,11280.48,Dr. Roberto,Cardiologia,87,2024-12-02
+840,Alice Oliveira,Feminino,56,Arritmia,Implante de marcapasso,26628.14,Dr. Roberto,Cardiologia,97,2024-10-24
+841,Laura Oliveira,Feminino,70,Luxação,Reposição,1195.31,Dr. João,Ortopedia,107,2024-08-23
+842,Alice Pereira,Feminino,47,Luxação,Reposição,2781.73,Dra. Clara,Ortopedia,57,2024-09-08
+843,Maitê Silva,Feminino,52,Infarto,Medicação,972.92,Dra. Ana,Cardiologia,3,2025-01-05
+844,Cecília Oliveira,Feminino,70,Arritmia,Medicação,751.16,Dr. Roberto,Cardiologia,167,2024-11-01
+845,Cecília Oliveira,Feminino,46,Hipertensão,Medicação,968.88,Dra. Ana,Cardiologia,38,2024-08-03
+846,Cecília Santos,Feminino,70,Arritmia,Implante de marcapasso,20681.56,Dra. Ana,Cardiologia,109,2024-10-26
+847,Cecília Pereira,Feminino,60,Fratura,Cirurgia,13801.23,Dr. Pedro,Ortopedia,160,2024-08-12
+848,Davi Costa,Masculino,19,Arritmia,Medicação,248.94,Dr. Carlos,Cardiologia,87,2025-01-10
+849,Laura Silva,Feminino,53,Fratura,Cirurgia,18925.5,Dr. João,Ortopedia,63,2024-11-15
+850,Maria Alice Silva,Feminino,26,Artrite,Medicação,911.45,Dra. Clara,Ortopedia,14,2024-08-17
+851,Maria Alice Oliveira,Feminino,54,Artrite,Medicação,759.44,Dr. João,Ortopedia,158,2024-08-24
+852,Théo Oliveira,Masculino,41,Arritmia,Medicação,754.14,Dra. Ana,Cardiologia,166,2024-12-26
+853,Samuel Santos,Masculino,26,Infarto,Cirurgia,15922.38,Dra. Ana,Cardiologia,115,2024-11-23
+854,Maria Alice Pereira,Feminino,38,Artrite,Fisioterapia,547.21,Dr. João,Ortopedia,10,2024-10-21
+855,Davi Silva,Masculino,89,Hipertensão,Mudança de estilo de vida,319.81,Dra. Ana,Cardiologia,163,2024-10-11
+856,Liz Silva,Feminino,65,Hipertensão,Mudança de estilo de vida,372.05,Dr. Carlos,Cardiologia,119,2024-10-16
+857,Cecília Silva,Feminino,82,Infarto,Cirurgia,8529.33,Dra. Ana,Cardiologia,73,2024-11-18
+858,Davi Costa,Masculino,15,Hipertensão,Mudança de estilo de vida,250.5,Dr. Roberto,Cardiologia,65,2024-09-19
+859,Helena Pereira,Feminino,23,Infarto,Repouso,68.04,Dr. Roberto,Cardiologia,88,2024-12-25
+860,Laura Silva,Feminino,17,Artrite,Medicação,226.58,Dr. Pedro,Ortopedia,97,2024-12-25
+861,Samuel Pereira,Masculino,45,Infarto,Repouso,192.39,Dr. Roberto,Cardiologia,9,2024-12-05
+862,Helena Costa,Feminino,67,Arritmia,Implante de marcapasso,29061.5,Dr. Roberto,Cardiologia,27,2024-10-23
+863,Gael Silva,Masculino,37,Infarto,Repouso,188.95,Dr. Roberto,Cardiologia,145,2024-10-14
+864,Ravi Silva,Masculino,67,Hipertensão,Medicação,674.17,Dr. Carlos,Cardiologia,25,2024-12-28
+865,Maitê Pereira,Feminino,44,Fratura,Cirurgia,17847.78,Dr. Pedro,Ortopedia,91,2025-01-13
+866,Maitê Oliveira,Feminino,44,Artrite,Fisioterapia,1145.58,Dr. João,Ortopedia,114,2024-11-27
+867,Maitê Costa,Feminino,30,Fratura,Cirurgia,14096.14,Dra. Clara,Ortopedia,88,2024-10-03
+868,Davi Oliveira,Masculino,30,Arritmia,Medicação,745.15,Dra. Ana,Cardiologia,139,2025-01-10
+869,Arthur Silva,Masculino,80,Infarto,Medicação,761.42,Dra. Ana,Cardiologia,35,2024-08-24
+870,Maitê Santos,Feminino,67,Artrite,Medicação,964.97,Dra. Clara,Ortopedia,178,2024-12-05
+871,Davi Silva,Masculino,46,Hipertensão,Medicação,959.59,Dr. Roberto,Cardiologia,128,2024-10-06
+872,Helena Oliveira,Feminino,64,Infarto,Cirurgia,17670.55,Dr. Roberto,Cardiologia,58,2024-08-14
+873,Davi Silva,Masculino,56,Hipertensão,Mudança de estilo de vida,182.78,Dra. Ana,Cardiologia,45,2024-12-07
+874,Gael Pereira,Masculino,40,Fratura,Imobilização,641.93,Dra. Clara,Ortopedia,77,2024-09-20
+875,Maria Alice Silva,Feminino,88,Hipertensão,Medicação,520.63,Dr. Carlos,Cardiologia,14,2024-10-25
+876,Alice Silva,Feminino,19,Infarto,Repouso,108.65,Dr. Carlos,Cardiologia,43,2024-09-10
+877,Bernardo Santos,Masculino,47,Arritmia,Medicação,541.07,Dra. Ana,Cardiologia,121,2025-01-05
+878,Théo Santos,Masculino,73,Hipertensão,Medicação,895.39,Dr. Carlos,Cardiologia,9,2024-08-17
+879,Aurora Oliveira,Feminino,71,Arritmia,Implante de marcapasso,20889.53,Dr. Roberto,Cardiologia,104,2024-11-17
+880,Bernardo Costa,Masculino,46,Fratura,Cirurgia,15044.43,Dr. João,Ortopedia,2,2024-10-01
+881,Liz Costa,Feminino,68,Artrite,Medicação,897.07,Dr. Pedro,Ortopedia,103,2024-12-10
+882,Cecília Oliveira,Feminino,64,Arritmia,Medicação,518.46,Dra. Ana,Cardiologia,119,2024-12-14
+883,Heitor Pereira,Masculino,64,Arritmia,Medicação,908.3,Dra. Ana,Cardiologia,145,2024-12-30
+884,Laura Santos,Feminino,62,Hipertensão,Mudança de estilo de vida,366.58,Dra. Ana,Cardiologia,1,2024-12-25
+885,Bernardo Silva,Masculino,53,Artrite,Fisioterapia,709.91,Dra. Clara,Ortopedia,14,2024-08-15
+886,Liz Costa,Feminino,47,Fratura,Cirurgia,12849.02,Dr. Pedro,Ortopedia,63,2024-09-09
+887,Maria Alice Silva,Feminino,17,Hipertensão,Mudança de estilo de vida,237.99,Dr. Carlos,Cardiologia,106,2024-10-18
+888,Cecília Oliveira,Feminino,52,Artrite,Fisioterapia,1867.26,Dra. Clara,Ortopedia,61,2024-10-20
+889,Maria Alice Silva,Feminino,43,Infarto,Repouso,100.0,Dr. Roberto,Cardiologia,31,2025-01-17
+890,Alice Silva,Feminino,58,Luxação,Reposição,2968.63,Dr. João,Ortopedia,25,2024-11-18
+891,Laura Silva,Feminino,67,Hipertensão,Mudança de estilo de vida,246.74,Dr. Roberto,Cardiologia,37,2024-09-29
+892,Maitê Silva,Feminino,36,Fratura,Cirurgia,13942.51,Dra. Clara,Ortopedia,12,2024-09-19
+893,Bernardo Santos,Masculino,56,Luxação,Reposição,1416.53,Dr. Pedro,Ortopedia,163,2024-12-11
+894,Arthur Pereira,Masculino,24,Arritmia,Medicação,890.96,Dra. Ana,Cardiologia,95,2024-11-16
+895,Aurora Costa,Feminino,27,Arritmia,Implante de marcapasso,20283.86,Dr. Carlos,Cardiologia,87,2024-08-20
+896,Noah Costa,Masculino,42,Arritmia,Implante de marcapasso,17098.2,Dr. Carlos,Cardiologia,72,2024-10-18
+897,Aurora Pereira,Feminino,83,Arritmia,Medicação,756.05,Dra. Ana,Cardiologia,57,2024-11-15
+898,Miguel Santos,Masculino,41,Luxação,Reposição,1867.91,Dr. Pedro,Ortopedia,55,2024-12-13
+899,Maria Alice Costa,Feminino,89,Infarto,Cirurgia,14229.43,Dr. Carlos,Cardiologia,176,2024-08-01
+900,Ravi Santos,Masculino,30,Hipertensão,Mudança de estilo de vida,129.16,Dra. Ana,Cardiologia,25,2024-08-20
+901,Laura Santos,Feminino,53,Arritmia,Medicação,320.3,Dr. Roberto,Cardiologia,107,2025-01-05
+902,Antonella Pereira,Feminino,48,Infarto,Medicação,969.01,Dra. Ana,Cardiologia,161,2024-08-27
+903,Antonella Santos,Feminino,49,Fratura,Cirurgia,5140.77,Dr. Pedro,Ortopedia,59,2024-12-16
+904,Aurora Pereira,Feminino,89,Luxação,Reposição,1294.13,Dr. Pedro,Ortopedia,58,2024-10-11
+905,Gael Santos,Masculino,38,Hipertensão,Mudança de estilo de vida,132.87,Dr. Carlos,Cardiologia,170,2024-11-15
+906,Théo Santos,Masculino,52,Hipertensão,Medicação,265.32,Dr. Roberto,Cardiologia,30,2025-01-20
+907,Théo Pereira,Masculino,64,Luxação,Reposição,2599.91,Dr. João,Ortopedia,118,2024-10-15
+908,Maitê Santos,Feminino,82,Infarto,Repouso,97.18,Dr. Roberto,Cardiologia,36,2024-09-01
+909,Heloísa Oliveira,Feminino,30,Fratura,Imobilização,409.02,Dr. Pedro,Ortopedia,168,2024-09-22
+910,Arthur Pereira,Masculino,67,Arritmia,Implante de marcapasso,23932.96,Dr. Roberto,Cardiologia,28,2024-08-26
+911,Gael Pereira,Masculino,89,Fratura,Cirurgia,6955.3,Dra. Clara,Ortopedia,62,2024-10-03
+912,Heitor Oliveira,Masculino,85,Arritmia,Implante de marcapasso,29151.91,Dra. Ana,Cardiologia,70,2024-09-06
+913,Samuel Costa,Masculino,83,Luxação,Fisioterapia,1644.68,Dr. Pedro,Ortopedia,101,2024-10-05
+914,Antonella Costa,Feminino,36,Fratura,Imobilização,612.17,Dr. João,Ortopedia,98,2024-09-02
+915,Heitor Silva,Masculino,56,Luxação,Reposição,1747.07,Dra. Clara,Ortopedia,104,2024-08-14
+916,Théo Silva,Masculino,18,Arritmia,Implante de marcapasso,28460.89,Dr. Carlos,Cardiologia,52,2024-12-27
+917,Noah Costa,Masculino,49,Luxação,Reposição,1679.14,Dr. Pedro,Ortopedia,100,2024-10-12
+918,Bernardo Santos,Masculino,37,Arritmia,Medicação,488.87,Dr. Roberto,Cardiologia,103,2024-11-15
+919,Bernardo Santos,Masculino,58,Arritmia,Medicação,342.98,Dra. Ana,Cardiologia,95,2024-11-18
+920,Maria Alice Pereira,Feminino,53,Hipertensão,Medicação,918.02,Dr. Carlos,Cardiologia,123,2024-12-22
+921,Bernardo Santos,Masculino,34,Fratura,Cirurgia,6509.3,Dr. João,Ortopedia,165,2024-09-24
+922,Gael Santos,Masculino,56,Arritmia,Implante de marcapasso,18937.0,Dr. Carlos,Cardiologia,22,2024-08-31
+923,Heloísa Oliveira,Feminino,89,Fratura,Cirurgia,19845.47,Dr. Pedro,Ortopedia,30,2024-08-02
+924,Cecília Santos,Feminino,31,Hipertensão,Mudança de estilo de vida,188.49,Dra. Ana,Cardiologia,122,2024-08-03
+925,Antonella Silva,Feminino,33,Luxação,Fisioterapia,425.64,Dr. Pedro,Ortopedia,20,2024-12-15
+926,Bernardo Santos,Masculino,50,Artrite,Fisioterapia,1187.83,Dr. João,Ortopedia,125,2025-01-02
+927,Ravi Silva,Masculino,89,Artrite,Medicação,776.26,Dra. Clara,Ortopedia,101,2024-10-27
+928,Helena Costa,Feminino,65,Fratura,Cirurgia,14373.34,Dr. Pedro,Ortopedia,108,2024-12-14
+929,Alice Silva,Feminino,44,Fratura,Cirurgia,5080.4,Dr. João,Ortopedia,97,2024-09-28
+930,Noah Santos,Masculino,40,Arritmia,Medicação,763.98,Dr. Roberto,Cardiologia,166,2024-11-15
+931,Antonella Costa,Feminino,53,Artrite,Medicação,780.09,Dr. Pedro,Ortopedia,99,2024-08-14
+932,Miguel Costa,Masculino,37,Fratura,Imobilização,549.99,Dra. Clara,Ortopedia,60,2024-11-24
+933,Maria Alice Costa,Feminino,25,Infarto,Cirurgia,10111.44,Dra. Ana,Cardiologia,44,2024-12-12
+934,Helena Oliveira,Feminino,64,Hipertensão,Medicação,935.82,Dra. Ana,Cardiologia,37,2024-09-19
+935,Davi Santos,Masculino,59,Hipertensão,Medicação,214.39,Dr. Roberto,Cardiologia,3,2024-10-17
+936,Miguel Pereira,Masculino,27,Artrite,Fisioterapia,1250.18,Dr. João,Ortopedia,29,2025-01-13
+937,Liz Santos,Feminino,38,Artrite,Fisioterapia,1522.6,Dr. João,Ortopedia,180,2024-11-04
+938,Maria Alice Oliveira,Feminino,16,Arritmia,Medicação,426.02,Dra. Ana,Cardiologia,13,2024-09-23
+939,Samuel Costa,Masculino,45,Fratura,Imobilização,543.21,Dra. Clara,Ortopedia,92,2024-11-04
+940,Davi Santos,Masculino,59,Arritmia,Medicação,500.13,Dr. Roberto,Cardiologia,161,2024-11-30
+941,Davi Costa,Masculino,83,Artrite,Medicação,890.56,Dr. Pedro,Ortopedia,44,2024-08-15
+942,Heitor Pereira,Masculino,51,Arritmia,Medicação,676.79,Dr. Roberto,Cardiologia,99,2024-09-20
+943,Miguel Costa,Masculino,72,Fratura,Imobilização,379.53,Dr. Pedro,Ortopedia,131,2025-01-17
+944,Maitê Oliveira,Feminino,49,Arritmia,Medicação,440.7,Dr. Carlos,Cardiologia,141,2024-10-26
+945,Cecília Santos,Feminino,54,Artrite,Medicação,592.31,Dra. Clara,Ortopedia,133,2024-12-13
+946,Davi Silva,Masculino,17,Arritmia,Implante de marcapasso,28594.02,Dra. Ana,Cardiologia,163,2024-09-04
+947,Helena Costa,Feminino,54,Infarto,Medicação,245.21,Dr. Carlos,Cardiologia,113,2025-01-06
+948,Antonella Costa,Feminino,24,Fratura,Imobilização,774.05,Dra. Clara,Ortopedia,83,2024-08-04
+949,Aurora Oliveira,Feminino,18,Arritmia,Medicação,241.74,Dr. Roberto,Cardiologia,5,2025-01-13
+950,Bernardo Costa,Masculino,64,Infarto,Repouso,130.86,Dr. Carlos,Cardiologia,109,2025-01-20
+951,Ravi Silva,Masculino,48,Hipertensão,Medicação,240.54,Dr. Carlos,Cardiologia,17,2024-08-09
+952,Ravi Pereira,Masculino,25,Artrite,Fisioterapia,1415.65,Dra. Clara,Ortopedia,42,2024-11-07
+953,Arthur Silva,Masculino,44,Fratura,Cirurgia,5187.03,Dra. Clara,Ortopedia,161,2024-10-02
+954,Ravi Silva,Masculino,83,Arritmia,Implante de marcapasso,18587.36,Dr. Carlos,Cardiologia,128,2024-11-07
+955,Laura Costa,Feminino,60,Fratura,Cirurgia,14005.74,Dr. João,Ortopedia,146,2024-08-07
+956,Arthur Oliveira,Masculino,67,Fratura,Imobilização,612.92,Dr. Pedro,Ortopedia,14,2024-09-26
+957,Davi Pereira,Masculino,37,Arritmia,Medicação,725.59,Dra. Ana,Cardiologia,159,2024-11-19
+958,Heitor Santos,Masculino,59,Hipertensão,Medicação,763.09,Dr. Roberto,Cardiologia,63,2024-12-23
+959,Antonella Costa,Feminino,21,Fratura,Cirurgia,18324.25,Dr. Pedro,Ortopedia,21,2025-01-22
+960,Cecília Costa,Feminino,50,Hipertensão,Medicação,288.22,Dr. Carlos,Cardiologia,173,2024-10-07
+961,Samuel Oliveira,Masculino,26,Artrite,Medicação,873.18,Dra. Clara,Ortopedia,66,2024-09-12
+962,Maria Alice Oliveira,Feminino,84,Artrite,Fisioterapia,1306.87,Dr. Pedro,Ortopedia,157,2024-11-30
+963,Théo Santos,Masculino,44,Infarto,Repouso,125.86,Dr. Roberto,Cardiologia,97,2024-08-30
+964,Miguel Santos,Masculino,72,Infarto,Repouso,82.35,Dra. Ana,Cardiologia,168,2024-12-24
+965,Cecília Pereira,Feminino,18,Arritmia,Implante de marcapasso,24453.27,Dra. Ana,Cardiologia,174,2024-09-23
+966,Aurora Pereira,Feminino,40,Arritmia,Medicação,220.78,Dr. Carlos,Cardiologia,31,2024-10-13
+967,Helena Costa,Feminino,85,Hipertensão,Medicação,269.17,Dr. Carlos,Cardiologia,111,2024-12-06
+968,Heitor Santos,Masculino,39,Hipertensão,Mudança de estilo de vida,121.35,Dra. Ana,Cardiologia,20,2024-12-01
+969,Théo Oliveira,Masculino,45,Infarto,Cirurgia,18042.1,Dr. Roberto,Cardiologia,64,2025-01-17
+970,Miguel Costa,Masculino,65,Luxação,Reposição,2042.28,Dr. João,Ortopedia,15,2024-11-26
+971,Arthur Santos,Masculino,45,Fratura,Cirurgia,8856.57,Dr. João,Ortopedia,40,2024-11-22
+972,Laura Silva,Feminino,51,Fratura,Imobilização,363.72,Dra. Clara,Ortopedia,163,2024-08-24
+973,Ravi Pereira,Masculino,81,Hipertensão,Medicação,686.11,Dr. Roberto,Cardiologia,63,2024-10-30
+974,Noah Santos,Masculino,39,Artrite,Medicação,670.43,Dr. Pedro,Ortopedia,32,2024-09-16
+975,Bernardo Costa,Masculino,85,Fratura,Cirurgia,19308.86,Dr. Pedro,Ortopedia,107,2024-09-18
+976,Samuel Santos,Masculino,37,Infarto,Medicação,347.73,Dra. Ana,Cardiologia,32,2024-11-25
+977,Théo Santos,Masculino,51,Luxação,Reposição,1696.88,Dr. Pedro,Ortopedia,80,2024-12-24
+978,Samuel Pereira,Masculino,28,Artrite,Fisioterapia,1226.17,Dr. Pedro,Ortopedia,95,2025-01-04
+979,Antonella Costa,Feminino,62,Luxação,Reposição,1649.94,Dra. Clara,Ortopedia,45,2024-12-01
+980,Bernardo Pereira,Masculino,16,Artrite,Fisioterapia,1049.81,Dra. Clara,Ortopedia,139,2024-10-04
+981,Aurora Santos,Feminino,54,Fratura,Imobilização,461.52,Dr. João,Ortopedia,71,2025-01-08
+982,Théo Oliveira,Masculino,32,Arritmia,Medicação,934.54,Dr. Roberto,Cardiologia,138,2024-08-03
+983,Helena Santos,Feminino,42,Infarto,Medicação,911.46,Dra. Ana,Cardiologia,57,2025-01-30
+984,Gael Costa,Masculino,53,Arritmia,Implante de marcapasso,22802.48,Dr. Carlos,Cardiologia,76,2024-12-19
+985,Antonella Pereira,Feminino,32,Hipertensão,Mudança de estilo de vida,361.79,Dra. Ana,Cardiologia,83,2024-10-15
+986,Bernardo Oliveira,Masculino,39,Fratura,Cirurgia,5055.7,Dr. João,Ortopedia,18,2024-10-10
+987,Davi Pereira,Masculino,39,Luxação,Reposição,2878.95,Dr. Pedro,Ortopedia,19,2024-08-06
+988,Antonella Silva,Feminino,19,Infarto,Medicação,295.72,Dr. Roberto,Cardiologia,32,2024-12-29
+989,Alice Silva,Feminino,58,Infarto,Cirurgia,8556.95,Dr. Carlos,Cardiologia,93,2024-11-20
+990,Ravi Santos,Masculino,69,Hipertensão,Medicação,524.04,Dr. Carlos,Cardiologia,80,2024-08-16
+991,Théo Oliveira,Masculino,30,Luxação,Reposição,1656.37,Dr. João,Ortopedia,57,2025-01-25
+992,Gael Costa,Masculino,59,Artrite,Medicação,252.52,Dr. João,Ortopedia,22,2024-09-11
+993,Maria Alice Santos,Feminino,17,Luxação,Reposição,1207.83,Dr. Pedro,Ortopedia,6,2024-09-07
+994,Heitor Silva,Masculino,87,Fratura,Cirurgia,7978.11,Dr. Pedro,Ortopedia,108,2025-01-16
+995,Alice Costa,Feminino,33,Arritmia,Implante de marcapasso,29508.04,Dr. Roberto,Cardiologia,144,2025-01-03
+996,Cecília Santos,Feminino,39,Luxação,Reposição,1485.96,Dr. Pedro,Ortopedia,145,2025-01-05
+997,Samuel Silva,Masculino,75,Infarto,Cirurgia,13707.69,Dra. Ana,Cardiologia,71,2024-10-28
+998,Maria Alice Pereira,Feminino,23,Infarto,Medicação,201.81,Dr. Roberto,Cardiologia,138,2024-12-27
+999,Théo Santos,Masculino,57,Luxação,Fisioterapia,1334.05,Dr. João,Ortopedia,56,2024-09-10
+1000,Miguel Santos,Masculino,37,Hipertensão,Medicação,667.7,Dr. Carlos,Cardiologia,13,2024-11-23
