@@ -99,7 +99,7 @@ object Main extends App {
   }
 
   // Exemplo de funções de filtro e mapeamento
-  val filtroImpar: Int => Boolean = x => x % 2 != 0
+  val filtroImpar: Int => Boolean = x => x % 2 == 1
   val mapDobro: Int => Int = x => x * 2
   
   // Usando a função 'processa' com os exemplos de filtro e mapeamento
@@ -107,7 +107,7 @@ object Main extends App {
 
   // ENTRADA
   val entrada1_Q5 = List(1, 2, 3, 4)
-  val entrada2_Q5 = List(3,5)
+  val entrada2_Q5 = List(3, 5)
   val entrada3_Q5 = List()
   // PROCESSAMENTO
   val saida1_Q5 = processa(entrada1_Q5)
