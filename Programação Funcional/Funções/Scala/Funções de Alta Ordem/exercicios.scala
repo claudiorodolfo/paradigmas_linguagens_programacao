@@ -240,8 +240,8 @@ object Main extends App {
   // Questão 27
   println("************* Questão 27 *************")
   val faturamentoMensal2 = List(1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0)
-  val faturamentosComparaveis =  faturamentoMensal.zip(faturamentoMensal2).forall(x => true)
-  println(faturamentosComparaveis)
+  val faturamentosComparaveis = if (faturamentoMensal.zip(faturamentoMensal2).size == 12) true else false
+  println(s"Quantidade de tuplas é 12? $faturamentosComparaveis ")
 
   // Questão 28
   println("************* Questão 28 *************")
