@@ -10,7 +10,7 @@ object Main extends App {
     }
     // Verifica se a lista está vazia
     if (lista.isEmpty) 
-      throw new IllegalArgumentException("A lista está vazia")
+      throw new NoSuchElementException("Lista está vazia")
     else 
       menorListaRecursao(lista, lista.head) // Inicializa com o primeiro elemento
   }
