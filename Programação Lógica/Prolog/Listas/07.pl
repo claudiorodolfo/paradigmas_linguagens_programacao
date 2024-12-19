@@ -1,4 +1,4 @@
 reverter([], []).  % Caso base
-reverter([Cabeça | Cauda], Resultado) :- 
+reverter([Cabeca | Cauda], Resultado) :- 
     reverter(Cauda, CaudaRevertida),
-    concatenar(CaudaRevertida, [Cabeça], Resultado).
+    concatenar(CaudaRevertida, [Cabeca], Resultado).
