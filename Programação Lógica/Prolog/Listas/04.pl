@@ -1,0 +1,1 @@
+primeiro([Cabeça | _], Cabeça).
