@@ -1,2 +1,2 @@
-verificar_vazia([]).  % Caso base
-verificar_vazia([_|_]).  % Caso recursivo
+verificar_vazia([]).
+verificar_vazia([_|_]) :- false.
