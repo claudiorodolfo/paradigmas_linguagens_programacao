@@ -1,3 +1,3 @@
 duplicar([], []).  % Caso base
-duplicar([Cabeça | Cauda], [Cabeça, Cabeça | Resultado]) :-
+duplicar([Cabeca | Cauda], [Cabeca, Cabeca | Resultado]) :-
     duplicar(Cauda, Resultado).  % Recursão
