@@ -1,3 +1,3 @@
 concatenar([], Lista, Lista).
-concatenar([Cabeça | Cauda], Lista, [Cabeça | Resultado]) :-
+concatenar([Cabeca | Cauda], Lista, [Cabeca | Resultado]) :-
     concatenar(Cauda, Lista, Resultado).
