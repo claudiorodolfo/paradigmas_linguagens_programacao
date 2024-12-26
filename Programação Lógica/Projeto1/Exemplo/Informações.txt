@@ -1,0 +1,8 @@
+no SWI-Prolog pode testar indo em:
+File -> Consult ... -> [carregar dados.pl]
+depois testar usando a seguinte proposição
+?- populacao_alta(Cidade).  
+Não precisa colocar ?-, pois isso já é do prompt, e não pode esquecer do ponto final na fim da proposição
+apertar a tecla TAB para que o prolog realize o backtraking
+
+O programa em Python pode executar numa instalação local, ou usando o Google Colab, como indicado nas instruções.
