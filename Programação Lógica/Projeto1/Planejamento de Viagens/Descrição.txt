@@ -1,0 +1,39 @@
+Planejamento de Viagens
+Construir um sistema que automatize o planejamento de viagens, sugerindo as opções mais viáveis e destacando as viáveis ou a melhor, de acordo com as preferências do usuário.
+
+Prolog:
+Armazenar informações sobre destinos e meios de transporte.
+Determinar se uma viagem é viável com base no orçamento e tempo disponível.
+Ordenar as opções disponíveis com base na prioridade definida pelo usuário (custo ou tempo).
+
+Testes diretamente no SWI-Prolog
+Entrada:
+viagem_viavel(paris, 1500, 24, Transporte, Custo, Tempo).
+Transporte = aviao,
+Custo = 1200,
+Tempo = 10 ;
+Transporte = trem,
+Custo = 500,
+Tempo = 24.
+
+melhor_viagem(paris, 1500, 24, tempo, Transporte, Custo, Tempo).
+Transporte = trem,
+Custo = 500,
+Tempo = 24.
+
+-------------------------------------------
+Python: 
+Interface para o usuário inserir as informações e gerar as respostas apropriadas.
+Carrega a base de dados de regras e fatos em Prolog.
+Usa o motor de inferência do Prolog para inferir as viagens mais adequadas.
+Exibe os possíveis informações de viagens como meio de transporte, custo e tempo.
+
+Exemplo de Entrada:
+Digite o destino desejado: paris
+Informe seu orçamento (em R$): 1500
+Informe o tempo máximo de viagem (em horas): 24
+Informe a prioridade (custo, tempo ou nenhuma): custo 
+
+Exemplo de Saída:
+Opções de viagem disponíveis:
+- Transporte: trem, Custo: R$ 500.00, Tempo: 10 horas

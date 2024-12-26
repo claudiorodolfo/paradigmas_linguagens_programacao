@@ -1,0 +1,30 @@
+Sistema de Recomendação de Livros
+Desenvolver um sistema que sugere livros com base nas preferências e características fornecidas pelos usuários, como gênero literário, autor preferido, ou estilo de narrativa.
+
+Prolog:
+Utiliza fatos e regras para definir características dos livros e as preferências dos usuários. O sistema calcula a correspondência entre as preferências fornecidas e as características dos livros para determinar as melhores recomendações.
+
+Testes diretamente no SWI-Prolog:
+Entrada:
+recomendacao([aventura, ficcao], Livro, Probabilidade).
+Saída:
+Livro = "Duna",
+Probabilidade = 80.0 ;
+Livro = "O Senhor dos Anéis",
+Probabilidade = 60.0.
+
+Entrada:
+genero("Duna", Genero).
+Saída:
+Genero = ficcao.
+
+-------------------------------------------
+Python:
+Desenvolve uma interface para o usuário inserir as preferências de leitura. Carrega a base de dados com os fatos e regras em Prolog, utiliza o motor de inferência para gerar recomendações e apresenta os livros mais adequados junto com a probabilidade de correspondência.
+
+Exemplo de Entrada:
+Forneça os gêneros preferidos separados por vírgula e sem acentuação: aventura, ficcao
+Exemplo de Saída:
+Livros recomendados:
+"Duna" (Probabilidade: 80%)
+"O Senhor dos Anéis" (Probabilidade: 60%)

@@ -1,0 +1,38 @@
+Sistema de Diagnóstico Médico
+Desenvolver um sistema que sugere possíveis diagnósticos médicos com base nos sintomas informados.
+
+Prolog:
+Trabalhar com níveis de gravidade dos sintomas.
+Define sintomas e doenças relacionadas, com regras que determinam a doença mais provável com base nos sintomas.
+Validar se os sintomas fornecidos correspondem a várias doenças e listar as mais prováveis com porcentagens.
+
+Testes diretamente no SWI-Prolog
+Entrada:
+diagnostico(dengue, [febre, tosse, coriza],Probabilidade).
+Saída:
+Probabilidade = 33.33333333333333
+
+Entrada:
+gravidade(febre, Gravidade).
+Saída:
+Gravidade = moderado.
+
+-------------------------------------------
+Python: 
+Interface para o usuário inserir as informações e gerar as respostas apropriadas.
+Carrega a base de dados de regras e fatos em Prolog.
+Usa o motor de inferência do Prolog para inferir o diagnóstico.
+Exibe os possíveis diagnósticos, com probabilidade.
+
+-------------------------------------------
+Exemplo de Entrada:
+Forneça os sintomas separados por vírgula: febre, tosse, coriza
+
+Exemplo de Saída:
+Gravidade dos sintomas:
+- febre: moderado
+- tosse: leve
+- coriza: leve
+Possíveis diagnósticos:
+- Gripe (Probabilidade: 100.00%)
+- Dengue (Probabilidade: 33.33%)

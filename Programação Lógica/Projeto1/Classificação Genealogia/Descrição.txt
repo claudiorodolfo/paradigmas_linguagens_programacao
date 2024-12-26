@@ -1,0 +1,40 @@
+Sistema de Classificação Genealógica
+Desenvolver um sistema que identifica relações familiares com base nas informações fornecidas sobre os membros da família, como pais, filhos, avós, tios e sobrinhos.
+
+Prolog: 
+Trabalhar com fatos de genealogia, como relações de pai e mãe, e regras que inferem os parentescos, como irmãos, avós, tios, sobrinhos, entre outros. 
+O sistema valida as relações fornecidas e gera a lista de parentes mais próximos com base nas conexões familiares.
+
+Testes diretamente no SWI-Prolog:
+Entrada:
+parente(joao, Parente).
+Saída:
+Parente = maria ;
+Parente = jose ;
+Parente = ana ;
+Parente = carlos ;
+Parente = helena ;
+Parente = pedro.
+
+Entrada:
+tio(helena, Tio).
+Saída:
+Tio = carlos.
+
+-------------------------------------------
+Python: 
+Interface para o usuário inserir as informações sobre os membros da família (nomes, pais, etc.). 
+Carrega a base de dados de regras e fatos em Prolog
+Utiliza o motor de inferência do Prolog para determinar as relações de parentesco e exibe as relações familiares identificadas.
+
+Exemplo de Entrada:
+Forneça o nome de um familiar: "joao"
+Para quem você deseja verificar o parentesco?
+
+Exemplo de Saída:
+Parentes de João:
+Irmã: Maria
+Pai: José
+Mãe: Ana
+Avós Paternos: Carlos, Helena
+Tio: Carlos
