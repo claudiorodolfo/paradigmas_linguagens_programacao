@@ -32,8 +32,8 @@ transporte(beijing, navio, 1300, 200).
 
 % Regras para planejamento de viagem
 viagem_viavel(Destino, Orcamento, TempoMax, Transporte, Custo, Tempo) :-
-
-% Prioridade por ser custo ou tempo
 melhor_viagem(Destino, Orcamento, TempoMax, Prioridade, Transporte, Custo, Tempo) :-
 
+% Ordena por custo (prioridade 'custo') ou por tempo (prioridade 'tempo')
 ordena_por_prioridade(Opcoes, custo, Ordenadas) :-
+ordena_por_prioridade(Opcoes, tempo, Ordenadas) :-
