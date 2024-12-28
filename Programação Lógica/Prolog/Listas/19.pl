@@ -6,4 +6,6 @@ dividir_meio(Lista, PrimeiraMetade, SegundaMetade) :-
 dividir(Lista, 0, [], Lista).
 % Divide a lista recursivamente
 dividir([Cabeca | Cauda], N, [Cabeca | Primeira], Segunda) :-
-    N > 0, N1 is N - 1, dividir(Cauda, N1, Primeira, Segunda).
+    N > 0, 
+    N1 is N - 1, 
+    dividir(Cauda, N1, Primeira, Segunda).
